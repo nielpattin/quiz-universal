@@ -236,6 +236,7 @@ function questionChanged(existing, local) {
 		typeof local.answers === 'string' ? local.answers : JSON.stringify(local.answers);
 
 	return (
+		existing.collection_id !== local.collection_id ||
 		existing.question_text !== local.question_text ||
 		existing.question_type !== local.question_type ||
 		existingAnswers !== localAnswers ||
