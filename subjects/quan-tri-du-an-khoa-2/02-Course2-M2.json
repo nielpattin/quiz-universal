@@ -1,0 +1,434 @@
+[
+  {
+    "question_id": "course2-m2-q1",
+    "module": "Building a project plan",
+    "question_text": "Which of the following is true of project plans? Select all that apply.",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "They are a living artifact that serves as a roadmap for your team throughout the project.",
+        "is_correct": true
+      },
+      {
+        "answer_text": "They contain an explanation of why a project may not meet its goals.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Their central component is a project schedule.",
+        "is_correct": true
+      },
+      {
+        "answer_text": "They are a compilation of a project’s documents that the project team uses to carry out project activities.",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "course2-m2-q2",
+    "module": "Building a project plan",
+    "question_text": "What are the basic elements that make up a project plan?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Initiation, planning, managing, and execution",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Stakeholder information, project proposal, tools, and resources",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Time estimation, effort estimation, buffer, and sub-tasks",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Tasks, milestones, people, documentation, and time",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "course2-m2-q3",
+    "module": "Building a project plan",
+    "question_text": "As a project manager, you create a project plan. In the plan are tasks with clear descriptions, owners, and due dates. In which section of the project plan do these tasks reside?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Scope and goals",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Budget",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Management plans",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Work breakdown structure (WBS)",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "course2-m2-q4",
+    "module": "Building a project plan",
+    "question_text": "As a project manager, you create a project plan. In the plan are documents that help keep a project organized and on track, particularly if a risk arises or a change occurs. In which section of the project plan are these documents linked?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Project scope and goals",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Management plans",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Work breakdown structure (WBS)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Budget",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "course2-m2-q5",
+    "module": "Building a project plan",
+    "question_text": "Gantt charts give project teams a visual representation of project tasks. What else do Gantt charts include?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Stakeholder contact information and budget items",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Resources, deliverables, and success metrics",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Due dates, durations, and milestones",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Roles and responsibilities",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "course2-m2-q6",
+    "module": "Building a project plan",
+    "question_text": "What tool can a project manager use for organizing all aspects of a complex project?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Email",
+        "is_correct": false
+      },
+      {
+        "answer_text": "A digital document",
+        "is_correct": false
+      },
+      {
+        "answer_text": "A calendar",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Work management software",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "course2-m2-q7",
+    "module": "Building a project plan",
+    "question_text": "Which project management tool uses cards to track and visualize task progress?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "A spreadsheet",
+        "is_correct": false
+      },
+      {
+        "answer_text": "A Gantt chart",
+        "is_correct": false
+      },
+      {
+        "answer_text": "A Kanban board",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Smartsheet",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "course2-m2-q8",
+    "module": "Building a project plan",
+    "question_text": "When creating cards for a Kanban board, which items should go on the front of the card? Select all that apply.",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "Who is assigned to the task",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Description of work",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Title and unique identifier",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Blocked days",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "course2-m2-q9",
+    "module": "Building a project plan",
+    "question_text": "When creating a project plan, you include important points within the schedule that indicate progress. Which project plan component does this represent?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Milestones",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Time",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Tasks",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Relevant documentation",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "course2-m2-q10",
+    "module": "Building a project plan",
+    "question_text": "Fill in the blank: The main difference between effort estimation and time estimation is that time estimation includes _____.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "vendor time",
+        "is_correct": false
+      },
+      {
+        "answer_text": "inactive time",
+        "is_correct": true
+      },
+      {
+        "answer_text": "marketing time",
+        "is_correct": false
+      },
+      {
+        "answer_text": "stakeholder time",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "course2-m2-q11",
+    "module": "Building a project plan",
+    "question_text": "A project manager is leading an initiative that includes changing an organization's logo and slogan. What mandatory tasks should be part of the critical path? Select all that apply.",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "Set a budget.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Determine a new slogan.",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Get employees to respond positively in a survey.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Receive sponsor approval.",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "course2-m2-q12",
+    "module": "Building a project plan",
+    "question_text": "You are meeting with a teammate to get an estimate for a website launch page design. What question can you ask your teammate to get an accurate time estimate for the task?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Can you allocate some time to work on the design this week?",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Can you turn the design of the web page in by tonight?",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Is this the only project you are currently working on?",
+        "is_correct": false
+      },
+      {
+        "answer_text": "How long does it typically take to mockup a website design like this one?",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "course2-m2-q13",
+    "module": "Building a project plan",
+    "question_text": "Which of the following should you include in a project plan that are essential for project success? Select all that apply.",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "All project tasks",
+        "is_correct": true
+      },
+      {
+        "answer_text": "A timeline of when the team will complete the tasks",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Links to tasks in previously successful projects",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Specifically who are completing what tasks",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "course2-m2-q14",
+    "module": "Building a project plan",
+    "question_text": "As a project manager, you are responsible for creating the project plan. You schedule a meeting with your teammates to highlight concerns and account for upcoming holidays. What project plan best practice does this represent?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Staying curious",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Giving yourself time to plan",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Recognizing and planning for the inevitable",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Championing your plan",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "course2-m2-q15",
+    "module": "Building a project plan",
+    "question_text": "As a project manager, you realize that with the current timeline, it’s unlikely you will meet the project deadline. Which of the following strategies could help you to meet the deadline? Select all that apply.",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "Identify tasks that can be done in parallel.",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Eliminate any unnecessary tasks.",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Request more resources, such as an additional team member.",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Revise the project schedule without stakeholder approval.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "course2-m2-q16",
+    "module": "Building a project plan",
+    "question_text": "You are a project manager working to build a new house. You consider the upcoming storm forecast in your construction plan. How can you mitigate the storm disruption in the project planning stage?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Remind team members that they will need to complete tasks during the storm.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Add task buffers for the tasks that occur during the storm.",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Keep a positive attitude for the team.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Assign more tasks to team members.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "course2-m2-q17",
+    "module": "Building a project plan",
+    "question_text": "As a project manager, you are tasked with creating a critical path for a project. You have identified the tasks and determined the dependencies. What is the next step?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Verify with stakeholders.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Conduct a forward pass of the network diagram.",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Contact project vendors to start their work.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Start the execution of the project.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "course2-m2-q18",
+    "module": "Building a project plan",
+    "question_text": "Which software programs can you use to create a Kanban board? Select all that apply.",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "Asana",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Keynote",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Google Calendar",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Trello",
+        "is_correct": true
+      }
+    ]
+  }
+]

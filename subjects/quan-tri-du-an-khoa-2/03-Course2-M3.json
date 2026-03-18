@@ -1,0 +1,630 @@
+[
+  {
+    "question_id": "course2-m3-q1",
+    "module": "Managing budgeting and procurement",
+    "question_text": "Fill in the blank: Creating a _____ establishes a cost estimate for your project budget and ensures that you calculate the correct expenses for a set period of time.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "contingency budget",
+        "is_correct": false
+      },
+      {
+        "answer_text": "cost of quality",
+        "is_correct": false
+      },
+      {
+        "answer_text": "forecast",
+        "is_correct": true
+      },
+      {
+        "answer_text": "reserve analysis",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "course2-m3-q2",
+    "module": "Managing budgeting and procurement",
+    "question_text": "As a project manager, you determine the cost for items such as software, tools, labor, and equipment. What budgeting term refers to these types of costs?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Contingency budget",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Reserve analysis",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Resource cost rates",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Cost of quality",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "course2-m3-q3",
+    "module": "Managing budgeting and procurement",
+    "question_text": "Which of the following strategies should you consider when creating your budget? Select all that apply.",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "Disregard historical data",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Time-phase your budget",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Baseline your budget",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Document all costs",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "course2-m3-q4",
+    "module": "Managing budgeting and procurement",
+    "question_text": "Which three of the following items are examples of direct costs for your project?",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "Staff training",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Wages and salaries of employees and contractors",
+        "is_correct": true
+      },
+      {
+        "answer_text": "General office equipment",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Materials costs",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Utilities",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "course2-m3-q5",
+    "module": "Managing budgeting and procurement",
+    "question_text": "As a project manager setting a budget, you factor in unexpected costs that may arise during the project. What budgeting strategy does this refer to?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Adding a buffer and reserves",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Leveraging experts",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Setting a baseline",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Bottom-up approach",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "course2-m3-q6",
+    "module": "Managing budgeting and procurement",
+    "question_text": "As a project manager, what three things should you do to control costs and reduce changes to the budget? Select all that apply.",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "Establish a sign-off plan and inform stakeholders of any expense changes that occur.",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Manage changes as they’re made.",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Request stakeholder approval on additional costs only after they are incurred",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Ensure budget changes are within scope.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "course2-m3-q7",
+    "module": "Managing budgeting and procurement",
+    "question_text": "As a project manager, what does going under budget on a project indicate about your approach to budget management? Select all that apply.",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "That your initial estimates were inaccurate",
+        "is_correct": true
+      },
+      {
+        "answer_text": "That you could have spent more on the project to provide extra resources",
+        "is_correct": true
+      },
+      {
+        "answer_text": "That you accurately estimated the total cost of ownership (TCO)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "That you effectively conserved funds and will likely receive larger budgets for future projects",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "course2-m3-q8",
+    "module": "Managing budgeting and procurement",
+    "question_text": "What budgeting challenge arises when changes or growth cause additional work the project manager hadn’t planned for?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Budget pre-allocation",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Scope creep",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Inaccurate budget baseline",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Inaccurately accounting for total costs",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "course2-m3-q9",
+    "module": "Managing budgeting and procurement",
+    "question_text": "As a project manager, you’re interested in working with vendors in a way that is collaborative and places an emphasis on relationships. What procurement management process should you choose?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Agile",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Traditional",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Flexible",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Historical",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "course2-m3-q10",
+    "module": "Managing budgeting and procurement",
+    "question_text": "As a project manager, you host weekly meetings to periodically review vendor performance and work quality. Which procurement process step does this represent?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Selecting",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Completing",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Initiating",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Controlling",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "course2-m3-q11",
+    "module": "Managing budgeting and procurement",
+    "question_text": "As a project manager selecting a vendor, you first need to outline the details and requirements of your project in order to solicit bids. Which procurement document helps with this task?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "A request for proposal (RFP)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "A Statement of Work (SOW)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "A non-disclosure agreement (NDA)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "A work breakdown structure (WBS)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "course2-m3-q12",
+    "module": "Managing budgeting and procurement",
+    "question_text": "As a project manager creating a statement of work (SOW), who do you ask for input and technical knowledge?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Key stakeholders",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Vendors",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Subject matter expert (SME)",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Project sponsor",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "course2-m3-q13",
+    "module": "Managing budgeting and procurement",
+    "question_text": "As a project manager, you are about to hire a new vendor; however, there are terms in the contract you are unfamiliar with. Who should you contact to better understand the contract?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Vendor consultant",
+        "is_correct": false
+      },
+      {
+        "answer_text": "A subject matter expert (SME)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "A member of the legal team",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Another project manager",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "course2-m3-q14",
+    "module": "Managing budgeting and procurement",
+    "question_text": "Which of the following should a project manager do to ensure an ethical procurement?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Speak to the press if they inquire about product sourcing methods.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Work with government officials as long as they seem trustworthy.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Make sure that various stakeholders adhere to governmental policies and adequate corporate social responsibility.",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Alter vendor contracts based upon what you believe is most ethical for the company.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "course2-m3-q15",
+    "module": "Managing budgeting and procurement",
+    "question_text": "What are some potential ethical risks project managers need to be aware of? Select all that apply.",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "Interaction with state owned entities",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Sole-supplier sourcing",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Fraudulent checks",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Bribery or corruption",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "course2-m3-q16",
+    "module": "Managing budgeting and procurement",
+    "question_text": "Once you sign a contract with a vendor, you audit each task, execute quality control, and approve invoices. These are examples of what project manager duty?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Mentoring",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Relationship building",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Assurance",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Trust-building",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "course2-m3-q17",
+    "module": "Managing budgeting and procurement",
+    "question_text": "When creating a budget, a project manager must do which of the following? Select all that apply.",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_text": "Understand stakeholder needs",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Budget for surprise expenses",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Review and reforecast throughout the project",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Approve budget increases",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "course2-m3-q18",
+    "module": "Managing budgeting and procurement",
+    "question_text": "Imagine you create a budget and add it to a spreadsheet. You include the estimated costs for contractors who are working on the project based on the expected number of hours they work. What column should you enter this cost in your spreadsheet?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Limit cost",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Actual cost",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Planned cost",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Minimal cost",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "course2-m3-q19",
+    "module": "Managing budgeting and procurement",
+    "question_text": "Imagine you are working on a project. It progresses as expected, but you would like to assess the budget to identify whether any budget items need to be revisited. When should you take this budgeting action?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Project flow meeting",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Any project pause",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Project completion",
+        "is_correct": false
+      },
+      {
+        "answer_text": "A project milestone",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "course2-m3-q20",
+    "module": "Managing budgeting and procurement",
+    "question_text": "In the procurement process, what step comes after initiating the process?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Analyzing",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Selecting",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Initiating",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Contract writing",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "course2-m3-q21",
+    "module": "Managing budgeting and procurement",
+    "question_text": "At the beginning of your project, you solicit bids from vendors to select the one that is best for the project. Which procurement document should you prepare to fulfill this task?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Non-disclosure agreement (NDA)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Scope of work (SoW)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Statement of work (SoW)",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Request for proposal (RFP)",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "course2-m3-q22",
+    "module": "Managing budgeting and procurement",
+    "question_text": "“Honesty, responsibility, respect, and fairness are the values…” begins what type of saying of the Project Management Institute that serves as a guide to how they do procurement and other business?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Requirements",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Slogan",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Code of ethics",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Motto",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "course2-m3-q23",
+    "module": "Managing budgeting and procurement",
+    "question_text": "Which of the following do you consider a direct cost in your budget?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Administrative costs",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Utilities",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Material costs",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Insurance",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "course2-m3-q24",
+    "module": "Managing budgeting and procurement",
+    "question_text": "At what phase in the procurement process would a project manager determine the success of the procurement process?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Completing",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Finishing",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Controlling",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Determination",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "course2-m3-q25",
+    "module": "Managing budgeting and procurement",
+    "question_text": "A vendor contract states that it will be paid upon the completion of a set milestone in the project. What type of contract is this?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "Time and materials contract",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Completion contract",
+        "is_correct": false
+      },
+      {
+        "answer_text": "Fixed contract",
+        "is_correct": true
+      },
+      {
+        "answer_text": "Milestone contract",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "course2-m3-q26",
+    "module": "Managing budgeting and procurement",
+    "question_text": "Which of the following statements is typically true regarding budgeting?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_text": "It’s important to not go over or under budget.",
+        "is_correct": true
+      },
+      {
+        "answer_text": "It’s important to not go under budget, but it’s recommended to go over budget.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "It’s important to not go over budget, but it’s recommended to go under budget.",
+        "is_correct": false
+      },
+      {
+        "answer_text": "It’s recommended to go either over or under budget.",
+        "is_correct": false
+      }
+    ]
+  }
+]
