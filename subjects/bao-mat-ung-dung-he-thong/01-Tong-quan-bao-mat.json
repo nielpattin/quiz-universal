@@ -1,0 +1,1313 @@
+[
+	{
+		"question_id": "bm-m1-q1",
+		"question_text": "Tam giác CIA trong an toàn thông tin gồm những trụ cột nào?",
+		"question_type": "multiple_answer_question",
+		"answers": [
+			{
+				"answer_text": "Confidentiality (Tính bảo mật)",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Integrity (Tính toàn vẹn)",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Availability (Tính sẵn sàng)",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Authentication (Xác thực)",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m1-q2",
+		"question_text": "Confidentiality (Tính bảo mật) đảm bảo điều gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Dữ liệu chỉ những người được phép mới có thể truy cập",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Dữ liệu không bị thay đổi trái phép",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Hệ thống luôn sẵn sàng phục vụ người dùng",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Ghi lại hành động của người dùng để kiểm toán",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m1-q3",
+		"question_text": "Biện pháp bảo đảm Confidentiality (Tính bảo mật) bao gồm những gì?",
+		"question_type": "multiple_answer_question",
+		"answers": [
+			{
+				"answer_text": "Mã hóa dữ liệu",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Phân quyền truy cập",
+				"is_correct": true
+			},
+			{
+				"answer_text": "VPN, TLS/SSL",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Cân bằng tải (load balancing)",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m1-q4",
+		"question_text": "Integrity (Tính toàn vẹn) được bảo đảm bằng những biện pháp nào?",
+		"question_type": "multiple_answer_question",
+		"answers": [
+			{
+				"answer_text": "Hashing (SHA-256, MD5 kèm salt)",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Chữ ký số",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Kiểm tra checksum",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Cân bằng tải, chống DDoS",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m1-q5",
+		"question_text": "Ví dụ nào minh họa Integrity (Tính toàn vẹn)?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Một hóa đơn điện tử không thể bị hacker chỉnh sửa số tiền",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Thông tin thẻ tín dụng được mã hóa khi lưu trữ",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Website ngân hàng vẫn hoạt động dù bị DDoS",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Hệ thống lưu log người dùng tải file lúc 10:15",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m1-q6",
+		"question_text": "Biện pháp bảo đảm Availability (Tính sẵn sàng) bao gồm những gì?",
+		"question_type": "multiple_answer_question",
+		"answers": [
+			{
+				"answer_text": "Cân bằng tải (load balancing)",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Chống DDoS",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Backup, hệ thống dự phòng",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Hashing SHA-256",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m1-q7",
+		"question_text": "A.A.A trong kiểm soát truy cập gồm những chức năng nào?",
+		"question_type": "multiple_answer_question",
+		"answers": [
+			{
+				"answer_text": "Authentication (Xác thực)",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Authorization (Phân quyền)",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Accounting (Ghi nhận/kiểm toán)",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Availability (Tính sẵn sàng)",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m1-q8",
+		"question_text": "Authentication (Xác thực) khác Authorization (Phân quyền) ở điểm nào?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Authentication kiểm tra danh tính là ai; Authorization xác định người đó được phép làm gì sau khi xác thực",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Hai chức năng này giống hệt nhau",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Authorization kiểm tra danh tính, Authentication cấp quyền",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Authentication ghi log, Authorization mã hóa",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m1-q9",
+		"question_text": "Accounting (Ghi nhận/kiểm toán) trong AAA có vai trò gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Theo dõi, ghi lại hành động của người dùng để phục vụ giám sát và điều tra",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Mã hóa dữ liệu khi truyền",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Cấp quyền truy cập cho người dùng",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Kiểm tra mật khẩu và OTP",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m1-q10",
+		"question_text": "Sự khác biệt giữa CIA và AAA là gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "CIA tập trung bảo vệ dữ liệu (bí mật-toàn vẹn-sẵn sàng); AAA tập trung quản lý người dùng (ai-làm gì-đã làm gì)",
+				"is_correct": true
+			},
+			{
+				"answer_text": "CIA quản lý người dùng, AAA bảo vệ dữ liệu",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Cả hai giống hệt nhau",
+				"is_correct": false
+			},
+			{
+				"answer_text": "CIA dùng cho mạng, AAA dùng cho ứng dụng",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m1-q11",
+		"question_text": "Bảo mật ứng dụng (Application Security) tập trung bảo vệ đối tượng nào?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Phần mềm/ứng dụng khỏi lỗ hổng thiết kế, lập trình, cấu hình",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Toàn bộ hệ điều hành, máy chủ, mạng, hạ tầng",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Phần cứng máy tính",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Mạng nội bộ và router",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m1-q12",
+		"question_text": "Mối đe dọa thường gặp đối với bảo mật ứng dụng bao gồm những gì?",
+		"question_type": "multiple_answer_question",
+		"answers": [
+			{
+				"answer_text": "SQL Injection, Cross-Site Scripting (XSS)",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Cross-Site Request Forgery (CSRF)",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Lỗ hổng trong API",
+				"is_correct": true
+			},
+			{
+				"answer_text": "DDoS, Ransomware, Rootkit",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m1-q13",
+		"question_text": "Biện pháp bảo mật ứng dụng bao gồm những gì?",
+		"question_type": "multiple_answer_question",
+		"answers": [
+			{
+				"answer_text": "Lập trình an toàn (input validation, secure coding)",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Cập nhật bản vá thường xuyên",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Quét lỗ hổng (OWASP ZAP, Burp Suite)",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Penetration Testing",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "bm-m1-q14",
+		"question_text": "Bảo mật hệ thống (System Security) có đối tượng chính là gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Hệ điều hành, máy chủ, thiết bị mạng (router, firewall), phần cứng, dịch vụ chạy nền",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Ứng dụng web, mobile app, API",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Cơ sở dữ liệu gắn với ứng dụng",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Thư viện bên thứ ba",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m1-q15",
+		"question_text": "Mối đe dọa thường gặp đối với bảo mật hệ thống bao gồm những gì?",
+		"question_type": "multiple_answer_question",
+		"answers": [
+			{
+				"answer_text": "Tấn công DDoS",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Malware, Ransomware, Rootkit, Trojan",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Truy cập trái phép vào máy chủ",
+				"is_correct": true
+			},
+			{
+				"answer_text": "SQL Injection, XSS, CSRF",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m1-q16",
+		"question_text": "Công cụ điển hình cho bảo mật hệ thống là gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Firewall, IDS/IPS, SIEM",
+				"is_correct": true
+			},
+			{
+				"answer_text": "OWASP ZAP, Burp Suite, SonarQube",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Prepared Statements",
+				"is_correct": false
+			},
+			{
+				"answer_text": "MFA, OTP",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m1-q17",
+		"question_text": "Mối quan hệ phụ thuộc lẫn nhau giữa bảo mật ứng dụng và bảo mật hệ thống thể hiện qua điều gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Ứng dụng chạy trên hệ thống; hệ thống bị xâm nhập thì ứng dụng bị kiểm soát, và ngược lại lỗ hổng ứng dụng là bàn đạp xâm nhập hệ thống",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Hai lĩnh vực hoàn toàn độc lập, không ảnh hưởng lẫn nhau",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Bảo mật ứng dụng thay thế hoàn toàn bảo mật hệ thống",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Hệ thống không cần bảo mật nếu ứng dụng đã an toàn",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m1-q18",
+		"question_text": "Chuỗi tấn công 'SQL Injection → truy cập database → leo thang đặc quyền → chiếm quyền root server' minh họa điều gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Lỗ hổng ứng dụng có thể làm bàn đạp xâm nhập hệ thống",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Bảo mật hệ thống không liên quan đến ứng dụng",
+				"is_correct": false
+			},
+			{
+				"answer_text": "SQL Injection không nguy hiểm",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Database luôn tách biệt với hệ điều hành",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m1-q19",
+		"question_text": "Nguyên tắc Defense in Depth (phòng thủ nhiều lớp) trong mối quan hệ ứng dụng-hệ thống có ý nghĩa gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Hai lớp bảo mật không thay thế mà hỗ trợ lẫn nhau tạo kiến trúc phòng thủ vững chắc",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Chỉ cần bảo mật một trong hai lớp là đủ",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Bảo mật ứng dụng loại bỏ nhu cầu bảo mật hệ thống",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Phòng thủ tập trung ở một lớp duy nhất",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m1-q20",
+		"question_text": "Insider Threats (mối đe dọa nội bộ) có đặc điểm gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Xuất phát từ người trong tổ chức, có quyền truy cập hợp pháp, khó phát hiện vì hoạt động hợp pháp trộn lẫn hành vi xấu",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Hacker bên ngoài không có quyền truy cập",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Dễ phát hiện ngay lập tức",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chỉ tấn công qua internet",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m1-q21",
+		"question_text": "Outsider Threats (mối đe dọa ngoại vi) khác Insider Threats ở điểm nào?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Không có quyền truy cập hợp pháp, thường tấn công qua internet/mạng công cộng/kỹ thuật xã hội",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Có quyền truy cập hợp pháp vào hệ thống",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Khó phát hiện hơn Insider Threats",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Luôn là nhân viên đã nghỉ việc",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m1-q22",
+		"question_text": "APT (Advanced Persistent Threat) là kiểu tấn công như thế nào?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Tấn công có chủ đích, tinh vi, kéo dài, thường khai thác lỗ hổng zero-day",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Tấn công ngẫu nhiên, nhanh chóng",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tấn công từ nhân viên nội bộ",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tấn công chỉ nhắm vào cá nhân",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m1-q23",
+		"question_text": "Trong ví dụ website thương mại điện tử bị tấn công, góc nhìn bảo mật ứng dụng đề xuất giải pháp gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Lập trình an toàn (Prepared Statements), kiểm thử bảo mật định kỳ theo OWASP Top 10",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Cập nhật bản vá hệ điều hành, dùng IDS/IPS",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Giới hạn quyền truy cập user hệ thống",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Backup dữ liệu định kỳ",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m1-q24",
+		"question_text": "Nguyên tắc Least Privilege (Ít quyền nhất) quy định gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Chỉ cấp cho người dùng, tiến trình, dịch vụ mức quyền tối thiểu cần thiết để thực hiện công việc",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Cấp toàn bộ quyền root cho mọi tài khoản",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Không cần phân quyền trong hệ thống",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Cấp quyền tối đa để thuận tiện",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m1-q25",
+		"question_text": "Ví dụ nào minh họa nguyên tắc Least Privilege?",
+		"question_type": "multiple_answer_question",
+		"answers": [
+			{
+				"answer_text": "Nhân viên kế toán chỉ truy cập dữ liệu tài chính, không truy cập mã nguồn",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Tài khoản dịch vụ web chỉ có quyền đọc CSDL, không có quyền ghi/xóa",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Tài khoản ứng dụng có quyền DBA full access",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Mọi người dùng đều có quyền admin",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m1-q26",
+		"question_text": "Defense in Depth (Phòng thủ nhiều lớp) xây dựng các lớp bảo vệ gồm những gì?",
+		"question_type": "multiple_answer_question",
+		"answers": [
+			{
+				"answer_text": "Mạng: Firewall, IDS/IPS, VPN",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Hệ điều hành: cập nhật bản vá, phân quyền file",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Ứng dụng: xác thực, mã hóa, kiểm tra đầu vào",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Người dùng: đào tạo nhận thức bảo mật",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "bm-m1-q27",
+		"question_text": "Sự khác biệt giữa Defense in Depth và Least Privilege là gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Defense in Depth là 'chiều rộng' (nhiều lớp bảo vệ); Least Privilege là 'chiều sâu' (giảm quyền trong từng lớp)",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Hai nguyên tắc giống hệt nhau",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Least Privilege là nhiều lớp, Defense in Depth là giảm quyền",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chỉ cần một trong hai nguyên tắc là đủ",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m1-q28",
+		"question_text": "Trong tình huống ShopOnline, nếu chỉ áp dụng Defense in Depth mà không có Least Privilege thì hậu quả là gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Tài khoản ứng dụng có quyền root/DB full access, hacker đọc toàn bộ dữ liệu và phá hủy hệ thống",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Hacker không thể làm gì vì đã có nhiều lớp bảo vệ",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Hệ thống an toàn hoàn toàn",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chỉ lớp mạng bị tấn công",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m1-q29",
+		"question_text": "Trong lớp Hệ điều hành của giải pháp kết hợp, biện pháp Least Privilege nào được áp dụng?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Tài khoản web (www-data) không phải root, SELinux/AppArmor hạn chế tiến trình web",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Cấp quyền root cho tài khoản web",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tắt SELinux để thuận tiện",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Mở toàn bộ cổng mạng",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m1-q30",
+		"question_text": "Nguy cơ mất an toàn từ bên ngoài bao gồm những gì?",
+		"question_type": "multiple_answer_question",
+		"answers": [
+			{
+				"answer_text": "Tấn công mạng: DDoS, SQL Injection, XSS, RCE",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Phần mềm độc hại: Virus, Trojan, Ransomware",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Khai thác cấu hình sai (Misconfiguration)",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Advanced Persistent Threat (APT)",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "bm-m1-q31",
+		"question_text": "Nguy cơ mất an toàn từ bên trong (Insider) bao gồm những gì?",
+		"question_type": "multiple_answer_question",
+		"answers": [
+			{
+				"answer_text": "Người dùng nội bộ cố ý/vô ý gây rò rỉ dữ liệu",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Sử dụng mật khẩu yếu hoặc chia sẻ thông tin đăng nhập",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Gắn thiết bị ngoại vi chứa mã độc vào hệ thống",
+				"is_correct": true
+			},
+			{
+				"answer_text": "DDoS từ hacker bên ngoài",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m1-q32",
+		"question_text": "SQL Injection (tấn công vào ứng dụng) gây hậu quả gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Chèn mã SQL để truy xuất hoặc thay đổi dữ liệu trái phép",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Chèn mã JavaScript để đánh cắp cookie phiên",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Lợi dụng phiên đăng nhập thực hiện hành động trái phép",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Thử mật khẩu hàng loạt",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m1-q33",
+		"question_text": "Cross-Site Scripting (XSS) hoạt động như thế nào?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Chèn mã JavaScript độc hại để đánh cắp thông tin phiên hoặc lừa người dùng",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Chèn mã SQL để truy vấn cơ sở dữ liệu",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Làm nghẽn dịch vụ bằng lưu lượng lớn",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chặn và thay đổi dữ liệu truyền giữa hai bên",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m1-q34",
+		"question_text": "CSRF (Cross-Site Request Forgery) lợi dụng điều gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Phiên đăng nhập để thực hiện hành động trái phép",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Lỗ hổng SQL trong cơ sở dữ liệu",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tràn bộ đệm để thực thi mã độc",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Mật khẩu yếu để brute force",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m1-q35",
+		"question_text": "Command Injection là gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Chèn và thực thi lệnh hệ thống trên máy chủ",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Chèn mã SQL vào cơ sở dữ liệu",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Đánh cắp cookie qua JavaScript",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Làm nghẽn dịch vụ mạng",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m1-q36",
+		"question_text": "Privilege Escalation (leo thang đặc quyền) là kiểu tấn công gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Leo thang để có quyền cao hơn (từ user thành admin/root)",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Thử mật khẩu hàng loạt",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chặn dữ liệu truyền giữa hai bên",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Làm nghẽn dịch vụ",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m1-q37",
+		"question_text": "Buffer Overflow (tràn bộ đệm) gây hậu quả gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Thực thi mã độc do lỗi tràn bộ đệm",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Đánh cắp cookie phiên",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Làm nghẽn dịch vụ bằng lưu lượng lớn",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Thử mật khẩu hàng loạt",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m1-q38",
+		"question_text": "Man-in-the-Middle (MITM) là gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Chặn và thay đổi dữ liệu truyền giữa hai bên",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Làm nghẽn dịch vụ bằng lưu lượng lớn",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chèn mã SQL vào cơ sở dữ liệu",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Leo thang đặc quyền trên hệ thống",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m1-q39",
+		"question_text": "Ví dụ tấn công BlueKeep khai thác dịch vụ nào?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Dịch vụ RDP trên máy chủ Windows chưa vá",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Dịch vụ SSH trên Linux",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Dịch vụ SQL trên MySQL",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Dịch vụ web trên Apache",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m1-q40",
+		"question_text": "RBAC (Role-Based Access Control) hoạt động theo nguyên tắc nào?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Người dùng được gán vào vai trò (role), vai trò quyết định quyền hạn",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Quyền dựa trên thuộc tính người dùng, tài nguyên, môi trường",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chủ sở hữu tài nguyên quyết định ai được truy cập",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Hệ thống áp đặt quyền theo nhãn bảo mật",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m1-q41",
+		"question_text": "ABAC (Attribute-Based Access Control) quyết định quyền dựa trên những thuộc tính nào?",
+		"question_type": "multiple_answer_question",
+		"answers": [
+			{
+				"answer_text": "Thuộc tính người dùng (role, bộ phận, vị trí, thời gian)",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Thuộc tính tài nguyên (mức độ nhạy cảm, trạng thái)",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Thuộc tính môi trường (IP, thiết bị, thời gian)",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Nhãn bảo mật do hệ thống áp đặt",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m1-q42",
+		"question_text": "MAC (Mandatory Access Control) khác DAC (Discretionary Access Control) ở điểm nào?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "MAC: quyền do hệ thống áp đặt theo nhãn bảo mật; DAC: chủ sở hữu tài nguyên quyết định ai được truy cập",
+				"is_correct": true
+			},
+			{
+				"answer_text": "MAC: chủ sở hữu quyết định; DAC: hệ thống áp đặt",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Cả hai giống hệt nhau",
+				"is_correct": false
+			},
+			{
+				"answer_text": "MAC dựa trên vai trò, DAC dựa trên thuộc tính",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m1-q43",
+		"question_text": "Ví dụ nào minh họa MAC (Mandatory Access Control)?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Trong quân đội, chỉ người có cấp độ 'Tuyệt mật' mới xem được tài liệu 'Tuyệt mật'",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Chủ file Excel trên Google Drive cấp quyền 'Chỉ đọc' cho người khác",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Quản trị viên có quyền xem/sửa/xóa mọi dữ liệu",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Người dùng chỉ truy cập tài liệu nếu thuộc bộ phận bảo mật và trong giờ làm việc",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m1-q44",
+		"question_text": "Nguyên tắc cốt lõi của mô hình Zero Trust là gì?",
+		"question_type": "multiple_answer_question",
+		"answers": [
+			{
+				"answer_text": "Never Trust, Always Verify - không tin tưởng mặc định bất kỳ kết nối nào",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Luôn xác thực và ủy quyền liên tục, không chỉ một lần khi đăng nhập",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Least Privilege - cấp quyền tối thiểu cần thiết",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Continuous Monitoring - giám sát liên tục",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "bm-m1-q45",
+		"question_text": "Micro-Segmentation trong Zero Trust có mục đích gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Chia nhỏ mạng/hệ thống thành vùng an toàn riêng biệt, hạn chế di chuyển ngang (lateral movement)",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Tập trung toàn bộ hệ thống vào một mạng chung",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Cấp quyền root cho mọi người dùng",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tắt giám sát để tăng hiệu năng",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m1-q46",
+		"question_text": "Bell-LaPadula Model tập trung bảo vệ thuộc tính nào?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Confidentiality (tính bảo mật thông tin mật)",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Integrity (tính toàn vẹn dữ liệu)",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Availability (tính sẵn sàng)",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Accounting (kiểm toán)",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m1-q47",
+		"question_text": "Biba Model và Clark-Wilson Model cùng tập trung bảo vệ điều gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Integrity (tính toàn vẹn dữ liệu/giao dịch)",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Confidentiality (tính bảo mật)",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Availability (tính sẵn sàng)",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Authentication (xác thực)",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m1-q48",
+		"question_text": "Trong ví dụ Zero Trust, nhân viên mạng nội bộ truy cập ERP sẽ trải qua bước nào?",
+		"question_type": "multiple_answer_question",
+		"answers": [
+			{
+				"answer_text": "Xác thực đa yếu tố (MFA) trước khi vào",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Kiểm tra thiết bị, IP, vị trí địa lý",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Khóa phiên nếu thay đổi hành vi đột ngột (tải dữ liệu lớn bất thường)",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Tự động cấp quyền admin không cần xác thực",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m1-q49",
+		"question_text": "Network Segmentation trong bảo mật hệ thống có ý nghĩa gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Chia mạng thành nhiều vùng bảo mật nhỏ (DMZ, mạng nội bộ, mạng quản trị)",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Gộp toàn bộ mạng vào một VLAN chung",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Đặt database trong DMZ công khai",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tắt phân vùng mạng",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m1-q50",
+		"question_text": "Vai trò của Người dùng (End User) trong bảo mật ứng dụng là gì?",
+		"question_type": "multiple_answer_question",
+		"answers": [
+			{
+				"answer_text": "Tuân thủ chính sách: mật khẩu mạnh, bật MFA, không chia sẻ tài khoản",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Nhận thức cảnh giác: tránh click link lạ, mở file đính kèm không rõ nguồn",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Báo cáo sự cố khi phát hiện dấu hiệu tấn công",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Viết code an toàn chống SQL Injection",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m1-q51",
+		"question_text": "Vai trò của Lập trình viên (Developer) trong bảo mật ứng dụng là gì?",
+		"question_type": "multiple_answer_question",
+		"answers": [
+			{
+				"answer_text": "Viết code an toàn (Secure Coding, chống SQLi/XSS/CSRF)",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Kiểm thử bảo mật: scan, test lỗ hổng trước khi phát hành",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Cập nhật và vá lỗi khi có cảnh báo từ thư viện bên ngoài",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Quản lý quyền truy cập, backup dữ liệu định kỳ",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m1-q52",
+		"question_text": "Vai trò của Quản trị viên (Administrator) trong bảo mật hệ thống là gì?",
+		"question_type": "multiple_answer_question",
+		"answers": [
+			{
+				"answer_text": "Áp dụng Least Privilege cho tài khoản và dịch vụ",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Giám sát, phát hiện xâm nhập qua IDS/IPS, log monitoring",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Bảo trì: cập nhật bản vá, cấu hình tường lửa, backup định kỳ",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Click link lạ trong email lừa đảo",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m1-q53",
+		"question_text": "Hành vi nào của người dùng tạo nguy cơ cho bảo mật hệ thống?",
+		"question_type": "multiple_answer_question",
+		"answers": [
+			{
+				"answer_text": "Đăng nhập từ thiết bị không an toàn hoặc mạng công cộng (keylogger, sniffing)",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Sử dụng USB hoặc tải phần mềm không rõ nguồn gốc",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Chia sẻ tài khoản hoặc để lộ thông tin đăng nhập",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Bật MFA và dùng mật khẩu mạnh",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m1-q54",
+		"question_text": "Nhân viên vận hành/giám sát gây nguy cơ khi nào?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Bỏ qua cảnh báo, không kiểm tra log thường xuyên, xử lý sự cố chậm hoặc sai quy trình",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Theo dõi log và cảnh báo an ninh liên tục",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Áp dụng Least Privilege cho tài khoản",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Cập nhật bản vá hệ điều hành",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m1-q55",
+		"question_text": "Theo kết luận, bảo mật được xem là quá trình như thế nào?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Quá trình liên tục, kết hợp cả công nghệ, chính sách và con người",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Chỉ cần cài đặt công cụ một lần là đủ",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chỉ phụ thuộc vào công nghệ",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chỉ phụ thuộc vào con người",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m1-q56",
+		"question_text": "File Inclusion (tấn công vào ứng dụng) là gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Tải và thực thi file độc hại qua ứng dụng web",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Chèn mã SQL vào cơ sở dữ liệu",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Làm nghẽn dịch vụ bằng lưu lượng lớn",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Thử mật khẩu hàng loạt",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m1-q57",
+		"question_text": "Brute Force / Credential Stuffing là gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Thử mật khẩu hàng loạt hoặc dùng dữ liệu rò rỉ để đăng nhập",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Chèn mã SQL để truy vấn dữ liệu",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chặn dữ liệu truyền giữa hai bên",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Mã hóa dữ liệu đòi tiền chuộc",
+				"is_correct": false
+			}
+		]
+	}
+]

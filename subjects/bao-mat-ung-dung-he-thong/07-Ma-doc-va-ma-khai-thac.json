@@ -1,0 +1,1267 @@
+[
+	{
+		"question_id": "bm-m7-q1",
+		"question_text": "Malware (mã độc) là gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Phần mềm/đoạn mã độc hại gây hại hệ thống, đánh cắp dữ liệu, gián điệp hoặc gián đoạn hoạt động",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Phần mềm quản lý phần cứng",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Công cụ quét lỗ hổng hợp pháp",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Thuật toán mã hóa AES",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m7-q2",
+		"question_text": "Exploit (mã khai thác) có mục tiêu gì?",
+		"question_type": "multiple_answer_question",
+		"answers": [
+			{
+				"answer_text": "Thực thi mã tùy ý (RCE)",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Leo thang đặc quyền (Privilege Escalation)",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Vượt cơ chế bảo mật (sandbox, DEP, ASLR)",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Mã hóa dữ liệu an toàn",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m7-q3",
+		"question_text": "Mối quan hệ giữa Malware và Exploit được ví như gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Malware là công cụ gây hại trực tiếp; Exploit là 'chìa khóa' mở cửa, lợi dụng lỗ hổng để đưa malware vào",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Malware và Exploit là cùng một thứ",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Exploit gây hại, Malware mở cửa",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Hoạt động độc lập",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m7-q4",
+		"question_text": "Exploit EternalBlue (2017) lợi dụng lỗ hổng gì và malware nào khai thác?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Lỗ hổng SMBv1 của Windows, nhóm WannaCry ransomware khai thác lây nhiễm toàn cầu",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Lỗ hổng RDP, nhóm LockBit khai thác",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Lỗ hổng SSH, nhóm Storm Worm",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Lỗ hổng PrintNightmare",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m7-q5",
+		"question_text": "Virus máy tính lây lan như thế nào?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Gắn vào file/chương trình hợp pháp, kích hoạt khi người dùng chạy chương trình bị nhiễm",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Tự lây lan qua mạng không cần can thiệp",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Giả dạng phần mềm hữu ích",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Mã hóa dữ liệu đòi tiền",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m7-q6",
+		"question_text": "Worm (sâu máy tính) khác Virus ở điểm nào?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Tự lây lan qua mạng không cần can thiệp người dùng, lợi dụng lỗ hổng phát tán",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Cần người dùng mở file",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Giả dạng phần mềm hữu ích",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Mã hóa dữ liệu",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m7-q7",
+		"question_text": "Trojan Horse có đặc điểm gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Giả dạng phần mềm hữu ích nhưng chứa mã độc, mở backdoor, điều khiển từ xa",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Tự lây lan qua mạng",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Mã hóa dữ liệu đòi tiền",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Ghi lại phím bấm",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m7-q8",
+		"question_text": "Spyware/Keylogger làm gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Theo dõi hoạt động người dùng, ghi phím bấm, lịch sử duyệt web, thu thập mật khẩu/thông tin tài chính",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Hiển thị quảng cáo",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Mã hóa dữ liệu",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Ẩn sâu trong hệ điều hành",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m7-q9",
+		"question_text": "Ransomware (WannaCry, Petya) gây hậu quả gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Mã hóa dữ liệu trên máy nạn nhân, yêu cầu trả tiền chuộc để mở khóa",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Hiển thị quảng cáo phiền toái",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Gửi email spam",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tăng hiệu suất hệ thống",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m7-q10",
+		"question_text": "Botnet/Zombie là gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Máy tính bị kiểm soát từ xa thành 'zombie', bị điều khiển tham gia DDoS, gửi spam, phát tán malware",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Phần mềm diệt virus",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Công cụ quét cổng",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Thuật toán mã hóa",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m7-q11",
+		"question_text": "Zero-Day Exploit đặc biệt nguy hiểm vì sao?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Khai thác lỗ hổng chưa được công bố hoặc vá lỗi, không có biện pháp phòng thủ kịp thời",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Chỉ hoạt động ban ngày",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Không gây hại gì",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Dễ bị phát hiện",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m7-q12",
+		"question_text": "Local Exploit thường dùng để làm gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Thực thi trên máy đã bị xâm nhập, leo thang đặc quyền (user → admin/root)",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Tấn công từ xa không cần truy cập",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Gửi DDoS",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Hiển thị quảng cáo",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m7-q13",
+		"question_text": "Remote Exploit là gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Tấn công từ xa không cần quyền truy cập trực tiếp, ví dụ khai thác dịch vụ web/FTP/SQLi",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Thực thi trên máy đã bị xâm nhập",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chỉ leo thang đặc quyền",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chỉ hoạt động nội bộ",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m7-q14",
+		"question_text": "Giai đoạn Tìm kiếm lỗ hổng dùng công cụ nào?",
+		"question_type": "multiple_answer_question",
+		"answers": [
+			{
+				"answer_text": "Nessus, OpenVAS, Nmap, Burp Suite",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Cơ sở dữ liệu CVE, NVD, Exploit-DB",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Phân tích mã nguồn/cấu hình",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Mã hóa AES-256",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m7-q15",
+		"question_text": "Quy trình khai thác lỗ hổng bằng Exploit Code đúng thứ tự là gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Tìm kiếm lỗ hổng → Phát triển exploit → Triển khai tấn công → Duy trì truy cập → Xóa dấu vết",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Xóa dấu vết → Tìm kiếm → Triển khai → Phát triển → Duy trì",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Duy trì truy cập → Tìm kiếm → Phát triển → Xóa dấu vết → Triển khai",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Triển khai → Phát triển → Duy trì → Tìm kiếm → Xóa dấu vết",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m7-q16",
+		"question_text": "Anti-Forensics (xóa dấu vết) thực hiện bằng cách nào?",
+		"question_type": "multiple_answer_question",
+		"answers": [
+			{
+				"answer_text": "Xóa log hệ thống, thay đổi timestamp file",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Mã hóa hoặc ẩn dữ liệu (steganography)",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Làm khó phân tích pháp y, trì hoãn phát hiện",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Gửi email thông báo cho admin",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m7-q17",
+		"question_text": "Drive-by Download là gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Khai thác lỗ hổng trình duyệt/plug-in, người dùng chỉ cần truy cập website là bị nhiễm",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Gửi file đính kèm qua email",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chèn mã độc vào USB",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Quét cổng mạng",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m7-q18",
+		"question_text": "Malvertising là gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Chèn mã độc vào quảng cáo trực tuyến",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Mã hóa dữ liệu đòi tiền",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Ghi lại phím bấm",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Quét lỗ hổng mạng",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m7-q19",
+		"question_text": "Storm Worm (2007) phát tán qua kênh nào và tạo ra gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Email và mạng P2P, lây nhiễm hàng triệu máy, tạo botnet khổng lồ",
+				"is_correct": true
+			},
+			{
+				"answer_text": "USB, tạo virus hệ thống",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Quảng cáo trực tuyến, tạo spyware",
+				"is_correct": false
+			},
+			{
+				"answer_text": "RDP brute-force, tạo rootkit",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m7-q20",
+		"question_text": "Living-off-the-land (LoTL) là gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Lợi dụng công cụ hợp pháp sẵn có trong hệ thống (PowerShell, WMI, CMD)",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Mã hóa file thực thi",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Hoạt động trong RAM không để lại file",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Thay đổi mã nguồn hoàn toàn",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m7-q21",
+		"question_text": "Fileless Malware có đặc điểm gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Hoạt động trực tiếp trong RAM, không để lại file trên ổ đĩa",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Chèn mã vào quảng cáo",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Mã hóa dữ liệu đòi tiền",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Ghi lại phím bấm",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m7-q22",
+		"question_text": "Polymorphism (đa hình) hoạt động như thế nào?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Giữ nguyên payload gốc, mỗi lần lây lan thay đổi lớp mã hóa/giải mã ngoài, làm signature-based AV khó phát hiện",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Thay đổi mã nguồn hoàn toàn nhưng giữ chức năng",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Đổi tên biến để làm rối code",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Ẩn trong RAM",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m7-q23",
+		"question_text": "Metamorphism (biến thể) khác Polymorphism ở điểm nào?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Thay đổi mã nguồn hoàn toàn (cấu trúc lệnh, API, hàm) nhưng giữ nguyên chức năng",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Chỉ thay đổi lớp mã hóa ngoài",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Đổi tên biến",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Hoạt động trong RAM",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m7-q24",
+		"question_text": "Obfuscation (làm rối code) thực hiện bằng cách nào?",
+		"question_type": "multiple_answer_question",
+		"answers": [
+			{
+				"answer_text": "Đổi tên biến/hàm",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Mã hóa chuỗi",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Chèn ký tự thừa",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Mã hóa dữ liệu AES",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m7-q25",
+		"question_text": "Trojanized Application là gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Ứng dụng có chức năng bình thường nhưng bị gắn thêm mã độc Trojan",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Quảng cáo trực tuyến chứa mã độc",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tự lây lan qua mạng",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Mã hóa dữ liệu",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m7-q26",
+		"question_text": "Supply Chain Attack là gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Hacker chèn malware vào bản cập nhật phần mềm hợp pháp, người dùng nâng cấp thì bị nhiễm",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Đánh cắp cookie qua XSS",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Gửi email phishing",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Mã hóa ổ cứng",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m7-q27",
+		"question_text": "Vụ CCleaner Attack (2017) là ví dụ cho loại tấn công nào?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Supply Chain Attack - bản cập nhật CCleaner bị cài malware, ảnh hưởng hơn 2 triệu người dùng",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Drive-by Download",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Ransomware",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Botnet",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m7-q28",
+		"question_text": "Vụ SolarWinds (2020) gây hậu quả gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Ứng dụng Orion bị cài mã độc trong bản update, lây nhiễm hàng nghìn tổ chức kể cả chính phủ Mỹ",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Làm chậm mạng toàn cầu",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Đánh cắp vắc-xin COVID-19",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Mã hóa dữ liệu cá nhân",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m7-q29",
+		"question_text": "Mã độc ẩn trong file dữ liệu (PDF, DOCX, XLSX) hoạt động như thế nào?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Ứng dụng mở file có thể bị chèn exploit code, khi mở file mã khai thác thực thi cài malware",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Tự lây lan qua mạng",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Mã hóa toàn bộ ổ cứng",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Hiển thị quảng cáo",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m7-q30",
+		"question_text": "Mục tiêu tấn công hệ thống bằng malware là gì?",
+		"question_type": "multiple_answer_question",
+		"answers": [
+			{
+				"answer_text": "Chiếm quyền kiểm soát, điều khiển từ xa",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Đánh cắp dữ liệu nhạy cảm",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Làm gián đoạn hoạt động (DoS)",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Cài backdoor duy trì truy cập lâu dài",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "bm-m7-q31",
+		"question_text": "Hậu quả khi hệ thống bị tấn công bởi malware là gì?",
+		"question_type": "multiple_answer_question",
+		"answers": [
+			{
+				"answer_text": "Mất dữ liệu nghiêm trọng, tổn thất tài chính/danh tiếng",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Gián đoạn dịch vụ, ảnh hưởng kinh doanh/khách hàng",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Chi phí khắc phục cao",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Tăng hiệu suất hệ thống",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m7-q32",
+		"question_text": "Biện pháp phòng chống malware nào đúng?",
+		"question_type": "multiple_answer_question",
+		"answers": [
+			{
+				"answer_text": "Cập nhật bản vá hệ thống thường xuyên",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Antivirus và EDR (Endpoint Detection & Response)",
+				"is_correct": true
+			},
+			{
+				"answer_text": "IDS/IPS giám sát hệ thống",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Sao lưu dữ liệu định kỳ giảm rủi ro ransomware",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "bm-m7-q33",
+		"question_text": "EDR là gì trong phòng chống malware?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Endpoint Detection & Response - phát hiện và ứng phó mối đe dọa ở thiết bị đầu cuối",
+				"is_correct": true
+			},
+			{
+				"answer_text": "External Data Router",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Encryption Data Recovery",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Email Distribution Rule",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m7-q34",
+		"question_text": "SIEM có vai trò gì trong phòng chống malware?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Giám sát log hệ thống, phát hiện hoạt động bất thường",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Mã hóa dữ liệu ổ cứng",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Quét cổng mạng",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Diệt virus",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m7-q35",
+		"question_text": "UBA/UEBA dùng để làm gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Phân tích hành vi người dùng để phát hiện hoạt động bất thường",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Mã hóa dữ liệu",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Quét lỗ hổng mạng",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Sao lưu dữ liệu",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m7-q36",
+		"question_text": "Sandbox có vai trò gì trong phòng chống malware?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Kiểm tra file nghi ngờ trong môi trường cô lập trước khi mở",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Mã hóa dữ liệu",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Gửi email cảnh báo",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Quét cổng mạng",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m7-q37",
+		"question_text": "Zero Trust Security có nguyên tắc gì đối với malware?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Không tin cậy bất kỳ kết nối nào cho đến khi được xác minh",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Tin tưởng mọi kết nối nội bộ",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chỉ kiểm tra kết nối ngoài",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Không cần xác thực",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m7-q38",
+		"question_text": "Vì sao Polymorphism khiến signature-based antivirus khó phát hiện?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Mỗi bản sao dùng thuật toán/khóa mã hóa khác nhau, chữ ký nhị phân thay đổi hoàn toàn",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Payload chính thay đổi",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chỉ đổi tên biến",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Không thay đổi gì",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m7-q39",
+		"question_text": "Giải pháp nào giúp phát hiện polymorphic malware tốt hơn signature-based?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Behavior-based detection và AI/ML phân tích hành vi",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Chỉ cập nhật chữ ký virus",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tắt antivirus",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Không cần phát hiện",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m7-q40",
+		"question_text": "P2P là môi trường lý tưởng cho malware phát tán vì sao?",
+		"question_type": "multiple_answer_question",
+		"answers": [
+			{
+				"answer_text": "File chia sẻ rộng, khó kiểm soát tính hợp pháp",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Người dùng thường bỏ qua cảnh báo bảo mật",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Crack/keygen torrent thường chứa trojan, spyware",
+				"is_correct": true
+			},
+			{
+				"answer_text": "P2P tự động diệt virus",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m7-q41",
+		"question_text": "Anti-sandbox/Anti-VM là gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Malware kiểm tra môi trường ảo hóa và thay đổi hành vi để né phân tích",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Công cụ kiểm tra file nghi ngờ",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Phần mềm diệt virus",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Thuật toán mã hóa",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m7-q42",
+		"question_text": "Packing/Encryption trong kỹ thuật che giấu malware là gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Nén hoặc mã hóa file thực thi, chỉ giải mã khi chạy",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Đổi tên biến",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Thay đổi mã nguồn hoàn toàn",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Hoạt động trong RAM",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m7-q43",
+		"question_text": "Khi nhận email lừa đảo ngân hàng có file PDF đính kèm, mở ra máy chậm và truy cập mạng bất thường, đây có thể là malware nào?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Có thể là trojan/spyware/backdoor, cần ngắt mạng, quét virus, báo IT",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Chỉ là quảng cáo bình thường",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Không phải malware",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Là phần mềm diệt virus",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m7-q44",
+		"question_text": "Khi công ty bị ransomware mã hóa toàn bộ dữ liệu máy chủ đòi Bitcoin, quản trị viên nên làm gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Khôi phục từ backup, không nên trả tiền chuộc, điều tra và tăng cường an ninh",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Trả tiền chuộc ngay lập tức",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Bỏ qua sự cố",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Xóa toàn bộ dữ liệu còn lại",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m7-q45",
+		"question_text": "USB nhiễm mã độc từ quán photocopy là kỹ thuật phát tán nào?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "USB/thiết bị ngoại vi (mã độc ẩn trong autorun/firmware)",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Drive-by Download",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Malvertising",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Supply Chain Attack",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m7-q46",
+		"question_text": "Website chưa vá lỗi bị hacker khai thác SQL Injection để cài backdoor, đây có phải mã khai thác không?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Có, SQL Injection là Web Application Exploit, hậu quả là hacker duy trì truy cập",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Không, chỉ là lỗi hiển thị",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Là mã độc không phải exploit",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Không gây hậu quả gì",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m7-q47",
+		"question_text": "Vai trò của con người (nhận thức, thói quen) trong phòng chống malware quan trọng như thế nào?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Rất quan trọng: không tải phần mềm lậu, không click link lạ, cảnh giác email giả mạo",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Không quan trọng, chỉ cần công nghệ",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chỉ admin cần nhận thức",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Không ảnh hưởng",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m7-q48",
+		"question_text": "Rootkit ẩn mình ở đâu và vì sao khó phát hiện?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Ẩn sâu trong hệ điều hành, che giấu hoạt động, khó bị AV thông thường phát hiện",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Chỉ chạy trong trình duyệt",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chỉ tồn tại trong email",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Dễ bị phát hiện ngay",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m7-q49",
+		"question_text": "Adware khác virus/trojan ở điểm nào?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Ít nguy hiểm hơn, chủ yếu hiển thị quảng cáo phiền toái, có thể đi kèm spyware",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Nguy hiểm hơn virus",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Mã hóa dữ liệu",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tự lây lan qua mạng",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m7-q50",
+		"question_text": "Giai đoạn Duy trì truy cập cài đặt những gì?",
+		"question_type": "multiple_answer_question",
+		"answers": [
+			{
+				"answer_text": "Backdoor để quay lại bất cứ lúc nào",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Rootkit che giấu sự hiện diện",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Trojan mở rộng khả năng kiểm soát",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Antivirus để bảo vệ",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m7-q51",
+		"question_text": "Phát triển mã khai thác cần làm gì?",
+		"question_type": "multiple_answer_question",
+		"answers": [
+			{
+				"answer_text": "Viết/tùy chỉnh mã khai thác tận dụng lỗ hổng",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Kiểm tra exploit trong môi trường giả lập (lab, sandbox)",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Tối ưu mã tránh bị phát hiện",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Gửi email cho nạn nhân",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m7-q52",
+		"question_text": "Malicious Plugins/Add-ons gây hại như thế nào?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Tiện ích mở rộng trình duyệt chứa mã độc, theo dõi lịch sử duyệt web gửi về server hacker",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Mã hóa toàn bộ ổ cứng",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tự lây lan qua mạng",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Quét cổng mạng",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m7-q53",
+		"question_text": "Phòng chống malware cần kết hợp những yếu tố nào?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Công nghệ + quy trình + con người, tạo phòng thủ nhiều lớp (defense-in-depth)",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Chỉ công nghệ",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chỉ con người",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chỉ quy trình",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m7-q54",
+		"question_text": "Vì sao chỉ một lỗ hổng nhỏ cũng có thể dẫn đến thiệt hại lớn?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Hacker kết hợp exploit với malware để mở đường rồi lan truyền, kiểm soát toàn hệ thống",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Lỗ hổng nhỏ không thể khai thác",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chỉ ảnh hưởng một file",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Không gây thiệt hại",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m7-q55",
+		"question_text": "Vì sao doanh nghiệp cần backup dữ liệu định kỳ?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Giảm thiểu rủi ro từ Ransomware, khôi phục khi bị mã hóa",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Tăng tốc độ hệ thống",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Mã hóa dữ liệu",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Quét lỗ hổng",
+				"is_correct": false
+			}
+		]
+	}
+]

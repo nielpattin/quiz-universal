@@ -1,0 +1,1267 @@
+[
+	{
+		"question_id": "bm-m6-q1",
+		"question_text": "API (Application Programming Interface) là gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Tập hợp giao diện cho phép ứng dụng, dịch vụ, hệ thống khác nhau giao tiếp và trao đổi dữ liệu",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Phần mềm hệ thống quản lý phần cứng",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Thuật toán mã hóa AES-256",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Giao thức chuyển file FTP",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m6-q2",
+		"question_text": "Hệ điều hành (OS) có vai trò gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Phần mềm hệ thống quản lý phần cứng (CPU, RAM, Disk, Network), cung cấp môi trường cho phần mềm hoạt động",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Giao diện cho ứng dụng giao tiếp",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Thuật toán mã hóa",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Phần mềm diệt virus",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m6-q3",
+		"question_text": "Mối quan hệ giữa API và OS là gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "API chạy trên nền OS; lỗ hổng ở một trong hai ảnh hưởng trực tiếp toàn bộ hệ thống",
+				"is_correct": true
+			},
+			{
+				"answer_text": "API và OS hoạt động độc lập",
+				"is_correct": false
+			},
+			{
+				"answer_text": "OS chạy trên nền API",
+				"is_correct": false
+			},
+			{
+				"answer_text": "API thay thế hoàn toàn OS",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m6-q4",
+		"question_text": "API và Hệ điều hành được ví như gì trong hệ thống CNTT?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "API là 'cửa ngõ', OS là 'trái tim' của hệ thống CNTT",
+				"is_correct": true
+			},
+			{
+				"answer_text": "API là 'trái tim', OS là 'cửa ngõ'",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Cả hai đều là 'cửa ngõ'",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Cả hai đều là 'trái tim'",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m6-q5",
+		"question_text": "API Injection (SQLi, Command Injection) gây hậu quả gì?",
+		"question_type": "multiple_answer_question",
+		"answers": [
+			{
+				"answer_text": "Truy xuất hoặc thay đổi dữ liệu trái phép",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Chiếm quyền điều khiển hệ thống nếu là OS Command Injection",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Bypass xác thực đăng nhập",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Tăng tốc độ phản hồi API",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m6-q6",
+		"question_text": "Vụ Facebook 2019 là ví dụ cho mối đe dọa API nào?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Broken Authentication/Authorization - hacker khai thác token đăng nhập chiếm đoạt tài khoản hàng chục triệu người dùng",
+				"is_correct": true
+			},
+			{
+				"answer_text": "API Injection",
+				"is_correct": false
+			},
+			{
+				"answer_text": "DDoS API",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Data Exposure",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m6-q7",
+		"question_text": "IDOR (GET /api/users/124 xem thông tin người khác) thuộc mối đe dọa API nào?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Broken Authentication/Authorization",
+				"is_correct": true
+			},
+			{
+				"answer_text": "API Injection",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Rate Limiting kém",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Misconfiguration",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m6-q8",
+		"question_text": "Vụ Strava 2018 là ví dụ cho mối đe dọa API nào?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Data Exposure - API tiết lộ hành trình binh sĩ Mỹ tại căn cứ quân sự",
+				"is_correct": true
+			},
+			{
+				"answer_text": "API Injection",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Broken Authentication",
+				"is_correct": false
+			},
+			{
+				"answer_text": "DDoS",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m6-q9",
+		"question_text": "Rate Limiting kém dẫn đến hậu quả gì cho API?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "API bị spam/DDoS, nghẽn hệ thống, người dùng hợp pháp không truy cập được",
+				"is_correct": true
+			},
+			{
+				"answer_text": "API an toàn hơn",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Dữ liệu được mã hóa tốt hơn",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tăng tốc độ phản hồi",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m6-q10",
+		"question_text": "Misconfiguration API (ví dụ /api/debug trả db_user=root) phòng chống bằng cách nào?",
+		"question_type": "multiple_answer_question",
+		"answers": [
+			{
+				"answer_text": "Tắt debug mode",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Áp dụng Security by Default",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Kiểm thử bảo mật",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Bật debug trên production",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m6-q11",
+		"question_text": "WannaCry (2017) lây lan toàn cầu nhờ khai thác lỗ hổng nào?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Lỗ hổng SMB (EternalBlue - MS17-010) trên Windows",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Lỗ hổng RDP cổng 3389",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Lỗ hổng SSH trên Linux",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Lỗ hổng PrintNightmare",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m6-q12",
+		"question_text": "Ransomware LockBit tấn công doanh nghiệp gây hậu quả gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Mã hóa toàn bộ hệ thống OS để đòi tiền chuộc",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Tăng hiệu suất hệ thống",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Quét cổng mạng",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Đánh cắp cookie phiên",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m6-q13",
+		"question_text": "Rootkit và Backdoor trong OS khác nhau ở điểm nào?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Rootkit ẩn sâu duy trì quyền kiểm soát lâu dài; Backdoor tạo lối vào bí mật vượt cơ chế bảo mật chuẩn",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Rootkit mã hóa dữ liệu, Backdoor giải mã",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Cả hai đều là phần mềm diệt virus",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Rootkit và Backdoor là cùng một thứ",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m6-q14",
+		"question_text": "Dịch vụ RDP chạy ở cổng nào và dễ bị tấn công gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Cổng 3389, brute-force mật khẩu nếu không giới hạn IP và không MFA (Crowbar, Hydra)",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Cổng 22, brute-force SSH",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Cổng 80, SQL Injection",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Cổng 443, DDoS",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m6-q15",
+		"question_text": "Lỗ hổng PrintNightmare (CVE-2021-34527) cho phép kẻ tấn công làm gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Remote Code Execution qua driver in, tải DLL độc hại thực thi dưới quyền SYSTEM",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Mã hóa dữ liệu đòi tiền chuộc",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Quét cổng mạng",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Đánh cắp cookie",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m6-q16",
+		"question_text": "Để bảo mật SSH trên Linux, nên áp dụng biện pháp nào?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Dùng key-pair thay password, không cho đăng nhập root trực tiếp, user thường + sudo",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Cho đăng nhập root bằng mật khẩu yếu",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Mở SSH cho mọi IP",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tắt SSH dùng Telnet",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m6-q17",
+		"question_text": "Misconfiguration OS (ví dụ Guest Account mở) phòng chống bằng cách nào?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Tắt dịch vụ không cần thiết, không dùng tài khoản mặc định/mật khẩu yếu",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Bật Guest Account",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Dùng mật khẩu mặc định",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Mở tất cả dịch vụ",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m6-q18",
+		"question_text": "Nguyên tắc bảo mật API nào yêu cầu 'không tin tưởng bất kỳ request nào, kể cả mạng nội bộ'?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Zero Trust cho API",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Rate Limiting",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Input Validation",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Least Privilege",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m6-q19",
+		"question_text": "OAuth 2.0 + OpenID Connect trong bảo mật API dùng để làm gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Cấp quyền cho ứng dụng bên thứ ba thay vì chia sẻ mật khẩu, chỉ cấp access token giới hạn",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Mã hóa dữ liệu AES",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Quét lỗ hổng SQL Injection",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Gửi DDoS",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m6-q20",
+		"question_text": "API thanh toán Stripe yêu cầu gì để chống MITM?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Mọi request qua HTTPS (TLS 1.2/1.3), từ chối hoàn toàn HTTP",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Dùng HTTP không mã hóa",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Gửi mật khẩu qua email",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Không cần mã hóa",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m6-q21",
+		"question_text": "GitHub API giới hạn 60 request/giờ (chưa xác thực) và 5000 request/giờ (có token) minh họa nguyên tắc nào?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Rate Limiting chống brute-force, DDoS",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Least Privilege",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Data Masking",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Zero Trust",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m6-q22",
+		"question_text": "API ngân hàng trả số thẻ tín dụng dạng **** **** **** 1234 minh họa biện pháp nào?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Data Masking + mã hóa AES-256 phần dữ liệu còn lại trong CSDL",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Rate Limiting",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Zero Trust",
+				"is_correct": false
+			},
+			{
+				"answer_text": "WAF",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m6-q23",
+		"question_text": "AWS CloudTrail ghi lại mọi request API minh họa nguyên tắc nào?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Kiểm tra và ghi log (Monitoring & Logging)",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Rate Limiting",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Input Validation",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Encryption",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m6-q24",
+		"question_text": "AWS IAM token chỉ được cấp quyền read-only S3 bucket minh họa nguyên tắc nào?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Least Privilege - nếu token lộ, hacker không thể xóa dữ liệu",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Rate Limiting",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Zero Trust",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Data Masking",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m6-q25",
+		"question_text": "API nhận userId nên kiểm tra gì để chống SQL Injection?",
+		"question_type": "multiple_answer_question",
+		"answers": [
+			{
+				"answer_text": "Kiểm tra có phải UUID hợp lệ không",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Sử dụng PreparedStatement khi query DB",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Ghép chuỗi SQL trực tiếp",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Không kiểm tra đầu vào",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m6-q26",
+		"question_text": "Nguyên tắc bảo mật OS nào yêu cầu 'tắt dịch vụ không cần thiết, giới hạn port mở'?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Bảo mật dịch vụ và tiến trình",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Sao lưu & phục hồi",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Cập nhật bản vá",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Giám sát log",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m6-q27",
+		"question_text": "Vô hiệu hóa Telnet, FTP và thay thế bằng gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "SSH/SFTP (giao thức mã hóa)",
+				"is_correct": true
+			},
+			{
+				"answer_text": "HTTP",
+				"is_correct": false
+			},
+			{
+				"answer_text": "RDP",
+				"is_correct": false
+			},
+			{
+				"answer_text": "SMTP",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m6-q28",
+		"question_text": "auditd trên Linux và Windows Event Viewer dùng để làm gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Giám sát và ghi log hệ thống, phát hiện truy cập bất thường",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Mã hóa ổ cứng",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Quét cổng mạng",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Diệt virus",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m6-q29",
+		"question_text": "Snapshot định kỳ VM trên VMware/Hyper-V nhằm mục đích gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Sao lưu & phục hồi khi hệ thống bị ransomware",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Mã hóa dữ liệu",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Quét lỗ hổng",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tăng tốc độ mạng",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m6-q30",
+		"question_text": "API Gateway (Kong, Apigee, AWS API Gateway) có chức năng gì?",
+		"question_type": "multiple_answer_question",
+		"answers": [
+			{
+				"answer_text": "Quản lý truy cập, xác thực",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Giới hạn tốc độ (rate limiting)",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Ghi log và giám sát API",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Mã hóa dữ liệu trên ổ cứng",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m6-q31",
+		"question_text": "ModSecurity, AWS WAF, Cloudflare WAF là công cụ gì cho API?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "WAF lọc/chặn SQL Injection, XSS, Command Injection",
+				"is_correct": true
+			},
+			{
+				"answer_text": "API Gateway",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Phần mềm diệt virus",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Công cụ brute force",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m6-q32",
+		"question_text": "OWASP ZAP, Burp Suite, Postman dùng để làm gì cho API?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Kiểm thử và quản lý lỗ hổng API",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Mã hóa dữ liệu",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Quét cổng mạng",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Diệt virus",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m6-q33",
+		"question_text": "ELK Stack, Grafana, Splunk dùng để làm gì cho API?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Giám sát & Logging, theo dõi hành vi bất thường, cảnh báo tấn công",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Mã hóa dữ liệu",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Quét lỗ hổng SQL Injection",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Diệt virus",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m6-q34",
+		"question_text": "Azure API Management, Google Cloud Endpoints, AWS Shield là giải pháp gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Bảo mật API trên nền tảng Cloud (xác thực, chống DDoS, phân tích lưu lượng)",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Phần mềm diệt virus",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Công cụ mã hóa ổ cứng",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Hệ thống backup",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m6-q35",
+		"question_text": "Kaspersky, Windows Defender, Bitdefender là công cụ gì cho OS?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Antivirus & Anti-malware",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Firewall",
+				"is_correct": false
+			},
+			{
+				"answer_text": "IDS/IPS",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Mã hóa ổ cứng",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m6-q36",
+		"question_text": "Snort, Suricata, OSSEC là công cụ gì cho OS?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "IDS/IPS phát hiện hành vi bất thường, cảnh báo và ngăn chặn tấn công",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Antivirus",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Quản lý bản vá",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Mã hóa ổ cứng",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m6-q37",
+		"question_text": "WSUS, Landscape (Ubuntu) là công cụ gì cho OS?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Quản lý bản vá & cập nhật hệ điều hành",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Antivirus",
+				"is_correct": false
+			},
+			{
+				"answer_text": "IDS/IPS",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Mã hóa ổ cứng",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m6-q38",
+		"question_text": "SELinux, AppArmor, Group Policy (Windows) là công cụ gì cho OS?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Quản lý quyền & kiểm soát truy cập, giảm nguy cơ leo thang đặc quyền",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Mã hóa ổ cứng",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Quản lý bản vá",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Phần mềm diệt malware",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m6-q39",
+		"question_text": "BitLocker (Windows) và LUKS (Linux) là công cụ gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Mã hóa dữ liệu HDD, ngăn kẻ tấn công lấy cắp dữ liệu khi thiết bị bị mất",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Phần mềm diệt virus",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Hệ thống phát hiện xâm nhập",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Công cụ quét cổng",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m6-q40",
+		"question_text": "RASP (Runtime Application Self-Protection) trong bảo mật API là gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Bảo vệ API ngay trong runtime, phát hiện và chặn tấn công khi ứng dụng đang chạy",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Quét mã nguồn tĩnh (SAST)",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Công cụ mã hóa dữ liệu",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Hệ thống backup",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m6-q41",
+		"question_text": "Shift-left Security cho API có ý nghĩa gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Đưa kiểm thử bảo mật API sớm vào SDLC, phát hiện lỗ hổng ngay từ giai đoạn Dev",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Bảo mật chỉ ở giai đoạn cuối",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chuyển bảo mật sang đội vận hành",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Bỏ qua kiểm thử bảo mật",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m6-q42",
+		"question_text": "API Security as Code là gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Định nghĩa policy, authentication, rate limiting trong file cấu hình (YAML/JSON) để tự động triển khai trên CI/CD",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Viết bảo mật bằng tay từng lần",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chỉ dùng code không cần bảo mật",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Bảo mật không tự động hóa",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m6-q43",
+		"question_text": "Service Mesh (Istio, Linkerd) dùng để làm gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Kiểm soát luồng API trong microservices (Kubernetes, Docker, Serverless)",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Mã hóa dữ liệu ổ cứng",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Quét lỗ hổng SQL Injection",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Diệt virus",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m6-q44",
+		"question_text": "Windows Hello for Business, Linux SELinux, macOS Gatekeeper là ví dụ cho xu hướng OS nào?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Zero Trust Security Model cho OS",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Tự động vá lỗi",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Bảo mật phần cứng",
+				"is_correct": false
+			},
+			{
+				"answer_text": "AI/ML giám sát",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m6-q45",
+		"question_text": "Microsoft Defender ATP, CrowdStrike Falcon minh họa xu hướng OS nào?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "AI/ML phát hiện bất thường, malware zero-day/ransomware chưa có chữ ký",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Zero Trust",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tự động vá lỗi",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Bảo mật phần cứng",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m6-q46",
+		"question_text": "Hardening OS bằng sandbox & containerization có lợi ích gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Cô lập tiến trình/ứng dụng, hạn chế quyền, giảm rủi ro khi dịch vụ bị khai thác lỗ hổng",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Mở toàn bộ quyền",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tắt cơ chế bảo mật",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Xóa nhu cầu cập nhật",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m6-q47",
+		"question_text": "Windows Update tự động, Ubuntu Livepatch, Red Hat Satellite minh họa xu hướng OS nào?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Tự động vá lỗi (Automated Patching), giảm thời gian phơi nhiễm",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Zero Trust",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Bảo mật phần cứng",
+				"is_correct": false
+			},
+			{
+				"answer_text": "AI/ML",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m6-q48",
+		"question_text": "TPM, Secure Boot, Intel SGX, AMD SEV là cơ chế bảo mật gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Tích hợp bảo mật phần cứng (Hardware-assisted Security), chống rootkit/bootkit, bảo vệ dữ liệu khi thiết bị bị đánh cắp",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Bảo vệ bộ nhớ tiên tiến",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tự động vá lỗi",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Zero Trust",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m6-q49",
+		"question_text": "ASLR, DEP, CFG là cơ chế bảo vệ gì của OS?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Bảo vệ bộ nhớ tiên tiến, chống tràn bộ nhớ (buffer overflow), ROP/JOP attack",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Bảo mật phần cứng",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tự động vá lỗi",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Zero Trust",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m6-q50",
+		"question_text": "AWS Bottlerocket, Google Fuchsia, Azure Sphere OS là ví dụ cho cái gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Lightweight OS với bảo mật tích hợp cho Cloud & Edge/IoT",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Hệ điều hành desktop truyền thống",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Phần mềm diệt virus",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Công cụ mã hóa",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m6-q51",
+		"question_text": "Theo kết luận, API chú trọng những yếu tố nào?",
+		"question_type": "multiple_answer_question",
+		"answers": [
+			{
+				"answer_text": "Xác thực",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Phân quyền",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Mã hóa",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Giám sát",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "bm-m6-q52",
+		"question_text": "Theo kết luận, OS chú trọng những yếu tố nào?",
+		"question_type": "multiple_answer_question",
+		"answers": [
+			{
+				"answer_text": "Cập nhật, vá lỗi",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Phân quyền",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Kiểm soát dịch vụ",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Mã hóa AES toàn bộ mạng",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m6-q53",
+		"question_text": "ML trong bảo mật API phát hiện những hành vi bất thường nào?",
+		"question_type": "multiple_answer_question",
+		"answers": [
+			{
+				"answer_text": "Traffic đột ngột tăng bất thường",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Truy cập dữ liệu nhạy cảm ngoài pattern",
+				"is_correct": true
+			},
+			{
+				"answer_text": "DDoS, brute-force, data scraping",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Mã hóa AES-256",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m6-q54",
+		"question_text": "Dịch vụ SSH brute-force bằng hydra minh họa mối đe dọa OS nào?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Tấn công vào dịch vụ hệ điều hành (OS Services Attacks)",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Malware & Ransomware",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Rootkit & Backdoor",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Misconfiguration",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m6-q55",
+		"question_text": "Nếu OS bị chiếm quyền thì hậu quả là gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "API và toàn bộ dịch vụ đều mất an toàn",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Chỉ OS bị ảnh hưởng, API vẫn an toàn",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Không ảnh hưởng gì",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Dữ liệu được mã hóa an toàn hơn",
+				"is_correct": false
+			}
+		]
+	}
+]

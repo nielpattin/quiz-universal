@@ -1,0 +1,1267 @@
+[
+	{
+		"question_id": "bm-m9-q1",
+		"question_text": "SSDLC (Secure Software Development Lifecycle) là gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Quy trình phát triển phần mềm tích hợp bảo mật trong từng giai đoạn vòng đời (yêu cầu → thiết kế → lập trình → kiểm thử → triển khai → bảo trì)",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Phần mềm diệt virus",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chỉ kiểm thử bảo mật ở cuối vòng đời",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Giao thức mã hóa AES",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m9-q2",
+		"question_text": "Mục tiêu của SSDLC là gì?",
+		"question_type": "multiple_answer_question",
+		"answers": [
+			{
+				"answer_text": "Phát hiện và xử lý rủi ro sớm, giảm chi phí khắc phục",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Tích hợp bảo mật xuyên suốt vòng đời",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Tăng độ tin cậy, uy tín, tuân thủ chuẩn (ISO 27001, OWASP, GDPR)",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Xây dựng văn hóa bảo mật",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "bm-m9-q3",
+		"question_text": "Vì sao sửa lỗi bảo mật sớm rẻ hơn sửa muộn?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Phát hiện ở giai đoạn yêu cầu/thiết kế sửa rẻ và hiệu quả hơn so với sau khi triển khai",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Sửa muộn không tốn chi phí",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Sửa sớm và muộn tốn như nhau",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Sửa muộn rẻ hơn",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m9-q4",
+		"question_text": "SSDLC có những nguyên tắc cốt lõi nào?",
+		"question_type": "multiple_answer_question",
+		"answers": [
+			{
+				"answer_text": "Security by Design (bảo mật ngay từ thiết kế)",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Defense in Depth (phòng ngừa nhiều lớp)",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Least Privilege & Minimal Exposure",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Shift-left Security (kiểm thử bảo mật sớm)",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "bm-m9-q5",
+		"question_text": "Security by Design có ý nghĩa gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Bảo mật tích hợp ngay từ đầu thay vì bổ sung sau khi phát triển, 'xây dựng an toàn từ gốc'",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Thêm bảo mật ở giai đoạn cuối",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chỉ cần vá lỗi sau khi bị tấn công",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Không cần threat modeling",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m9-q6",
+		"question_text": "Security by Design gồm những yếu tố nào?",
+		"question_type": "multiple_answer_question",
+		"answers": [
+			{
+				"answer_text": "Secure by Default (bảo mật mặc định)",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Prevention (phòng ngừa)",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Minimal Exposure (giảm thiểu phơi nhiễm)",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Defense in Depth",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "bm-m9-q7",
+		"question_text": "Shift-left Security có ý nghĩa gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Đưa SAST, Code Review, Dependency Checking vào sớm (coding/build), phát hiện lỗi bảo mật ngay từ đầu",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Kiểm tra bảo mật chỉ ở cuối",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chuyển bảo mật sang đội vận hành",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Bỏ qua kiểm thử bảo mật",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m9-q8",
+		"question_text": "Giai đoạn Yêu cầu (Requirements) trong SSDLC làm gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Xác định/phân tích rủi ro bảo mật, thu thập yêu cầu từ khách hàng, pháp lý, chuẩn quốc tế (ISO 27001, OWASP ASVS, GDPR, HIPAA)",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Viết code an toàn",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Triển khai CI/CD",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Giám sát hệ thống",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m9-q9",
+		"question_text": "Phân tích rủi ro bảo mật đánh giá dựa trên yếu tố nào?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Impact (tác động) + Likelihood (xác suất) → ưu tiên rủi ro cao/trung bình/thấp",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Chỉ tác động tài chính",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chỉ xác suất",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chỉ số lượng người dùng",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m9-q10",
+		"question_text": "Phương pháp threat modeling nào được dùng trong SSDLC?",
+		"question_type": "multiple_answer_question",
+		"answers": [
+			{
+				"answer_text": "STRIDE (Microsoft)",
+				"is_correct": true
+			},
+			{
+				"answer_text": "DREAD",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Attack Tree",
+				"is_correct": true
+			},
+			{
+				"answer_text": "AES-256",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m9-q11",
+		"question_text": "Microsoft Threat Modeling Tool, OWASP Threat Dragon, Risk Assessment Matrix là công cụ hỗ trợ giai đoạn nào?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Giai đoạn Yêu cầu (phân tích rủi ro)",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Giai đoạn Lập trình",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Giai đoạn Vận hành",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Giai đoạn Triển khai",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m9-q12",
+		"question_text": "Giai đoạn Thiết kế (Design) trong SSDLC áp dụng nguyên tắc nào?",
+		"question_type": "multiple_answer_question",
+		"answers": [
+			{
+				"answer_text": "Threat Modeling xác định điểm yếu, kịch bản tấn công",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Security by Design và Defense in Depth",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Secure design patterns",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Bỏ qua kiến trúc an toàn",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m9-q13",
+		"question_text": "Ví dụ Security by Design cho API là gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Sử dụng authentication/authorization (OAuth 2.0, JWT) ngay từ bản thiết kế",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Không cần xác thực API",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Lưu mật khẩu plain text",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Dùng HTTP thay HTTPS",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m9-q14",
+		"question_text": "Ví dụ Security by Design cho database là gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Mã hóa dữ liệu nhạy cảm (encryption-at-rest, encryption-in-transit)",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Lưu mật khẩu plain text",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Mở toàn bộ port",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Không cần mã hóa",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m9-q15",
+		"question_text": "Giai đoạn Lập trình (Coding) áp dụng coding standards nào?",
+		"question_type": "multiple_answer_question",
+		"answers": [
+			{
+				"answer_text": "OWASP Top 10",
+				"is_correct": true
+			},
+			{
+				"answer_text": "SEI CERT",
+				"is_correct": true
+			},
+			{
+				"answer_text": "MISRA",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Không cần chuẩn nào",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m9-q16",
+		"question_text": "Security Code Review khác code review thông thường ở điểm nào?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Tập trung vào rủi ro an ninh tiềm ẩn, không chỉ logic/performance/style",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Chỉ xem style code",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Không khác gì",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chỉ kiểm tra performance",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m9-q17",
+		"question_text": "Security Code Review tập trung vào những điểm nào?",
+		"question_type": "multiple_answer_question",
+		"answers": [
+			{
+				"answer_text": "Xác thực & phân quyền (Least Privilege)",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Xử lý dữ liệu đầu vào (SQLi, XSS, Command Injection)",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Quản lý mật khẩu (hash/salt bcrypt, Argon2, không hard-code)",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Thư viện/phụ thuộc (CVE), HTTPS/TLS, logging không lộ thông tin",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "bm-m9-q18",
+		"question_text": "Security Code Review được ví như gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "'Tường lửa con người', kết hợp công cụ tự động đảm bảo mã không mang lỗ hổng",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Phần mềm diệt virus",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Giao thức mạng",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Hệ điều hành",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m9-q19",
+		"question_text": "SAST và DAST khác nhau ở điểm nào?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "SAST phân tích mã nguồn tĩnh (chưa chạy); DAST kiểm thử ứng dụng đang chạy",
+				"is_correct": true
+			},
+			{
+				"answer_text": "SAST kiểm thử runtime; DAST quét mã nguồn",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Cả hai giống hệt nhau",
+				"is_correct": false
+			},
+			{
+				"answer_text": "SAST chỉ cho mạng, DAST cho database",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m9-q20",
+		"question_text": "IAST (Interactive Application Security Testing) là gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Kết hợp SAST + DAST, phân tích runtime tương tác",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Chỉ quét mã nguồn tĩnh",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chỉ kiểm thử runtime",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Gửi dữ liệu ngẫu nhiên",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m9-q21",
+		"question_text": "Fuzzing là gì trong kiểm thử bảo mật?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Đưa dữ liệu ngẫu nhiên để tìm lỗi ẩn, gây crash/lỗ hổng",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Quét mã nguồn tĩnh",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Mã hóa dữ liệu",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Sao lưu dữ liệu",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m9-q22",
+		"question_text": "Black-box, White-box, Grey-box testing khác nhau thế nào?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Black-box không biết hệ thống; White-box có code/kiến trúc; Grey-box biết một phần (phổ biến nhất)",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Cả ba giống nhau",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Black-box có code, White-box không có",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Grey-box không phổ biến",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m9-q23",
+		"question_text": "Quy trình Penetration Testing điển hình đúng thứ tự là gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Lập kế hoạch → Thu thập thông tin (recon) → Tấn công giả lập → Báo cáo lỗ hổng (PoC) → Vá lỗi → Retest",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Vá lỗi → Retest → Lập kế hoạch → Tấn công",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tấn công → Lập kế hoạch → Recon → Báo cáo",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Recon → Vá lỗi → Tấn công → Báo cáo",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m9-q24",
+		"question_text": "Penetration Testing nên thực hiện khi nào?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Trước khi go-live hoặc sau mỗi thay đổi lớn, kết hợp tự động và thủ công",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Chỉ một lần duy nhất",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Sau khi bị tấn công",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Không cần thực hiện",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m9-q25",
+		"question_text": "DevSecOps có ý tưởng cốt lõi gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Thêm 'Sec' vào mọi giai đoạn, bảo mật tích hợp tự động liên tục trong pipeline, shift-left security",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Bảo mật chỉ ở cuối vòng đời",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Bỏ qua bảo mật để tăng tốc",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chỉ Dev + Ops",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m9-q26",
+		"question_text": "Trong giai đoạn Code của CI/CD, chạy những công cụ gì?",
+		"question_type": "multiple_answer_question",
+		"answers": [
+			{
+				"answer_text": "SAST khi push code",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Secret scanning (GitLeaks, TruffleHog)",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Linter (SonarQube, ESLint)",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Container image scan",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m9-q27",
+		"question_text": "Trong giai đoạn Build của CI/CD, chạy những công cụ gì?",
+		"question_type": "multiple_answer_question",
+		"answers": [
+			{
+				"answer_text": "Dependency scanning (Snyk, OWASP Dependency-Check)",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Container image scanning (Anchore, Clair, Trivy)",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Secret scanning GitLeaks",
+				"is_correct": false
+			},
+			{
+				"answer_text": "SIEM Splunk",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m9-q28",
+		"question_text": "Trong giai đoạn Release/Deploy của CI/CD, chạy những công cụ gì?",
+		"question_type": "multiple_answer_question",
+		"answers": [
+			{
+				"answer_text": "IaC scanning (Terraform, CloudFormation)",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Policy-as-code (OPA, HashiCorp Sentinel)",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Secrets qua Vault, KMS thay hardcode",
+				"is_correct": true
+			},
+			{
+				"answer_text": "DAST runtime",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m9-q29",
+		"question_text": "Trong giai đoạn Operate/Monitor của CI/CD, dùng gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "SIEM (Splunk, ELK, Wazuh), RASP, patch management, continuous compliance",
+				"is_correct": true
+			},
+			{
+				"answer_text": "SAST mã nguồn",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Dependency scan",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Secret scanning",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m9-q30",
+		"question_text": "GitLeaks, TruffleHog dùng để làm gì trong DevSecOps?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Secret scanning phát hiện API key, password trong repo",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Quét lỗ hổng container",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Kiểm thử DAST",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Mã hóa dữ liệu",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m9-q31",
+		"question_text": "Trivy, Anchore, Clair là công cụ gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Container image scanning quét lỗ hổng Docker image",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Secret scanning",
+				"is_correct": false
+			},
+			{
+				"answer_text": "IaC scanning",
+				"is_correct": false
+			},
+			{
+				"answer_text": "SAST",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m9-q32",
+		"question_text": "Checkov, tfsec là công cụ gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "IaC scanning phát hiện config sai (Terraform, CloudFormation)",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Container scan",
+				"is_correct": false
+			},
+			{
+				"answer_text": "DAST",
+				"is_correct": false
+			},
+			{
+				"answer_text": "SIEM",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m9-q33",
+		"question_text": "RASP (Runtime Application Self-Protection) là gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Bảo vệ ứng dụng ngay trong runtime, phát hiện/chặn tấn công khi đang chạy",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Quét mã nguồn tĩnh",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Mã hóa dữ liệu",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Sao lưu dữ liệu",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m9-q34",
+		"question_text": "Giai đoạn Vận hành & Giám sát trong SSDLC làm gì?",
+		"question_type": "multiple_answer_question",
+		"answers": [
+			{
+				"answer_text": "Logging & monitoring phát hiện hành vi bất thường",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Patch management cập nhật bản vá",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Incident Response Plan ứng cứu sự cố",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Security Audit & Compliance Check định kỳ",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "bm-m9-q35",
+		"question_text": "Security Audit và Compliance Check khác nhau thế nào?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Security Audit kiểm tra toàn diện lỗ hổng; Compliance Check đối chiếu với chuẩn (ISO 27001, GDPR, HIPAA, PCI-DSS)",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Cả hai giống hệt nhau",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Compliance Check kiểm tra lỗ hổng, Audit đối chiếu chuẩn",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Không cần thực hiện",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m9-q36",
+		"question_text": "SCA (Software Composition Analysis) có vai trò gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Phát hiện/quản lý rủi ro bảo mật từ thư viện, framework, thành phần mã nguồn mở (Log4Shell)",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Quét mã nguồn tự viết",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Kiểm thử runtime",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Mã hóa dữ liệu",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m9-q37",
+		"question_text": "OWASP Dependency-Check, Snyk, WhiteSource (Mend.io) là công cụ gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "SCA quản lý phụ thuộc mã nguồn mở, phát hiện lỗ hổng CVE",
+				"is_correct": true
+			},
+			{
+				"answer_text": "SAST",
+				"is_correct": false
+			},
+			{
+				"answer_text": "DAST",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Container scan",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m9-q38",
+		"question_text": "SonarQube, Checkmarx, Fortify là công cụ gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "SAST (Static Application Security Testing)",
+				"is_correct": true
+			},
+			{
+				"answer_text": "DAST",
+				"is_correct": false
+			},
+			{
+				"answer_text": "SCA",
+				"is_correct": false
+			},
+			{
+				"answer_text": "IaC scan",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m9-q39",
+		"question_text": "Contrast Security, Veracode là công cụ gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "IAST (Interactive Application Security Testing)",
+				"is_correct": true
+			},
+			{
+				"answer_text": "SAST",
+				"is_correct": false
+			},
+			{
+				"answer_text": "SCA",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Secret scanning",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m9-q40",
+		"question_text": "Thực hành phổ biến trong SSDLC là gì?",
+		"question_type": "multiple_answer_question",
+		"answers": [
+			{
+				"answer_text": "Security Code Review",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Threat Modeling (STRIDE, DFD)",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Penetration Testing trước triển khai",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Security Champions, Continuous Security Monitoring 24/7",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "bm-m9-q41",
+		"question_text": "Security Champions là gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Gắn trách nhiệm bảo mật trong từng team dev",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Phần mềm diệt virus",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Giao thức mạng",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chuẩn mã hóa",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m9-q42",
+		"question_text": "DevOps truyền thống có hạn chế gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Tập trung tốc độ, ít chú trọng bảo mật, lỗ hổng phát hiện muộn chi phí cao",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Quá chú trọng bảo mật",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chậm và không tự động",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Không có hạn chế",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m9-q43",
+		"question_text": "DevSecOps mở rộng từ DevOps bằng cách nào?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Tích hợp Security vào mọi giai đoạn, bảo mật là trách nhiệm chung, shift-left",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Bỏ Security để tăng tốc",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chỉ thêm Security ở cuối",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tách Security thành team riêng không tích hợp",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m9-q44",
+		"question_text": "DevOps và DevSecOps khác nhau ở bảo mật như thế nào?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "DevOps xử lý bảo mật ở cuối; DevSecOps tích hợp bảo mật xuyên suốt (shift-left)",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Cả hai xử lý bảo mật giống nhau",
+				"is_correct": false
+			},
+			{
+				"answer_text": "DevSecOps bỏ qua bảo mật",
+				"is_correct": false
+			},
+			{
+				"answer_text": "DevOps tích hợp bảo mật sớm hơn",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m9-q45",
+		"question_text": "Lợi ích của DevSecOps là gì?",
+		"question_type": "multiple_answer_question",
+		"answers": [
+			{
+				"answer_text": "Phát hiện lỗ hổng sớm, giảm rủi ro và chi phí",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Cải thiện niềm tin khách hàng, tuân thủ chuẩn",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Triển khai nhanh nhưng an toàn",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Tăng chi phí xử lý lỗi",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m9-q46",
+		"question_text": "CI/CD tools phổ biến trong DevSecOps là gì?",
+		"question_type": "multiple_answer_question",
+		"answers": [
+			{
+				"answer_text": "Jenkins",
+				"is_correct": true
+			},
+			{
+				"answer_text": "GitLab CI, GitHub Actions",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Azure DevOps",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Antivirus",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m9-q47",
+		"question_text": "Lợi ích của tích hợp bảo mật vào CI/CD pipeline là gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Mọi kiểm tra an ninh thành bước tự động, không phụ thuộc con người nhớ/quên",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Tăng rủi ro rò rỉ dữ liệu",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chậm hơn thủ công",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Không tự động hóa được",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m9-q48",
+		"question_text": "HashiCorp Vault, KMS trong giai đoạn Release dùng để làm gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Kiểm soát secrets & credential thay vì hardcode",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Quét mã nguồn",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Diệt virus",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Sao lưu dữ liệu",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m9-q49",
+		"question_text": "Penetration Testing kiểm tra phạm vi nào?",
+		"question_type": "multiple_answer_question",
+		"answers": [
+			{
+				"answer_text": "Ứng dụng & API (Injection, Broken Auth, XSS, CSRF, IDOR theo OWASP Top 10)",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Hệ thống & mạng (port scanning, priv esc, misconfig)",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Thành phần thứ ba (CVE thư viện, framework)",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Môi trường triển khai (container Docker/K8s, cloud misconfig)",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "bm-m9-q50",
+		"question_text": "PoC (Proof of Concept) trong báo cáo pentest là gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Minh chứng lỗ hổng có thể bị khai thác thực sự",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Phần mềm diệt virus",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Bản vá lỗi",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Giao thức mạng",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m9-q51",
+		"question_text": "SSDLC có 6 giai đoạn nào?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Yêu cầu → Thiết kế → Lập trình → Kiểm thử → Triển khai → Vận hành",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Thiết kế → Yêu cầu → Vận hành → Lập trình",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Kiểm thử → Triển khai → Yêu cầu → Thiết kế",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Vận hành → Lập trình → Thiết kế → Yêu cầu",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m9-q52",
+		"question_text": "Theo kết luận, phần mềm an toàn là gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Thành quả của quy trình thiết kế cẩn trọng, có bảo mật ở trung tâm, không phải ngẫu nhiên",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Kết quả ngẫu nhiên",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Không thể đạt được",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chỉ cần công cụ là đủ",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m9-q53",
+		"question_text": "Thành công SSDLC đòi hỏi sự phối hợp của những bên nào?",
+		"question_type": "multiple_answer_question",
+		"answers": [
+			{
+				"answer_text": "Nhà phát triển (Dev)",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Kiểm thử (QA) và bảo mật (Sec)",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Quản lý",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Khách hàng",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "bm-m9-q54",
+		"question_text": "Bảo mật trong SSDLC là trách nhiệm của ai?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Trách nhiệm chung của toàn bộ đội ngũ phát triển, vận hành và an ninh",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Chỉ bộ phận an ninh",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chỉ lập trình viên",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chỉ quản lý",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m9-q55",
+		"question_text": "Log4Shell là ví dụ cho rủi ro nào cần SCA kiểm soát?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Lỗ hổng nghiêm trọng bắt nguồn từ thư viện bên thứ ba (mã nguồn mở)",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Lỗ hổng do lập trình viên tự viết",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Lỗ hổng phần cứng",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Lỗ hổng cấu hình mạng",
+				"is_correct": false
+			}
+		]
+	}
+]

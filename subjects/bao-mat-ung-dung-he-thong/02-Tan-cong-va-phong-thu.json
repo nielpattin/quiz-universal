@@ -1,0 +1,1290 @@
+[
+	{
+		"question_id": "bm-m2-q1",
+		"question_text": "Không gian mạng (Cyberspace) có những đặc điểm gì?",
+		"question_type": "multiple_answer_question",
+		"answers": [
+			{
+				"answer_text": "Phi biên giới: vượt qua ranh giới quốc gia, lãnh thổ",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Kết nối toàn cầu: hàng tỷ thiết bị và người dùng",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Ẩn danh: kẻ tấn công có thể che giấu danh tính",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Chỉ hoạt động trong một quốc gia duy nhất",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m2-q2",
+		"question_text": "Tấn công mạng (Cyber Attack) là gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Hành vi sử dụng CNTT nhằm xâm nhập, chiếm quyền, phá hoại hoặc đánh cắp thông tin từ hệ thống máy tính, ứng dụng, hạ tầng mạng",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Tập hợp biện pháp bảo vệ hệ thống trước tấn công",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Quá trình mã hóa dữ liệu trên mạng",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Hệ thống phát hiện xâm nhập",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m2-q3",
+		"question_text": "Phòng thủ mạng (Cyber Defense) gồm những lớp nào?",
+		"question_type": "multiple_answer_question",
+		"answers": [
+			{
+				"answer_text": "Phòng ngừa (Prevention): cấu hình an toàn, firewall, mã hóa",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Phát hiện (Detection): IDS/IPS, SIEM, giám sát lưu lượng",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Ứng phó (Response): xử lý sự cố, cô lập, phân tích forensics",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Khôi phục (Recovery): backup, phục hồi hệ thống",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "bm-m2-q4",
+		"question_text": "Vulnerability (Lỗ hổng) là gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Điểm yếu trong hệ thống có thể bị lợi dụng để tấn công",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Phương pháp lợi dụng lỗ hổng để tấn công",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Phần mềm độc hại",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Mối đe dọa tiềm ẩn",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m2-q5",
+		"question_text": "Exploit (Khai thác) là gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Phương pháp hoặc đoạn mã lợi dụng lỗ hổng để tấn công",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Phần mềm diệt virus",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tường lửa mạng",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Bản vá bảo mật",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m2-q6",
+		"question_text": "Botnet là gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Mạng lưới máy tính bị kiểm soát từ xa (zombie) để thực hiện tấn công",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Phần mềm diệt virus tập trung",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Giao thức mã hóa dữ liệu",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Hệ thống backup tự động",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m2-q7",
+		"question_text": "Mục tiêu chung của các cuộc tấn công mạng bao gồm những gì?",
+		"question_type": "multiple_answer_question",
+		"answers": [
+			{
+				"answer_text": "Đánh cắp thông tin nhạy cảm (dữ liệu cá nhân, tài khoản ngân hàng)",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Chiếm quyền kiểm soát hệ thống",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Gây gián đoạn dịch vụ (DoS/DDoS)",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Phục vụ mục đích chính trị/quân sự (gián điệp, chiến tranh mạng)",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "bm-m2-q8",
+		"question_text": "SQL Injection (SQLi) gây hậu quả gì?",
+		"question_type": "multiple_answer_question",
+		"answers": [
+			{
+				"answer_text": "Rò rỉ dữ liệu",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Chiếm quyền quản trị",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Chỉnh sửa hoặc xóa dữ liệu",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Mã hóa dữ liệu đòi tiền chuộc",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m2-q9",
+		"question_text": "Các dạng XSS (Cross-Site Scripting) bao gồm những gì?",
+		"question_type": "multiple_answer_question",
+		"answers": [
+			{
+				"answer_text": "Stored XSS",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Reflected XSS",
+				"is_correct": true
+			},
+			{
+				"answer_text": "DOM-based XSS",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Blind XSS",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m2-q10",
+		"question_text": "CSRF (Cross-Site Request Forgery) lợi dụng điều gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Phiên đăng nhập hợp lệ của người dùng để thực hiện hành động trái phép (chuyển tiền, đổi mật khẩu)",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Lỗ hổng SQL trong cơ sở dữ liệu",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tràn bộ đệm trên máy chủ",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Mật khẩu yếu",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m2-q11",
+		"question_text": "DDoS nguy hiểm hơn DoS vì lý do gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Sử dụng nhiều máy tính (botnet) cùng lúc để làm quá tải hệ thống",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Mã hóa dữ liệu trên mạng",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chỉ tấn công từ một máy tính",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Không làm quá tải hệ thống",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m2-q12",
+		"question_text": "Man-in-the-Middle (MITM) là gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Kẻ tấn công chèn vào giữa kết nối để nghe lén, sửa đổi hoặc đánh cắp thông tin",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Làm quá tải tài nguyên hệ thống",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chèn mã SQL vào cơ sở dữ liệu",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Leo thang đặc quyền",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m2-q13",
+		"question_text": "ARP Spoofing và DNS Spoofing lần lượt là gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "ARP: gửi bản tin ARP giả mạo điều khiển lưu lượng; DNS: thay đổi kết quả phân giải tên miền, chuyển hướng đến website giả",
+				"is_correct": true
+			},
+			{
+				"answer_text": "ARP mã hóa dữ liệu, DNS giải mã",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Cả hai đều là phần mềm diệt virus",
+				"is_correct": false
+			},
+			{
+				"answer_text": "ARP và DNS là cùng một kỹ thuật",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m2-q14",
+		"question_text": "Buffer Overflow (tràn bộ đệm) xảy ra khi nào?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Nhập dữ liệu vượt quá kích thước bộ nhớ, kẻ tấn công ghi đè mã lệnh và thực thi mã độc",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Mã hóa dữ liệu đòi tiền chuộc",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Gửi email lừa đảo",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Thử mật khẩu hàng loạt",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m2-q15",
+		"question_text": "Virus, Worm, Trojan, Ransomware khác nhau như thế nào?",
+		"question_type": "multiple_answer_question",
+		"answers": [
+			{
+				"answer_text": "Virus: gắn vào file, lây lan khi thực thi",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Worm: tự lây lan qua mạng không cần file chủ",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Trojan: giả dạng phần mềm hợp pháp để chiếm quyền kiểm soát",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Ransomware: mã hóa dữ liệu và đòi tiền chuộc",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "bm-m2-q16",
+		"question_text": "Spear Phishing khác Phishing thông thường ở điểm nào?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Có mục tiêu rõ ràng, được cá nhân hóa (ví dụ nhắm vào một lãnh đạo doanh nghiệp)",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Gửi hàng loạt không phân biệt",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Không sử dụng email",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chỉ tấn công cá nhân bình thường",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m2-q17",
+		"question_text": "APT (Advanced Persistent Threat) có đặc trưng gì?",
+		"question_type": "multiple_answer_question",
+		"answers": [
+			{
+				"answer_text": "Có tổ chức, kéo dài nhiều giai đoạn",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Thường do nhóm hacker chuyên nghiệp hoặc quốc gia thực hiện",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Mục tiêu: hệ thống trọng yếu (ngân hàng, chính phủ, hạ tầng)",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Tấn công ngẫu nhiên, nhanh chóng kết thúc",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m2-q18",
+		"question_text": "Stuxnet (2010) nhắm mục tiêu gì và bằng phương thức nào?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Hệ thống SCADA nhà máy hạt nhân Iran, phát tán qua USB và khai thác zero-day của Windows",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Hệ thống ngân hàng Mỹ, qua phishing email",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Viện nghiên cứu vắc-xin COVID-19, qua DDoS",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Ủy ban DNC Mỹ, qua spear phishing",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m2-q19",
+		"question_text": "APT29 (Cozy Bear) nổi bật với hoạt động nào năm 2020?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Tấn công các viện nghiên cứu vắc-xin COVID-19 để đánh cắp dữ liệu nghiên cứu",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Làm chậm chương trình hạt nhân Iran",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tấn công Ủy ban Quốc gia Đảng Dân chủ Mỹ (DNC) 2016",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Sập Twitter, Netflix, Reddit qua botnet Mirai",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m2-q20",
+		"question_text": "Các giai đoạn của một cuộc tấn công APT theo thứ tự là gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Reconnaissance → Xâm nhập → Duy trì → Mở rộng → Đánh cắp dữ liệu",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Đánh cắp dữ liệu → Xâm nhập → Reconnaissance → Duy trì → Mở rộng",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Duy trì → Mở rộng → Reconnaissance → Đánh cắp → Xâm nhập",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Xâm nhập → Reconnaissance → Đánh cắp → Duy trì → Mở rộng",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m2-q21",
+		"question_text": "Lateral Movement (di chuyển ngang) trong APT là gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Mở rộng ra nhiều hệ thống trong mạng nội bộ sau khi đã xâm nhập",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Di chuyển vật lý giữa các tòa nhà",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Đánh cắp dữ liệu ra ngoài",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Xóa dấu vết tấn công",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m2-q22",
+		"question_text": "Pretexting (giả mạo vai trò) là kỹ thuật social engineering nào?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Kẻ tấn công giả danh nhân viên kỹ thuật nhà mạng để xin thông tin Wi-Fi/mật khẩu",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Để lại USB nhãn 'Lương nhân viên 2025' dụ dỗ cắm vào",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Gửi email giả mạo ngân hàng",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tạo website đăng nhập giả",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m2-q23",
+		"question_text": "Baiting (dụ dỗ bằng mồi nhử) minh họa qua ví dụ nào?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Hacker để USB nhãn 'Lương nhân viên 2025' trong bãi xe, nhân viên tò mò cắm vào bị nhiễm malware",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Gọi điện giả danh kỹ thuật nhà mạng",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Gửi email giả mạo CEO yêu cầu chuyển tiền",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tạo trang đăng nhập giả ngân hàng",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m2-q24",
+		"question_text": "Nmap (Network Mapper) dùng để làm gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Quét mạng, phát hiện host hoạt động, cổng mở, dịch vụ chạy trên đó",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Tìm kiếm thiết bị IoT công khai trên Internet",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tự động khai thác SQL Injection",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Gửi lượng lớn request làm quá tải server",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m2-q25",
+		"question_text": "Shodan được gọi là gì và dùng để làm gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "'Google cho hacker' - tìm kiếm thiết bị IoT, camera, router, server công khai trên Internet",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Công cụ quét lỗ hổng SQL Injection",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Công cụ DDoS",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Phần mềm diệt virus",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m2-q26",
+		"question_text": "Metasploit Framework là công cụ gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Nền tảng hỗ trợ phát hiện, khai thác và kiểm thử lỗ hổng, cung cấp module exploit/payload/scanner",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Công cụ nghe lén gói tin mạng",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Công cụ quét cổng mạng",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Phần mềm diệt malware",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m2-q27",
+		"question_text": "SQLmap có khả năng gì?",
+		"question_type": "multiple_answer_question",
+		"answers": [
+			{
+				"answer_text": "Tự động phát hiện và khai thác lỗ hổng SQL Injection",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Dump database",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Bypass login",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Thực thi lệnh hệ điều hành",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "bm-m2-q28",
+		"question_text": "LOIC và HOIC lần lượt là công cụ gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "LOIC: gửi lượng lớn request làm quá tải server (Anonymous); HOIC: phiên bản nâng cấp mạnh hơn, khó phát hiện hơn",
+				"is_correct": true
+			},
+			{
+				"answer_text": "LOIC: quét cổng; HOIC: mã hóa dữ liệu",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Cả hai đều là phần mềm diệt virus",
+				"is_correct": false
+			},
+			{
+				"answer_text": "LOIC: nghe lén; HOIC: giả mạo ARP",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m2-q29",
+		"question_text": "Botnet Mirai (2016) đã làm gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Tấn công DDoS làm sập Twitter, Netflix, Reddit",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Mã hóa dữ liệu ngân hàng đòi tiền chuộc",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Đánh cắp dữ liệu vắc-xin COVID-19",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Làm chậm chương trình hạt nhân Iran",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m2-q30",
+		"question_text": "Wireshark là công cụ gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Công cụ phân tích gói tin mạng (sniffing), thu thập thông tin nếu dữ liệu chưa mã hóa",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Công cụ tấn công MITM, ARP/DNS spoofing",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Công cụ quét cổng mạng",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Công cụ DDoS",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m2-q31",
+		"question_text": "Ettercap hỗ trợ những kỹ thuật tấn công nào?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Man-in-the-Middle (MITM), ARP spoofing, DNS spoofing, chèn/thay đổi dữ liệu trong luồng giao tiếp",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Quét cổng và phát hiện dịch vụ",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Gửi lượng lớn request DDoS",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Mã hóa dữ liệu AES-256",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m2-q32",
+		"question_text": "IDS và IPS khác nhau ở điểm nào?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "IDS phát hiện hành vi bất thường/gói tin tấn công; IPS không chỉ phát hiện mà còn chặn ngay gói tin nguy hại",
+				"is_correct": true
+			},
+			{
+				"answer_text": "IPS chỉ phát hiện, IDS chặn luôn",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Cả hai giống hệt nhau",
+				"is_correct": false
+			},
+			{
+				"answer_text": "IDS dùng cho web, IPS dùng cho mạng",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m2-q33",
+		"question_text": "WAF (Web Application Firewall) bảo vệ ứng dụng web khỏi những tấn công nào?",
+		"question_type": "multiple_answer_question",
+		"answers": [
+			{
+				"answer_text": "SQL Injection",
+				"is_correct": true
+			},
+			{
+				"answer_text": "XSS (Cross-Site Scripting)",
+				"is_correct": true
+			},
+			{
+				"answer_text": "CSRF",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Mã hóa dữ liệu đòi tiền chuộc",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m2-q34",
+		"question_text": "SIEM (Security Information & Event Management) có chức năng gì?",
+		"question_type": "multiple_answer_question",
+		"answers": [
+			{
+				"answer_text": "Thu thập, phân tích log từ nhiều nguồn (firewall, server, ứng dụng)",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Tích hợp cảnh báo theo thời gian thực",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Hỗ trợ tuân thủ chuẩn (ISO 27001, PCI-DSS)",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Mã hóa ổ cứng",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m2-q35",
+		"question_text": "Các bước trong Kế hoạch ứng cứu sự cố (Incident Response Plan) theo thứ tự là gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Phát hiện → Khoanh vùng → Phân tích → Xử lý → Khôi phục → Báo cáo",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Báo cáo → Khôi phục → Xử lý → Phân tích → Khoanh vùng → Phát hiện",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Khôi phục → Phát hiện → Báo cáo → Xử lý → Khoanh vùng → Phân tích",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Phân tích → Báo cáo → Khoanh vùng → Phát hiện → Khôi phục → Xử lý",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m2-q36",
+		"question_text": "CSIRT là gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Computer Security Incident Response Team - đội ứng cứu sự cố an ninh máy tính",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Hệ thống mã hóa dữ liệu",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Công cụ quét lỗ hổng",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Giao thức truyền tin an toàn",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m2-q37",
+		"question_text": "Disaster Recovery Plan (DRP) nhằm mục đích gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Đảm bảo hệ thống hoạt động trở lại trong thời gian ngắn sau thảm họa",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Mã hóa dữ liệu trên đám mây",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Quét lỗ hổng định kỳ",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Đào tạo nhân viên nhận biết phishing",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m2-q38",
+		"question_text": "Mô hình Defense-in-Depth (Phòng thủ nhiều lớp) có những lớp nào?",
+		"question_type": "multiple_answer_question",
+		"answers": [
+			{
+				"answer_text": "Perimeter (Firewall, NGFW, VPN, IDS/IPS, Anti-DDoS)",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Network (Segmentation, VLAN, ACL, NDR)",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Application (WAF, Secure coding, MFA)",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Data, Endpoint, User",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "bm-m2-q39",
+		"question_text": "Lớp Endpoint trong Defense-in-Depth có những biện pháp gì?",
+		"question_type": "multiple_answer_question",
+		"answers": [
+			{
+				"answer_text": "Antivirus/EDR (Endpoint Detection & Response)",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Cập nhật bản vá hệ điều hành & phần mềm",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Quản lý thiết bị di động (MDM)",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Mã hóa dữ liệu trên cloud",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m2-q40",
+		"question_text": "DLP (Data Loss Prevention) thuộc lớp nào trong Defense-in-Depth?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Lớp Data (Dữ liệu)",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Lớp Perimeter",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Lớp User",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Lớp Endpoint",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m2-q41",
+		"question_text": "Zero Trust Security có nguyên tắc gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "'Không tin cậy mặc định - Luôn xác thực' (Never Trust, Always Verify)",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Tin tưởng mọi kết nối nội bộ",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chỉ cần firewall là đủ",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Không cần xác thực người dùng nội bộ",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m2-q42",
+		"question_text": "Zero Trust Security có những đặc điểm gì?",
+		"question_type": "multiple_answer_question",
+		"answers": [
+			{
+				"answer_text": "Xác thực đa yếu tố (MFA)",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Kiểm soát truy cập theo vai trò (RBAC)",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Micro-segmentation (phân đoạn nhỏ)",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Tin tưởng mặc định mạng nội bộ",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m2-q43",
+		"question_text": "Threat Intelligence (Tình báo mối đe dọa) bao gồm những gì?",
+		"question_type": "multiple_answer_question",
+		"answers": [
+			{
+				"answer_text": "Danh sách IP/URL độc hại",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Chữ ký malware",
+				"is_correct": true
+			},
+			{
+				"answer_text": "TTPs (Techniques, Tactics, Procedures) của hacker",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Mật khẩu người dùng",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m2-q44",
+		"question_text": "AI/ML trong an ninh mạng ứng dụng vào việc gì?",
+		"question_type": "multiple_answer_question",
+		"answers": [
+			{
+				"answer_text": "Phát hiện bất thường hành vi (UEBA)",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Phân tích log tự động, phát hiện sớm tấn công",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Hỗ trợ điều tra sự cố (Incident Analysis)",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Mã hóa dữ liệu AES-256",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m2-q45",
+		"question_text": "Container Security (Docker, Kubernetes) cần những biện pháp gì?",
+		"question_type": "multiple_answer_question",
+		"answers": [
+			{
+				"answer_text": "Mã hóa dữ liệu trên cloud",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Quản lý danh tính và quyền truy cập (IAM)",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Container scanning (quét lỗ hổng container image)",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Chính sách CSPM (Cloud Security Posture Management)",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "bm-m2-q46",
+		"question_text": "SOC (Security Operations Center) có nhiệm vụ gì?",
+		"question_type": "multiple_answer_question",
+		"answers": [
+			{
+				"answer_text": "Theo dõi cảnh báo an ninh 24/7",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Phát hiện, phân tích và phản ứng sự cố nhanh",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Tích hợp SIEM, SOAR để tự động hóa quy trình ứng phó",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Mã hóa dữ liệu thẻ tín dụng",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m2-q47",
+		"question_text": "Ví dụ Google BeyondCorp minh họa xu hướng nào?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Zero Trust Security - nhân viên truy cập từ bất kỳ đâu nhưng luôn xác thực đa yếu tố, cấp quyền đúng nhu cầu",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Threat Intelligence",
+				"is_correct": false
+			},
+			{
+				"answer_text": "SOC",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Cloud Container Security",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m2-q48",
+		"question_text": "Microsoft Defender for Endpoint minh họa ứng dụng nào của AI/ML?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Phân tích hàng tỷ tín hiệu mỗi ngày, phát hiện hành vi bất thường như ransomware trước khi gây thiệt hại",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Mã hóa dữ liệu trên đám mây",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Quét lỗ hổng container image",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Cập nhật danh sách IP độc hại",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m2-q49",
+		"question_text": "Netflix áp dụng kỹ thuật gì để kiểm thử bảo mật hạ tầng cloud?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Chaos engineering, Kubernetes security policies, container scanning (Aqua Security, Twistlock)",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Zero Trust BeyondCorp",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Threat Intelligence Feeds từ IBM X-Force",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Cyber Defense League tình nguyện",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m2-q50",
+		"question_text": "Estonia xây dựng Cyber Defense League sau sự kiện nào?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Bị tấn công DDoS quy mô lớn năm 2007",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Stuxnet 2010",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Botnet Mirai 2016",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tấn công vắc-xin COVID-19 2020",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m2-q51",
+		"question_text": "APT28 (Fancy Bear) bị nghi đứng sau vụ tấn công nào năm 2016?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Ủy ban Quốc gia Đảng Dân chủ Mỹ (DNC)",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Nhà máy hạt nhân Iran",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Viện nghiên cứu vắc-xin COVID-19",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Twitter, Netflix, Reddit",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m2-q52",
+		"question_text": "Phòng thủ mạng hiệu quả cần sự kết hợp giữa yếu tố nào?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Kỹ thuật (Firewall, SIEM, mã hóa) và con người (đào tạo, quy trình IRP/DRP)",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Chỉ kỹ thuật, không cần con người",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chỉ con người, không cần kỹ thuật",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chỉ cần firewall",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m2-q53",
+		"question_text": "Ví dụ Spear Phishing CFO (giám đốc tài chính) minh họa điều gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Hacker giả mạo CEO yêu cầu chuyển 200.000 USD, email cá nhân hóa với thông tin thật nên CFO dễ tin",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Hacker để USB mồi nhử trong bãi xe",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Hacker gọi điện giả danh kỹ thuật nhà mạng",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Hacker gửi email hàng loạt không phân biệt",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m2-q54",
+		"question_text": "SOC của ngân hàng phản ứng DDoS như thế nào?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Dùng SIEM (Splunk, QRadar) giám sát 24/7, phát hiện DDoS thì tự động kích hoạt SOAR playbook chặn IP độc hại",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Tắt toàn bộ hệ thống và đợi",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Trả tiền chuộc cho hacker",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chỉ gửi email cảnh báo nhân viên",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m2-q55",
+		"question_text": "Theo kết luận, yếu tố nào là tuyến phòng thủ quan trọng nhất?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Yếu tố con người - đào tạo, nâng cao nhận thức an ninh",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Firewall mạnh nhất",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Mã hóa AES-256",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Hệ điều hành mới nhất",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m2-q56",
+		"question_text": "Câu trích dẫn 'Trong an ninh mạng, không có an toàn tuyệt đối - chỉ có an toàn tương đối và phòng thủ nhiều lớp' nhấn mạnh điều gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Cần triển khai nhiều lớp bảo vệ vì không có biện pháp đơn lẻ nào hoàn hảo",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Chỉ cần một lớp bảo mật mạnh là đủ",
+				"is_correct": false
+			},
+			{
+				"answer_text": "An toàn tuyệt đối là có thể đạt được",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Không cần phòng thủ vì không an toàn tuyệt đối",
+				"is_correct": false
+			}
+		]
+	}
+]

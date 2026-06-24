@@ -7,10 +7,16 @@ export default defineConfig({
 	plugins: [tailwindcss(), sveltekit(), devtoolsJson()],
 	server: {
 		host: true,
-		port: 30000
+		port: 30000,
 		// allowedHosts: [
 		// 	'localhost',
 		// ]
+		watch: {
+			// Exclude non-source asset folders from the file watcher.
+			// references/ holds pptx + exported slide PNGs that get locked
+			// during conversion, which crashes Vite's watcher (EBUSY).
+			ignored: ['**/references/**', '**/.git/**', '**/slides/**']
+		}
 	},
 	preview: {
 		port: 30000
