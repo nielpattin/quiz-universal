@@ -292,7 +292,7 @@
 
 <!-- Main Layout -->
 <div
-	class="flex min-h-screen min-w-screen w-screen bg-[var(--bg-primary)] text-[var(--text-primary)] font-sans"
+	class="flex h-screen min-w-screen w-screen bg-[var(--bg-primary)] text-[var(--text-primary)] font-sans"
 >
 	<!-- Sidebar (only show when quiz is loaded) -->
 	{#if uiState.sidebarOpen && pageState.quizData.length > 0}
@@ -325,7 +325,7 @@
 		<!-- Main Content -->
 		<div
 			id="main-content"
-			class="flex-1 flex flex-col items-center justify-start relative overflow-hidden"
+			class="flex-1 min-h-0 flex flex-col items-center justify-start relative overflow-hidden"
 		>
 			{#if pageState.isLoading}
 				<!-- Loading Overlay -->
