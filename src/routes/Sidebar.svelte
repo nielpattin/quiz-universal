@@ -56,7 +56,10 @@
 
 	<!-- Question list -->
 	<!-- stopPropagation prevents wheel events from triggering quiz navigation -->
-	<div class="main-scrollbar flex-1 min-h-0 overflow-y-auto p-2 flex flex-col gap-1" onwheel={(e) => e.stopPropagation()}>
+	<div
+		class="main-scrollbar flex-1 min-h-0 overflow-y-auto p-2 flex flex-col gap-1"
+		onwheel={(e) => e.stopPropagation()}
+	>
 		{#each pageState.quizData as q, idx (q.question_id)}
 			<button
 				class="cursor-pointer sidebar-btn flex items-center justify-between px-4 py-2 rounded-lg text-sm transition-colors {idx ===

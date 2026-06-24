@@ -1,6 +1,8 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
+	import { SvelteURLSearchParams } from 'svelte/reactivity';
 	import { replaceState } from '$app/navigation';
+	import { resolve } from '$app/paths';
 	import Sidebar from './Sidebar.svelte';
 	import TopBar from './TopBar.svelte';
 	import Carousel from './Carousel.svelte';
@@ -30,6 +32,11 @@
 
 	onMount(() => {
 		routerReady = true;
+		fetchNavigation();
+		if (appState.currentView === 'favorites') {
+			showFavorites();
+		}
+		isInitialLoad = false;
 	});
 
 	// Store previous quiz state before entering favorites
@@ -196,31 +203,12 @@
 	}
 
 	$effect(() => {
-		window.addEventListener('keydown', handleKeyNavigation);
-		window.addEventListener('wheel', handleWheelNavigation, { passive: true });
-		if (isInitialLoad) {
-			fetchNavigation();
-			if (appState.currentView === 'favorites') {
-				showFavorites();
-			}
-			isInitialLoad = false;
-		}
-		return () => {
-			window.removeEventListener('keydown', handleKeyNavigation);
-			window.removeEventListener('wheel', handleWheelNavigation);
-		};
-	});
-
-	// Auto-save favorites to localStorage when they change
-	$effect(() => {
-		if (typeof window !== 'undefined') {
-			localStorage.setItem(FAVORITE_QUESTIONS_KEY, JSON.stringify(Array.from(favorites)));
-		}
+		localStorage.setItem(FAVORITE_QUESTIONS_KEY, JSON.stringify(Array.from(favorites)));
 	});
 
 	// Auto-save current state
 	$effect(() => {
-		if (typeof window !== 'undefined' && appState.currentView === 'all' && pageState.moduleId) {
+		if (appState.currentView === 'all' && pageState.moduleId) {
 			localStorage.setItem(
 				APPSTATE_ALL_KEY,
 				JSON.stringify({
@@ -235,7 +223,7 @@
 	$effect(() => {
 		if (!routerReady || isInitialLoad) return;
 
-		const params = new URLSearchParams();
+		const params = new SvelteURLSearchParams();
 
 		if (appState.currentView === 'favorites') {
 			params.set('view', 'favorites');
@@ -252,7 +240,14 @@
 
 		// Only update if URL actually changed
 		if (currentSearch !== newSearch) {
-			setTimeout(() => replaceState(newSearch || '/', {}), 0);
+			if (newSearch) {
+				// Shallow routing: update only the query string (SvelteKit-supported).
+				// The lint rule can't statically recognize query-only shallow routing, so disable it here.
+				// eslint-disable-next-line svelte/no-navigation-without-resolve
+				setTimeout(() => replaceState(newSearch, {}), 0);
+			} else {
+				setTimeout(() => replaceState(resolve('/'), {}), 0);
+			}
 		}
 	});
 
@@ -291,6 +286,7 @@
 </script>
 
 <!-- Main Layout -->
+<svelte:window onkeydown={handleKeyNavigation} onwheel={handleWheelNavigation} />
 <div
 	class="flex h-screen min-w-screen w-screen bg-[var(--bg-primary)] text-[var(--text-primary)] font-sans"
 >

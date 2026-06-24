@@ -13,14 +13,6 @@
 			uiState.showShortcutsModal = false;
 		}
 	}
-
-	// Detect if mobile (used for default expanded section)
-	let isMobile = $state(false);
-	$effect(() => {
-		if (typeof window !== 'undefined') {
-			isMobile = window.innerWidth < 768;
-		}
-	});
 </script>
 
 <svelte:window onkeydown={handleKeydown} />

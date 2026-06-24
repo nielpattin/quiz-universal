@@ -9,6 +9,7 @@ import {
 } from '../lib/localKeys';
 import { SvelteSet, SvelteMap } from 'svelte/reactivity';
 import { replaceState } from '$app/navigation';
+import { resolve } from '$app/paths';
 import {
 	DEFAULT_STYLE,
 	DEFAULT_FONT,
@@ -164,7 +165,7 @@ export function clearQuiz() {
 	uiState.sidebarOpen = false;
 	// Clear URL when returning to library
 	if (typeof window !== 'undefined') {
-		setTimeout(() => replaceState('/', {}), 0);
+		setTimeout(() => replaceState(resolve('/'), {}), 0);
 	}
 }
 

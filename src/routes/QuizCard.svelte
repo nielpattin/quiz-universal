@@ -194,9 +194,7 @@
 	}
 
 	// Check if current question is multiple choice
-	function isMultipleChoice(): boolean {
-		return currentQuestion?.question_type === 'multiple_answer_question';
-	}
+	let isMultipleChoice = $derived(currentQuestion?.question_type === 'multiple_answer_question');
 
 	// Helper function for answer styling with enhanced feedback
 	function getAnswerClass(idx: number): string {
@@ -298,7 +296,7 @@
 				{#if quizData.length}
 					Question {current + 1} / {quizData.length}
 					<!-- Question Type Badge -->
-					{#if isMultipleChoice()}
+					{#if isMultipleChoice}
 						<span
 							class="inline-flex items-center gap-1 px-2 py-0.5 rounded bg-[var(--color-secondary)]/15 text-[var(--color-secondary)] text-xs font-medium border border-[var(--color-secondary)]/40"
 						>
@@ -405,7 +403,7 @@
 					>
 						<!-- Selection Indicator (Radio/Checkbox) -->
 						<span class="flex-shrink-0 mt-0.5">
-							{#if isMultipleChoice()}
+							{#if isMultipleChoice}
 								{#if isSelected}
 									<SquareCheck size={20} class="text-[var(--color-primary)]" />
 								{:else}
@@ -440,7 +438,7 @@
 			{/if}
 		</div>
 		<!-- Check Button (MCQ only) -->
-		{#if isMultipleChoice() && !questionLocked}
+		{#if isMultipleChoice && !questionLocked}
 			<div class="flex flex-col items-center w-full gap-2">
 				<!-- Selection counter -->
 				{#if selectedAnswers.length > 0}

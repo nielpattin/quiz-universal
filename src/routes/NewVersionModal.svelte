@@ -1,24 +1,22 @@
 <!-- This is the new version notification modal component -->
 <script lang="ts">
 	import { APP_VERSION } from '../lib/config';
-	const show = $state(true);
+	const show = true;
 	const { onReload } = $props<{ onReload: () => void }>();
 
-	let oldVersion = $state<string | null>(null);
-	const stage = $state({ value: 'info' as 'info' | 'changelog' });
+	// Component only mounts client-side (guarded by `typeof window` in +layout.svelte),
+	// so reading localStorage directly is safe and needs no reactive state.
+	const oldVersion = localStorage.getItem(APP_VERSION_KEY);
+	let stage = $state<'info' | 'changelog'>('info');
 
 	import { APP_VERSION_KEY } from '../lib/localKeys';
-
-	$effect(() => {
-		oldVersion = localStorage.getItem(APP_VERSION_KEY);
-	});
 
 	function handleReload() {
 		onReload();
 	}
 
 	function handleChangelogs() {
-		stage.value = 'changelog';
+		stage = 'changelog';
 	}
 </script>
 
@@ -37,7 +35,7 @@
 					<span class="text-green-600">{APP_VERSION}</span>
 				</span>
 			</div>
-			{#if stage.value === 'info'}
+			{#if stage === 'info'}
 				<div class="text-gray-700 text-center">
 					The app has been updated. Local data will be cleared after reload.<br />
 					To copy your favorite IDs, click the star icon at the bottom right to open the favorites modal.
