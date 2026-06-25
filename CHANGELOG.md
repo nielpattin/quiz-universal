@@ -1,5 +1,17 @@
 # Changelog
 
+## [2.2.1] - 2026-06-25
+
+### Fixed
+
+- Mobile: floating nav arrows no longer overlap answers and the Check Answers button; relocated to a right-docked vertical stack (44px)
+- Mobile: top-bar icon buttons and sidebar question rows now meet the 44px tap-target minimum
+- Mobile: sidebar close (X) button enlarged to 44px; backdrop given a distinct aria-label ("Tap outside to close sidebar") to fix a duplicate accessible name
+
+### Changed
+
+- Mobile: question ID badge demoted from the header to a subtle monospaced footer line (header was cluttered on small screens); still visible on desktop and for favorites import/export
+
 ## [2.2.0] - 2026-01-11
 
 ### Added

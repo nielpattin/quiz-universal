@@ -53,9 +53,9 @@
 				<div class="text-gray-700 text-left bg-gray-50 rounded p-3 border border-gray-200">
 					<div class="font-semibold mb-1">Thay đổi mới nhất</div>
 					<ul class="list-disc list-inside space-y-1 text-sm">
-						<li>Giao diện câu hỏi toàn màn hình (bỏ kiểu thẻ)</li>
-						<li>Chuyển cài đặt Giao diện và Font vào modal Cài đặt</li>
-						<li>Hiển thị song ngữ xếp chồng (Tiếng Anh trên, Tiếng Việt dưới)</li>
+						<li>Di chuyển nút điều hướng nổi sang cạnh phải (không còn chồng lên câu trả lời)</li>
+						<li>Tăng vùng chạm các nút trên thanh công cụ và danh sách sidebar lên 44px</li>
+						<li>Thu nhỏ badge ID câu hỏi trên mobile, hiển thị ID ở chân trang</li>
 					</ul>
 				</div>
 				<div class="flex flex-col gap-3">

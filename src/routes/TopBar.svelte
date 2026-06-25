@@ -50,7 +50,7 @@
 		<!-- Hamburger (only show when quiz is loaded) -->
 		{#if !uiState.sidebarOpen && pageState.quizData.length > 0}
 			<button
-				class="flex-shrink-0 bg-[var(--color-primary)] rounded-lg p-2"
+				class="flex-shrink-0 bg-[var(--color-primary)] rounded-lg w-11 h-11 flex items-center justify-center"
 				aria-label="Open sidebar"
 				onclick={() => (uiState.sidebarOpen = true)}
 			>
@@ -92,7 +92,7 @@
 	<div class="flex gap-1.5 md:gap-2 items-center flex-shrink-0">
 		<!-- Help button -->
 		<button
-			class="p-1.5 rounded-lg bg-[var(--bg-hover)] text-[var(--color-primary)] hover:bg-[var(--border)] cursor-pointer border border-[var(--border)]"
+			class="w-11 h-11 flex items-center justify-center rounded-lg bg-[var(--bg-hover)] text-[var(--color-primary)] hover:bg-[var(--border)] cursor-pointer border border-[var(--border)]"
 			onclick={() => (uiState.showShortcutsModal = true)}
 			aria-label="Tips and gestures"
 			title="Tips and gestures"
@@ -102,7 +102,7 @@
 
 		<!-- Settings button -->
 		<button
-			class="p-1.5 rounded-lg bg-[var(--bg-hover)] text-[var(--color-primary)] hover:bg-[var(--border)] cursor-pointer border border-[var(--border)]"
+			class="w-11 h-11 flex items-center justify-center rounded-lg bg-[var(--bg-hover)] text-[var(--color-primary)] hover:bg-[var(--border)] cursor-pointer border border-[var(--border)]"
 			onclick={() => (uiState.showSettingsModal = true)}
 			aria-label="Settings"
 			title="Settings"
@@ -113,7 +113,7 @@
 		{#if appState.currentView === 'all'}
 			<!-- Mobile: Icon only -->
 			<button
-				class="md:hidden p-2 rounded-lg bg-[var(--color-primary)] text-[var(--bg-primary)]"
+				class="md:hidden w-11 h-11 flex items-center justify-center rounded-lg bg-[var(--color-primary)] text-[var(--bg-primary)]"
 				onclick={handleFavoritesClick}
 				aria-label="View favorites"
 			>
@@ -129,14 +129,14 @@
 		{:else}
 			<!-- Mobile: Icon buttons -->
 			<button
-				class="md:hidden p-2 rounded-lg bg-[var(--color-primary)] text-[var(--bg-primary)]"
+				class="md:hidden w-11 h-11 flex items-center justify-center rounded-lg bg-[var(--color-primary)] text-[var(--bg-primary)]"
 				onclick={handleBackClick}
 				aria-label="Go back"
 			>
 				<ArrowLeft size={18} />
 			</button>
 			<button
-				class="md:hidden p-2 rounded-lg bg-[var(--bg-hover)] text-[var(--color-error)] border border-[var(--color-error)]"
+				class="md:hidden w-11 h-11 flex items-center justify-center rounded-lg bg-[var(--bg-hover)] text-[var(--color-error)] border border-[var(--color-error)]"
 				onclick={handleClearFavorites}
 				aria-label="Clear favorites"
 			>

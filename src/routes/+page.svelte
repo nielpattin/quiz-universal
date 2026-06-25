@@ -306,7 +306,7 @@
 			type="button"
 			class="fixed inset-0 bg-black/50 z-30"
 			onclick={() => (uiState.sidebarOpen = false)}
-			aria-label="Close sidebar"
+			aria-label="Tap outside to close sidebar"
 		></button>
 	{/if}
 

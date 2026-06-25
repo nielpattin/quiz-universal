@@ -22,3 +22,4 @@ vite.config.ts.timestamp-*
 tmp/
 references/
 *.py
+.playwright-mcp/

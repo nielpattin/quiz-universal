@@ -46,7 +46,7 @@
 			Back to Library
 		</button>
 		<button
-			class="p-2 rounded-lg hover:bg-[var(--bg-hover)] transition-colors text-[var(--text-secondary)] hover:text-[var(--text-primary)]"
+			class="w-11 h-11 flex items-center justify-center rounded-lg hover:bg-[var(--bg-hover)] transition-colors text-[var(--text-secondary)] hover:text-[var(--text-primary)]"
 			aria-label="Close sidebar"
 			onclick={() => (uiState.sidebarOpen = false)}
 		>
@@ -62,7 +62,7 @@
 	>
 		{#each pageState.quizData as q, idx (q.question_id)}
 			<button
-				class="cursor-pointer sidebar-btn flex items-center justify-between px-4 py-2 rounded-lg text-sm transition-colors {idx ===
+				class="cursor-pointer sidebar-btn flex items-center justify-between px-4 py-3 rounded-lg text-sm transition-colors {idx ===
 				pageState.current
 					? 'bg-[var(--color-primary)] text-[var(--bg-primary)] font-bold'
 					: 'text-[var(--text-primary)] hover:bg-[var(--bg-hover)]'}"

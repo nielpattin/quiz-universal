@@ -320,7 +320,7 @@
 					{/if}
 					{#if currentQuestion?.question_id}
 						<span
-							class="inline-block px-2 py-0.5 rounded bg-[var(--bg-hover)] text-[var(--color-accent)] text-xs font-medium border border-[var(--color-accent)]"
+							class="hidden sm:inline-block px-2 py-0.5 rounded bg-[var(--bg-hover)] text-[var(--color-accent)] text-xs font-medium border border-[var(--color-accent)]"
 						>
 							ID: {currentQuestion.question_id}
 						</span>
@@ -463,33 +463,42 @@
 				</button>
 			</div>
 		{/if}
+
+	<!-- Subtle ID footer (mobile only) -->
+	{#if currentQuestion?.question_id}
+		<div class="md:hidden mt-2 mb-4 text-center font-mono text-[10px] text-[var(--text-secondary)] opacity-60">
+			ID: {currentQuestion.question_id}
+		</div>
+	{/if}
 	</div>
 </div>
 
 {#if isScrollable.value}
-	<!-- Mobile: Floating circular buttons -->
-	<button
-		type="button"
-		class="md:hidden fixed bottom-28 left-1/2 -translate-x-1/2 z-10 w-16 h-16 flex items-center justify-center rounded-full bg-[var(--bg-surface)] border-2 border-[var(--color-primary)] shadow-lg transition-opacity duration-200
-              {scrollState.value === 'top' && !isHeld
-			? 'opacity-100'
-			: 'opacity-0 pointer-events-none'}"
-		aria-label="Go to previous card"
-		onclick={goToPreviousCard}
-	>
-		<ArrowUp class="w-8 h-8 text-[var(--color-primary)]" />
-	</button>
-	<button
-		type="button"
-		class="md:hidden fixed bottom-28 left-1/2 -translate-x-1/2 z-10 w-16 h-16 flex items-center justify-center rounded-full bg-[var(--bg-surface)] border-2 border-[var(--color-primary)] shadow-lg transition-opacity duration-200
-						{scrollState.value === 'bottom' && isScrollable.value && current < quizData.length - 1 && !isHeld
-			? 'opacity-100'
-			: 'opacity-0 pointer-events-none'}"
-		aria-label="Go to next card"
-		onclick={goToNextCard}
-	>
-		<ArrowDown class="w-8 h-8 text-[var(--color-primary)]" />
-	</button>
+	<!-- Mobile: right-docked circular nav buttons (no content overlap) -->
+	<div class="md:hidden fixed right-3 top-1/2 -translate-y-1/2 z-10 flex flex-col gap-2">
+		<button
+			type="button"
+			class="w-11 h-11 flex items-center justify-center rounded-full bg-[var(--bg-surface)] border-2 border-[var(--color-primary)] shadow-lg transition-opacity duration-200
+					{scrollState.value === 'top' && !isHeld
+				? 'opacity-100'
+				: 'opacity-0 pointer-events-none'}"
+			aria-label="Go to previous card"
+			onclick={goToPreviousCard}
+		>
+			<ArrowUp class="w-5 h-5 text-[var(--color-primary)]" />
+		</button>
+		<button
+			type="button"
+			class="w-11 h-11 flex items-center justify-center rounded-full bg-[var(--bg-surface)] border-2 border-[var(--color-primary)] shadow-lg transition-opacity duration-200
+					{scrollState.value === 'bottom' && isScrollable.value && current < quizData.length - 1 && !isHeld
+				? 'opacity-100'
+				: 'opacity-0 pointer-events-none'}"
+			aria-label="Go to next card"
+			onclick={goToNextCard}
+		>
+			<ArrowDown class="w-5 h-5 text-[var(--color-primary)]" />
+		</button>
+	</div>
 
 	<!-- Desktop: Text-based navigation buttons above FAB area -->
 	{#if scrollState.value === 'top' && current > 0}
