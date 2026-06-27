@@ -1148,5 +1148,207 @@
 				"is_correct": false
 			}
 		]
+	},
+	{
+		"question_id": "bm-m5-q51",
+		"question_text": "(PDF) So sánh Full Backup, Incremental Backup và Differential Backup — phát biểu nào đúng?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Full: sao lưu toàn bộ, dung lượng lớn, khôi phục nhanh; Incremental: chỉ lưu thay đổi từ lần gần nhất, nhỏ nhất, khôi phục lâu nhất; Differential: lưu thay đổi kể từ lần Full gần nhất, mức trung bình",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Full: nhỏ nhất, khôi phục chậm; Incremental: toàn bộ, nhanh nhất; Differential: không lưu thay đổi",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Cả ba loại đều sao lưu toàn bộ dữ liệu như nhau",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Differential luôn lớn hơn Full Backup",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m5-q52",
+		"question_text": "(PDF) Audit Log trong cơ sở dữ liệu ghi lại những thao tác nào?",
+		"question_type": "multiple_answer_question",
+		"answers": [
+			{
+				"answer_text": "Đăng nhập",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Đăng xuất",
+				"is_correct": true
+			},
+			{
+				"answer_text": "INSERT, UPDATE, DELETE",
+				"is_correct": true
+			},
+			{
+				"answer_text": "CREATE, DROP",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Mã hóa AES dữ liệu",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Hash mật khẩu bằng Argon2",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m5-q53",
+		"question_text": "(PDF) Chính sách mật khẩu mạnh yêu cầu gì?",
+		"question_type": "multiple_answer_question",
+		"answers": [
+			{
+				"answer_text": "Có ít nhất 12 ký tự",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Có chữ hoa, chữ thường, số và ký tự đặc biệt",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Không dùng 123456, password, admin, ngày sinh",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Dùng ngày sinh để dễ nhớ",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chỉ dài tối đa 6 ký tự",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chỉ dùng chữ thường",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m5-q54",
+		"question_text": "(PDF) Lỗi cấu hình cơ sở dữ liệu thường gặp là gì?",
+		"question_type": "multiple_answer_question",
+		"answers": [
+			{
+				"answer_text": "Dùng tài khoản Administrator cho ứng dụng",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Không đổi mật khẩu mặc định",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Mở quyền Public",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Không backup",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Cho phép truy cập từ mọi địa chỉ IP",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Không mã hóa dữ liệu",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Dùng Prepared Statement",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Hash mật khẩu bằng bcrypt/Argon2",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Giới hạn IP được phép truy cập",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m5-q55",
+		"question_text": "(PDF) Khôi phục sau thảm họa (Disaster Recovery) cần chuẩn bị những gì?",
+		"question_type": "multiple_answer_question",
+		"answers": [
+			{
+				"answer_text": "Backup",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Máy chủ dự phòng",
+				"is_correct": true
+			},
+			{
+				"answer_text": "UPS",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Trung tâm dữ liệu dự phòng",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Quy trình phục hồi",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Tắt firewall để dễ khôi phục",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Xóa audit log để giải phóng dung lượng",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Mở quyền public cho database",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m5-q56",
+		"question_text": "(PDF) Tình huống nào cần phục hồi dữ liệu?",
+		"question_type": "multiple_answer_question",
+		"answers": [
+			{
+				"answer_text": "Xóa nhầm",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Virus",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Ransomware",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Hỏng ổ cứng",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Khi bật xác thực đa yếu tố (MFA)",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Khi dùng HTTPS/TLS",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Khi cập nhật bản vá DBMS",
+				"is_correct": false
+			}
+		]
 	}
 ]

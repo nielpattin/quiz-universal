@@ -1286,5 +1286,28 @@
 				"is_correct": false
 			}
 		]
+	},
+	{
+		"question_id": "bm-m2-q57",
+		"question_text": "(PDF) Cyber Kill Chain (quy trình tấn công mạng) theo đúng thứ tự là gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Trinh sát (Reconnaissance) → Quét và xác định lỗ hổng (Scanning) → Khai thác (Exploitation) → Duy trì truy cập (Persistence) → Thực hiện mục tiêu (Actions on Objectives)",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Khai thác → Trinh sát → Duy trì truy cập → Quét lỗ hổng → Thực hiện mục tiêu",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Thực hiện mục tiêu → Quét lỗ hổng → Trinh sát → Khai thác → Duy trì truy cập",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Duy trì truy cập → Khai thác → Thực hiện mục tiêu → Trinh sát → Quét lỗ hổng",
+				"is_correct": false
+			}
+		]
 	}
 ]

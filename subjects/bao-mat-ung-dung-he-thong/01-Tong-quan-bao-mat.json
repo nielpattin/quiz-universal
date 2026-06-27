@@ -1309,5 +1309,74 @@
 				"is_correct": false
 			}
 		]
+	},
+	{
+		"question_id": "bm-m1-q58",
+		"question_text": "(PDF) Công thức khái quát của Rủi ro (Risk) là gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Risk = Threat × Vulnerability × Impact",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Risk = Attack × Backup × Log",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Risk = CIA + AAA",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Risk = Firewall + Antivirus",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m1-q59",
+		"question_text": "(PDF) Quy trình quản lý rủi ro theo đúng thứ tự là gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Xác định tài sản → Xác định mối đe dọa → Xác định lỗ hổng → Đánh giá rủi ro → Lựa chọn biện pháp xử lý → Theo dõi và cải tiến",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Đánh giá rủi ro → Xác định tài sản → Lựa chọn biện pháp → Xác định lỗ hổng → Theo dõi",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Lựa chọn biện pháp → Xác định mối đe dọa → Backup → Xác định tài sản",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Theo dõi → Xác định lỗ hổng → Đánh giá → Xác định tài sản → Mối đe dọa",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m1-q60",
+		"question_text": "(PDF) Phân biệt Threat, Vulnerability, Attack và Risk đúng nhất?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Threat là mối nguy, Vulnerability là điểm yếu, Attack là hành động khai thác, Risk là khả năng và mức độ thiệt hại khi mối nguy khai thác điểm yếu",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Threat là điểm yếu, Vulnerability là hành động, Attack là mối nguy, Risk là biện pháp",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Cả bốn khái niệm là đồng nghĩa",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Risk là hành động khai thác, Attack là khả năng thiệt hại",
+				"is_correct": false
+			}
+		]
 	}
 ]
