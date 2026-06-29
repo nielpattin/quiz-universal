@@ -1,15 +1,13 @@
 <script lang="ts">
 	import { uiState, appState, pageState, clearQuiz } from './global.svelte';
-	import {
-		ChevronRight,
-		Menu,
-		Star,
-		ArrowLeft,
-		Trash2,
-		BookOpen,
-		CircleHelp,
-		Settings
-	} from '@lucide/svelte';
+	import ChevronRight from '@lucide/svelte/icons/chevron-right';
+	import Menu from '@lucide/svelte/icons/menu';
+	import Star from '@lucide/svelte/icons/star';
+	import ArrowLeft from '@lucide/svelte/icons/arrow-left';
+	import Trash2 from '@lucide/svelte/icons/trash-2';
+	import BookOpen from '@lucide/svelte/icons/book-open';
+	import CircleHelp from '@lucide/svelte/icons/circle-help';
+	import Settings from '@lucide/svelte/icons/settings';
 
 	interface Props {
 		showFavorites: () => void;

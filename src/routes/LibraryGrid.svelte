@@ -1,5 +1,6 @@
 <script lang="ts">
-	import { BookOpen, ChevronRight } from '@lucide/svelte';
+	import BookOpen from '@lucide/svelte/icons/book-open';
+	import ChevronRight from '@lucide/svelte/icons/chevron-right';
 	import { uiState, loadQuiz } from './global.svelte';
 
 	function handleQuizClick(quizId: string) {

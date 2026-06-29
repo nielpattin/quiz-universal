@@ -1,6 +1,8 @@
 <script lang="ts">
 	import { uiState } from './global.svelte';
-	import { CircleHelp, Keyboard, Hand } from '@lucide/svelte';
+	import CircleHelp from '@lucide/svelte/icons/circle-help';
+	import Keyboard from '@lucide/svelte/icons/keyboard';
+	import Hand from '@lucide/svelte/icons/hand';
 
 	function handleBackdropClick(e: MouseEvent) {
 		if (e.target === e.currentTarget) {

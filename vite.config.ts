@@ -6,11 +6,11 @@ import { defineConfig } from 'vite';
 export default defineConfig({
 	plugins: [tailwindcss(), sveltekit(), devtoolsJson()],
 	server: {
-		host: true,
+		host: '::',
 		port: 30000,
-		// allowedHosts: [
-		// 	'localhost',
-		// ]
+		warmup: {
+			clientFiles: ['./src/app.html', './src/routes/+page.svelte']
+		},
 		watch: {
 			// Exclude non-source asset folders from the file watcher.
 			// references/ holds pptx + exported slide PNGs that get locked

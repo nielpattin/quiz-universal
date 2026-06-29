@@ -1,0 +1,439 @@
+[
+	{
+		"question_id": "sqa-m3-q1",
+		"question_text": "Ai chịu trách nhiệm trực tiếp kiểm thử đơn vị?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Người phân tích yêu cầu",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Người lập trình",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Người thiết kế hệ thống",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Người kiểm thử",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sqa-m3-q2",
+		"question_text": "Vai trò của việc thiết kế ca kiểm thử (test case) A. Tạo ra các ca kiểm thử tốt nhất có khả năng phát hiện ra lỗi, sai sót của phần mềm một cách nhiều nhất. B. Tạo ra các ca kiểm thử có chi phí rẻ nhất, đồng thời tốn ít thời gian và công sức nhất. C. Tạo ra các ca kiểm thử chỉ nhằm mục đích tìm ra lỗi. D. Cả A và B",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "A",
+				"is_correct": false
+			},
+			{
+				"answer_text": "B",
+				"is_correct": false
+			},
+			{
+				"answer_text": "C",
+				"is_correct": false
+			},
+			{
+				"answer_text": "D",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "sqa-m3-q3",
+		"question_text": "Khái niệm \"cyclomatic complexity\" (độ phức tạp chu trình) liên quan đến đồ thị chương trình được sử dụng để làm gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Đo độ phức tạp của mã nguồn dựa trên số lượng biến.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Đo độ phức tạp của luồng điều khiển dựa trên số lượng đường đi độc lập.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Đo độ phức tạp của chương trình dựa trên số lượng hàm.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Đo hiệu suất của chương trình.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sqa-m3-q4",
+		"question_text": "Độ phức tạp chu trình (Cyclomatic Complexity) là gì trong kiểm thử đường đi cơ bản?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Số lượng đường đi có thể có trong một chương trình.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Số lượng nút trong đồ thị luồng điều khiển.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Số lượng cạnh trong đồ thị luồng điều khiển.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Một chỉ số đo độ phức tạp của chương trình, tính bằng cách sử dụng số lượng cạnh và nút (đỉnh) trong đồ thị luồng điều khiển (đồ thị chương trình).",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "sqa-m3-q5",
+		"question_text": "Tại sao kiểm thử luồng dữ liệu lại quan trọng đối với chất lượng phần mềm?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Nó giúp tối ưu hóa mã nguồn để giảm độ phức tạp.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Nó đảm bảo rằng tất cả các biến được xử lý một cách chính xác, từ đó giảm thiểu lỗi logic và thời gian chạy.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Nó giúp tăng tốc độ chạy của chương trình.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Nó đảm bảo rằng tất cả các chức năng của giao diện người dùng đều hoạt động đúng.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sqa-m3-q6",
+		"question_text": "Đỉnh hợp nhất được gán nhãn như thế nào trong đồ thị luồng điều khiển:",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Gán nhãn bởi một số nguyên",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Gán nhãn bởi một tên xác định",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Gán nhãn bởi một ký tự",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Không gán nhãn",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "sqa-m3-q7",
+		"question_text": "Để kiểm tra một chức năng, lập trình viên phải viết một …….., nó gọi chức năng và khai thác nó để kiểm tra?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Stub",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Driver",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Proxy",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Không đáp án nào",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sqa-m3-q8",
+		"question_text": "Thế nào là bao phủ câu lệnh (statement coverage):",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Thực hiện mọi câu lệnh trong chương trình ít nhất một lần",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Thực hiện ít nhất một câu lệnh trong chương trình",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Thực hiện tất cả các đường đi trong chương trình",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tất cả đều đúng",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sqa-m3-q9",
+		"question_text": "Thế nào là bao phủ rẽ nhánh (branch coverage):",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Thực hiện mọi câu lệnh trong chương trình ít nhất một lần",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Thực hiện tất cả các lệnh rẽ nhánh trong chương trình",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Thực hiện ít nhất một đường đi trong chương trình",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Thực hiện ít nhất một câu lệnh trong chương trình",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sqa-m3-q10",
+		"question_text": "Thử nghiệm đủ đã được thực hiện khi:",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Hết thời gian.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Mức độ cần thiết của sự tin cậy đã đạt được.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Không còn lỗi được tìm thấy.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Người dùng sẽ không tìm thấy bất kỳ lỗi nghiêm trọng.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sqa-m3-q11",
+		"question_text": "Điều nào sau đây là sai?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Trong hệ thống khác nhau một hai lỗi khác nhau có thể tìm ra ở các môi trường khác nhau.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Một hệ thống là nhất thiết phải đáng tin cậy hơn sau khi gỡ lỗi cho việc loại bỏ các lỗi.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Một lỗi cần không ảnh hưởng đến độ tin cậy của hệ thống.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Không bị phát hiện sai sót có thể dẫn đến lỗi và cuối cùng đến hành vi không chính xác.",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "sqa-m3-q12",
+		"question_text": "Câu nào là đúng về kiểm thử hộp trắng và đen:",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Phân hoạch tương đương, Kiểm thử dựa trên bảng quyết định và kiểm thử luồng kiểm soát là kiểm thử hộp trắng.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Phân hoạch tương đương, Phân tích giá trị bao, kiểm thử luồng dữ liệu là kiểm thử hộp đen.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Phân hoạch tương đương, Chuyển trạng thái, kiểm thử ca sử dụng là kiểm thử hộp đen.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Phân hoạch tương đương, Chuyển trạng thái, kiểm thử ca sử dụng và Kiểm thử dựa trên bảng quyết định là kiểm thử hộp trắng.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sqa-m3-q13",
+		"question_text": "Chọn quan hệ sai giữa các tiêu chuẩn kiểm thử luồng dữ liệu? KHO",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "All-paths chứa All-du-paths",
+				"is_correct": false
+			},
+			{
+				"answer_text": "All-p-uses chứa All-branches",
+				"is_correct": false
+			},
+			{
+				"answer_text": "All-branches chứa All-statements",
+				"is_correct": false
+			},
+			{
+				"answer_text": "All-defs chứa All-c-uses",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "sqa-m3-q14",
+		"question_text": "Câu nào dưới đây không đúng khi nói về kiểm thử chức năng?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Người kiểm thử phần mềm không cần có 1 kiến thức sâu rộng về đặc tả và ngôn ngữ lập trình?",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Mô hình kiểm thử hộp đen chỉ tập chung vào các yêu cầu chức năng của phần mềm mà không quan tâm tới cách thức hoạt động của các mã lệnh bên trong chương trình phần mềm.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tất cả các giá trị đầu vào có thể có đều được kiểm tra",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Kiểm thử ngẫu nhiên Mục đích là để lựa chọn một số đầu vào kiểm tra để phát hiện sự thất bại đầu tiên",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sqa-m3-q15",
+		"question_text": "Các đặc điểm kỹ thuật mô tả các bước cần thiết để vận hành hệ thống và thực hiện các trường hợp thử nghiệm để thực hiện thiết kế thử nghiệm có liên quan?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Trường hợp thử nghiệm kỹ thuật",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Kiểm tra thiết kế kỹ thuật",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Thủ tục kiểm tra kỹ thuật",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Không có",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sqa-m3-q16",
+		"question_text": "Trong kiểm thử hệ thống? Kỹ thuật thiết kế kiểm thử nào sau đây mà các câu bên dưới mô tả đúng nhất một thủ tục để lấy được các ca kiểm thử dựa trên các đặc tả kỹ thuật của một thành phần?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Kỹ thuật hộp đen",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Kỹ thuật hộp trắng.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Kỹ thuật hộp kính.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Kỹ thuật dựa vào kinh nghiệm.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sqa-m3-q17",
+		"question_text": "Các yếu tố nào cần được xem xét trong quá trình thiết kế hệ thống kiểm thử?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Coverage metrics , Effectiveness",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Productivity, Validation",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Maintenance, User skills",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tất cả các phương án trên.",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "sqa-m3-q18",
+		"question_text": "Điều nào sau đây là đúng về inferred requirement? 1. Inferred requirement là một trong những hệ thống được dự kiến để hỗ trợ, nhưng không được quy định rõ ràng. 2. Inferred requirement cần được kiểm tra giống như các yêu cầu được quy định rõ rang 3. Inferred requirement là hệ thống những yêu cầu thu thập từ người sư dụng. 4. Phương án A và B là đúng",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "A",
+				"is_correct": false
+			},
+			{
+				"answer_text": "B",
+				"is_correct": false
+			},
+			{
+				"answer_text": "C",
+				"is_correct": false
+			},
+			{
+				"answer_text": "D",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "sqa-m3-q19",
+		"question_text": "Chọn câu sai trong các câu sau?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Có 3 loại luồng dữ liệu không bình thường",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Cạnh của đồ thị luồng dữ liệu là các p-use",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Có thể phát hiện luồng dữ liệu không khả thi bằng các khái niệm xác định và sử dụng biến",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Kiểm thử luồng điều khiển có khả năng phát hiện lỗi mạnh hơn kiểm thử luồng dữ liệu",
+				"is_correct": true
+			}
+		]
+	}
+]

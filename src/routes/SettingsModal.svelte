@@ -8,7 +8,10 @@
 		setStyle,
 		setFont
 	} from './global.svelte';
-	import { Settings, Languages, Palette, Type } from '@lucide/svelte';
+	import Settings from '@lucide/svelte/icons/settings';
+	import Languages from '@lucide/svelte/icons/languages';
+	import Palette from '@lucide/svelte/icons/palette';
+	import Type from '@lucide/svelte/icons/type';
 	import { STYLES, FONTS, type StyleKey, type FontId } from '$lib/theme';
 
 	function handleBackdropClick(e: MouseEvent) {

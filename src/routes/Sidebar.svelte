@@ -1,5 +1,7 @@
 <script lang="ts">
-	import { Star, X, ArrowLeft } from '@lucide/svelte';
+	import Star from '@lucide/svelte/icons/star';
+	import X from '@lucide/svelte/icons/x';
+	import ArrowLeft from '@lucide/svelte/icons/arrow-left';
 	import {
 		pageState,
 		favorites,

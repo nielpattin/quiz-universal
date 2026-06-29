@@ -1,6 +1,7 @@
 @import 'tailwindcss';
 
 /* CSS Variables for Style System */
+
 :root,
 [data-style='ember'] {
 	--bg-primary: #1f2128;

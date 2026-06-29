@@ -1,0 +1,1681 @@
+[
+	{
+		"question_id": "sqa-m5-q1",
+		"question_text": "Một đồ thị chương trình có 9 cạnh và 8 nút. Độ phức tạp (cyclomatric complexity) của đồ thị này là bao nhiêu?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "9",
+				"is_correct": false
+			},
+			{
+				"answer_text": "8",
+				"is_correct": false
+			},
+			{
+				"answer_text": "3",
+				"is_correct": true
+			},
+			{
+				"answer_text": "2",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sqa-m5-q2",
+		"question_text": "Framework nào được sử dụng cho kiểm thử đơn vị trên nền C# TB",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "JUnit",
+				"is_correct": false
+			},
+			{
+				"answer_text": "NUnit",
+				"is_correct": true
+			},
+			{
+				"answer_text": "CPPUnit",
+				"is_correct": false
+			},
+			{
+				"answer_text": "FUnit",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sqa-m5-q3",
+		"question_text": "CPPUnit hỗ trợ kiểm thử đơn vị cho ngôn ngữ lập trình nào",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Java",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Python",
+				"is_correct": false
+			},
+			{
+				"answer_text": "C++",
+				"is_correct": true
+			},
+			{
+				"answer_text": "C#",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sqa-m5-q4",
+		"question_text": "Junit chạy trên nền ngôn ngữ nào",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "C++",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Java",
+				"is_correct": true
+			},
+			{
+				"answer_text": "PHP",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Trên tất cả các ngôn ngữ",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sqa-m5-q5",
+		"question_text": "Một ứng dụng ngân hàng xác định tín dụng của khách hàng. Các ứng dụng sử dụng một bộ quy tắc để xác định giới hạn trên của tín dụng. Kỹ thuật kiểm thử hộp đen nào là tốt nhất cho kiểm thử ứng dụng?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Kiểm thử lớp tương đương",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Kiểm thử giá trị biên",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Kiểm thử lớp tương đương và kiểm thử giá trị biên",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Kiểm thử bảng quyết định",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "sqa-m5-q6",
+		"question_text": "Đường đi (đường dẫn) khả thi là đường như thế nào?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Có tồn tại đầu vào để đường đi được thực hiện",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Là đường đi qua tất cả các đỉnh",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Không có đầu vào để thực thi đường đi",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Là đường ngắn nhất đi từ đỉnh đầu đến đỉnh cuối",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sqa-m5-q7",
+		"question_text": "Đường đi (đường dẫn) không khả thi là đường như thế nào?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Có tồn tại đầu vào để đường đi được thực hiện",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Là đường đi qua tất cả các đỉnh",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Không có đầu vào để thực thi đường đi",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Là đường ngắn nhất đi từ đỉnh đầu đến đỉnh cuối",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sqa-m5-q8",
+		"question_text": "Cạnh trong đồ thị chương trình thường đại diện cho gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Luồng điều khiển giữa các lệnh hoặc khối lệnh.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Sự phụ thuộc giữa các module.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Sự truyền dữ liệu giữa các biến.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Mối quan hệ giữa các lớp.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sqa-m5-q9",
+		"question_text": "Cho đoạn giả mã sau: WHILE (condition A) Do B END WHILE Có bao nhiêu quyết định cần phải kiểm tra để đạt được bao phủ quyết định (decision coverage) là 100%?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "2",
+				"is_correct": true
+			},
+			{
+				"answer_text": "1",
+				"is_correct": false
+			},
+			{
+				"answer_text": "4",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Không xác định",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sqa-m5-q10",
+		"question_text": "Cho đoạn code sau, số lần kiểm tra nhỏ nhất cho statement coverage (bao phủ câu lệnh) và branch coverage (bao phủ nhánh) là bao nhiêu?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Statement Coverage = 1, Branch Coverage = 2",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Statement Coverage = 2, Branch Coverage = 2",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Statement Coverage = 1, Branch Coverage = 3",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Statement Coverage = 2, Branch Coverage = 4",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sqa-m5-q11",
+		"question_text": "Cho đoạn chương trình sau, biết rằng các điều kiện độc lập với nhau. Cần bao nhiêu trường hợp kiểm thử cho tất cả các nhánh (khả năng): if (condition1) statement1; else statement2; if (condition 2) statement 3;",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "1",
+				"is_correct": false
+			},
+			{
+				"answer_text": "3",
+				"is_correct": false
+			},
+			{
+				"answer_text": "4",
+				"is_correct": false
+			},
+			{
+				"answer_text": "2",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "sqa-m5-q12",
+		"question_text": "Cho đồ thị luồng điều khiển như sau Với giá trị nào của n đường điều khiển: 1 -> 2(T) -> 3 -> 4 là không thể đạt được?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "0",
+				"is_correct": true
+			},
+			{
+				"answer_text": "1",
+				"is_correct": false
+			},
+			{
+				"answer_text": "2",
+				"is_correct": false
+			},
+			{
+				"answer_text": "3",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sqa-m5-q13",
+		"question_text": "Ví dụ về xem xét bao phủ trong đoạn mã nguồn sau đây là một ví dụ về: if (condition1 && (condition2 || function1())) statement1; else statement2;",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Bao phủ các câu lệnh",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Bao phủ các điều kiện",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Bao phủ các mệnh đề",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Bao phủ các đường",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sqa-m5-q14",
+		"question_text": "Cần ít nhất bao nhiêu ca kiểm thử để đảm bảo 100% bao phủ nhánh? if (x>y) x=x+1; else y=y+1; while (x>y) {y=x*y; x=x+1;}",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "1",
+				"is_correct": false
+			},
+			{
+				"answer_text": "2",
+				"is_correct": true
+			},
+			{
+				"answer_text": "3",
+				"is_correct": false
+			},
+			{
+				"answer_text": "4",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sqa-m5-q15",
+		"question_text": "Nếu một đầu vào có dải giá trị từ -10 đến 10, thì các giá trị biên cần kiểm tra là gì trong trường hợp cẩn thận?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "-10 và 10.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "-11, -10, 9, và 10.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "-10, -9, 9, và 10.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "-11, -10, -9, 9, 10, và 11.",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "sqa-m5-q16",
+		"question_text": "Kiểm thử giá trị biên có thể được áp dụng cho loại dữ liệu nào sau đây?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Chỉ dữ liệu số nguyên",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chỉ dữ liệu ký tự",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Cả dữ liệu số nguyên và ký tự",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Dữ liệu số thực",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sqa-m5-q17",
+		"question_text": "Đối với kiểm thử giá trị biên, tại sao các giá trị ngay bên ngoài giới hạn (ví dụ: -1 và 101 cho khoảng từ 0 đến 100) cũng được kiểm tra?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Để đảm bảo chương trình có thể xử lý các giá trị ngoài giới hạn một cách đúng đắn.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Để kiểm tra hiệu suất của chương trình.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Để đảm bảo giao diện người dùng hoạt động đúng.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Để tối ưu hóa mã nguồn.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sqa-m5-q18",
+		"question_text": "Khi kiểm thử giá trị biên cho một trường hợp nhập liệu số nguyên có giới hạn từ 1 đến 10, giá trị nào sau đây không cần thiết phải kiểm tra?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "0",
+				"is_correct": false
+			},
+			{
+				"answer_text": "1",
+				"is_correct": false
+			},
+			{
+				"answer_text": "50",
+				"is_correct": true
+			},
+			{
+				"answer_text": "11",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sqa-m5-q19",
+		"question_text": "Số trường hợp kiểm thử giá trị biên với hàm n biến trong trường hợp cực kì xấu (robust worst-case) gần bằng:",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "7n",
+				"is_correct": true
+			},
+			{
+				"answer_text": "7n",
+				"is_correct": false
+			},
+			{
+				"answer_text": "5n",
+				"is_correct": false
+			},
+			{
+				"answer_text": "5n",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sqa-m5-q20",
+		"question_text": "Khi thực hiện kiểm thử lớp tương đương cho một dải giá trị từ 1 đến 100, phân chia các lớp tương đương hợp lệ nào dưới đây có thể được tạo ra?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "[1-20], (20-50], (50-100]",
+				"is_correct": true
+			},
+			{
+				"answer_text": "[1-50], [50-90]",
+				"is_correct": false
+			},
+			{
+				"answer_text": "[0-50], [51-70]",
+				"is_correct": false
+			},
+			{
+				"answer_text": "[1-100], [101-200]",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sqa-m5-q21",
+		"question_text": "Trong kiểm thử lớp tương đương, giá trị đại diện của mỗi lớp được chọn như thế nào?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Giá trị biên của lớp.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Giá trị trung bình của lớp.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Bất kỳ giá trị nào trong lớp.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Giá trị ngẫu nhiên ngoài lớp.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sqa-m5-q22",
+		"question_text": "Khi kiểm thử lớp tương đương hợp lệ cho một trường hợp nhập liệu số nguyên từ 1 đến 20, giá trị nào dưới đây có thể không cần kiểm tra?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "0",
+				"is_correct": true
+			},
+			{
+				"answer_text": "1",
+				"is_correct": false
+			},
+			{
+				"answer_text": "5",
+				"is_correct": false
+			},
+			{
+				"answer_text": "20",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sqa-m5-q23",
+		"question_text": "Để thực hiện kiểm thử đường đi cơ bản (Basic Path Testing), bước đầu tiên thường là gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Viết các trường hợp kiểm thử cho tất cả các giá trị biên.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Phân tích và tạo đồ thị luồng điều khiển của chương trình.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Xác định tất cả các lớp tương đương của dữ liệu.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tối ưu hóa mã nguồn để giảm độ phức tạp.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sqa-m5-q24",
+		"question_text": "Trong công thức tính độ phức tạp chu trình V(G) = E - N + 2P, ký hiệu N đại diện cho gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Số lượng đỉnh (nút) trong đồ thị.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Số lượng cạnh trong đồ thị.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Số lượng đường dẫn trong đồ thị.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Số lượng chu trình trong đồ thị.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sqa-m5-q25",
+		"question_text": "Trong công thức tính độ phức tạp chu trình V(G) = E - N + 2P, ký hiệu E đại diện cho gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Số lượng đỉnh (nút) trong đồ thị.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Số lượng cạnh trong đồ thị.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Số lượng đường đi trong đồ thị.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Số lượng chu trình trong đồ thị.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sqa-m5-q26",
+		"question_text": "Một bảng quyết định hoàn chỉnh và chính xác cần đảm bảo điều gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "A. Tất cả các giá trị biên được kiểm tra.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "B. Tất cả các điều kiện và hành động tương ứng đều được liệt kê và kiểm tra.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "C. Tất cả các lớp tương đương của dữ liệu được xác định.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "D. Tất cả các yếu tố giao diện người dùng đều hoạt động đúng.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sqa-m5-q27",
+		"question_text": "Điều gì xảy ra nếu một điều kiện trong bảng quyết định không được đáp ứng?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Tất cả các hành động tương ứng sẽ được thực hiện.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Không có hành động nào sẽ được thực hiện.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Điều kiện đó sẽ được bỏ qua.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Điều kiện đó sẽ được kiểm tra lại.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sqa-m5-q28",
+		"question_text": "Một bảng quyết định bao gồm các thành phần nào?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Các điều kiện và hành động.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Các giá trị biên và lớp tương đương.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Các đường đi và chu trình.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Các nút và cạnh.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sqa-m5-q29",
+		"question_text": "Trong kiểm thử luồng dữ liệu, thuật ngữ \"Define-Use\" có nghĩa là gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Một biến được định nghĩa và sử dụng trong cùng một dòng mã.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Một biến được xác định ở một điểm và được sử dụng ở một điểm khác.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Một biến được định nghĩa nhưng không bao giờ được sử dụng.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Một biến được sử dụng nhưng không bao giờ được định nghĩa.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sqa-m5-q30",
+		"question_text": "Khi nào thì kiểm thử luồng dữ liệu được coi là hoàn chỉnh?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Khi tất cả các giá trị biên được kiểm tra.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Khi tất cả các biến trong chương trình đều được khai báo, gán giá trị và sử dụng một cách chính xác.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Khi tất cả các lớp tương đương của dữ liệu được kiểm tra.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Khi tất cả các yếu tố giao diện người dùng đều hoạt động đúng.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sqa-m5-q31",
+		"question_text": "Trong kiểm thử luồng dữ liệu, thuật ngữ \"DU Path\" đại diện cho gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Đường đi từ điểm khai báo đến điểm gán giá trị.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Đường đi từ điểm gán giá trị đến điểm sử dụng.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Đường đi từ điểm sử dụng đến điểm khai báo.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Đường đi từ điểm gán giá trị đến điểm khai báo.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sqa-m5-q32",
+		"question_text": "Kiểm thử luồng dữ liệu tập trung vào việc kiểm tra các khía cạnh nào của biến trong chương trình?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Khai báo (Definition), gán giá trị (Assignment), và sử dụng (Usage).",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Chỉ gán giá trị (Assignment).",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chỉ khai báo (Definition).",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chỉ sử dụng (Usage).",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sqa-m5-q33",
+		"question_text": "Nếu một đầu vào có dải giá trị từ 1 đến 100, thì số lớp tương đương hợp lệ và không hợp lệ là gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "A. 1 lớp hợp lệ và 1 lớp không hợp lệ.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "B. 1 lớp hợp lệ và 2 lớp không hợp lệ.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "C. 2 lớp hợp lệ và 2 lớp không hợp lệ.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "D. 1 lớp hợp lệ và 3 lớp không hợp lệ.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sqa-m5-q34",
+		"question_text": "Làm thế nào để xác định số lượng trường hợp kiểm thử cần thiết trong kiểm thử lớp tương đương?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Bằng cách kiểm tra từng giá trị biên của mỗi lớp.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Bằng cách chọn một giá trị từ mỗi lớp tương đương hợp lệ và không hợp lệ.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Bằng cách kiểm tra tất cả các giá trị đầu vào có thể có.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Bằng cách chọn các giá trị trung bình từ mỗi lớp.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sqa-m5-q35",
+		"question_text": "Một lớp tương đương không hợp lệ là gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Một lớp chứa các giá trị đầu vào nằm trong phạm vi cho phép.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Một lớp chứa các giá trị đầu vào nằm ngoài phạm vi cho phép.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Một lớp chứa các giá trị đầu vào hợp lệ.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Một lớp chứa các giá trị đầu vào trung bình.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sqa-m5-q36",
+		"question_text": "Hai nhánh của hộp quyết định được gán nhãn:",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "True, False",
+				"is_correct": false
+			},
+			{
+				"answer_text": "T, F",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Cả A và B đều đúng",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Cả A và B đều sai",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sqa-m5-q37",
+		"question_text": "Câu nào sau đây là sai khi so sánh giữa 2 loại data flow testing là static testing và dynamic testing:",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Static testing hiệu quả hơn dynamic testing",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Dynamic testing có liên quan đến việc chạy một số trường hợp thử nghiệm nên thường mất nhiều thời gian hơn so với static testing.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Dynamic testing tìm thấy ít lỗi hơn so với static testing.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Dynamic testing có thể được thực hiện trước khi biên dịch trong khi static testing chỉ có thể diễn ra sau khi biên dịch và liên kết.",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "sqa-m5-q38",
+		"question_text": "Các kiểu luồng dữ liệu bất thường (data flow anomaly ) là:",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "(D: Defined, U: Undefined, R: Reference)",
+				"is_correct": false
+			},
+			{
+				"answer_text": "dd, dr, du",
+				"is_correct": true
+			},
+			{
+				"answer_text": "dd, ur, du",
+				"is_correct": false
+			},
+			{
+				"answer_text": "dr, ur, du",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sqa-m5-q39",
+		"question_text": "Câu nào sau đây không phải là Simple path?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "2 – 3 – 4 – 5 – 6 – 7",
+				"is_correct": false
+			},
+			{
+				"answer_text": "3 – 4 – 5 – 7 – 6 – 3",
+				"is_correct": false
+			},
+			{
+				"answer_text": "3 – 5 – 6 – 4 – 3 – 7",
+				"is_correct": true
+			},
+			{
+				"answer_text": "2 – 3 – 6 – 7 – 5 – 4",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sqa-m5-q40",
+		"question_text": "Trong kiểm thử giá trị biên nguyên tắc kiểm thử các dữ liệu vào không gồm loại nào dưới đây?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "A. Giá trị nhỏ nhất",
+				"is_correct": false
+			},
+			{
+				"answer_text": "B. Giá trị lớn nhất",
+				"is_correct": false
+			},
+			{
+				"answer_text": "C. Giá trị bình thường",
+				"is_correct": false
+			},
+			{
+				"answer_text": "D. Dữ liệu vào bao gồm cả 3 loại trên",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "sqa-m5-q41",
+		"question_text": "Một tài liệu đặc tả chức năng cung cấp những gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Mô tả chi tiết các yêu cầu, các rủi ro có thể có.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Các giao diện kết nối với các module khác của phần mềm, luồng dữ liệu.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Dự toán xử lý lỗi, bộ nhớ sử dụng, hiệu năng và một số kĩ thuật giới hạn.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tất cả các đáp án đều đúng",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "sqa-m5-q42",
+		"question_text": "một phần của chương trình: Tài liệu nào tóm tắt các hoạt động kiểm thử kết hợp với một hoặc nhiều đặc tả thiết kế kiểm thử?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Báo cáo sự cố kiểm thử",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Báo cáo tóm tắt kiểm thử",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Kiểm thử đăng nhập",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Kịch bản kiểm thử",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sqa-m5-q43",
+		"question_text": "Đo lường chất lượng từ góc nhìn user-view dễ dàng bằng cách nào?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Hỏi người sử dụng xem có thấy hài lòng về các chức năng hay không.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tính tỉ lệ passed test case trong tổng số các test case được thiết kế cho chức năng đó.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Bằng tổng số các test cases.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Cả 3 cách trên.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sqa-m5-q44",
+		"question_text": "Trong một chiến lược kiểm thử đa chu kì, ca kiểm thử được ưu tiên vì lí do nào sau đây:",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Chất lượng của hệ thống ban đầu để thử nghiệm không cao",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chất lượng của hệ thống được cải thiện từ chu kì này tới chu kì khác",
+				"is_correct": false
+			},
+			{
+				"answer_text": "1 loạt các lỗi được phát hiện khi kiểm tra đến",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tất cả các phương án trên",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "sqa-m5-q45",
+		"question_text": "Bộ nào dưới đây là bộ số liệu có thể được sử dụng để giám sát việc thực hiện kiểm thử?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Số lượng các khuyết tật bị phát hiện, kiểm tra chi phí.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Số lượng các khuyết tật còn lại trong đối tượng kiểm thử.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tỷ lệ phần trăm hoàn thành nhiệm vụ trong việc chuẩn bị môi trường kiểm tra và các ca kiểm thử.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Số lượng ca kiểm thử chạy/ không chạy, các ca kiểm thử thông qua/ không thông qua.",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "sqa-m5-q46",
+		"question_text": "Nhiệm vụ nào không phải nhiệm vụ chính của Exit Criteria?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Marketing, phần mềm, phần cứng, tiêu chuẩn kỹ và thử nghiệm hệ thống.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Marketing, đầu ra, đầu vào, tiêu chuẩn kỹ thuật và thử nghiệm hệ thống.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Đầu vào, đầu ra, ca kiểm thử, tiêu chuẩn kỹ thuật và thử nghiệm hệ thống.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Đâù vào, đầu ra, tiêu chuẩn kỹ thuật và thử nghiệm hệ thống",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sqa-m5-q47",
+		"question_text": "Bộ số liệu có thể được sử dụng để theo dõi việc thực hiện kiểm tra ?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Số lượng các sai sót phát hiện, chi phí kiểm tra",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Số lượng các sai sót còn lại trong đối tượng kiểm tra",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tỷ lệ phần trăm các nhiệm vụ hoàn thành trong việc chuẩn bị của môi trường kiểm thử; các ca kiểm thử",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Số lượng các ca kiểm thử chạy / không chạy; các ca kiểm thử thông qua / thất bại",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "sqa-m5-q48",
+		"question_text": "Đâu không phải là nguyên tắc quan trọng để phân tích nguyên nhân gây sai sót:",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Tập trung vào các lỗi hệ thống",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Giảm số lượng các sai sót để nâng cao chất lượng",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Sắp xếp, phân loại các lỗi để loại bỏ",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Áp dụng chuyên môn bộ phận nơi các sai sót xảy ra",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sqa-m5-q49",
+		"question_text": "Nhận xét đúng về khuyết tật có độ ưu tiên ở mức Critical:",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Khuyết tật ở mức độ này phải được giải quyết càng sớm càng tốt, và quá trình kiểm thử không nên tiếp tục khi khuyết tật ở mức này chưa được sửa",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Khuyết tật ở mức độ này sẽ không ảnh hưởng đến quá trình kiểm thử",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Khuyết tật ở mức độ này có thể giải quyết bất kì lúc nào",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Khuyết tật có mức độ ưu tiên cao và ảnh hưởng dến một tập nhỏ các chức năng của hệ thống",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sqa-m5-q50",
+		"question_text": "Nhân xét đúng về lỗi có độ ưu tiên ở mức cao (high)",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Lỗi ở mức độ này sẽ không ảnh hưởng đến tiến độ kiểm thử.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Lỗi ở mức độ này nên được giải quyết bất kỳ lúc nào có thể",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Lỗi ở mức độ này ở mức ưu tiên cao, quá trình kiểm thử phải dừng lại khi lỗi này chưa giải quyết được",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Lỗi ở mức độ này ở mức ưu tiên cao, một tập hợp chức năng con của hệ thống không thể kiểm thử nếu lỗi này chưa được giải quyết",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "sqa-m5-q51",
+		"question_text": "Nhận xét đúng về độ quan trọng của lỗi ở mức thấp (low)",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Nếu nhiều chức năng quan trọng của hệ thống bị suy yếu do lỗi này",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Nếu một số chức cơ bản của hệ thông bị suy yếu",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Nếu không có chức năng quan trọng nào của hệ thống bị suy yếu",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Nếu vấn đề liên quan đến tính năng giao diện của hệ thống",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "sqa-m5-q52",
+		"question_text": "Nhận xét đúng về độ ưu tiên và độ nghiêm trọng quá trình kiểm thử",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Mức độ nghiêm trọng của một khuyết tật vẫn giữ nguyên trong vòng đời của nó, còn mức độ ưu tiên thì có thể thay đổi",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Mức độ nghiêm trọng của một khuyết tật và mức độ ưu tiên không thay đổi trong suốt vòng đời",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Mức độ ưu tiên không thay đổi còn mức độ nghiêm trọng thay đổi trong vòng đời của nó",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tất cả các đáp án đều sai",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sqa-m5-q53",
+		"question_text": "Để đo được tính hiệu quả của việc kiểm thử, một công thức được sử dụng phổ biến trong công nghiệp là tính giá trị DRE (defect removal efficiency). Giá trị DRE được tính bằng công thức:",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Số lỗi tìm được trong kiểm thử",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Số lỗi tìm được + số lỗi không tìm được trong kiểm thử",
+				"is_correct": false
+			},
+			{
+				"answer_text": "(Số lỗi tìm được)/(số lỗi tìm được + số lỗi không tìm được)",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Cả 3 đều sai",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sqa-m5-q54",
+		"question_text": "Thế nào là kiểm thử chấp nhận nghiệp vụ (BAT)",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Thực hiện dưới sự phát triển tổ chức của nhà cung cấp, không quan tâm tới kết quả của người sử dụng",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Thực hiện dưới sự phát triển tổ chức của nhà cung cấp, nhưng vẫn quan tâm tới kết quả của người sử dụng",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Thực hiện bởi người sử dụng",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Thực hiện bởi người sử dụng, đảm bảo hệ thống thỏa mãn các kịch bản theo yêu cầu của người dùng",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sqa-m5-q55",
+		"question_text": "Kiểm thử chức năng được thực hiện ở đâu?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Ở hệ thống và chỉ ở mức kiểm thử chấp nhận.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Ở tất cả các mức kiểm thử.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Ở tất cả các mức trên mức kiểm thử tích hợp.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chỉ ở mức kiểm thử chấp nhận.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sqa-m5-q56",
+		"question_text": "Các ca kiểm thử chấp nhận dựa trên:",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Các yêu cầu.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Thiết kế.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Mã nguồn.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Bảng quyết định.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sqa-m5-q57",
+		"question_text": "Chúng ta sử dụng đầu ra của phân tích yêu cầu và đặc tả yêu cầu như thể đầu vào để viết ra các:",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Ca kiểm thử chấp nhận người dùng.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Ca kiểm thử mức tích hợp.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Ca kiểm thử mức đơn vị.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Đặc tả chương trình.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sqa-m5-q58",
+		"question_text": "Điều kiện kiểm thử xuất phát từ:",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Đặc tả",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Testcase",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Dữ liệu test",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Thiết kế test",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sqa-m5-q59",
+		"question_text": "Trong một hệ thống được thiết kế để tính thuế: một nhân viên có lương $4000 thì miến thuế. $1500 tiếp theo chịu thuế 10%, $2800 tiếp theo chịu 22%. Bất kì mức lương nào cao hơn nữa thì đều chịu 40% thuế. Lớp đầu vào nào sau đây cùng nằm trong một nhóm test tương đương",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "$4800, $14000, $28000",
+				"is_correct": false
+			},
+			{
+				"answer_text": "$5200, $5500, $28000",
+				"is_correct": false
+			},
+			{
+				"answer_text": "$28001, $32000, $35000",
+				"is_correct": false
+			},
+			{
+				"answer_text": "$5800, $28000, $32000",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "sqa-m5-q60",
+		"question_text": "Loại nào sau đây không phải là dữ liệu bất thường:",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Định nghĩa sau đó định nghĩa lại",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Không định nghĩa nhưng tham chiếu",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Định nghĩa sau đó tham chiếu",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Định nghĩa sau đó hủy bỏ định nghĩa",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sqa-m5-q61",
+		"question_text": "Trong mối quan hệ giữa tiêu chuẩn kiểm thử luồng dữ liệu khả thi thì tiêu chuẩn nào sau đây là đầy đủ nhất:",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "All – du-paths",
+				"is_correct": false
+			},
+			{
+				"answer_text": "All – branches",
+				"is_correct": false
+			},
+			{
+				"answer_text": "All – paths",
+				"is_correct": true
+			},
+			{
+				"answer_text": "All – uses",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sqa-m5-q62",
+		"question_text": "Kiểm thử luồng dữ liệu là một kĩ thuật kiểm thử cấu trúc điều khiển ở đó tiêu chí được sử dụng để thiết kế những ca kiểm thử là:",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Dựa vào kiểm thử đường cơ bản.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Thực hiện các điều kiện logic trong một module chương trình.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Chọn những đường kiểm thử dựa vào vị trí và việc sử dụng các biến.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Tập trung vào kiểm tra tính hợp lệ của vòng lặp.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sqa-m5-q63",
+		"question_text": "(Lớp tương đương - Equivalence class): Một trường textbox trong một from nhập liệu có khoảng giá trị chấp nhận trong khoảng 18 – 25. Hãy chỉ gia lớp giá trị không hợp lệ.",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "A. 17",
+				"is_correct": true
+			},
+			{
+				"answer_text": "B. 19",
+				"is_correct": false
+			},
+			{
+				"answer_text": "C. 24",
+				"is_correct": false
+			},
+			{
+				"answer_text": "D. 21",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sqa-m5-q64",
+		"question_text": "Một hệ thống quản lý lỗi có trách nhiệm theo dõi tình trạng của tất cả các lỗi đã biết và thực thi các quy tắc để kiểm để thay đổi các trạng thái. Nếu nhiệm vụ của bạn là kiểm thử theo dõi trạng thái, phương pháp nào là tốt nhất?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Logic-based testing",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Use-case-based testing",
+				"is_correct": false
+			},
+			{
+				"answer_text": "State transition testing",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Systematic testing according to the V-model",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sqa-m5-q65",
+		"question_text": "Nếu một chương trình đã được kiểm thử và 100% condition coverage được hoàn thành. Thì tiêu chuẩn nào sau đây đảm bảo đạt được?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "100% branch coverage",
+				"is_correct": false
+			},
+			{
+				"answer_text": "100% condition coverage và 100% statement coverage",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Các lớp tương đương và giá trị biên được bao phủ.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "không có tiêu chuẩn nào hoàn thành 100%",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sqa-m5-q66",
+		"question_text": "Cho đoạn chương trình: WHILE (condition A) Do B END WHILE Có bao nhiêu test case nên được có để hoàn thành 100% bao phủ quyết định (decision coverage)?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "2",
+				"is_correct": true
+			},
+			{
+				"answer_text": "không rõ ràng.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "1",
+				"is_correct": false
+			},
+			{
+				"answer_text": "4",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sqa-m5-q67",
+		"question_text": "Trong kiểm thử đơn vị thì đối tượng dùng để kiểm thử là một Module. Module được hiểu là gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Một lớp.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Phương thức.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Một thành phần(Component)",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Tùy theo cách hiểu.",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "sqa-m5-q68",
+		"question_text": "Kiểm thử được chia làm nhiều cấp độ, cấp độ nào là đơn giản nhất?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Kiểm thử đơn vị.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Kiểm thử tích hợp.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Kiểm thử hệ thống.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Kiểm thử chấp nhận.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sqa-m5-q69",
+		"question_text": "Từ góc nhìn giá trị của phần mềm (Value-based view), thì một phần mềm như thế nào được đánh giá là chất lượng?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Phần mềm dễ bảo trì.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Phần mềm đem lại lợi nhuận cao cho tổ chức.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Phần mềm có giao diện đẹp.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Một đáp án khác.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sqa-m5-q70",
+		"question_text": "Định nghĩa kiểm chứng (verification) và thẩm định (validation) nào sau đây là đúng?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Cả hai đều có ý nghĩa giống nhau.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Kiểm chứng có thể hiểu là việc xây dựng phần mềm có đúng đặc tả, đúng thiết kế hay không. Còn thẩm định có nghĩa là việc xây dựng phần mềm có đáp ứng được nhu cầu của người dùng không.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Thẩm định có thể hiểu là việc xây dựng phần mềm có đúng đặc tả, đúng thiết kế. Còn kiểm chứng có nghĩa là việc xây dựng phần mềm có đáp ứng được nhu cầu của người dùng không.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Kiểm chứng là dùng công cụ kiểm tra tự động. Còn thẩm định là thực hiện thủ công.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sqa-m5-q71",
+		"question_text": "Thứ tự thực hiện đúng của kiểm chứng (verification) và thẩm định (Validation) là:",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Không cần thứ tự, 2 công việc trên có thể làm đan xen lẫn nhau.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Kiểm chứng, rồi đến thẩm định.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Thẩm định rồi đến kiểm chứng.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Một đáp án khác.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sqa-m5-q72",
+		"question_text": "Trong quá trình kiểm thử, mục tiêu quan trọng nhất là",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Tìm ra nhiều lỗi nhất có thể.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Kiểm tra được các khu vực có nguy cơ xảy ra lỗi cao.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Đạt được độ bao phủ kiểm thử tốt.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Để đánh giá phần mềm đã sẵn sàng cho phát hành.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "sqa-m5-q73",
+		"question_text": "Chọn một lý do không hợp lý khi nói việc kiểm thử đầy đủ là không khả thi:",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text": "Miền đầu vào là quá lớn để kiểm tra.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Giới hạn về nguồn lực tài chính.",
+				"is_correct": true
+			},
+			{
+				"answer_text": "Không thể kiểm tra hết các đường khả thi trong chương trình phần mềm.",
+				"is_correct": false
+			},
+			{
+				"answer_text": "Các vấn đề giao diện người dùng là quá phức tạp để kiểm tra hoàn toàn.",
+				"is_correct": false
+			}
+		]
+	}
+]

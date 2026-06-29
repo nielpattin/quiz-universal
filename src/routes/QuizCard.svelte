@@ -2,19 +2,17 @@
 	import { DEBUG } from '$lib/config';
 	import BilingualText from '$lib/components/BilingualText.svelte';
 	let isHeld = $state(false);
-	import {
-		Star,
-		ArrowUp,
-		ArrowDown,
-		Circle,
-		CircleDot,
-		Square,
-		SquareCheck,
-		Check,
-		X,
-		ChevronLeft,
-		ChevronRight
-	} from '@lucide/svelte';
+	import Star from '@lucide/svelte/icons/star';
+	import ArrowUp from '@lucide/svelte/icons/arrow-up';
+	import ArrowDown from '@lucide/svelte/icons/arrow-down';
+	import Circle from '@lucide/svelte/icons/circle';
+	import CircleDot from '@lucide/svelte/icons/circle-dot';
+	import Square from '@lucide/svelte/icons/square';
+	import SquareCheck from '@lucide/svelte/icons/square-check';
+	import Check from '@lucide/svelte/icons/check';
+	import X from '@lucide/svelte/icons/x';
+	import ChevronLeft from '@lucide/svelte/icons/chevron-left';
+	import ChevronRight from '@lucide/svelte/icons/chevron-right';
 
 	interface Answer {
 		answer_text?: string;
@@ -464,12 +462,14 @@
 			</div>
 		{/if}
 
-	<!-- Subtle ID footer (mobile only) -->
-	{#if currentQuestion?.question_id}
-		<div class="md:hidden mt-2 mb-4 text-center font-mono text-[10px] text-[var(--text-secondary)] opacity-60">
-			ID: {currentQuestion.question_id}
-		</div>
-	{/if}
+		<!-- Subtle ID footer (mobile only) -->
+		{#if currentQuestion?.question_id}
+			<div
+				class="md:hidden mt-2 mb-4 text-center font-mono text-[10px] text-[var(--text-secondary)] opacity-60"
+			>
+				ID: {currentQuestion.question_id}
+			</div>
+		{/if}
 	</div>
 </div>
 
@@ -479,9 +479,7 @@
 		<button
 			type="button"
 			class="w-11 h-11 flex items-center justify-center rounded-full bg-[var(--bg-surface)] border-2 border-[var(--color-primary)] shadow-lg transition-opacity duration-200
-					{scrollState.value === 'top' && !isHeld
-				? 'opacity-100'
-				: 'opacity-0 pointer-events-none'}"
+					{scrollState.value === 'top' && !isHeld ? 'opacity-100' : 'opacity-0 pointer-events-none'}"
 			aria-label="Go to previous card"
 			onclick={goToPreviousCard}
 		>
