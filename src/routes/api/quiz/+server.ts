@@ -13,10 +13,10 @@ export const GET: RequestHandler = async ({ url }) => {
 
 	try {
 		const rows = await db.execute({
-			sql: 'SELECT * FROM questions WHERE collection_id = ?',
+			// Cast numeric suffix from question_id for natural ordering (e.g. "sqa-m1-q23" → 23)
+			sql: `SELECT * FROM questions WHERE collection_id = ? ORDER BY CAST(SUBSTR(question_id, INSTR(question_id, '-q') + 2) AS INTEGER)`,
 			args: [id]
 		});
-
 		const quizzes = rows.rows.map((row) => ({
 			...row,
 			answers: typeof row.answers === 'string' ? JSON.parse(row.answers) : row.answers
