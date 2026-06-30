@@ -7,8 +7,7 @@ export default defineConfig({
 	clearScreen: false,
 	plugins: [tailwindcss(), sveltekit(), devtoolsJson()],
 	server: {
-		host: '::',
-		port: 30000,
+		port: 5173,
 		warmup: {
 			clientFiles: ['./src/app.html', './src/routes/+page.svelte']
 		},
@@ -20,6 +19,6 @@ export default defineConfig({
 		}
 	},
 	preview: {
-		port: 30000
+		port: 5173
 	}
 });
