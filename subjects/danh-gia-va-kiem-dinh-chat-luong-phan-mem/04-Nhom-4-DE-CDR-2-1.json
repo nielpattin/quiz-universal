@@ -118,6 +118,7 @@
 		"question_id": "sqa-m4-q6",
 		"question_text": "Ký hiệu không sử dụng trong đồ thị luồng điều khiển:",
 		"question_type": "single_answer_question",
+		"image_url": "/images/questions/sqa-m4-q6.webp",
 		"answers": [
 			{
 				"answer_text": "A",

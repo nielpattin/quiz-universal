@@ -4,9 +4,10 @@ import { sveltekit } from '@sveltejs/kit/vite';
 import { defineConfig } from 'vite';
 
 export default defineConfig({
+	clearScreen: false,
 	plugins: [tailwindcss(), sveltekit(), devtoolsJson()],
 	server: {
-		host: '::',
+		host: true,
 		port: 30000,
 		warmup: {
 			clientFiles: ['./src/app.html', './src/routes/+page.svelte']

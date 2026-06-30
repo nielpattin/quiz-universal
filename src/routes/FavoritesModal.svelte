@@ -22,8 +22,7 @@
 				id="fav-id-list"
 				class="w-full h-32 resize-none text-base mb-3 rounded-lg border border-[var(--border)] bg-[var(--bg-hover)] text-[var(--text-primary)] p-2"
 				readonly
-				value={getFavIdList()}
-			></textarea>
+				value={getFavIdList()}></textarea>
 			<div class="fav-id-modal-btn-row flex gap-2 mb-2">
 				<button
 					class="flex-1 text-base py-2 rounded-lg bg-[var(--bg-hover)] text-[var(--color-primary)] font-medium hover:bg-[var(--border)] cursor-pointer border border-[var(--border)]"

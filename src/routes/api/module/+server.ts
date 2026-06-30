@@ -10,7 +10,7 @@ export async function GET({ url }: { url: URL }) {
 		authToken: env.TURSO_AUTH_TOKEN
 	});
 
-	let quizzes: unknown[] = [];
+	let quizzes: unknown[];
 
 	try {
 		if (idsParam) {
@@ -66,7 +66,7 @@ export async function POST({ request }: { request: Request }) {
 		authToken: env.TURSO_AUTH_TOKEN
 	});
 
-	let quizzes: unknown[] = [];
+	let quizzes: unknown[];
 	try {
 		const { ids } = await request.json();
 		if (Array.isArray(ids) && ids.length > 0) {
