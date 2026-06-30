@@ -55,6 +55,44 @@ export const pageState = $state<PageState>({
 });
 
 export const favorites = new SvelteSet<string>();
+
+// Quiz session score/streak tracking
+export const quizSession = $state<{
+	correct: number;
+	wrong: number;
+	streak: number;
+	maxStreak: number;
+}>({
+	correct: 0,
+	wrong: 0,
+	streak: 0,
+	maxStreak: 0
+});
+
+export const questionResults = new SvelteMap<string, boolean>();
+
+export function trackResult(questionId: string, isCorrect: boolean) {
+	questionResults.set(questionId, isCorrect);
+	if (isCorrect) {
+		quizSession.correct++;
+		quizSession.streak++;
+		if (quizSession.streak > quizSession.maxStreak) {
+			quizSession.maxStreak = quizSession.streak;
+		}
+	} else {
+		quizSession.wrong++;
+		quizSession.streak = 0;
+	}
+}
+
+export function resetQuizSession() {
+	quizSession.correct = 0;
+	quizSession.wrong = 0;
+	quizSession.streak = 0;
+	quizSession.maxStreak = 0;
+	questionResults.clear();
+}
+
 export const appState = $state<AppState>({
 	currentView: 'all',
 	all: { module: '', questionIndex: 0 },
@@ -132,6 +170,7 @@ export async function fetchNavigation() {
 
 export async function loadQuiz(quizId: string) {
 	pageState.isLoading = true;
+	resetQuizSession();
 	try {
 		const res = await fetch(`/api/quiz?id=${quizId}`);
 		const data = await res.json();
@@ -156,6 +195,7 @@ export async function loadQuiz(quizId: string) {
 
 export function clearQuiz() {
 	pageState.quizData = [];
+	resetQuizSession();
 	pageState.moduleId = '';
 	pageState.current = 0;
 	pageState.questionAnswers.clear();

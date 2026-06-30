@@ -1,7 +1,17 @@
 <script lang="ts">
 	import { DEBUG } from '$lib/config';
 	import QuizCard from './QuizCard.svelte';
-	import { pageState, favorites, appState } from './global.svelte';
+	import {
+		pageState,
+		favorites,
+		appState,
+		quizSession,
+		trackResult,
+		resetQuizSession,
+		clearQuiz
+	} from './global.svelte';
+	import confetti from 'canvas-confetti';
+	import { fly, scale } from 'svelte/transition';
 
 	interface CurrentQuestion {
 		question_id?: string;
@@ -108,17 +118,35 @@
 			}
 		} else {
 			newAnswers = [idx];
+		}
+		// Set answers BEFORE checkAnswers so correctness can read them
+		pageState.questionAnswers.set(currentQuestionId, newAnswers);
+		if (DEBUG) console.log('[handleAnswerClick] updated answers', newAnswers);
+
+		if (questionType !== 'multiple_answer_question') {
 			if (DEBUG) console.log('[handleAnswerClick] single-answer: locking after selection');
 			checkAnswers();
 		}
-		pageState.questionAnswers.set(currentQuestionId, newAnswers);
-		if (DEBUG) console.log('[handleAnswerClick] updated answers', newAnswers);
 	}
 
 	function checkAnswers() {
 		const currentQuestionId = pageState.quizData[pageState.current]?.question_id;
-		if (currentQuestionId) {
-			pageState.questionLockedStatus.set(currentQuestionId, true);
+		if (!currentQuestionId) return;
+
+		pageState.questionLockedStatus.set(currentQuestionId, true);
+
+		// Track correctness
+		const q = pageState.quizData[pageState.current];
+		if (q && Array.isArray(q.answers)) {
+			const selectedShuffled = pageState.questionAnswers.get(currentQuestionId) ?? [];
+			const selectedOrig = selectedShuffled.map((si: number) => getOriginalIndex(pageState.current, si));
+			const correctOrig = (q.answers as Array<{ is_correct?: boolean }>)
+				.map((a, i) => (a.is_correct ? i : -1))
+				.filter((i: number) => i >= 0);
+			const isCorrect =
+				selectedOrig.length === correctOrig.length &&
+				correctOrig.every((i: number) => selectedOrig.includes(i));
+			trackResult(currentQuestionId, isCorrect);
 		}
 	}
 
@@ -139,24 +167,83 @@
 			pageState.current += 1;
 		}
 	}
+
+	function backToLibrary() {
+		clearQuiz();
+		appState.currentView = 'all';
+	}
+
+	// Derived: quiz is complete when last question is answered
+	let isComplete = $derived(
+		pageState.quizData.length > 0 &&
+			pageState.current === pageState.quizData.length - 1 &&
+			pageState.questionLockedStatus.get(
+				pageState.quizData[pageState.current]?.question_id ?? ''
+			) === true
+	);
+
+	// Fire confetti when quiz completes
+	let celebrated = false;
+	$effect(() => {
+		if (isComplete && !celebrated) {
+			celebrated = true;
+			confetti({
+				particleCount: 150,
+				spread: 80,
+				origin: { y: 0.6 },
+				colors: [
+					getComputedStyle(document.documentElement).getPropertyValue('--color-primary').trim() ||
+						'#e07b54',
+					getComputedStyle(document.documentElement).getPropertyValue('--color-secondary').trim() ||
+						'#00d9c0',
+					getComputedStyle(document.documentElement).getPropertyValue('--color-accent').trim() ||
+						'#f5a623',
+					getComputedStyle(document.documentElement).getPropertyValue('--color-success').trim() ||
+						'#10b981'
+				]
+			});
+		}
+	});
+
+	// Reset celebrated flag when quiz data changes (new quiz loaded)
+	$effect(() => {
+		if (pageState.quizData.length === 0) {
+			celebrated = false;
+		}
+	});
 </script>
 
 <!-- Carousel Component -->
 {#if pageState.quizData.length > 0}
 	<div class="carousel-vertical flex flex-col w-full h-full relative overflow-hidden">
+		<!-- Progress Bar -->
+		<div class="flex-shrink-0 w-full px-4 md:px-8 pt-2.5 pb-0 z-20">
+			<div class="flex items-center gap-2.5">
+				<div class="flex-1 h-1.5 bg-[var(--bg-hover)] rounded-full overflow-hidden">
+					<div
+						class="h-full rounded-full transition-all duration-500 ease-out"
+						style="width: {((pageState.current + 1) / pageState.quizData.length) * 100}%; background: linear-gradient(90deg, var(--color-primary), var(--color-secondary));"
+					></div>
+				</div>
+				<span class="text-xs text-[var(--text-secondary)] tabular-nums whitespace-nowrap">
+					{pageState.current + 1} / {pageState.quizData.length}
+				</span>
+			</div>
+		</div>
+
+		<!-- Card area -->
 		{#each [pageState.current - 1, pageState.current, pageState.current + 1] as idx (idx)}
 			{#if idx >= 0 && idx < pageState.quizData.length}
 				<div
 					class="carousel-card absolute inset-0"
-					style="transform: translateY({(idx - pageState.current) *
-						100}%); transition: transform 0.3s cubic-bezier(0.4,0,0.2,1);"
+					class:card-dim={idx !== pageState.current}
+					style="transform: translateY({(idx - pageState.current) * 100}%); transition: all 0.35s cubic-bezier(0.4,0,0.2,1);"
 				>
 					<QuizCard
 						currentQuestion={getCurrentQuestionWithType(pageState.quizData[idx])}
 						current={idx}
 						quizData={pageState.quizData}
-						selectedAnswers={pageState.questionAnswers.get(pageState.quizData[idx]?.question_id) ??
-							[]}
+						selectedAnswers={pageState.questionAnswers.get(pageState.quizData[idx]?.question_id) ?? []}
 						questionLocked={pageState.questionLockedStatus.get(
 							pageState.quizData[idx]?.question_id
 						) ?? false}
@@ -172,6 +259,54 @@
 				</div>
 			{/if}
 		{/each}
+
+		<!-- Completion Overlay -->
+		{#if isComplete}
+			<div
+				class="absolute inset-0 z-30 flex items-center justify-center bg-black/40 backdrop-blur-sm"
+				transition:scale={{ start: 0.9, duration: 400 }}
+			>
+				<div
+					class="bg-[var(--bg-surface)] rounded-2xl p-8 max-w-sm mx-4 shadow-2xl border border-[var(--border)] text-center"
+					transition:fly={{ y: 30, duration: 350, delay: 100 }}
+				>
+					<div class="text-4xl mb-3">🎉</div>
+					<h2 class="text-xl font-bold text-[var(--text-primary)] mb-3">Quiz Complete!</h2>
+					<div class="space-y-1.5 mb-6">
+						<p class="text-[var(--text-secondary)] text-sm">
+							<span class="text-[var(--color-success)] font-semibold text-base"
+								>{quizSession.correct}</span
+							>
+							correct
+							<span class="mx-1.5">·</span>
+							<span class="text-[var(--color-error)] font-semibold text-base"
+								>{quizSession.wrong}</span
+							>
+							wrong
+						</p>
+						{#if quizSession.maxStreak > 1}
+							<p class="text-[var(--text-secondary)] text-sm">
+								Best streak:
+								<span class="text-[var(--color-accent)] font-semibold"
+									>{quizSession.maxStreak}</span
+								>
+								🔥
+							</p>
+						{/if}
+						<p class="text-[var(--text-secondary)] text-xs mt-2">
+							{((quizSession.correct / Math.max(quizSession.correct + quizSession.wrong, 1)) * 100).toFixed(0)}%
+							accuracy
+						</p>
+					</div>
+					<button
+						class="px-6 py-2.5 rounded-xl bg-[var(--color-primary)] text-[var(--bg-primary)] font-semibold hover:opacity-90 transition-all duration-200 cursor-pointer"
+						onclick={backToLibrary}
+					>
+						Back to Library
+					</button>
+				</div>
+			</div>
+		{/if}
 	</div>
 {:else}
 	<div class="w-full h-full flex flex-col items-center justify-center">
@@ -180,3 +315,25 @@
 		</div>
 	</div>
 {/if}
+
+<style>
+	.card-dim {
+		opacity: 0.75;
+		scale: 0.96;
+	}
+
+	.carousel-card {
+		animation: card-entrance 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
+	}
+
+	@keyframes card-entrance {
+		0% {
+			opacity: 0;
+			scale: 0.93;
+		}
+		100% {
+			opacity: 1;
+			scale: 1;
+		}
+	}
+</style>

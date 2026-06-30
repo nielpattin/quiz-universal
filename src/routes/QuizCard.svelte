@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { DEBUG } from '$lib/config';
 	import BilingualText from '$lib/components/BilingualText.svelte';
+	import { quizSession } from './global.svelte';
 	let isHeld = $state(false);
 	import Star from '@lucide/svelte/icons/star';
 	import ArrowUp from '@lucide/svelte/icons/arrow-up';
@@ -194,6 +195,36 @@
 	// Check if current question is multiple choice
 	let isMultipleChoice = $derived(currentQuestion?.question_type === 'multiple_answer_question');
 
+	// Track which answer buttons should animate
+	let popIndex = $state<number | null>(null);
+	let shakeIndex = $state<number | null>(null);
+
+	// Watch for selectedAnswers changes to trigger pop animation
+	$effect(() => {
+		const sa = selectedAnswers;
+		if (sa.length > 0 && !questionLocked) {
+			popIndex = sa[sa.length - 1];
+			const timer = setTimeout(() => { popIndex = null; }, 300);
+			return () => clearTimeout(timer);
+		}
+	});
+
+	// Watch for questionLocked to trigger shake on wrong answers
+	$effect(() => {
+		if (questionLocked) {
+			// Find which selected answer is wrong
+			const wrongIdx = selectedAnswers.find((idx: number) => {
+				const originalIdx = originalIndices?.[idx] ?? idx;
+				return !currentQuestion?.answers?.[originalIdx]?.is_correct;
+			});
+			if (wrongIdx !== undefined) {
+				shakeIndex = wrongIdx;
+				const timer = setTimeout(() => { shakeIndex = null; }, 500);
+				return () => clearTimeout(timer);
+			}
+		}
+	});
+
 	// Helper function for answer styling with enhanced feedback
 	function getAnswerClass(idx: number): string {
 		const isSelected = selectedAnswers.includes(idx);
@@ -205,18 +236,25 @@
 		if (questionLocked) {
 			// After checking: show correct/incorrect/missed states
 			if (isCorrect && isSelected) {
-				// Correct answer that was selected
-				classes += ' border-[var(--color-success)] bg-[var(--color-success)]/10';
+				classes += ' border-[var(--color-success)] bg-[var(--color-success)]/10 answer-correct-glow';
 			} else if (isCorrect && !isSelected) {
-				// Missed correct answer (not selected but should have been)
 				classes += ' border-[var(--color-accent)] border-dashed bg-[var(--color-accent)]/5';
 			} else if (!isCorrect && isSelected) {
-				// Incorrect answer that was selected
 				classes += ' border-[var(--color-error)] bg-[var(--color-error)]/10';
 			}
 		} else if (isSelected) {
 			// Before checking: just show selection
 			classes += ' border-[var(--color-primary)] bg-[var(--color-primary)]/10';
+		}
+
+		// Pop animation
+		if (popIndex === idx) {
+			classes += ' answer-pop';
+		}
+
+		// Shake animation (wrong answer)
+		if (shakeIndex === idx) {
+			classes += ' answer-shake';
 		}
 
 		return classes;
@@ -325,18 +363,31 @@
 					{/if}
 				{/if}
 			</span>
-			<!-- This is the favorite button -->
-			<button
-				aria-label="Toggle favorite"
-				class="cursor-pointer w-10 h-10 bg-transparent border-none p-0 flex items-center justify-center"
-				onclick={() => toggleFavorite(current)}
-			>
-				{#if isFavorited(currentQuestion?.question_id ?? '')}
-					<Star fill="var(--color-accent)" color="var(--color-accent)" size={32} />
-				{:else}
-					<Star color="var(--text-primary)" size={32} />
+			<div class="flex items-center gap-2">
+				<!-- Streak Badge -->
+				{#if quizSession.streak > 0}
+					<span
+						class="streak-badge inline-flex items-center gap-1 px-2.5 py-1 rounded-full text-xs font-semibold"
+						class:streak-pop={quizSession.streak > 0}
+						style="background: rgba(245, 166, 35, 0.15); border: 1px solid var(--color-accent); color: var(--color-accent);"
+					>
+						<span class="text-sm leading-none">🔥</span>
+						{quizSession.streak}
+					</span>
 				{/if}
-			</button>
+				<!-- This is the favorite button -->
+				<button
+					aria-label="Toggle favorite"
+					class="cursor-pointer w-10 h-10 bg-transparent border-none p-0 flex items-center justify-center"
+					onclick={() => toggleFavorite(current)}
+				>
+					{#if isFavorited(currentQuestion?.question_id ?? '')}
+						<Star fill="var(--color-accent)" color="var(--color-accent)" size={32} />
+					{:else}
+						<Star color="var(--text-primary)" size={32} />
+					{/if}
+				</button>
+			</div>
 		</div>
 		<!-- Question Image -->
 		{#if currentQuestion?.image_url}
@@ -366,9 +417,10 @@
 				{#each answers as ans, idx (idx)}
 					{@const resultIcon = getAnswerResultIcon(idx)}
 					{@const isSelected = selectedAnswers.includes(idx)}
+					{@const isResultLocked = questionLocked}
 					<button
 						type="button"
-						class="answer relative flex items-start gap-3 px-4 py-3 rounded-lg border-2 border-[var(--border)] bg-[var(--bg-hover)] text-base text-[var(--text-primary)] cursor-pointer transition-all duration-200 text-left break-words {getAnswerClass(
+						class="answer-btn relative flex items-start gap-3 px-4 py-3 rounded-lg border-2 border-[var(--border)] bg-[var(--bg-hover)] text-base text-[var(--text-primary)] cursor-pointer transition-all duration-200 text-left break-words {getAnswerClass(
 							idx
 						)}"
 						disabled={questionLocked}
@@ -400,7 +452,7 @@
 						}}
 					>
 						<!-- Selection Indicator (Radio/Checkbox) -->
-						<span class="flex-shrink-0 mt-0.5">
+						<span class="flex-shrink-0 mt-0.5 indicator-icon" class:indicator-pop={isSelected && !questionLocked}>
 							{#if isMultipleChoice}
 								{#if isSelected}
 									<SquareCheck size={20} class="text-[var(--color-primary)]" />
@@ -522,3 +574,63 @@
 		</button>
 	{/if}
 {/if}
+
+<style>
+	/* Answer pop on click */
+	.answer-pop {
+		animation: popAnim 0.25s cubic-bezier(0.34, 1.56, 0.64, 1);
+	}
+
+	@keyframes popAnim {
+		0% { transform: scale(1); }
+		50% { transform: scale(1.025); }
+		100% { transform: scale(1); }
+	}
+
+	/* Shake on wrong answer */
+	.answer-shake {
+		animation: shakeAnim 0.4s cubic-bezier(0.36, 0.07, 0.19, 0.97);
+	}
+
+	@keyframes shakeAnim {
+		0%, 100% { transform: translateX(0); }
+		20% { transform: translateX(-6px); }
+		40% { transform: translateX(6px); }
+		60% { transform: translateX(-4px); }
+		80% { transform: translateX(4px); }
+	}
+
+	/* Correct answer glow pulse */
+	.answer-correct-glow {
+		animation: glowPulse 1.5s ease-in-out 0.3s;
+	}
+
+	@keyframes glowPulse {
+		0%, 100% { box-shadow: 0 0 0 0 rgba(16, 185, 129, 0); }
+		50% { box-shadow: 0 0 0 4px rgba(16, 185, 129, 0.3); }
+	}
+
+	/* Indicator icon pop */
+	.indicator-icon {
+		transition: transform 0.2s cubic-bezier(0.34, 1.56, 0.64, 1);
+	}
+
+	.indicator-pop {
+		transform: scale(1.15);
+	}
+
+	/* Streak badge pop */
+	.streak-badge {
+		transition: transform 0.2s cubic-bezier(0.34, 1.56, 0.64, 1);
+	}
+
+	.streak-pop {
+		animation: streakPop 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+	}
+
+	@keyframes streakPop {
+		0% { transform: scale(1); }
+		50% { transform: scale(1.25); }
+		100% { transform: scale(1); }
+	}
+</style>
