@@ -6,12 +6,26 @@
 		setEnOpacity,
 		styleState,
 		setStyle,
-		setFont
+		setFont,
+		timerEnabled,
+		soundEnabled,
+		focusMode,
+		hapticEnabled,
+		setTimerEnabled,
+		setSoundEnabled,
+		setFocusMode,
+		setHapticEnabled,
+		highScores
 	} from './global.svelte';
 	import Settings from '@lucide/svelte/icons/settings';
 	import Languages from '@lucide/svelte/icons/languages';
 	import Palette from '@lucide/svelte/icons/palette';
 	import Type from '@lucide/svelte/icons/type';
+	import Timer from '@lucide/svelte/icons/timer';
+	import Volume2 from '@lucide/svelte/icons/volume-2';
+	import Focus from '@lucide/svelte/icons/scan';
+	import Hand from '@lucide/svelte/icons/hand';
+	import Trophy from '@lucide/svelte/icons/trophy';
 	import { STYLES, FONTS, type StyleKey, type FontId } from '$lib/theme';
 
 	function handleBackdropClick(e: MouseEvent) {
@@ -45,6 +59,11 @@
 		const target = e.target as HTMLSelectElement;
 		setFont(target.value as FontId);
 	}
+
+	// Collect unique modules with scores
+	let scoreEntries = $derived(
+		Object.entries(highScores).sort((a, b) => b[1].accuracy - a[1].accuracy)
+	);
 </script>
 
 <svelte:window onkeydown={handleKeydown} />
@@ -60,7 +79,7 @@
 		aria-labelledby="settings-title"
 	>
 		<div
-			class="bg-[var(--bg-surface)] p-5 md:p-6 rounded-xl w-full max-w-sm shadow-xl border border-[var(--border)] text-[var(--text-primary)]"
+			class="bg-[var(--bg-surface)] p-5 md:p-6 rounded-xl w-full max-w-sm shadow-xl border border-[var(--border)] text-[var(--text-primary)] max-h-[85vh] overflow-y-auto"
 		>
 			<div class="flex items-center gap-2 mb-6">
 				<Settings size={22} class="text-[var(--color-primary)]" />
@@ -105,6 +124,92 @@
 								<option value={font.id}>{font.name}</option>
 							{/each}
 						</select>
+					</div>
+
+					<!-- Focus Mode -->
+					<div class="flex items-center justify-between">
+						<div class="flex items-center gap-2">
+							<Focus size={16} class="text-[var(--color-accent)]" />
+							<span class="text-sm text-[var(--text-primary)]">Focus Mode</span>
+						</div>
+						<p class="text-xs text-[var(--text-secondary)] mr-2">Hides sidebar, centers card</p>
+						<button
+							class="relative w-10 h-5 rounded-full transition-colors duration-200 {focusMode.value ? 'bg-[var(--color-primary)]' : 'bg-[var(--bg-hover)]'} border border-[var(--border)]"
+							onclick={() => setFocusMode(!focusMode.value)}
+							role="switch"
+							aria-checked={focusMode.value}
+							aria-label="Toggle focus mode"
+						>
+							<span
+								class="absolute top-0.5 left-0.5 w-4 h-4 rounded-full bg-white transition-transform duration-200 {focusMode.value ? 'translate-x-5' : 'translate-x-0'}"
+							></span>
+						</button>
+					</div>
+				</div>
+
+				<!-- Quiz Experience -->
+				<div class="space-y-4">
+					<div class="flex items-center gap-2 mb-1">
+						<Timer size={18} class="text-[var(--color-secondary)]" />
+						<h4 class="text-[var(--color-secondary)] font-medium text-sm">Quiz Experience</h4>
+					</div>
+
+					<!-- Timer Toggle -->
+					<div class="flex items-center justify-between">
+						<div class="flex items-center gap-2">
+							<Timer size={16} class="text-[var(--color-secondary)]" />
+							<span class="text-sm text-[var(--text-primary)]">Question Timer</span>
+						</div>
+						<button
+							class="relative w-10 h-5 rounded-full transition-colors duration-200 {timerEnabled.value ? 'bg-[var(--color-primary)]' : 'bg-[var(--bg-hover)]'} border border-[var(--border)]"
+							onclick={() => setTimerEnabled(!timerEnabled.value)}
+							role="switch"
+							aria-checked={timerEnabled.value}
+							aria-label="Toggle question timer"
+						>
+							<span
+								class="absolute top-0.5 left-0.5 w-4 h-4 rounded-full bg-white transition-transform duration-200 {timerEnabled.value ? 'translate-x-5' : 'translate-x-0'}"
+							></span>
+						</button>
+					</div>
+
+					<!-- Sound Toggle -->
+					<div class="flex items-center justify-between">
+						<div class="flex items-center gap-2">
+							<Volume2 size={16} class="text-[var(--color-secondary)]" />
+							<span class="text-sm text-[var(--text-primary)]">Sound Effects</span>
+						</div>
+						<button
+							class="relative w-10 h-5 rounded-full transition-colors duration-200 {soundEnabled.value ? 'bg-[var(--color-primary)]' : 'bg-[var(--bg-hover)]'} border border-[var(--border)]"
+							onclick={() => setSoundEnabled(!soundEnabled.value)}
+							role="switch"
+							aria-checked={soundEnabled.value}
+							aria-label="Toggle sound effects"
+						>
+							<span
+								class="absolute top-0.5 left-0.5 w-4 h-4 rounded-full bg-white transition-transform duration-200 {soundEnabled.value ? 'translate-x-5' : 'translate-x-0'}"
+							></span>
+						</button>
+					</div>
+
+					<!-- Haptic Toggle (mobile) -->
+					<div class="flex items-center justify-between">
+						<div class="flex items-center gap-2">
+							<Hand size={16} class="text-[var(--color-secondary)]" />
+							<span class="text-sm text-[var(--text-primary)]">Haptic Feedback</span>
+						</div>
+						<p class="text-xs text-[var(--text-secondary)] mr-2">Mobile vibration</p>
+						<button
+							class="relative w-10 h-5 rounded-full transition-colors duration-200 {hapticEnabled.value ? 'bg-[var(--color-primary)]' : 'bg-[var(--bg-hover)]'} border border-[var(--border)]"
+							onclick={() => setHapticEnabled(!hapticEnabled.value)}
+							role="switch"
+							aria-checked={hapticEnabled.value}
+							aria-label="Toggle haptic feedback"
+						>
+							<span
+								class="absolute top-0.5 left-0.5 w-4 h-4 rounded-full bg-white transition-transform duration-200 {hapticEnabled.value ? 'translate-x-5' : 'translate-x-0'}"
+							></span>
+						</button>
 					</div>
 				</div>
 
@@ -159,13 +264,34 @@
 						<span style="font-size: {enStyleState.size}px; opacity: {enStyleState.opacity}"
 							>Sample English Text</span
 						>
-						<span class="text-sm">Văn bản Tiếng Việt mẫu</span>
+						<span class="text-sm">Vn bn Ting Vit mu</span>
 					</div>
 				</div>
+
+				<!-- High Scores -->
+				{#if scoreEntries.length > 0}
+					<div class="space-y-4">
+						<div class="flex items-center gap-2 mb-1">
+							<Trophy size={18} class="text-[var(--color-accent)]" />
+							<h4 class="text-[var(--color-accent)] font-medium text-sm">Best Scores</h4>
+						</div>
+						<div class="space-y-1.5 max-h-40 overflow-y-auto">
+							{#each scoreEntries as [moduleId, score]}
+								<div
+									class="flex items-center justify-between text-xs px-2 py-1.5 rounded bg-[var(--bg-hover)] border border-[var(--border)]"
+								>
+									<span class="truncate max-w-[120px] text-[var(--text-primary)]">{moduleId}</span>
+									<span class="text-[var(--color-success)]">{score.correct}/{score.correct + score.wrong}</span>
+									<span class="text-[var(--text-secondary)]">{score.accuracy}%</span>
+								</div>
+							{/each}
+						</div>
+					</div>
+				{/if}
 			</div>
 
 			<button
-				class="mt-8 w-full text-base py-2 rounded-lg bg-[var(--color-primary)] text-[var(--bg-primary)] font-bold hover:opacity-90 cursor-pointer transition-transform active:scale-[0.98]"
+				class="mt-6 w-full text-base py-2 rounded-lg bg-[var(--color-primary)] text-[var(--bg-primary)] font-bold hover:opacity-90 cursor-pointer transition-transform active:scale-[0.98]"
 				onclick={() => (uiState.showSettingsModal = false)}
 			>
 				Done

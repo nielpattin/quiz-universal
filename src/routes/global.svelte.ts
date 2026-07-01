@@ -5,7 +5,14 @@ import {
 	STYLE_KEY,
 	FONT_KEY,
 	EN_SIZE_KEY,
-	EN_OPACITY_KEY
+	EN_OPACITY_KEY,
+	TIMER_ENABLED_KEY,
+	SOUND_ENABLED_KEY,
+	FOCUS_MODE_KEY,
+	HAPTIC_ENABLED_KEY,
+	HIGH_SCORES_KEY,
+	QUIZ_PROGRESS_PREFIX,
+	WRONG_QUESTIONS_PREFIX
 } from '../lib/localKeys';
 import { SvelteSet, SvelteMap } from 'svelte/reactivity';
 import { replaceState } from '$app/navigation';
@@ -168,7 +175,7 @@ export async function fetchNavigation() {
 	}
 }
 
-export async function loadQuiz(quizId: string) {
+export async function loadQuiz(quizId: string, restore = false) {
 	pageState.isLoading = true;
 	resetQuizSession();
 	try {
@@ -181,6 +188,10 @@ export async function loadQuiz(quizId: string) {
 			pageState.questionAnswers.clear();
 			pageState.questionLockedStatus.clear();
 			uiState.sidebarMode = 'questions';
+			// Restore progress if requested
+			if (restore) {
+				restoreQuizProgress(quizId);
+			}
 			// Open sidebar on desktop when loading a quiz
 			if (typeof window !== 'undefined' && window.innerWidth >= 768) {
 				uiState.sidebarOpen = true;
@@ -287,5 +298,138 @@ export function setEnOpacity(opacity: number) {
 	enStyleState.opacity = opacity;
 	if (typeof window !== 'undefined') {
 		localStorage.setItem(EN_OPACITY_KEY, opacity.toString());
+	}
+}
+
+// ===== Quiz Settings (Timer, Sound, Focus, Haptic) =====
+function getInitialToggle(key: string, defaultValue: boolean): boolean {
+	if (typeof window !== 'undefined') {
+		const stored = localStorage.getItem(key);
+		if (stored !== null) return stored === 'true';
+	}
+	return defaultValue;
+}
+
+function setToggle(key: string, value: boolean) {
+	if (typeof window !== 'undefined') {
+		localStorage.setItem(key, String(value));
+	}
+}
+
+export const timerEnabled = $state({ value: getInitialToggle(TIMER_ENABLED_KEY, false) });
+export const soundEnabled = $state({ value: getInitialToggle(SOUND_ENABLED_KEY, true) });
+export const focusMode = $state({ value: getInitialToggle(FOCUS_MODE_KEY, false) });
+export const hapticEnabled = $state({ value: getInitialToggle(HAPTIC_ENABLED_KEY, true) });
+
+export function setTimerEnabled(v: boolean) { timerEnabled.value = v; setToggle(TIMER_ENABLED_KEY, v); }
+export function setSoundEnabled(v: boolean) { soundEnabled.value = v; setToggle(SOUND_ENABLED_KEY, v); }
+export function setFocusMode(v: boolean) { focusMode.value = v; setToggle(FOCUS_MODE_KEY, v); }
+export function setHapticEnabled(v: boolean) { hapticEnabled.value = v; setToggle(HAPTIC_ENABLED_KEY, v); }
+
+// ===== High Scores (per module) =====
+export type ModuleScore = { correct: number; wrong: number; accuracy: number; date: string };
+export const highScores = $state<Record<string, ModuleScore>>({});
+
+function getInitialHighScores(): Record<string, ModuleScore> {
+	if (typeof window !== 'undefined') {
+		try {
+			const d = localStorage.getItem(HIGH_SCORES_KEY);
+			if (d) return JSON.parse(d);
+		} catch { /* ignore */ }
+	}
+	return {};
+}
+
+// Hydrate high scores on module init
+Object.assign(highScores, getInitialHighScores());
+
+export function saveHighScore(moduleId: string, correct: number, wrong: number) {
+	const total = correct + wrong;
+	if (total === 0) return;
+	const accuracy = Math.round((correct / total) * 100);
+	const existing = highScores[moduleId];
+	if (!existing || correct > existing.correct || (correct === existing.correct && accuracy > existing.accuracy)) {
+		highScores[moduleId] = { correct, wrong, accuracy, date: new Date().toISOString().slice(0, 10) };
+		if (typeof window !== 'undefined') {
+			localStorage.setItem(HIGH_SCORES_KEY, JSON.stringify(highScores));
+		}
+	}
+}
+
+// ===== Spaced Repetition (wrong question tracking) =====
+export const wrongQuestions = $state<Record<string, string[]>>({});
+
+export function trackWrongQuestion(moduleId: string, questionId: string) {
+	if (!wrongQuestions[moduleId]) wrongQuestions[moduleId] = [];
+	if (!wrongQuestions[moduleId].includes(questionId)) {
+		wrongQuestions[moduleId].push(questionId);
+		if (typeof window !== 'undefined') {
+			localStorage.setItem(WRONG_QUESTIONS_PREFIX + moduleId, JSON.stringify(wrongQuestions[moduleId]));
+		}
+	}
+}
+
+function getInitialWrongQuestions(moduleId: string): string[] {
+	if (typeof window !== 'undefined') {
+		try {
+			const d = localStorage.getItem(WRONG_QUESTIONS_PREFIX + moduleId);
+			if (d) return JSON.parse(d);
+		} catch { /* ignore */ }
+	}
+	return [];
+}
+
+export function getWrongQuestionIds(moduleId: string): string[] {
+	return wrongQuestions[moduleId] ?? getInitialWrongQuestions(moduleId);
+}
+
+// ===== Quiz Progress Persistence =====
+export function saveQuizProgress() {
+	if (typeof window === 'undefined') return;
+	if (!pageState.moduleId || pageState.quizData.length === 0) return;
+	const key = QUIZ_PROGRESS_PREFIX + pageState.moduleId;
+	const progress = {
+		current: pageState.current,
+		answers: Array.from(pageState.questionAnswers.entries()),
+		lockedStatus: Array.from(pageState.questionLockedStatus.entries()),
+		score: { correct: quizSession.correct, wrong: quizSession.wrong, streak: quizSession.streak, maxStreak: quizSession.maxStreak }
+	};
+	localStorage.setItem(key, JSON.stringify(progress));
+}
+
+export function restoreQuizProgress(moduleId: string): boolean {
+	if (typeof window === 'undefined') return false;
+	const key = QUIZ_PROGRESS_PREFIX + moduleId;
+	try {
+		const raw = localStorage.getItem(key);
+		if (!raw) return false;
+		const saved = JSON.parse(raw);
+		if (saved.current !== undefined) {
+			pageState.current = saved.current;
+			if (saved.answers) {
+				for (const [qid, ans] of saved.answers) {
+					pageState.questionAnswers.set(qid, ans);
+				}
+			}
+			if (saved.lockedStatus) {
+				for (const [qid, locked] of saved.lockedStatus) {
+					pageState.questionLockedStatus.set(qid, locked);
+				}
+			}
+			if (saved.score) {
+				quizSession.correct = saved.score.correct ?? 0;
+				quizSession.wrong = saved.score.wrong ?? 0;
+				quizSession.streak = saved.score.streak ?? 0;
+				quizSession.maxStreak = saved.score.maxStreak ?? 0;
+			}
+			return true;
+		}
+	} catch { /* ignore */ }
+	return false;
+}
+
+export function clearQuizProgress(moduleId: string) {
+	if (typeof window !== 'undefined') {
+		localStorage.removeItem(QUIZ_PROGRESS_PREFIX + moduleId);
 	}
 }

@@ -8,10 +8,15 @@
 		quizSession,
 		trackResult,
 		resetQuizSession,
-		clearQuiz
+		clearQuiz,
+		timerEnabled,
+		soundEnabled,
+		saveHighScore,
+		trackWrongQuestion
 	} from './global.svelte';
 	import confetti from 'canvas-confetti';
 	import { fly, scale } from 'svelte/transition';
+	import { playSelect, playCorrect, playWrong, playComplete } from '$lib/sounds';
 
 	interface CurrentQuestion {
 		question_id?: string;
@@ -62,6 +67,47 @@
 		const shuffled = shuffleArray(indices);
 		shuffledAnswers[idx] = shuffled.map((i) => answers[i]);
 		shuffledIndices[idx] = shuffled;
+	});
+
+	// ===== Timer =====
+	const TIMER_SECONDS = 25;
+	// Plain let (not $state) to prevent effect re-run loop
+	let timerRunning = false;
+	// Whether current question is locked (for timer pause)
+	let isCurrentLocked = $derived(
+		pageState.quizData[pageState.current]
+			? pageState.questionLockedStatus.get(pageState.quizData[pageState.current].question_id ?? '') ?? false
+			: false
+	);
+
+	let timerTimeoutId: ReturnType<typeof setTimeout> | null = null;
+
+	$effect(() => {
+		const q = pageState.quizData[pageState.current];
+		const isAnswered = q ? (pageState.questionLockedStatus.get(q.question_id ?? '') ?? false) : false;
+		const shouldRun = timerEnabled.value && !isAnswered && pageState.quizData.length > 0 && q;
+		if (shouldRun && !timerRunning) {
+			timerRunning = true;
+			timerTimeoutId = setTimeout(() => {
+				timerRunning = false;
+				timerTimeoutId = null;
+				const qid = pageState.quizData[pageState.current]?.question_id;
+				if (qid && !(pageState.questionLockedStatus.get(qid) ?? false)) {
+					pageState.questionLockedStatus.set(qid, true);
+					trackResult(qid, false);
+					trackWrongQuestion(pageState.moduleId, qid);
+					pageState.questionAnswers.set(qid, []);
+					if (soundEnabled.value) playWrong();
+				}
+			}, TIMER_SECONDS * 1000);
+		} else if (!shouldRun && timerRunning) {
+			if (timerTimeoutId) {
+				clearTimeout(timerTimeoutId);
+				timerTimeoutId = null;
+			}
+			timerRunning = false;
+		}
+		return () => { if (timerTimeoutId) { clearTimeout(timerTimeoutId); timerTimeoutId = null; } timerRunning = false; };
 	});
 
 	function handleToggleFavorite(idx: number) {
@@ -123,6 +169,8 @@
 		pageState.questionAnswers.set(currentQuestionId, newAnswers);
 		if (DEBUG) console.log('[handleAnswerClick] updated answers', newAnswers);
 
+		if (soundEnabled.value) playSelect();
+
 		if (questionType !== 'multiple_answer_question') {
 			if (DEBUG) console.log('[handleAnswerClick] single-answer: locking after selection');
 			checkAnswers();
@@ -147,6 +195,9 @@
 				selectedOrig.length === correctOrig.length &&
 				correctOrig.every((i: number) => selectedOrig.includes(i));
 			trackResult(currentQuestionId, isCorrect);
+			if (isCorrect && soundEnabled.value) playCorrect();
+			else if (!isCorrect && soundEnabled.value) playWrong();
+			if (!isCorrect) trackWrongQuestion(pageState.moduleId, currentQuestionId);
 		}
 	}
 
@@ -173,6 +224,11 @@
 		appState.currentView = 'all';
 	}
 
+	let completionDismissed = $state(false);
+	function dismissCompletion() {
+		completionDismissed = true;
+	}
+
 	// Derived: quiz is complete when last question is answered
 	let isComplete = $derived(
 		pageState.quizData.length > 0 &&
@@ -187,6 +243,7 @@
 	$effect(() => {
 		if (isComplete && !celebrated) {
 			celebrated = true;
+			saveHighScore(pageState.moduleId, quizSession.correct, quizSession.wrong);
 			confetti({
 				particleCount: 150,
 				spread: 80,
@@ -209,6 +266,7 @@
 	$effect(() => {
 		if (pageState.quizData.length === 0) {
 			celebrated = false;
+			completionDismissed = false;
 		}
 	});
 </script>
@@ -230,8 +288,24 @@
 				</span>
 			</div>
 		</div>
-
+		
+		<!-- Timer Bar -->
+		{#if timerEnabled.value && pageState.quizData.length > 0}
+			<div class="flex-shrink-0 w-full px-4 md:px-8 pt-2 z-20">
+				<div class="flex items-center gap-2">
+				{#key pageState.current}
+					<div class="flex-1 h-1.5 bg-[var(--bg-hover)] rounded-full overflow-hidden">
+						<div class="h-full rounded-full timer-bar" class:timer-paused={isCurrentLocked}></div>
+					</div>
+				{/key}
+					<span class="text-xs text-[var(--text-secondary)] tabular-nums whitespace-nowrap">
+						{TIMER_SECONDS}s
+					</span>
+				</div>
+			</div>
+		{/if}
 		<!-- Card area -->
+		<div class="flex-1 relative overflow-hidden">
 		{#each [pageState.current - 1, pageState.current, pageState.current + 1] as idx (idx)}
 			{#if idx >= 0 && idx < pageState.quizData.length}
 				<div
@@ -259,9 +333,9 @@
 				</div>
 			{/if}
 		{/each}
-
+		</div>
 		<!-- Completion Overlay -->
-		{#if isComplete}
+		{#if isComplete && !completionDismissed}
 			<div
 				class="absolute inset-0 z-30 flex items-center justify-center bg-black/40 backdrop-blur-sm"
 				transition:scale={{ start: 0.9, duration: 400 }}
@@ -298,12 +372,20 @@
 							accuracy
 						</p>
 					</div>
-					<button
-						class="px-6 py-2.5 rounded-xl bg-[var(--color-primary)] text-[var(--bg-primary)] font-semibold hover:opacity-90 transition-all duration-200 cursor-pointer"
-						onclick={backToLibrary}
-					>
-						Back to Library
-					</button>
+					<div class="flex gap-3">
+						<button
+							class="px-5 py-2.5 rounded-xl bg-[var(--bg-hover)] text-[var(--text-primary)] font-semibold hover:bg-[var(--border)] transition-all duration-200 cursor-pointer border border-[var(--border)]"
+							onclick={dismissCompletion}
+						>
+							Review
+						</button>
+						<button
+							class="px-5 py-2.5 rounded-xl bg-[var(--color-primary)] text-[var(--bg-primary)] font-semibold hover:opacity-90 transition-all duration-200 cursor-pointer"
+							onclick={backToLibrary}
+						>
+							Back to Library
+						</button>
+					</div>
 				</div>
 			</div>
 		{/if}
@@ -315,25 +397,25 @@
 		</div>
 	</div>
 {/if}
-
 <style>
 	.card-dim {
 		opacity: 0.75;
 		scale: 0.96;
 	}
 
-	.carousel-card {
-		animation: card-entrance 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
+
+	.timer-bar {
+		animation: timer-countdown 25s linear forwards;
+		background: var(--color-secondary);
 	}
 
-	@keyframes card-entrance {
-		0% {
-			opacity: 0;
-			scale: 0.93;
-		}
-		100% {
-			opacity: 1;
-			scale: 1;
-		}
+	.timer-paused {
+		animation-play-state: paused;
+	}
+	@keyframes timer-countdown {
+		0% { width: 100%; background: var(--color-secondary); }
+		50% { background: var(--color-accent); }
+		85% { background: var(--color-error); }
+		100% { width: 0%; background: var(--color-error); }
 	}
 </style>

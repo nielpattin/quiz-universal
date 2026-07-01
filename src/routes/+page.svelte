@@ -24,7 +24,9 @@
 		uiState,
 		setCurrentView,
 		fetchNavigation,
-		loadQuiz
+		loadQuiz,
+		focusMode,
+		saveQuizProgress
 	} from './global.svelte';
 
 	let isInitialLoad = $state(true);
@@ -151,6 +153,7 @@
 				pageState.questionAnswers.clear();
 				pageState.questionLockedStatus.clear();
 				pageState.questionLocked = false;
+				saveQuizProgress();
 			}
 		} else if (e.key === 'ArrowLeft' || e.key === 'a' || e.key === 'A') {
 			if (pageState.current > 0) {
@@ -158,6 +161,7 @@
 				pageState.questionAnswers.clear();
 				pageState.questionLockedStatus.clear();
 				pageState.questionLocked = false;
+				saveQuizProgress();
 			}
 		}
 	}
@@ -189,6 +193,7 @@
 				pageState.questionLockedStatus.clear();
 				pageState.questionLocked = false;
 				lastWheelTime = now;
+				saveQuizProgress();
 			}
 		} else if (e.deltaY < 0) {
 			// Scroll up = previous question
@@ -198,6 +203,7 @@
 				pageState.questionLockedStatus.clear();
 				pageState.questionLocked = false;
 				lastWheelTime = now;
+				saveQuizProgress();
 			}
 		}
 	}
@@ -216,6 +222,16 @@
 					questionIndex: pageState.current
 				})
 			);
+		}
+	});
+
+	// Auto-save progress when current question changes
+	$effect(() => {
+		if (pageState.quizData.length > 0 && pageState.moduleId) {
+			// Use a microtask to avoid saving during initial load
+			if (!isInitialLoad) {
+				saveQuizProgress();
+			}
 		}
 	});
 
@@ -268,8 +284,8 @@
 			setCurrentView('favorites');
 		} else if (urlQuiz) {
 			setCurrentView('all');
-			// Load quiz from URL, then navigate to question
-			loadQuiz(urlQuiz).then(() => {
+			// Load quiz from URL, then navigate to question, with restore
+			loadQuiz(urlQuiz, true).then(() => {
 				if (urlQ) {
 					const qIndex = parseInt(urlQ, 10) - 1; // Convert 1-based to 0-based
 					if (qIndex >= 0 && qIndex < pageState.quizData.length) {
@@ -283,6 +299,9 @@
 			setCurrentView(currentView);
 		}
 	}
+
+	// Focus mode: hide sidebar and chrome
+	let showTopBar = $derived(pageState.quizData.length === 0 || !focusMode.value || appState.currentView !== 'all');
 </script>
 
 <!-- Main Layout -->
@@ -290,8 +309,8 @@
 <div
 	class="flex h-screen min-w-screen w-screen bg-[var(--bg-primary)] text-[var(--text-primary)] font-sans"
 >
-	<!-- Sidebar (only show when quiz is loaded) -->
-	{#if uiState.sidebarOpen && pageState.quizData.length > 0}
+	<!-- Sidebar (only show when quiz is loaded, hidden in focus mode) -->
+	{#if uiState.sidebarOpen && pageState.quizData.length > 0 && !focusMode.value}
 		<div
 			class="fixed top-0 left-0 h-full z-40 bg-[var(--bg-surface)] transition-transform duration-200 ease-in-out
 							md:static md:translate-x-0 md:min-w-[200px] md:w-[300px]"
@@ -301,7 +320,7 @@
 	{/if}
 
 	<!-- Backdrop (mobile only) -->
-	{#if uiState.sidebarOpen && pageState.quizData.length > 0 && typeof window !== 'undefined' && window.innerWidth < 768}
+	{#if uiState.sidebarOpen && pageState.quizData.length > 0 && typeof window !== 'undefined' && window.innerWidth < 768 && !focusMode.value}
 		<button
 			type="button"
 			class="fixed inset-0 bg-black/50 z-30"
@@ -311,17 +330,21 @@
 	{/if}
 
 	<!-- Main Content Wrapper -->
-	<div id="main-content-wrapper" class="flex-1 flex flex-col min-h-0 min-w-0">
-		<!-- Top Bar -->
-		<div class="w-full relative z-10 flex-shrink-0">
-			{#if typeof window !== 'undefined'}
-				<TopBar {showFavorites} {onBackToAll} {onClearFavorites} />
-			{/if}
-		</div>
+	<div id="main-content-wrapper" class="flex-1 flex flex-col min-h-0 min-w-0" class:focus-active={focusMode.value && pageState.quizData.length > 0}>
+		<!-- Top Bar (hidden in focus mode during quiz) -->
+		{#if showTopBar}
+			<div class="w-full relative z-10 flex-shrink-0">
+				{#if typeof window !== 'undefined'}
+					<TopBar {showFavorites} {onBackToAll} {onClearFavorites} />
+				{/if}
+			</div>
+		{/if}
+
 		<!-- Main Content -->
 		<div
 			id="main-content"
 			class="flex-1 min-h-0 flex flex-col items-center justify-start relative overflow-hidden"
+			class:focus-card-container={focusMode.value && pageState.quizData.length > 0}
 		>
 			{#if pageState.isLoading}
 				<!-- Loading Overlay -->
@@ -345,7 +368,7 @@
 			{#if pageState.quizData.length > 0}
 				<!-- Quiz View -->
 				<div
-					class="relative w-full h-full flex flex-col items-center justify-center overflow-hidden md:items-start md:justify-center"
+					class="relative w-full h-full flex flex-col items-center justify-center overflow-hidden"
 				>
 					<Carousel />
 				</div>
@@ -411,3 +434,6 @@
 		</div>
 	{/if}
 </div>
+<style>
+</style>
+

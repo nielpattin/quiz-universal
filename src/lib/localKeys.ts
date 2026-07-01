@@ -8,6 +8,13 @@ export const STYLE_KEY = 'app_style';
 export const FONT_KEY = 'app_font';
 export const EN_SIZE_KEY = 'app_en_size';
 export const EN_OPACITY_KEY = 'app_en_opacity';
+export const TIMER_ENABLED_KEY = 'quiz_timer_enabled';
+export const SOUND_ENABLED_KEY = 'quiz_sound_enabled';
+export const FOCUS_MODE_KEY = 'quiz_focus_mode';
+export const HAPTIC_ENABLED_KEY = 'quiz_haptic_enabled';
+export const HIGH_SCORES_KEY = 'quiz_high_scores';
+export const QUIZ_PROGRESS_PREFIX = 'quiz_progress_';
+export const WRONG_QUESTIONS_PREFIX = 'quiz_wrong_';
 
 export interface FavoritesLocalState {
 	module: string;

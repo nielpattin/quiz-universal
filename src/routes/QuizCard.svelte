@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { DEBUG } from '$lib/config';
 	import BilingualText from '$lib/components/BilingualText.svelte';
-	import { quizSession } from './global.svelte';
+	import { quizSession, hapticEnabled } from './global.svelte';
 	let isHeld = $state(false);
 	import Star from '@lucide/svelte/icons/star';
 	import ArrowUp from '@lucide/svelte/icons/arrow-up';
@@ -194,6 +194,25 @@
 
 	// Check if current question is multiple choice
 	let isMultipleChoice = $derived(currentQuestion?.question_type === 'multiple_answer_question');
+
+	// Haptic feedback on answer lock
+	let prevLocked = false;
+	$effect(() => {
+		if (questionLocked && !prevLocked && hapticEnabled.value && typeof navigator !== 'undefined' && navigator.vibrate) {
+			// Check if answer was correct
+			const correctIdx = selectedAnswers.find((idx: number) => {
+				const originalIdx = originalIndices?.[idx] ?? idx;
+				return currentQuestion?.answers?.[originalIdx]?.is_correct;
+			});
+			const isCorrect = correctIdx !== undefined;
+			if (isCorrect) {
+				navigator.vibrate(20); // short pulse
+			} else {
+				navigator.vibrate([30, 50, 30]); // double buzz
+			}
+		}
+		prevLocked = questionLocked;
+	});
 
 	// Track which answer buttons should animate
 	let popIndex = $state<number | null>(null);

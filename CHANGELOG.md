@@ -1,5 +1,26 @@
 # Changelog
 
+## [2.3.0] - 2026-06-30
+
+### Added
+
+- Optional question timer: countdown bar with color gradient (teal → amber → red), auto-lock on expiry, toggle in Settings
+- Sound effects via Web Audio API: pop on answer select, chime on correct, buzz on wrong, fanfare on completion, toggle in Settings
+- Focus mode: hides top bar and sidebar during quiz for distraction-free study, toggle in Settings
+- Haptic feedback: short vibration on correct, double buzz on wrong (mobile), toggle in Settings
+- Per-module high scores: best correct/wrong tracked per module, saved to localStorage, shown in Settings
+- Quiz progress persistence: session state saved to localStorage on each navigation, auto-restored on page reload
+- Spaced repetition: wrong question IDs tracked per module for future review workflows
+- Settings toggles for all new features (timer, sound, focus, haptic) with toggle-switch UI
+- High scores section in Settings showing best accuracy per module
+
+### Changed
+
+- Carousel: timer bar displayed above progress bar when enabled
+- QuizCard: haptic feedback triggers on answer lock
+- TopBar and Sidebar hidden during focus mode
+- Quiz completion now saves high score and clears persisted progress
+
 ## [2.2.1] - 2026-06-25
 
 ### Fixed
