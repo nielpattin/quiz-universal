@@ -257,6 +257,7 @@
 		"question_id": "sqa-m5-q12",
 		"question_text": "Cho đồ thị luồng điều khiển như sau Với giá trị nào của n đường điều khiển: 1 -> 2(T) -> 3 -> 4 là không thể đạt được?",
 		"question_type": "single_answer_question",
+		"image_url": "/images/questions/sqa-m5-q12.webp",
 		"answers": [
 			{
 				"answer_text": "0",
