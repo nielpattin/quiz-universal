@@ -210,6 +210,7 @@
 		"question_id": "sqa-m5-q10",
 		"question_text": "Cho đoạn code sau, số lần kiểm tra nhỏ nhất cho statement coverage (bao phủ câu lệnh) và branch coverage (bao phủ nhánh) là bao nhiêu?",
 		"question_type": "single_answer_question",
+		"image_url": "/images/questions/sqa-m5-q10.webp",
 		"answers": [
 			{
 				"answer_text": "Statement Coverage = 1, Branch Coverage = 2",
