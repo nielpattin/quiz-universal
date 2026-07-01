@@ -11,12 +11,12 @@
 		clearQuiz,
 		timerEnabled,
 		soundEnabled,
+		hapticEnabled,
 		saveHighScore,
 		trackWrongQuestion,
 		addSessionScore,
 		totalPoints,
-		scoredQuestions,
-		lastPointsBreakdown
+		scoredQuestions
 	} from './global.svelte';
 	import confetti from 'canvas-confetti';
 	import { fly, scale } from 'svelte/transition';
@@ -210,8 +210,11 @@
 		// Guard: don't award points twice for the same question
 		if (scoredQuestions.has(currentQuestionId)) {
 			if (soundEnabled.value) playCorrect();
+			showScoreDelta = false;
+			scoreDeltaValue = 0;
 			return;
 		}
+
 
 		// Track correctness
 		const q = pageState.quizData[pageState.current];
@@ -227,7 +230,14 @@
 
 			trackResult(currentQuestionId, isCorrect);
 			scoredQuestions.add(currentQuestionId);
-
+			// Haptic feedback (must be in user gesture path)
+			if (hapticEnabled.value && typeof navigator !== 'undefined' && navigator.vibrate) {
+				if (isCorrect) {
+					navigator.vibrate(20);
+				} else {
+					navigator.vibrate([30, 50, 30]);
+				}
+			}
 			if (isCorrect && soundEnabled.value) playCorrect();
 			else if (!isCorrect && soundEnabled.value) playWrong();
 			if (!isCorrect) trackWrongQuestion(pageState.moduleId, currentQuestionId);
@@ -308,7 +318,7 @@
 <!-- Carousel Component -->
 {#if pageState.quizData.length > 0}
 	<div class="carousel-vertical flex flex-col w-full h-full relative overflow-hidden">
-		<!-- Progress Bar + Score + Streak -->
+		<!-- Progress Bar -->
 		<div class="flex-shrink-0 w-full px-4 md:px-8 pt-2.5 pb-0 z-20">
 			<div class="flex items-center gap-2.5">
 				<div class="flex-1 h-1.5 bg-[var(--bg-hover)] rounded-full overflow-hidden relative">
@@ -318,31 +328,11 @@
 					></div>
 					<div class="shimmer"></div>
 				</div>
-				<div class="flex items-center gap-2">
-					<span class="text-xs text-[var(--text-secondary)] tabular-nums whitespace-nowrap">
-						{pageState.current + 1} / {pageState.quizData.length}
-					</span>
-					<!-- Streak badge -->
-					{#if quizSession.streak > 1}
-					<div class="streak-badge flex items-center gap-0.5 px-2 py-0.5 rounded-full">
-						<span class="fire-icon">🔥</span>
-						<span class="streak-count">{quizSession.streak}</span>
-						<span class="multiplier-pill">x2</span>
-					</div>
-					{/if}
-					<!-- Score badge -->
-					<div class="score-badge flex items-center gap-1 px-2.5 py-0.5 rounded-full relative">
-						<span class="score-star">★</span>
-						<span class="score-val">{quizSession.score}</span>
-						<span class="score-unit">pts</span>
-						{#if showScoreDelta}
-							<span class="float-popup">+{scoreDeltaValue}</span>
-						{/if}
-					</div>
-				</div>
+				<span class="text-xs text-[var(--text-secondary)] tabular-nums whitespace-nowrap">
+					{pageState.current + 1} / {pageState.quizData.length}
+				</span>
 			</div>
 		</div>
-		
 		<!-- Timer Bar -->
 		{#if timerEnabled.value && pageState.quizData.length > 0}
 			<div class="flex-shrink-0 w-full px-4 md:px-8 pt-2 z-20">
@@ -383,27 +373,34 @@
 						originalIndices={shuffledIndices[idx]}
 						{goToPreviousCard}
 						{goToNextCard}
-						lastPointsBreakdown={lastPointsBreakdown}
 					/>
 				</div>
 			{/if}
 		{/each}
 		</div>
-		<!-- Combo bar -->
+		<!-- Combo bar (score + stats) -->
 		<div class="combo-bar flex-shrink-0 flex items-center gap-3 px-4 md:px-8 py-2">
-			<div class="combo-item flex items-center gap-1">
-				<span class="text-[10px] text-[var(--text-secondary)] uppercase tracking-wider">Score</span>
+			<!-- Score badge -->
+			<div class="combo-item flex items-center gap-1 relative">
+				<span class="score-star">★</span>
 				<span class="text-sm font-bold text-[var(--color-accent)] tabular-nums">{quizSession.score}</span>
+				<span class="text-[10px] text-[var(--text-secondary)] uppercase">pts</span>
+				{#if showScoreDelta}
+					<span class="float-popup">+{scoreDeltaValue}</span>
+				{/if}
 			</div>
+			<!-- Streak badge -->
+			{#if quizSession.streak > 1}
+			<div class="combo-item flex items-center gap-0.5">
+				<span class="fire-icon">🔥</span>
+				<span class="streak-count">{quizSession.streak}</span>
+				<span class="multiplier-pill">x2</span>
+			</div>
+			{/if}
 			<div class="combo-divider"></div>
 			<div class="combo-item flex items-center gap-1">
 				<span class="text-[10px] text-[var(--text-secondary)] uppercase tracking-wider">Correct</span>
 				<span class="text-sm font-bold text-[var(--color-success)] tabular-nums">{quizSession.correct}</span>
-			</div>
-			<div class="combo-divider"></div>
-			<div class="combo-item flex items-center gap-1">
-				<span class="text-[10px] text-[var(--text-secondary)] uppercase tracking-wider">Streak</span>
-				<span class="text-sm font-bold text-[var(--color-fire)] tabular-nums">{quizSession.streak}</span>
 			</div>
 			<div class="combo-divider"></div>
 			<div class="combo-item flex items-center gap-1">

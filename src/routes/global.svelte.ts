@@ -81,11 +81,9 @@ export const quizSession = $state<{
 
 export const questionResults = new SvelteMap<string, boolean>();
 
-// Track what the last answer earned (for feedback display)
-export const lastPointsBreakdown = $state({ correct: 0, streak: 0, total: 0 });
-
 // Track which questions have already paid out points (prevents replay farming)
 export const scoredQuestions = new SvelteSet<string>();
+	
 
 export function trackResult(questionId: string, isCorrect: boolean) {
 	questionResults.set(questionId, isCorrect);
@@ -99,9 +97,7 @@ export function trackResult(questionId: string, isCorrect: boolean) {
 		const streakBonus = quizSession.streak > 1 ? quizSession.streak * 5 : 0;
 		const points = 10 + streakBonus;
 		quizSession.score += points;
-		lastPointsBreakdown.correct = 10;
-		lastPointsBreakdown.streak = streakBonus;
-		lastPointsBreakdown.total = points;
+// points awarded inline in trackResult
 	} else {
 		quizSession.wrong++;
 		quizSession.streak = 0;
