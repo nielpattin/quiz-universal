@@ -12,7 +12,11 @@
 		timerEnabled,
 		soundEnabled,
 		saveHighScore,
-		trackWrongQuestion
+		trackWrongQuestion,
+		addSessionScore,
+		totalPoints,
+		scoredQuestions,
+		lastPointsBreakdown
 	} from './global.svelte';
 	import confetti from 'canvas-confetti';
 	import { fly, scale } from 'svelte/transition';
@@ -80,6 +84,22 @@
 			: false
 	);
 
+
+	// ===== Score =====
+	let prevScore = 0;
+	let showScoreDelta = $state(false);
+	let scoreDeltaValue = $state(0);
+
+	$effect(() => {
+		const s = quizSession.score;
+		if (s > prevScore) {
+			scoreDeltaValue = s - prevScore;
+			showScoreDelta = true;
+			const id = setTimeout(() => { showScoreDelta = false; }, 1500);
+			prevScore = s;
+			return () => clearTimeout(id);
+		}
+	});
 	let timerTimeoutId: ReturnType<typeof setTimeout> | null = null;
 
 	$effect(() => {
@@ -94,10 +114,13 @@
 				const qid = pageState.quizData[pageState.current]?.question_id;
 				if (qid && !(pageState.questionLockedStatus.get(qid) ?? false)) {
 					pageState.questionLockedStatus.set(qid, true);
-					trackResult(qid, false);
-					trackWrongQuestion(pageState.moduleId, qid);
+					// Guard: don't re-score if already answered
+					if (!scoredQuestions.has(qid)) {
+						trackResult(qid, false);
+						trackWrongQuestion(pageState.moduleId, qid);
+						if (soundEnabled.value) playWrong();
+					}
 					pageState.questionAnswers.set(qid, []);
-					if (soundEnabled.value) playWrong();
 				}
 			}, TIMER_SECONDS * 1000);
 		} else if (!shouldRun && timerRunning) {
@@ -181,7 +204,14 @@
 		const currentQuestionId = pageState.quizData[pageState.current]?.question_id;
 		if (!currentQuestionId) return;
 
+		// Lock feedback even if already scored (replay review)
 		pageState.questionLockedStatus.set(currentQuestionId, true);
+
+		// Guard: don't award points twice for the same question
+		if (scoredQuestions.has(currentQuestionId)) {
+			if (soundEnabled.value) playCorrect();
+			return;
+		}
 
 		// Track correctness
 		const q = pageState.quizData[pageState.current];
@@ -194,7 +224,10 @@
 			const isCorrect =
 				selectedOrig.length === correctOrig.length &&
 				correctOrig.every((i: number) => selectedOrig.includes(i));
+
 			trackResult(currentQuestionId, isCorrect);
+			scoredQuestions.add(currentQuestionId);
+
 			if (isCorrect && soundEnabled.value) playCorrect();
 			else if (!isCorrect && soundEnabled.value) playWrong();
 			if (!isCorrect) trackWrongQuestion(pageState.moduleId, currentQuestionId);
@@ -243,6 +276,7 @@
 	$effect(() => {
 		if (isComplete && !celebrated) {
 			celebrated = true;
+			addSessionScore();
 			saveHighScore(pageState.moduleId, quizSession.correct, quizSession.wrong);
 			confetti({
 				particleCount: 150,
@@ -274,18 +308,38 @@
 <!-- Carousel Component -->
 {#if pageState.quizData.length > 0}
 	<div class="carousel-vertical flex flex-col w-full h-full relative overflow-hidden">
-		<!-- Progress Bar -->
+		<!-- Progress Bar + Score + Streak -->
 		<div class="flex-shrink-0 w-full px-4 md:px-8 pt-2.5 pb-0 z-20">
 			<div class="flex items-center gap-2.5">
-				<div class="flex-1 h-1.5 bg-[var(--bg-hover)] rounded-full overflow-hidden">
+				<div class="flex-1 h-1.5 bg-[var(--bg-hover)] rounded-full overflow-hidden relative">
 					<div
-						class="h-full rounded-full transition-all duration-500 ease-out"
-						style="width: {((pageState.current + 1) / pageState.quizData.length) * 100}%; background: linear-gradient(90deg, var(--color-primary), var(--color-secondary));"
+						class="h-full rounded-full transition-all duration-500 ease-out progress-fill"
+						style="width: {((pageState.current + 1) / pageState.quizData.length) * 100}%"
 					></div>
+					<div class="shimmer"></div>
 				</div>
-				<span class="text-xs text-[var(--text-secondary)] tabular-nums whitespace-nowrap">
-					{pageState.current + 1} / {pageState.quizData.length}
-				</span>
+				<div class="flex items-center gap-2">
+					<span class="text-xs text-[var(--text-secondary)] tabular-nums whitespace-nowrap">
+						{pageState.current + 1} / {pageState.quizData.length}
+					</span>
+					<!-- Streak badge -->
+					{#if quizSession.streak > 1}
+					<div class="streak-badge flex items-center gap-0.5 px-2 py-0.5 rounded-full">
+						<span class="fire-icon">🔥</span>
+						<span class="streak-count">{quizSession.streak}</span>
+						<span class="multiplier-pill">x2</span>
+					</div>
+					{/if}
+					<!-- Score badge -->
+					<div class="score-badge flex items-center gap-1 px-2.5 py-0.5 rounded-full relative">
+						<span class="score-star">★</span>
+						<span class="score-val">{quizSession.score}</span>
+						<span class="score-unit">pts</span>
+						{#if showScoreDelta}
+							<span class="float-popup">+{scoreDeltaValue}</span>
+						{/if}
+					</div>
+				</div>
 			</div>
 		</div>
 		
@@ -329,10 +383,33 @@
 						originalIndices={shuffledIndices[idx]}
 						{goToPreviousCard}
 						{goToNextCard}
+						lastPointsBreakdown={lastPointsBreakdown}
 					/>
 				</div>
 			{/if}
 		{/each}
+		</div>
+		<!-- Combo bar -->
+		<div class="combo-bar flex-shrink-0 flex items-center gap-3 px-4 md:px-8 py-2">
+			<div class="combo-item flex items-center gap-1">
+				<span class="text-[10px] text-[var(--text-secondary)] uppercase tracking-wider">Score</span>
+				<span class="text-sm font-bold text-[var(--color-accent)] tabular-nums">{quizSession.score}</span>
+			</div>
+			<div class="combo-divider"></div>
+			<div class="combo-item flex items-center gap-1">
+				<span class="text-[10px] text-[var(--text-secondary)] uppercase tracking-wider">Correct</span>
+				<span class="text-sm font-bold text-[var(--color-success)] tabular-nums">{quizSession.correct}</span>
+			</div>
+			<div class="combo-divider"></div>
+			<div class="combo-item flex items-center gap-1">
+				<span class="text-[10px] text-[var(--text-secondary)] uppercase tracking-wider">Streak</span>
+				<span class="text-sm font-bold text-[var(--color-fire)] tabular-nums">{quizSession.streak}</span>
+			</div>
+			<div class="combo-divider"></div>
+			<div class="combo-item flex items-center gap-1">
+				<span class="text-[10px] text-[var(--text-secondary)] uppercase tracking-wider">Best</span>
+				<span class="text-sm font-bold text-[var(--text-primary)] tabular-nums">{quizSession.maxStreak}</span>
+			</div>
 		</div>
 		<!-- Completion Overlay -->
 		{#if isComplete && !completionDismissed}
@@ -346,6 +423,9 @@
 				>
 					<div class="text-4xl mb-3">🎉</div>
 					<h2 class="text-xl font-bold text-[var(--text-primary)] mb-3">Quiz Complete!</h2>
+					<div class="text-2xl font-bold text-[var(--color-accent)] mb-4">
+						★ {quizSession.score} <span class="text-xs font-normal text-[var(--text-secondary)]">points</span>
+					</div>
 					<div class="space-y-1.5 mb-6">
 						<p class="text-[var(--text-secondary)] text-sm">
 							<span class="text-[var(--color-success)] font-semibold text-base"
@@ -403,7 +483,158 @@
 		scale: 0.96;
 	}
 
+	/* Progress bar fill gradient */
+	.progress-fill {
+		background: linear-gradient(90deg, var(--color-primary), var(--color-secondary));
+	}
 
+	/* Shimmer sweep */
+	.shimmer {
+		position: absolute;
+		top: 0;
+		left: 0;
+		height: 100%;
+		width: 40%;
+		background: linear-gradient(90deg, transparent, rgba(255,255,255,0.12), transparent);
+		animation: shimmer-sweep 2.5s ease-in-out infinite;
+	}
+
+	@keyframes shimmer-sweep {
+		0% { transform: translateX(-100%); }
+		100% { transform: translateX(350%); }
+	}
+
+	/* Streak badge */
+	.streak-badge {
+		background: linear-gradient(135deg, rgba(255,107,53,0.2), rgba(245,166,35,0.1));
+		border: 1px solid rgba(255,107,53,0.3);
+		animation: streak-pulse 1.2s ease-in-out infinite;
+	}
+
+	@keyframes streak-pulse {
+		0%, 100% { transform: scale(1); box-shadow: 0 0 0 rgba(255,107,53,0); }
+		50% { transform: scale(1.04); box-shadow: 0 0 8px rgba(255,107,53,0.25); }
+	}
+
+	.fire-icon {
+		display: inline-block;
+		animation: fire-flicker 0.4s ease-in-out infinite alternate;
+	}
+
+	@keyframes fire-flicker {
+		0% { transform: scale(1) rotate(0deg); }
+		25% { transform: scale(1.08) rotate(-3deg); }
+		50% { transform: scale(0.95) rotate(0deg); }
+		75% { transform: scale(1.06) rotate(3deg); }
+		100% { transform: scale(1.02) rotate(0deg); }
+	}
+
+	.streak-count {
+		font-size: 13px;
+		font-weight: 800;
+		color: var(--color-fire, #ff6b35);
+	}
+
+	.multiplier-pill {
+		font-size: 8px;
+		font-weight: 700;
+		color: var(--color-accent);
+		background: var(--bg-surface);
+		border: 1px solid var(--color-accent);
+		padding: 0 3px;
+		border-radius: 3px;
+		line-height: 1.4;
+		animation: multiplier-pop 0.5s ease-out;
+	}
+
+	@keyframes multiplier-pop {
+		0% { transform: scale(0); opacity: 0; }
+		60% { transform: scale(1.3); }
+		100% { transform: scale(1); opacity: 1; }
+	}
+
+	/* Score badge */
+	.score-badge {
+		background: linear-gradient(135deg, rgba(245,166,35,0.15), rgba(245,166,35,0.05));
+		border: 1px solid rgba(245,166,35,0.25);
+	}
+
+	.score-star {
+		display: inline-block;
+		animation: star-spin 0.6s ease-out;
+	}
+
+	@keyframes star-spin {
+		0% { transform: rotate(-180deg) scale(0); opacity: 0; }
+		60% { transform: rotate(20deg) scale(1.15); }
+		100% { transform: rotate(0deg) scale(1); opacity: 1; }
+	}
+
+	.score-val {
+		font-size: 15px;
+		font-weight: 800;
+		color: var(--color-accent);
+		letter-spacing: -0.5px;
+		font-variant-numeric: tabular-nums;
+	}
+
+	.score-unit {
+		font-size: 9px;
+		font-weight: 500;
+		color: var(--text-secondary);
+		text-transform: uppercase;
+		letter-spacing: 0.3px;
+	}
+
+	/* Floating point popup */
+	.float-popup {
+		position: absolute;
+		top: -10px;
+		right: -2px;
+		font-size: 10px;
+		font-weight: 700;
+		color: var(--color-success, #10b981);
+		background: rgba(16,185,129,0.15);
+		padding: 1px 5px;
+		border-radius: 4px;
+		pointer-events: none;
+		animation: float-up 1.8s ease-out forwards;
+	}
+
+	@keyframes float-up {
+		0% { opacity: 1; transform: translateY(0) scale(0.8); }
+		20% { transform: translateY(-4px) scale(1.1); }
+		50% { opacity: 1; transform: translateY(-14px) scale(1); }
+		100% { opacity: 0; transform: translateY(-24px) scale(0.9); }
+	}
+
+	/* Combo bar */
+	.combo-bar {
+		background: var(--bg-surface);
+		border-top: 1px solid var(--border);
+	}
+
+	.combo-divider {
+		width: 1px;
+		height: 16px;
+		background: var(--border);
+	}
+
+	.combo-item {
+		animation: combo-fade 0.4s ease-out backwards;
+	}
+
+	.combo-item:nth-child(1) { animation-delay: 0.05s; }
+	.combo-item:nth-child(3) { animation-delay: 0.1s; }
+	.combo-item:nth-child(5) { animation-delay: 0.15s; }
+	.combo-item:nth-child(7) { animation-delay: 0.2s; }
+
+	@keyframes combo-fade {
+		0% { opacity: 0; transform: translateY(4px); }
+		100% { opacity: 1; transform: translateY(0); }
+	}
+
+	/* Timer */
 	.timer-bar {
 		animation: timer-countdown 25s linear forwards;
 		background: var(--color-secondary);
@@ -412,6 +643,7 @@
 	.timer-paused {
 		animation-play-state: paused;
 	}
+
 	@keyframes timer-countdown {
 		0% { width: 100%; background: var(--color-secondary); }
 		50% { background: var(--color-accent); }

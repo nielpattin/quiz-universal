@@ -52,6 +52,7 @@
 		originalIndices?: number[];
 		goToPreviousCard: () => void;
 		goToNextCard: () => void;
+		lastPointsBreakdown?: { correct: number; streak: number; total: number };
 	}
 
 	let {
@@ -67,7 +68,8 @@
 		toggleFavorite,
 		favorites,
 		goToPreviousCard,
-		goToNextCard
+		goToNextCard,
+		lastPointsBreakdown = { correct: 0, streak: 0, total: 0 }
 	}: Props = $props();
 
 	// Use reactive favorite state from props, not store
@@ -532,7 +534,20 @@
 				</button>
 			</div>
 		{/if}
-
+			{#if questionLocked && lastPointsBreakdown.total > 0}
+				<div class="mt-3 mb-2 flex items-center gap-2 px-3 py-2 rounded-lg bg-[rgba(16,185,129,0.06)] border border-[rgba(16,185,129,0.15)]">
+					<span class="text-xs text-[var(--text-secondary)]">You earned</span>
+					<span class="text-sm font-bold text-[var(--color-success, #10b981)]">+{lastPointsBreakdown.total}</span>
+					<span class="text-xs text-[var(--text-secondary)]">pts</span>
+					{#if lastPointsBreakdown.streak > 0}
+						<span class="text-[10px] text-[var(--text-secondary)]">
+							({lastPointsBreakdown.correct} correct + {lastPointsBreakdown.streak} streak)
+						</span>
+					{:else}
+						<span class="text-[10px] text-[var(--text-secondary)]">(10 correct)</span>
+					{/if}
+				</div>
+			{/if}
 		<!-- Subtle ID footer (mobile only) -->
 		{#if currentQuestion?.question_id}
 			<div

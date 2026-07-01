@@ -15,6 +15,7 @@ export const HAPTIC_ENABLED_KEY = 'quiz_haptic_enabled';
 export const HIGH_SCORES_KEY = 'quiz_high_scores';
 export const QUIZ_PROGRESS_PREFIX = 'quiz_progress_';
 export const WRONG_QUESTIONS_PREFIX = 'quiz_wrong_';
+export const TOTAL_POINTS_KEY = 'quiz_total_points';
 
 export interface FavoritesLocalState {
 	module: string;

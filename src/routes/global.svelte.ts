@@ -12,7 +12,8 @@ import {
 	HAPTIC_ENABLED_KEY,
 	HIGH_SCORES_KEY,
 	QUIZ_PROGRESS_PREFIX,
-	WRONG_QUESTIONS_PREFIX
+	WRONG_QUESTIONS_PREFIX,
+	TOTAL_POINTS_KEY
 } from '../lib/localKeys';
 import { SvelteSet, SvelteMap } from 'svelte/reactivity';
 import { replaceState } from '$app/navigation';
@@ -69,14 +70,22 @@ export const quizSession = $state<{
 	wrong: number;
 	streak: number;
 	maxStreak: number;
+	score: number;
 }>({
 	correct: 0,
 	wrong: 0,
 	streak: 0,
-	maxStreak: 0
+	maxStreak: 0,
+	score: 0
 });
 
 export const questionResults = new SvelteMap<string, boolean>();
+
+// Track what the last answer earned (for feedback display)
+export const lastPointsBreakdown = $state({ correct: 0, streak: 0, total: 0 });
+
+// Track which questions have already paid out points (prevents replay farming)
+export const scoredQuestions = new SvelteSet<string>();
 
 export function trackResult(questionId: string, isCorrect: boolean) {
 	questionResults.set(questionId, isCorrect);
@@ -86,6 +95,13 @@ export function trackResult(questionId: string, isCorrect: boolean) {
 		if (quizSession.streak > quizSession.maxStreak) {
 			quizSession.maxStreak = quizSession.streak;
 		}
+		// Score: 10 for correct + streak bonus
+		const streakBonus = quizSession.streak > 1 ? quizSession.streak * 5 : 0;
+		const points = 10 + streakBonus;
+		quizSession.score += points;
+		lastPointsBreakdown.correct = 10;
+		lastPointsBreakdown.streak = streakBonus;
+		lastPointsBreakdown.total = points;
 	} else {
 		quizSession.wrong++;
 		quizSession.streak = 0;
@@ -97,7 +113,9 @@ export function resetQuizSession() {
 	quizSession.wrong = 0;
 	quizSession.streak = 0;
 	quizSession.maxStreak = 0;
+	quizSession.score = 0;
 	questionResults.clear();
+	scoredQuestions.clear();
 }
 
 export const appState = $state<AppState>({
@@ -326,8 +344,34 @@ export function setSoundEnabled(v: boolean) { soundEnabled.value = v; setToggle(
 export function setFocusMode(v: boolean) { focusMode.value = v; setToggle(FOCUS_MODE_KEY, v); }
 export function setHapticEnabled(v: boolean) { hapticEnabled.value = v; setToggle(HAPTIC_ENABLED_KEY, v); }
 
+// ===== Total Points (across all sessions) =====
+export const totalPoints = $state({ value: 0 });
+
+function getInitialTotalPoints(): number {
+	if (typeof window !== 'undefined') {
+		try {
+			const d = localStorage.getItem(TOTAL_POINTS_KEY);
+			if (d) return parseInt(d, 10) || 0;
+		} catch { /* ignore */ }
+	}
+	return 0;
+}
+
+Object.assign(totalPoints, { value: getInitialTotalPoints() });
+
+function persistTotalPoints() {
+	if (typeof window !== 'undefined') {
+		localStorage.setItem(TOTAL_POINTS_KEY, String(totalPoints.value));
+	}
+}
+
+export function addSessionScore() {
+	totalPoints.value += quizSession.score;
+	persistTotalPoints();
+}
+
 // ===== High Scores (per module) =====
-export type ModuleScore = { correct: number; wrong: number; accuracy: number; date: string };
+export type ModuleScore = { correct: number; wrong: number; accuracy: number; date: string; score: number };
 export const highScores = $state<Record<string, ModuleScore>>({});
 
 function getInitialHighScores(): Record<string, ModuleScore> {
@@ -349,7 +393,7 @@ export function saveHighScore(moduleId: string, correct: number, wrong: number) 
 	const accuracy = Math.round((correct / total) * 100);
 	const existing = highScores[moduleId];
 	if (!existing || correct > existing.correct || (correct === existing.correct && accuracy > existing.accuracy)) {
-		highScores[moduleId] = { correct, wrong, accuracy, date: new Date().toISOString().slice(0, 10) };
+		highScores[moduleId] = { correct, wrong, accuracy, date: new Date().toISOString().slice(0, 10), score: quizSession.score };
 		if (typeof window !== 'undefined') {
 			localStorage.setItem(HIGH_SCORES_KEY, JSON.stringify(highScores));
 		}
@@ -392,7 +436,7 @@ export function saveQuizProgress() {
 		current: pageState.current,
 		answers: Array.from(pageState.questionAnswers.entries()),
 		lockedStatus: Array.from(pageState.questionLockedStatus.entries()),
-		score: { correct: quizSession.correct, wrong: quizSession.wrong, streak: quizSession.streak, maxStreak: quizSession.maxStreak }
+		score: { correct: quizSession.correct, wrong: quizSession.wrong, streak: quizSession.streak, maxStreak: quizSession.maxStreak, score: quizSession.score }
 	};
 	localStorage.setItem(key, JSON.stringify(progress));
 }
@@ -421,6 +465,7 @@ export function restoreQuizProgress(moduleId: string): boolean {
 				quizSession.wrong = saved.score.wrong ?? 0;
 				quizSession.streak = saved.score.streak ?? 0;
 				quizSession.maxStreak = saved.score.maxStreak ?? 0;
+				quizSession.score = saved.score.score ?? 0;
 			}
 			return true;
 		}

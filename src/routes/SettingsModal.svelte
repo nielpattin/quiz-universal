@@ -15,7 +15,8 @@
 		setSoundEnabled,
 		setFocusMode,
 		setHapticEnabled,
-		highScores
+		highScores,
+		totalPoints
 	} from './global.svelte';
 	import Settings from '@lucide/svelte/icons/settings';
 	import Languages from '@lucide/svelte/icons/languages';
@@ -275,13 +276,28 @@
 							<Trophy size={18} class="text-[var(--color-accent)]" />
 							<h4 class="text-[var(--color-accent)] font-medium text-sm">Best Scores</h4>
 						</div>
+						<div class="grid grid-cols-3 gap-2 mb-3">
+							<div class="bg-[var(--bg-hover)] rounded-lg p-2.5 text-center">
+								<div class="text-lg font-bold text-[var(--color-primary)]">{scoreEntries.length}</div>
+								<div class="text-[9px] uppercase tracking-wider text-[var(--text-secondary)]">Quizzes</div>
+							</div>
+							<div class="bg-[var(--bg-hover)] rounded-lg p-2.5 text-center">
+								<div class="text-lg font-bold text-[var(--color-accent)]">{totalPoints.value}</div>
+								<div class="text-[9px] uppercase tracking-wider text-[var(--text-secondary)]">Total Points</div>
+							</div>
+							<div class="bg-[var(--bg-hover)] rounded-lg p-2.5 text-center">
+								<div class="text-lg font-bold text-[var(--color-secondary)]">{scoreEntries.length > 0 ? Math.round(scoreEntries.reduce((a,b) => a + b[1].accuracy, 0) / scoreEntries.length) : 0}%</div>
+								<div class="text-[9px] uppercase tracking-wider text-[var(--text-secondary)]">Avg Acc</div>
+							</div>
+						</div>
 						<div class="space-y-1.5 max-h-40 overflow-y-auto">
 							{#each scoreEntries as [moduleId, score]}
 								<div
 									class="flex items-center justify-between text-xs px-2 py-1.5 rounded bg-[var(--bg-hover)] border border-[var(--border)]"
 								>
-									<span class="truncate max-w-[120px] text-[var(--text-primary)]">{moduleId}</span>
+									<span class="truncate max-w-[80px] text-[var(--text-primary)]">{moduleId}</span>
 									<span class="text-[var(--color-success)]">{score.correct}/{score.correct + score.wrong}</span>
+									<span class="text-[var(--color-accent)]">{score.score || 0}p</span>
 									<span class="text-[var(--text-secondary)]">{score.accuracy}%</span>
 								</div>
 							{/each}
