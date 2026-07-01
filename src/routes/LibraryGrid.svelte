@@ -8,7 +8,7 @@
 	}
 </script>
 
-<div class="library-grid w-full flex-1 min-h-0 overflow-y-auto p-4 md:p-8">
+<div class="library-grid w-full flex-1 min-h-0 overflow-y-auto p-4 pb-24 md:p-8 md:pb-24">
 	<div class="max-w-6xl mx-auto">
 		<!-- Header -->
 		<div class="mb-8">
