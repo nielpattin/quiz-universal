@@ -1,5 +1,17 @@
 # Changelog
 
+## [2.4.0] - 2026-07-03
+
+### Changed
+
+- Bilingual quiz content moved from single-field heuristics to separate `question_text_en` / `question_text_vi` and `answer_text_en` / `answer_text_vi` fields.
+- Updated database schema, API, and frontend components (`BilingualText`, `Carousel`, `QuizCard`) to consume separate language fields.
+
+### Migration
+
+- Run `node sync_universal.js --clean` against the target database after deploying this release.
+- Users must clear site data / localStorage in their browser to avoid stale saved progress that references the old answer/shuffle state. In Chrome: DevTools → Application → Storage → Clear site data.
+
 ## [2.3.0] - 2026-06-30
 
 ### Added

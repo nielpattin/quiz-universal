@@ -1,1129 +1,1374 @@
 [
-	{
-		"question_id": "sqa-m1-q1",
-		"question_text": "Kiểm thử hộp đen:",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Người kiểm thử phải viết mã nguồn để kiểm thử",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Là kiểm thử dựa trên mã nguồn",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Tập trung vào chức năng của hệ thống",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Là kiểm thử cấu trúc",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "sqa-m1-q2",
-		"question_text": "Trong kiểm thử đơn vị, công cụ “static code (path) analyzer” được sử dụng để làm gì?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Xác định đường đi để kiểm thử dựa trên cấu trúc của mã",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Đọc mã nguồn và tự động sinh ra các mô tả",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Phân tích lưu lượng truy cập và xác định các vấn đề khu vực",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Cả ba đáp án",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "sqa-m1-q3",
-		"question_text": "Chỉ ra khái niệm tương ứng với việc kiểm thử ở mức độ thấp nhất (các phương thức, hàm, lớp trong mã nguồn) nhằm đảm bảo các thành phần trên hoạt động đúng như yêu cầu. Việc kiểm tra ở mức độ này thường do chính các Lập trình viên thực hiện trong quá trình mã hóa.",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Kiểm thử tích hợp",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Kiểm thử hệ thống",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Kiểm thử đơn vị",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Kiểm thử chấp nhận",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "sqa-m1-q4",
-		"question_text": "Ba chiến lược kiểm thử thông dụng nhất là",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Kiểm thử đơn vị, kiểm thử hộp xám, kiểm thử hộp đen",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Kiểm thử đơn vị, kiểm thử tích hợp, kiểm thử hộp trắng",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Kiểm thử đơn vị, kiểm thử tích hợp, kiểm thử cường độ",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Kiểm thử hộp đen, kiểm thử hộp trắng, kiểm thử hộp xám",
-				"is_correct": true
-			}
-		]
-	},
-	{
-		"question_id": "sqa-m1-q5",
-		"question_text": "Có mấy mức (cấp độ) kiểm thử phần mềm",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "2",
-				"is_correct": false
-			},
-			{
-				"answer_text": "3",
-				"is_correct": false
-			},
-			{
-				"answer_text": "5",
-				"is_correct": false
-			},
-			{
-				"answer_text": "4",
-				"is_correct": true
-			}
-		]
-	},
-	{
-		"question_id": "sqa-m1-q6",
-		"question_text": "Các trạng thái chương trình cơ bản của kiểm thử luồng điểu khiển là:",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Defined và undefined",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Undefined and referenced",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Assignment and condition",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Defined and defined again",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "sqa-m1-q7",
-		"question_text": "Đường đi trong kiểm thử luồng điều khiển là:",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Là một chuỗi tất cả các trạng thái có trong luồng điều khiển",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Là một chuỗi các trạng thái từ trạng thái bắt đầu đến trạng thái kết thúc",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Là một chuỗi tất cả các cạnh trong biểu đồ luồng điều khiển",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Là một chuỗi các cạnh từ trạng thái bắt đầu đến trạng thái kết thúc",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "sqa-m1-q8",
-		"question_text": "Đâu không phải là toán tử trong phần điều kiện của biểu đồ luồng điều khiển:",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Toán tử quan hệ",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Toán tử gán",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Toán tử logic",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Toán tử tính toán",
-				"is_correct": true
-			}
-		]
-	},
-	{
-		"question_id": "sqa-m1-q9",
-		"question_text": "Loại kiểm thử nào dưới đây là kiểm thử chức năng?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Kiểm thử từng cặp (pairwise testing)",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Kiểm thử độ ổn định (Stability testing)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Kiểm thử tính dễ sử dụng (Usability testing)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Kiểm thử tính bảo mật (Security testing)",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "sqa-m1-q10",
-		"question_text": "Kiểm thử luồng điều khiển là một dạng của:",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Kiểm thử hiệu năng",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Kiểm thử tải",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Kiểm thử cấu trúc",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Kiểm thử tài liệu",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "sqa-m1-q11",
-		"question_text": "Ai sẽ là người thực hiện kiểm thử luồng điều khiển:",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Kiểm thử viên",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Lập trình viên",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Người thiết kế hệ thống",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Cả A, B, C đều sai",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "sqa-m1-q12",
-		"question_text": "Câu nào sau đây là sai?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Một vector đầu vào là tập tất cả các dữ liệu đã có giá trị đầu vào trước khi được đọc vào chương trình.",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Vector đầu vào có thể chứa biến toàn cục và biến cục bộ",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Một path predicate có thể chứa biến cục bộ",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Một vài đường đi trong chương trình có thể không khả thi",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "sqa-m1-q13",
-		"question_text": "Có mấy chuẩn chọn đường đi thường dùng?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "2",
-				"is_correct": false
-			},
-			{
-				"answer_text": "4",
-				"is_correct": true
-			},
-			{
-				"answer_text": "5",
-				"is_correct": false
-			},
-			{
-				"answer_text": "6",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "sqa-m1-q14",
-		"question_text": "Cái nào không thuộc kiểm thử hộp trắng?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Kiểm thử luồng điều khiển",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Kiểm thử luồng dữ liệu",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Kiểm thử đường đi",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Kiểm thử trạng thái chuyển tiếp",
-				"is_correct": true
-			}
-		]
-	},
-	{
-		"question_id": "sqa-m1-q15",
-		"question_text": "Câu nào đúng trong kỹ thuật kiểm thử hộp trắng?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Kiểm thử luồng dữ liệu (data flow testing)",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Kiểm thử dựa trên phân hoạch tương đương (equivalence class partitioning)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Phân tích giá trị bao (boundary value analysis)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Kiểm thử ca sử dụng (Use case testing)",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "sqa-m1-q16",
-		"question_text": "Mục đích của kỹ thuật thiết kế kiểm thử?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Chỉ xác định các điều kiện kiểm thử, không xác định các ca kiểm thử",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Không xác định các điều kiện kiểm thử, chỉ xác định các ca kiểm thử",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Xác định các điều kiện kiểm thử và xác định các ca kiểm thử.",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Xác định các điều kiện kiểm thử hoặc xác định các ca kiểm thử.",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "sqa-m1-q17",
-		"question_text": "Điều kiện kiểm thử được bắt nguồn từ?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Tài liệu đặc tả",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Các ca kiểm thử",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Dữ liệu kiểm thử",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Thiết kế kiểm thử",
-				"is_correct": true
-			}
-		]
-	},
-	{
-		"question_id": "sqa-m1-q18",
-		"question_text": "Loại nào dưới đây không phải là kiểm thử chức năng?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Kiểm thử ngẫu nhiên(Random Testing)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Usability testing",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Kiểm thử bộ phận (Unit Testing)",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Cả B và C",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "sqa-m1-q19",
-		"question_text": "Test Case Design Yield (TCDY) là gì?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Là số liệu thường được sử dụng (A metric commonly used) trong công nghiệm để đo Test case design effectiveness",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Là một mô hình thiết kế Test case",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Là một nguyên tắc thiết kế một hệ thống Test Case",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Là một hằng số được sử dụng để thiết kết Test Case trong công nghiệp",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "sqa-m1-q20",
-		"question_text": "Điều quan trọng nhất trong thiết kế kiểm thử sớm là?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Làm cho sự chuẩn bị kiểm thử dễ dàng hơn.",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Các phương tiện kiểm thử thì không yêu cầu",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Có thể ngăn chặn nhân lỗi.",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Sẽ tìm thấy tất cả các lỗi.",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "sqa-m1-q21",
-		"question_text": "Trong data flow graph các lệnh điều kiện được biểu diễn như thế nào?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Trong hình thoi",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Trong hình chữ nhật",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Trên các cạnh",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Không được biểu diễn",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "sqa-m1-q22",
-		"question_text": "Kiểm thử luồng dữ liệu là?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Kiểm thử tĩnh",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Kiểm thử động",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Kiểm thử hộp đen",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Có thể thực hiện cả kiểm thử tĩnh và kiểm thử động",
-				"is_correct": true
-			}
-		]
-	},
-	{
-		"question_id": "sqa-m1-q23",
-		"question_text": "Đâu là một mô hình đánh giá đặc tính chất lượng (Quality Characteristics) phần mềm?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "ISO 9125",
-				"is_correct": false
-			},
-			{
-				"answer_text": "ISO 9126",
-				"is_correct": true
-			},
-			{
-				"answer_text": "ISO 9127",
-				"is_correct": false
-			},
-			{
-				"answer_text": "ISO 9128",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "sqa-m1-q24",
-		"question_text": "Câu nào sau đây khi nói về ý tưởng chính của value-based view là không đúng?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Cân nhắc có bao nhiêu khách hàng muốn trả tiền để đạt mức chất lượng như vậy.",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Chất lượng là vô nghĩa nếu sản phẩm không có giá trị về kinh tế.",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Bỏ ra bao nhiêu chi phí cũng được, miễn là phần mềm phải đạt chất lượng tốt nhất.",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Cân bằng giữa chi phí và chất lượng.",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "sqa-m1-q25",
-		"question_text": "Mệnh đề nào sau đây không đúng khi nói về lý do phải đo lường chất lượng phần mềm?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Đo lường cho phép chúng ta thiết lập các đường cơ sở cho chất lượng.",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Đo lường chất lượng giúp giảm chi phí làm phần mềm.",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Đo lường là chìa khóa để cải tiến quy trình.",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Nhu cầu cải tiến có thể được điều tra sau khi thực hiện phép đo.",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "sqa-m1-q26",
-		"question_text": "Biểu đồ Gantt dùng để làm gì?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Biểu thị lịch trình dự án",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Biểu thị sơ đồ test",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Biểu thị quá trình thực hiện test theo thời gian",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Biểu thị sự dao động của chất lượng phần mềm theo thời gian",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "sqa-m1-q27",
-		"question_text": "Lợi ích của kiểm thử tự động:",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Kiểm tra năng suất của kĩ sư, tăng hiệu quả kiểm tra, Giảm thời gian kiểm thử",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Bao phủ của kiểm thử hồi quy, Nhất quán trong kiểm thử",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Khả năng sử dụng các trương hợp kiểm thử, giảm chi phí kiểm thử",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Cả 3 ý trên",
-				"is_correct": true
-			}
-		]
-	},
-	{
-		"question_id": "sqa-m1-q28",
-		"question_text": "Thử nghiệm Beta được thực hiện bởi các …. trước khi phát hành chính thức sản phẩm.",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Thành viên nhóm dự án phần mềm",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Các chuyên gia",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Các khách hàng tiềm năng",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Các tester",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "sqa-m1-q29",
-		"question_text": "Mục đích của kiểm thử beta:",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Tìm ra sai sót và loại bỏ chúng",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Tìm ra nguyên nhân gốc rễ của sai sót để loại bỏ những sai sót mang tính hệ thống",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Nhận những phản hồi của người dùng về tính khả dụng trước khi được tung ra thị trường",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Nhận những phản hồi của người dùng về tính khả dụng sau khi được tung ra thị trường",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "sqa-m1-q30",
-		"question_text": "Thông tin liên quan đến tính ổn định quan sát được của một hệ thống?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Thời gian vận hành",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Số lần hệ thống bị crash quan sát được bởi các nhóm khác nhau (developers, ST, SIT..)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Mô tả triệu chứng của lỗi cái mà khiến hệ thống crash",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Cả 3 đáp án trên",
-				"is_correct": true
-			}
-		]
-	},
-	{
-		"question_id": "sqa-m1-q31",
-		"question_text": "Đội duy trì (sustaining team), bao gồm cả developers và testers, có các nhiệm vụ chính không bao gồm nhiệm vụ nào sau đây",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Tương tác với khách hàng để hiểu rõ môi trường thực",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Tham gia vào quá trình duyệt lại code",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Phát triển test cases mới khi nguồn gốc của một lỗi được tìm ra",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Hướng dẫn khách hàng sử dụng chương trình",
-				"is_correct": true
-			}
-		]
-	},
-	{
-		"question_id": "sqa-m1-q32",
-		"question_text": "Đặc điểm nào không phải thuộc kiểm thử chấp nhận?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Sử dụng các công cụ test tự động",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Thực hiện bởi người sử dụng",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Kiểm thử theo các kịch bản kiểm thử chấp nhận",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Tích hợp hệ thống với tài liệu người sử dụng",
-				"is_correct": true
-			}
-		]
-	},
-	{
-		"question_id": "sqa-m1-q33",
-		"question_text": "Kiểm thử chấp nhận nghĩa là gì?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Kiểm thử trên một module riêng lẻ hoặc một bộ mã nguồn",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Thực hiện sau khi thay đổi để đảm bảo không có thay đổi nào xảy ra",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Kiểm thử để chắc chắn rằng hệ thống tuân theo đúng yêu cầu của người dùng",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Người sử dụng kiểm thử ứng dụng trong môi trường phát triển",
-				"is_correct": true
-			}
-		]
-	},
-	{
-		"question_id": "sqa-m1-q34",
-		"question_text": "Kiểm thử chấp nhận của người sử dụng?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Tương tự alpha testing",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Tương tự beta testing",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Kết hợp cả alpha và beta testing",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Không phải cái nào",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "sqa-m1-q35",
-		"question_text": "Thế nào kiểm thử chấp nhận của người sử dụng (UAT)?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Thực hiện dưới sự phát triển tổ chức của nhà cung cấp, không quan tâm tới kết quả của người sử dụng",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Thực hiện dưới sự phát triển tổ chức của nhà cung cấp, nhưng vẫn quan tâm tới kết quả của người sử dụng",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Thực hiện bởi người sử dụng",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Thực hiện bởi người sử dụng, đảm bảo hệ thống thỏa mãn các kịch bản theo yêu cầu của người dùng",
-				"is_correct": true
-			}
-		]
-	},
-	{
-		"question_id": "sqa-m1-q36",
-		"question_text": "Đặc điểm nào sau đây không phải của kiểm thử chấp nhận người dùng?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Sử dụng các công cụ thực thi kiểm thử một cách tự động.",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Quá trình kiểm thử được tiến hành bởi những người dùng.",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Quá trình kiểm thử dựa trên các tiêu chuẩn kiểm thử chấp nhận.",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Hệ thống được tích hợp với tài liệu người dùng.",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "sqa-m1-q37",
-		"question_text": "ACC là viết tắt của?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "acceptance criteria count",
-				"is_correct": false
-			},
-			{
-				"answer_text": "acceptance criteria change",
-				"is_correct": true
-			},
-			{
-				"answer_text": "acceptable criteria capability",
-				"is_correct": false
-			},
-			{
-				"answer_text": "acceptance criteria control",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "sqa-m1-q38",
-		"question_text": "Vai trò của nhà phát triển và khách hàng trong kiểm thử chấp nhận.",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Nhà phát triển hướng dẫn khách hàng sử dụng hệ thống.",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Nhà phát triển và khách hàng phối hợp sửa chữa bất kỳ vấn đề nào được phát hiện trong quá trình thử nghiệm.",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Nhà phát triển và khách hàng giải quyết các vấn đề phát sinh dựa trên sự khác biệt về tiêu chí chấp nhận.",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Cả 3 đáp án trên.",
-				"is_correct": true
-			}
-		]
-	},
-	{
-		"question_id": "sqa-m1-q39",
-		"question_text": "Phân tích luồng dữ liệu nghiên cứu về:",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Các “nút cổ chai” trong giao tiếp của một chương trình",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Tỉ lệ thay đổi giá trị dữ liệu khi chương trình thực thi",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Sử dụng dữ liệu trên các đường đi thông qua code",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Độ phức tạp bản chất của code",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "sqa-m1-q40",
-		"question_text": "Loại nào sau đây là kiểm thử phi chức năng:",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Kiểm thử tính khả dụng",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Bao phủ lệnh",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Kiểm thử luồng dữ liệu",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Đồ thị nhân – quả",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "sqa-m1-q41",
-		"question_text": "Trong các tiêu chí kiểm thử luồng dữ liêu dưới đây, tiêu chí nào chứa hai tiêu chí còn lại",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "All-uses.",
-				"is_correct": true
-			},
-			{
-				"answer_text": "All-c-uses.",
-				"is_correct": false
-			},
-			{
-				"answer_text": "All-p-uses.",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Cả 3 ý trên đều sai.",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "sqa-m1-q42",
-		"question_text": "Một phân vùng tương đương (còn gọi là một lớp tương đương là gì)?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Một tập hợp các trường hợp thử nghiệm cho các lớp thử nghiệm các đối tượng",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Một loạt các đầu vào hoặc đầu ra của các giá trị vậy mà chỉ có một giá trị trong phạm vi sẽ trở thành trường hợp thử nghiệm",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Một loạt các đầu vào hoặc đầu ra của các giá trị và mỗi giá trị trong phạm vi sẽ trở thành trường hợp thử nghiệm",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Một đầu vào hoặc đầu ra phạm vi của các giá trị như vậy mà tất cả các giá trị thứ mười trong phạm vi sẽ trở thành một trường hợp thử nghiệm.",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "sqa-m1-q43",
-		"question_text": "Loại kiểm thử nào dưới đây là kiểm thử chức năng",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Phân tích giá trị biên (Boundary value analysis)",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Kiểm thử tính dễ sử dụng (Usability testing)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Kiểm thử hiệu năng (Performance testing)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Kiểm thử tính bảo mật (Security testing)",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "sqa-m1-q44",
-		"question_text": "Kiểm thử giá trị biên là:",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Cũng là kiểm thử phân vùng tương đương.",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Kiểm thử các điều kiện biên trên, dưới và tại biên của lớp các đầu ra, đầu vào tương đương.",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Tổ hợp các tình huống đầu vào",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Được sử dụng trong kiểm thử hộp trắng",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "sqa-m1-q45",
-		"question_text": "Kiểm thử hệ thống nên nghiên cứu về:",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Yêu cầu phi chức năng.",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Yêu cầu chức năng.",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Yêu cầu phi chức năng và yêu cầu chức năng.",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Yêu cầu phi chức năng hoặc yêu cầu chức năng.",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "sqa-m1-q46",
-		"question_text": "Trong kiểm thử hệ thống:",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Cả yêu cầu chức năng và phi chức năng đều được kiểm thử.",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Chỉ có yêu cầu chức năng được kiểm thử, còn yêu cầu phi chức năng là xem lại.",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Chỉ có yêu cầu phi chức năng được kiểm thử, còn yêu cầu chức năng là xem lại.",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Chỉ có các chức năng được ghi rõ trong tài liệu đặc tả mới được kiểm thử.",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "sqa-m1-q47",
-		"question_text": "Các kĩ thuật nào dưới đây sử dụng kiểm thử hộp đen:",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "State transition testing, code testing, agile testing.",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Equivalence partitioning, state transition testing, decision table testing.",
-				"is_correct": true
-			},
-			{
-				"answer_text": "System testing, acceptance testing, equivalence partitioning.",
-				"is_correct": false
-			},
-			{
-				"answer_text": "System integration testing, system testing, decision table testing.",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "sqa-m1-q48",
-		"question_text": "Kiểm thử phi chức năng hệ thống là?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Kiểm thử tất cả mọi nơi trong hệ thống mà không có chức năng chính xác.",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Kiểm thử chất lượng các thuộc tính của hệ thống bao gồm việc thực hiện và có dùng được hay không.",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Kiểm thử chức năng cho hệ thống là chỉ kiểm thử theo yêu cầu của phần mềm cho chức năng đó.",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Kiểm thử các chức năng không nên có.",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "sqa-m1-q49",
-		"question_text": "Lỗi giao diện nào thường được cân nhắc nhất sau đây:",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Cho hai component trao đổi dữ liệu, một component sử dụng đơn vị mét, một component sử dụng đơn vị inch.",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Hệ thống phức tạp do cấu trúc đầu vào thiết bị đầu cuối quá phức tạp.",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Các thông điệp lỗi đầu vào cho người sử dụng gây hiểu lầm và không hữu ích cho việc hiểu nguyên nhân gây ra lỗi đầu vào.",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Tải cao dẫn đến hệ thống không thể cung cấp đủ các công mở cho việc kết nối tới các yêu cầu người dùng.",
-				"is_correct": false
-			}
-		]
-	}
+  {
+    "question_id": "sqa-m1-q1",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Kiểm thử hộp đen:",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Người kiểm thử phải viết mã nguồn để kiểm thử",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Là kiểm thử dựa trên mã nguồn",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Tập trung vào chức năng của hệ thống",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Là kiểm thử cấu trúc",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "sqa-m1-q2",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Trong kiểm thử đơn vị, công cụ “static code (path) analyzer” được sử dụng để làm gì?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Xác định đường đi để kiểm thử dựa trên cấu trúc của mã",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Đọc mã nguồn và tự động sinh ra các mô tả",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Phân tích lưu lượng truy cập và xác định các vấn đề khu vực",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Cả ba đáp án",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "sqa-m1-q3",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Chỉ ra khái niệm tương ứng với việc kiểm thử ở mức độ thấp nhất (các phương thức, hàm, lớp trong mã nguồn) nhằm đảm bảo các thành phần trên hoạt động đúng như yêu cầu. Việc kiểm tra ở mức độ này thường do chính các Lập trình viên thực hiện trong quá trình mã hóa.",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Kiểm thử tích hợp",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Kiểm thử hệ thống",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Kiểm thử đơn vị",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Kiểm thử chấp nhận",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "sqa-m1-q4",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Ba chiến lược kiểm thử thông dụng nhất là",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Kiểm thử đơn vị, kiểm thử hộp xám, kiểm thử hộp đen",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Kiểm thử đơn vị, kiểm thử tích hợp, kiểm thử hộp trắng",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Kiểm thử đơn vị, kiểm thử tích hợp, kiểm thử cường độ",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Kiểm thử hộp đen, kiểm thử hộp trắng, kiểm thử hộp xám",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "sqa-m1-q5",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Có mấy mức (cấp độ) kiểm thử phần mềm",
+    "answers": [
+      {
+        "answer_text_en": "2",
+        "answer_text_vi": "",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "3",
+        "answer_text_vi": "",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "5",
+        "answer_text_vi": "",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "4",
+        "answer_text_vi": "",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "sqa-m1-q6",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Các trạng thái chương trình cơ bản của kiểm thử luồng điểu khiển là:",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Defined và undefined",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "Undefined and referenced",
+        "answer_text_vi": "",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "Assignment and condition",
+        "answer_text_vi": "",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "Defined and defined again",
+        "answer_text_vi": "",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "sqa-m1-q7",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Đường đi trong kiểm thử luồng điều khiển là:",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Là một chuỗi tất cả các trạng thái có trong luồng điều khiển",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Là một chuỗi các trạng thái từ trạng thái bắt đầu đến trạng thái kết thúc",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Là một chuỗi tất cả các cạnh trong biểu đồ luồng điều khiển",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Là một chuỗi các cạnh từ trạng thái bắt đầu đến trạng thái kết thúc",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "sqa-m1-q8",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Đâu không phải là toán tử trong phần điều kiện của biểu đồ luồng điều khiển:",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Toán tử quan hệ",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Toán tử gán",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Toán tử logic",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Toán tử tính toán",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "sqa-m1-q9",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Loại kiểm thử nào dưới đây là kiểm thử chức năng?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Kiểm thử từng cặp (pairwise testing)",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Kiểm thử độ ổn định (Stability testing)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Kiểm thử tính dễ sử dụng (Usability testing)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Kiểm thử tính bảo mật (Security testing)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "sqa-m1-q10",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Kiểm thử luồng điều khiển là một dạng của:",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Kiểm thử hiệu năng",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Kiểm thử tải",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Kiểm thử cấu trúc",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Kiểm thử tài liệu",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "sqa-m1-q11",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Ai sẽ là người thực hiện kiểm thử luồng điều khiển:",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Kiểm thử viên",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Lập trình viên",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Người thiết kế hệ thống",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Cả A, B, C đều sai",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "sqa-m1-q12",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Câu nào sau đây là sai?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Một vector đầu vào là tập tất cả các dữ liệu đã có giá trị đầu vào trước khi được đọc vào chương trình.",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Vector đầu vào có thể chứa biến toàn cục và biến cục bộ",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Một path predicate có thể chứa biến cục bộ",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Một vài đường đi trong chương trình có thể không khả thi",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "sqa-m1-q13",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Có mấy chuẩn chọn đường đi thường dùng?",
+    "answers": [
+      {
+        "answer_text_en": "2",
+        "answer_text_vi": "",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "4",
+        "answer_text_vi": "",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "5",
+        "answer_text_vi": "",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "6",
+        "answer_text_vi": "",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "sqa-m1-q14",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Cái nào không thuộc kiểm thử hộp trắng?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Kiểm thử luồng điều khiển",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Kiểm thử luồng dữ liệu",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Kiểm thử đường đi",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Kiểm thử trạng thái chuyển tiếp",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "sqa-m1-q15",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Câu nào đúng trong kỹ thuật kiểm thử hộp trắng?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Kiểm thử luồng dữ liệu (data flow testing)",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Kiểm thử dựa trên phân hoạch tương đương (equivalence class partitioning)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Phân tích giá trị bao (boundary value analysis)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Kiểm thử ca sử dụng (Use case testing)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "sqa-m1-q16",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Mục đích của kỹ thuật thiết kế kiểm thử?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Chỉ xác định các điều kiện kiểm thử, không xác định các ca kiểm thử",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Không xác định các điều kiện kiểm thử, chỉ xác định các ca kiểm thử",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Xác định các điều kiện kiểm thử và xác định các ca kiểm thử.",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Xác định các điều kiện kiểm thử hoặc xác định các ca kiểm thử.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "sqa-m1-q17",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Điều kiện kiểm thử được bắt nguồn từ?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Tài liệu đặc tả",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Các ca kiểm thử",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Dữ liệu kiểm thử",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Thiết kế kiểm thử",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "sqa-m1-q18",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Loại nào dưới đây không phải là kiểm thử chức năng?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Kiểm thử ngẫu nhiên(Random Testing)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "Usability testing",
+        "answer_text_vi": "",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Kiểm thử bộ phận (Unit Testing)",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Cả B và C",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "sqa-m1-q19",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Test Case Design Yield (TCDY) là gì?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Là số liệu thường được sử dụng (A metric commonly used) trong công nghiệm để đo Test case design effectiveness",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Là một mô hình thiết kế Test case",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Là một nguyên tắc thiết kế một hệ thống Test Case",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Là một hằng số được sử dụng để thiết kết Test Case trong công nghiệp",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "sqa-m1-q20",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Điều quan trọng nhất trong thiết kế kiểm thử sớm là?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Làm cho sự chuẩn bị kiểm thử dễ dàng hơn.",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Các phương tiện kiểm thử thì không yêu cầu",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Có thể ngăn chặn nhân lỗi.",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Sẽ tìm thấy tất cả các lỗi.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "sqa-m1-q21",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Trong data flow graph các lệnh điều kiện được biểu diễn như thế nào?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Trong hình thoi",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Trong hình chữ nhật",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Trên các cạnh",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Không được biểu diễn",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "sqa-m1-q22",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Kiểm thử luồng dữ liệu là?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Kiểm thử tĩnh",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Kiểm thử động",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Kiểm thử hộp đen",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Có thể thực hiện cả kiểm thử tĩnh và kiểm thử động",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "sqa-m1-q23",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Đâu là một mô hình đánh giá đặc tính chất lượng (Quality Characteristics) phần mềm?",
+    "answers": [
+      {
+        "answer_text_en": "ISO 9125",
+        "answer_text_vi": "",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "ISO 9126",
+        "answer_text_vi": "",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "ISO 9127",
+        "answer_text_vi": "",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "ISO 9128",
+        "answer_text_vi": "",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "sqa-m1-q24",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Câu nào sau đây khi nói về ý tưởng chính của value-based view là không đúng?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Cân nhắc có bao nhiêu khách hàng muốn trả tiền để đạt mức chất lượng như vậy.",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Chất lượng là vô nghĩa nếu sản phẩm không có giá trị về kinh tế.",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Bỏ ra bao nhiêu chi phí cũng được, miễn là phần mềm phải đạt chất lượng tốt nhất.",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Cân bằng giữa chi phí và chất lượng.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "sqa-m1-q25",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Mệnh đề nào sau đây không đúng khi nói về lý do phải đo lường chất lượng phần mềm?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Đo lường cho phép chúng ta thiết lập các đường cơ sở cho chất lượng.",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Đo lường chất lượng giúp giảm chi phí làm phần mềm.",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Đo lường là chìa khóa để cải tiến quy trình.",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Nhu cầu cải tiến có thể được điều tra sau khi thực hiện phép đo.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "sqa-m1-q26",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Biểu đồ Gantt dùng để làm gì?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Biểu thị lịch trình dự án",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Biểu thị sơ đồ test",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Biểu thị quá trình thực hiện test theo thời gian",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Biểu thị sự dao động của chất lượng phần mềm theo thời gian",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "sqa-m1-q27",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Lợi ích của kiểm thử tự động:",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Kiểm tra năng suất của kĩ sư, tăng hiệu quả kiểm tra, Giảm thời gian kiểm thử",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Bao phủ của kiểm thử hồi quy, Nhất quán trong kiểm thử",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Khả năng sử dụng các trương hợp kiểm thử, giảm chi phí kiểm thử",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Cả 3 ý trên",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "sqa-m1-q28",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Thử nghiệm Beta được thực hiện bởi các …. trước khi phát hành chính thức sản phẩm.",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Thành viên nhóm dự án phần mềm",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Các chuyên gia",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Các khách hàng tiềm năng",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Các tester",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "sqa-m1-q29",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Mục đích của kiểm thử beta:",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Tìm ra sai sót và loại bỏ chúng",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Tìm ra nguyên nhân gốc rễ của sai sót để loại bỏ những sai sót mang tính hệ thống",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Nhận những phản hồi của người dùng về tính khả dụng trước khi được tung ra thị trường",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Nhận những phản hồi của người dùng về tính khả dụng sau khi được tung ra thị trường",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "sqa-m1-q30",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Thông tin liên quan đến tính ổn định quan sát được của một hệ thống?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Thời gian vận hành",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Số lần hệ thống bị crash quan sát được bởi các nhóm khác nhau (developers, ST, SIT..)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Mô tả triệu chứng của lỗi cái mà khiến hệ thống crash",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Cả 3 đáp án trên",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "sqa-m1-q31",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Đội duy trì (sustaining team), bao gồm cả developers và testers, có các nhiệm vụ chính không bao gồm nhiệm vụ nào sau đây",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Tương tác với khách hàng để hiểu rõ môi trường thực",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Tham gia vào quá trình duyệt lại code",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Phát triển test cases mới khi nguồn gốc của một lỗi được tìm ra",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Hướng dẫn khách hàng sử dụng chương trình",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "sqa-m1-q32",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Đặc điểm nào không phải thuộc kiểm thử chấp nhận?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Sử dụng các công cụ test tự động",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Thực hiện bởi người sử dụng",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Kiểm thử theo các kịch bản kiểm thử chấp nhận",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Tích hợp hệ thống với tài liệu người sử dụng",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "sqa-m1-q33",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Kiểm thử chấp nhận nghĩa là gì?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Kiểm thử trên một module riêng lẻ hoặc một bộ mã nguồn",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Thực hiện sau khi thay đổi để đảm bảo không có thay đổi nào xảy ra",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Kiểm thử để chắc chắn rằng hệ thống tuân theo đúng yêu cầu của người dùng",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Người sử dụng kiểm thử ứng dụng trong môi trường phát triển",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "sqa-m1-q34",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Kiểm thử chấp nhận của người sử dụng?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Tương tự alpha testing",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Tương tự beta testing",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Kết hợp cả alpha và beta testing",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Không phải cái nào",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "sqa-m1-q35",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Thế nào kiểm thử chấp nhận của người sử dụng (UAT)?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Thực hiện dưới sự phát triển tổ chức của nhà cung cấp, không quan tâm tới kết quả của người sử dụng",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Thực hiện dưới sự phát triển tổ chức của nhà cung cấp, nhưng vẫn quan tâm tới kết quả của người sử dụng",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Thực hiện bởi người sử dụng",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Thực hiện bởi người sử dụng, đảm bảo hệ thống thỏa mãn các kịch bản theo yêu cầu của người dùng",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "sqa-m1-q36",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Đặc điểm nào sau đây không phải của kiểm thử chấp nhận người dùng?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Sử dụng các công cụ thực thi kiểm thử một cách tự động.",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Quá trình kiểm thử được tiến hành bởi những người dùng.",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Quá trình kiểm thử dựa trên các tiêu chuẩn kiểm thử chấp nhận.",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Hệ thống được tích hợp với tài liệu người dùng.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "sqa-m1-q37",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "ACC là viết tắt của?",
+    "answers": [
+      {
+        "answer_text_en": "acceptance criteria count",
+        "answer_text_vi": "",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "acceptance criteria change",
+        "answer_text_vi": "",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "acceptable criteria capability",
+        "answer_text_vi": "",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "acceptance criteria control",
+        "answer_text_vi": "",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "sqa-m1-q38",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Vai trò của nhà phát triển và khách hàng trong kiểm thử chấp nhận.",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Nhà phát triển hướng dẫn khách hàng sử dụng hệ thống.",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Nhà phát triển và khách hàng phối hợp sửa chữa bất kỳ vấn đề nào được phát hiện trong quá trình thử nghiệm.",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Nhà phát triển và khách hàng giải quyết các vấn đề phát sinh dựa trên sự khác biệt về tiêu chí chấp nhận.",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Cả 3 đáp án trên.",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "sqa-m1-q39",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Phân tích luồng dữ liệu nghiên cứu về:",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Các “nút cổ chai” trong giao tiếp của một chương trình",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Tỉ lệ thay đổi giá trị dữ liệu khi chương trình thực thi",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Sử dụng dữ liệu trên các đường đi thông qua code",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Độ phức tạp bản chất của code",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "sqa-m1-q40",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Loại nào sau đây là kiểm thử phi chức năng:",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Kiểm thử tính khả dụng",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Bao phủ lệnh",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Kiểm thử luồng dữ liệu",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Đồ thị nhân – quả",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "sqa-m1-q41",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Trong các tiêu chí kiểm thử luồng dữ liêu dưới đây, tiêu chí nào chứa hai tiêu chí còn lại",
+    "answers": [
+      {
+        "answer_text_en": "All-uses.",
+        "answer_text_vi": "",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "All-c-uses.",
+        "answer_text_vi": "",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "All-p-uses.",
+        "answer_text_vi": "",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Cả 3 ý trên đều sai.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "sqa-m1-q42",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Một phân vùng tương đương (còn gọi là một lớp tương đương là gì)?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Một tập hợp các trường hợp thử nghiệm cho các lớp thử nghiệm các đối tượng",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Một loạt các đầu vào hoặc đầu ra của các giá trị vậy mà chỉ có một giá trị trong phạm vi sẽ trở thành trường hợp thử nghiệm",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Một loạt các đầu vào hoặc đầu ra của các giá trị và mỗi giá trị trong phạm vi sẽ trở thành trường hợp thử nghiệm",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Một đầu vào hoặc đầu ra phạm vi của các giá trị như vậy mà tất cả các giá trị thứ mười trong phạm vi sẽ trở thành một trường hợp thử nghiệm.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "sqa-m1-q43",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Loại kiểm thử nào dưới đây là kiểm thử chức năng",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Phân tích giá trị biên (Boundary value analysis)",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Kiểm thử tính dễ sử dụng (Usability testing)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Kiểm thử hiệu năng (Performance testing)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Kiểm thử tính bảo mật (Security testing)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "sqa-m1-q44",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Kiểm thử giá trị biên là:",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Cũng là kiểm thử phân vùng tương đương.",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Kiểm thử các điều kiện biên trên, dưới và tại biên của lớp các đầu ra, đầu vào tương đương.",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Tổ hợp các tình huống đầu vào",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Được sử dụng trong kiểm thử hộp trắng",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "sqa-m1-q45",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Kiểm thử hệ thống nên nghiên cứu về:",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Yêu cầu phi chức năng.",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Yêu cầu chức năng.",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Yêu cầu phi chức năng và yêu cầu chức năng.",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Yêu cầu phi chức năng hoặc yêu cầu chức năng.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "sqa-m1-q46",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Trong kiểm thử hệ thống:",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Cả yêu cầu chức năng và phi chức năng đều được kiểm thử.",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Chỉ có yêu cầu chức năng được kiểm thử, còn yêu cầu phi chức năng là xem lại.",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Chỉ có yêu cầu phi chức năng được kiểm thử, còn yêu cầu chức năng là xem lại.",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Chỉ có các chức năng được ghi rõ trong tài liệu đặc tả mới được kiểm thử.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "sqa-m1-q47",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Các kĩ thuật nào dưới đây sử dụng kiểm thử hộp đen:",
+    "answers": [
+      {
+        "answer_text_en": "State transition testing, code testing, agile testing.",
+        "answer_text_vi": "",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "Equivalence partitioning, state transition testing, decision table testing.",
+        "answer_text_vi": "",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "System testing, acceptance testing, equivalence partitioning.",
+        "answer_text_vi": "",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "System integration testing, system testing, decision table testing.",
+        "answer_text_vi": "",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "sqa-m1-q48",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Kiểm thử phi chức năng hệ thống là?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Kiểm thử tất cả mọi nơi trong hệ thống mà không có chức năng chính xác.",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Kiểm thử chất lượng các thuộc tính của hệ thống bao gồm việc thực hiện và có dùng được hay không.",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Kiểm thử chức năng cho hệ thống là chỉ kiểm thử theo yêu cầu của phần mềm cho chức năng đó.",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Kiểm thử các chức năng không nên có.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "sqa-m1-q49",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Lỗi giao diện nào thường được cân nhắc nhất sau đây:",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Cho hai component trao đổi dữ liệu, một component sử dụng đơn vị mét, một component sử dụng đơn vị inch.",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Hệ thống phức tạp do cấu trúc đầu vào thiết bị đầu cuối quá phức tạp.",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Các thông điệp lỗi đầu vào cho người sử dụng gây hiểu lầm và không hữu ích cho việc hiểu nguyên nhân gây ra lỗi đầu vào.",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Tải cao dẫn đến hệ thống không thể cung cấp đủ các công mở cho việc kết nối tới các yêu cầu người dùng.",
+        "is_correct": false
+      }
+    ]
+  }
 ]

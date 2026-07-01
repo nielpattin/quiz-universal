@@ -1,232 +1,282 @@
 [
-	{
-		"question_id": "pm-m4-q1",
-		"question_text": "Which of the following are ways that organizational structure determines your role as a project manager? Select all that apply.\nVN: Những điều nào sau đây là cách mà cấu trúc tổ chức xác định vai trò của bạn với tư cách là quản lý dự án? Chọn tất cả các đáp án đúng.",
-		"question_type": "multiple_answer_question",
-		"answers": [
-			{
-				"answer_text": "Organizational structure determines where you fit in (Cấu trúc tổ chức xác định bạn phù hợp ở đâu)",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Organizational structure determines your career growth (Cấu trúc tổ chức xác định sự phát triển nghề nghiệp của bạn)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Organizational structure determines who you should communicate with (Cấu trúc tổ chức xác định bạn nên giao tiếp với ai)",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Organizational structure determines how frequently to communicate (Cấu trúc tổ chức xác định tần suất giao tiếp)",
-				"is_correct": true
-			}
-		]
-	},
-	{
-		"question_id": "pm-m4-q2",
-		"question_text": "You have started a new job at a company where project managers often have the same level of authority as functional managers. Which of the following best describes the organizational structure at your company?\nVN: Bạn đã bắt đầu một công việc mới tại một công ty nơi các quản lý dự án thường có cùng cấp quyền hạn như các quản lý chức năng. Điều nào sau đây mô tả tốt nhất cấu trúc tổ chức tại công ty của bạn?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Functional structure (Cấu trúc chức năng)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Matrix structure (Cấu trúc ma trận)",
-				"is_correct": true
-			},
-			{
-				"answer_text": "PMO structure (Cấu trúc PMO)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Classic structure (Cấu trúc cổ điển)",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "pm-m4-q3",
-		"question_text": "How does a company's organizational structure impact project management?\nVN: Cấu trúc tổ chức của một công ty ảnh hưởng đến quản lý dự án như thế nào?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "It affects the project manager's authority and the success of change management. (Nó ảnh hưởng đến quyền hạn của quản lý dự án và sự thành công của quản lý thay đổi.)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "It affects the project manager's authority and the availability of resources. (Nó ảnh hưởng đến quyền hạn của quản lý dự án và sự sẵn có của nguồn lực.)",
-				"is_correct": true
-			},
-			{
-				"answer_text": "It affects the project's success rate and a team's ability to improve. (Nó ảnh hưởng đến tỷ lệ thành công của dự án và khả năng cải thiện của nhóm.)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "It affects the success of change management and the availability of resources. (Nó ảnh hưởng đến sự thành công của quản lý thay đổi và sự sẵn có của nguồn lực.)",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "pm-m4-q4",
-		"question_text": "Fill in the blank: An organization's culture provides context and acts as a guide for what their people value, how they operate on a daily basis, how they relate to one another, and how they can be expected to perform. In other words, organizational culture can be thought of as the company's _____ .\nVN: Điền vào chỗ trống: Văn hóa của một tổ chức cung cấp bối cảnh và đóng vai trò như một hướng dẫn cho những gì nhân viên coi trọng, cách họ vận hành hàng ngày, cách họ liên hệ với nhau và cách họ được kỳ vọng thực hiện. Nói cách khác, văn hóa tổ chức có thể được coi là _____ của công ty.",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "structure (cấu trúc)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "personality (tính cách)",
-				"is_correct": true
-			},
-			{
-				"answer_text": "strengths (điểm mạnh)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "goals (mục tiêu)",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "pm-m4-q5",
-		"question_text": "Which of the following questions can help project managers learn about a company's organizational culture? Select all that apply.\nVN: Những câu hỏi nào sau đây có thể giúp các quản lý dự án tìm hiểu về văn hóa tổ chức của một công ty? Chọn tất cả các đáp án đúng.",
-		"question_type": "multiple_answer_question",
-		"answers": [
-			{
-				"answer_text": "When was the organization founded? (Tổ chức được thành lập khi nào?)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "What is the company's best-selling product/service? (Sản phẩm/dịch vụ bán chạy nhất của công ty là gì?)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Are there company sanctioned social events? (Có các sự kiện xã hội được công ty tổ chức không?)",
-				"is_correct": true
-			},
-			{
-				"answer_text": "How are projects typically run? (Các dự án thường được chạy như thế nào?)",
-				"is_correct": true
-			}
-		]
-	},
-	{
-		"question_id": "pm-m4-q6",
-		"question_text": "Which term refers to the delivery of a completed project and its successful adoption by an organization?\nVN: Thuật ngữ nào đề cập đến việc bàn giao một dự án hoàn thành và việc tổ chức áp dụng thành công nó?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Change governance (Quản trị thay đổi)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Project management (Quản lý dự án)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Project governance (Quản trị dự án)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Change management (Quản lý thay đổi)",
-				"is_correct": true
-			}
-		]
-	},
-	{
-		"question_id": "pm-m4-q7",
-		"question_text": "Which of the following change management tools are designed to visualize your project's development process?\nVN: Công cụ quản lý thay đổi nào sau đây được thiết kế để trực quan hóa quy trình phát triển dự án của bạn?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Scatter Plots (Biểu đồ phân tán)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Feedback mechanisms (Cơ chế phản hồi)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Flowcharts (Lưu đồ)",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Culture mapping (Lập bản đồ văn hóa)",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "pm-m4-q8",
-		"question_text": "Fill in the blank: A project manager becomes a _____ at a company—someone who helps an organization transform by focusing on organizational effectiveness.\nVN: Điền vào chỗ trống: Một quản lý dự án trở thành _____ tại một công ty—người giúp tổ chức chuyển đổi bằng cách tập trung vào hiệu quả tổ chức.",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "contrarian (người chống đối)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "competitor (đối thủ cạnh tranh)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "change agent (tác nhân thay đổi)",
-				"is_correct": true
-			},
-			{
-				"answer_text": "traditionalist (người theo truyền thống)",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "pm-m4-q9",
-		"question_text": "As a project manager, you want to integrate change management into your project. Which of the following activities best demonstrate that you are being proactive in change management?\nVN: Là quản lý dự án, bạn muốn tích hợp quản lý thay đổi vào dự án của mình. Hoạt động nào sau đây thể hiện tốt nhất rằng bạn đang chủ động trong quản lý thay đổi?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "You formally acknowledge product milestones with your team and stakeholders. (Bạn chính thức ghi nhận các mốc sản phẩm với nhóm và các bên liên quan.)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "You present to stakeholders a detailed explanation of how you produced your deliverable. (Bạn trình bày cho các bên liên quan một giải thích chi tiết về cách bạn tạo ra sản phẩm bàn giao.)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "You present a detailed project plan to your project team members. (Bạn trình bày kế hoạch dự án chi tiết cho các thành viên nhóm dự án.)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Towards the end of your project, you plan demonstrations and question and answer forums that introduce the deliverable to stakeholders. (Vào cuối dự án, bạn lên kế hoạch các buổi trình diễn và diễn đàn hỏi đáp giới thiệu sản phẩm bàn giao cho các bên liên quan.)",
-				"is_correct": true
-			}
-		]
-	},
-	{
-		"question_id": "pm-m4-q10",
-		"question_text": "Which of the following refers to the council that helps project managers make and approve strategic decisions that affect both the company and the project?\nVN: Điều nào sau đây đề cập đến hội đồng giúp các quản lý dự án đưa ra và phê duyệt các quyết định chiến lược ảnh hưởng đến cả công ty và dự án?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Chief Executive Officer (Giám đốc Điều hành)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Office of legal affairs (Văn phòng pháp lý)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Steering committee (Ủy ban chỉ đạo)",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Stakeholder (Bên liên quan)",
-				"is_correct": false
-			}
-		]
-	}
+  {
+    "question_id": "pm-m4-q1",
+    "question_type": "multiple_answer_question",
+    "question_text_en": "Which of the following are ways that organizational structure determines your role as a project manager? Select all that apply.",
+    "question_text_vi": "Những điều nào sau đây là cách mà cấu trúc tổ chức xác định vai trò của bạn với tư cách là quản lý dự án? Chọn tất cả các đáp án đúng.",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Organizational structure determines where you fit in (Cấu trúc tổ chức xác định bạn phù hợp ở đâu)",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Organizational structure determines your career growth (Cấu trúc tổ chức xác định sự phát triển nghề nghiệp của bạn)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Organizational structure determines who you should communicate with (Cấu trúc tổ chức xác định bạn nên giao tiếp với ai)",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Organizational structure determines how frequently to communicate (Cấu trúc tổ chức xác định tần suất giao tiếp)",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "pm-m4-q2",
+    "question_type": "single_answer_question",
+    "question_text_en": "You have started a new job at a company where project managers often have the same level of authority as functional managers. Which of the following best describes the organizational structure at your company?",
+    "question_text_vi": "Bạn đã bắt đầu một công việc mới tại một công ty nơi các quản lý dự án thường có cùng cấp quyền hạn như các quản lý chức năng. Điều nào sau đây mô tả tốt nhất cấu trúc tổ chức tại công ty của bạn?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Functional structure (Cấu trúc chức năng)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Matrix structure (Cấu trúc ma trận)",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "PMO structure (Cấu trúc PMO)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Classic structure (Cấu trúc cổ điển)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "pm-m4-q3",
+    "question_type": "single_answer_question",
+    "question_text_en": "How does a company's organizational structure impact project management?",
+    "question_text_vi": "Cấu trúc tổ chức của một công ty ảnh hưởng đến quản lý dự án như thế nào?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "It affects the project manager's authority and the success of change management. (Nó ảnh hưởng đến quyền hạn của quản lý dự án và sự thành công của quản lý thay đổi.)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "It affects the project manager's authority and the availability of resources. (Nó ảnh hưởng đến quyền hạn của quản lý dự án và sự sẵn có của nguồn lực.)",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "It affects the project's success rate and a team's ability to improve. (Nó ảnh hưởng đến tỷ lệ thành công của dự án và khả năng cải thiện của nhóm.)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "It affects the success of change management and the availability of resources. (Nó ảnh hưởng đến sự thành công của quản lý thay đổi và sự sẵn có của nguồn lực.)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "pm-m4-q4",
+    "question_type": "single_answer_question",
+    "question_text_en": "Fill in the blank: An organization's culture provides context and acts as a guide for what their people value, how they operate on a daily basis, how they relate to one another, and how they can be expected to perform. In other words, organizational culture can be thought of as the company's _____ .",
+    "question_text_vi": "Điền vào chỗ trống: Văn hóa của một tổ chức cung cấp bối cảnh và đóng vai trò như một hướng dẫn cho những gì nhân viên coi trọng, cách họ vận hành hàng ngày, cách họ liên hệ với nhau và cách họ được kỳ vọng thực hiện. Nói cách khác, văn hóa tổ chức có thể được coi là _____ của công ty.",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "structure (cấu trúc)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "personality (tính cách)",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "strengths (điểm mạnh)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "goals (mục tiêu)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "pm-m4-q5",
+    "question_type": "multiple_answer_question",
+    "question_text_en": "Which of the following questions can help project managers learn about a company's organizational culture? Select all that apply.",
+    "question_text_vi": "Những câu hỏi nào sau đây có thể giúp các quản lý dự án tìm hiểu về văn hóa tổ chức của một công ty? Chọn tất cả các đáp án đúng.",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "When was the organization founded? (Tổ chức được thành lập khi nào?)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "What is the company's best-selling product/service? (Sản phẩm/dịch vụ bán chạy nhất của công ty là gì?)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Are there company sanctioned social events? (Có các sự kiện xã hội được công ty tổ chức không?)",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "How are projects typically run? (Các dự án thường được chạy như thế nào?)",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "pm-m4-q6",
+    "question_type": "single_answer_question",
+    "question_text_en": "Which term refers to the delivery of a completed project and its successful adoption by an organization?",
+    "question_text_vi": "Thuật ngữ nào đề cập đến việc bàn giao một dự án hoàn thành và việc tổ chức áp dụng thành công nó?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Change governance (Quản trị thay đổi)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Project management (Quản lý dự án)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Project governance (Quản trị dự án)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Change management (Quản lý thay đổi)",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "pm-m4-q7",
+    "question_type": "single_answer_question",
+    "question_text_en": "Which of the following change management tools are designed to visualize your project's development process?",
+    "question_text_vi": "Công cụ quản lý thay đổi nào sau đây được thiết kế để trực quan hóa quy trình phát triển dự án của bạn?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Scatter Plots (Biểu đồ phân tán)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Feedback mechanisms (Cơ chế phản hồi)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Flowcharts (Lưu đồ)",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Culture mapping (Lập bản đồ văn hóa)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "pm-m4-q8",
+    "question_type": "single_answer_question",
+    "question_text_en": "Fill in the blank: A project manager becomes a _____ at a company—someone who helps an organization transform by focusing on organizational effectiveness.",
+    "question_text_vi": "Điền vào chỗ trống: Một quản lý dự án trở thành _____ tại một công ty—người giúp tổ chức chuyển đổi bằng cách tập trung vào hiệu quả tổ chức.",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "contrarian (người chống đối)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "competitor (đối thủ cạnh tranh)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "change agent (tác nhân thay đổi)",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "traditionalist (người theo truyền thống)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "pm-m4-q9",
+    "question_type": "single_answer_question",
+    "question_text_en": "As a project manager, you want to integrate change management into your project. Which of the following activities best demonstrate that you are being proactive in change management?",
+    "question_text_vi": "Là quản lý dự án, bạn muốn tích hợp quản lý thay đổi vào dự án của mình. Hoạt động nào sau đây thể hiện tốt nhất rằng bạn đang chủ động trong quản lý thay đổi?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "You formally acknowledge product milestones with your team and stakeholders. (Bạn chính thức ghi nhận các mốc sản phẩm với nhóm và các bên liên quan.)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "You present to stakeholders a detailed explanation of how you produced your deliverable. (Bạn trình bày cho các bên liên quan một giải thích chi tiết về cách bạn tạo ra sản phẩm bàn giao.)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "You present a detailed project plan to your project team members. (Bạn trình bày kế hoạch dự án chi tiết cho các thành viên nhóm dự án.)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Towards the end of your project, you plan demonstrations and question and answer forums that introduce the deliverable to stakeholders. (Vào cuối dự án, bạn lên kế hoạch các buổi trình diễn và diễn đàn hỏi đáp giới thiệu sản phẩm bàn giao cho các bên liên quan.)",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "pm-m4-q10",
+    "question_type": "single_answer_question",
+    "question_text_en": "Which of the following refers to the council that helps project managers make and approve strategic decisions that affect both the company and the project?",
+    "question_text_vi": "Điều nào sau đây đề cập đến hội đồng giúp các quản lý dự án đưa ra và phê duyệt các quyết định chiến lược ảnh hưởng đến cả công ty và dự án?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Chief Executive Officer (Giám đốc Điều hành)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Office of legal affairs (Văn phòng pháp lý)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Steering committee (Ủy ban chỉ đạo)",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Stakeholder (Bên liên quan)",
+        "is_correct": false
+      }
+    ]
+  }
 ]

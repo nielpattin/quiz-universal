@@ -1,430 +1,519 @@
 [
   {
     "question_id": "course2-m5-q1",
-    "module": "Organizing communication and documentation",
-    "question_text": "Fill in the blank: Effective communication is clear, honest, relevant, and _____.",
     "question_type": "single_answer_question",
+    "question_text_en": "Fill in the blank: Effective communication is clear, honest, relevant, and _____.",
+    "question_text_vi": "",
     "answers": [
       {
-        "answer_text": "rare",
+        "answer_text_en": "rare",
+        "answer_text_vi": "",
         "is_correct": false
       },
       {
-        "answer_text": "one-sided",
+        "answer_text_en": "one-sided",
+        "answer_text_vi": "",
         "is_correct": false
       },
       {
-        "answer_text": "frequent",
+        "answer_text_en": "frequent",
+        "answer_text_vi": "",
         "is_correct": true
       },
       {
-        "answer_text": "urgent",
+        "answer_text_en": "urgent",
+        "answer_text_vi": "",
         "is_correct": false
       }
-    ]
+    ],
+    "module": "Organizing communication and documentation"
   },
   {
     "question_id": "course2-m5-q2",
-    "module": "Organizing communication and documentation",
-    "question_text": "Imagine that a restaurant is hosting a recruitment day to hire delivery drivers. The project manager creates a plan to organize stakeholder communication. The plan indicates the following:The team lead updates the core hiring team every day for two weeks prior to the event to report next steps so they each know their daily responsibilities.The core hiring team contacts the job candidates the Friday before the event to remind them of the time and location.The project manager contacts the venue and caterers the Monday before the event to confirm reservations. In the above scenario, what three key elements are missing from the communication plan?",
     "question_type": "multiple_answer_question",
+    "question_text_en": "Imagine that a restaurant is hosting a recruitment day to hire delivery drivers. The project manager creates a plan to organize stakeholder communication. The plan indicates the following:The team lead updates the core hiring team every day for two weeks prior to the event to report next steps so they each know their daily responsibilities.The core hiring team contacts the job candidates the Friday before the event to remind them of the time and location.The project manager contacts the venue and caterers the Monday before the event to confirm reservations. In the above scenario, what three key elements are missing from the communication plan?",
+    "question_text_vi": "",
     "answers": [
       {
-        "answer_text": "Type of communication",
+        "answer_text_en": "Type of communication",
+        "answer_text_vi": "",
         "is_correct": true
       },
       {
-        "answer_text": "Resource links",
+        "answer_text_en": "Resource links",
+        "answer_text_vi": "",
         "is_correct": true
       },
       {
-        "answer_text": "Delivery methods",
+        "answer_text_en": "Delivery methods",
+        "answer_text_vi": "",
         "is_correct": true
       },
       {
-        "answer_text": "Dependencies",
+        "answer_text_en": "Dependencies",
+        "answer_text_vi": "",
         "is_correct": false
       },
       {
-        "answer_text": "Communication risks",
+        "answer_text_en": "Communication risks",
+        "answer_text_vi": "",
         "is_correct": false
       }
-    ]
+    ],
+    "module": "Organizing communication and documentation"
   },
   {
     "question_id": "course2-m5-q3",
-    "module": "Organizing communication and documentation",
-    "question_text": "Which of the following is a best practice you can use to help ensure that your communication plan is effective for your team? Select all that apply.",
     "question_type": "multiple_answer_question",
+    "question_text_en": "Which of the following is a best practice you can use to help ensure that your communication plan is effective for your team? Select all that apply.",
+    "question_text_vi": "",
     "answers": [
       {
-        "answer_text": "Share your plan with your manager but not your team.",
+        "answer_text_en": "Share your plan with your manager but not your team.",
+        "answer_text_vi": "",
         "is_correct": false
       },
       {
-        "answer_text": "Use formatting to highlight any key details.",
+        "answer_text_en": "Use formatting to highlight any key details.",
+        "answer_text_vi": "",
         "is_correct": true
       },
       {
-        "answer_text": "Add a column for notes.",
+        "answer_text_en": "Add a column for notes.",
+        "answer_text_vi": "",
         "is_correct": true
       },
       {
-        "answer_text": "Test your plan",
+        "answer_text_en": "Test your plan",
+        "answer_text_vi": "",
         "is_correct": true
       }
-    ]
+    ],
+    "module": "Organizing communication and documentation"
   },
   {
     "question_id": "course2-m5-q4",
-    "module": "Organizing communication and documentation",
-    "question_text": "How can you recognize individual differences in your communications? Select all that apply.",
     "question_type": "multiple_answer_question",
+    "question_text_en": "How can you recognize individual differences in your communications? Select all that apply.",
+    "question_text_vi": "",
     "answers": [
       {
-        "answer_text": "Be mindful of your own biases.",
+        "answer_text_en": "Be mindful of your own biases.",
+        "answer_text_vi": "",
         "is_correct": true
       },
       {
-        "answer_text": "Include and respect diverse points of view.",
+        "answer_text_en": "Include and respect diverse points of view.",
+        "answer_text_vi": "",
         "is_correct": true
       },
       {
-        "answer_text": "Craft your communications based on what you assume about your audience’s backgrounds, identities, or experiences.",
+        "answer_text_en": "Craft your communications based on what you assume about your audience’s backgrounds, identities, or experiences.",
+        "answer_text_vi": "",
         "is_correct": false
       },
       {
-        "answer_text": "Use appropriate, professional, and neutral language.",
+        "answer_text_en": "Use appropriate, professional, and neutral language.",
+        "answer_text_vi": "",
         "is_correct": true
       }
-    ]
+    ],
+    "module": "Organizing communication and documentation"
   },
   {
     "question_id": "course2-m5-q5",
-    "module": "Organizing communication and documentation",
-    "question_text": "Fill in the blank: In the communication plan you created, you scheduled _____ to keep your manager informed and get feedback.",
     "question_type": "single_answer_question",
+    "question_text_en": "Fill in the blank: In the communication plan you created, you scheduled _____ to keep your manager informed and get feedback.",
+    "question_text_vi": "",
     "answers": [
       {
-        "answer_text": "weekly updates",
+        "answer_text_en": "weekly updates",
+        "answer_text_vi": "",
         "is_correct": true
       },
       {
-        "answer_text": "daily updates",
+        "answer_text_en": "daily updates",
+        "answer_text_vi": "",
         "is_correct": false
       },
       {
-        "answer_text": "a one-time meeting",
+        "answer_text_en": "a one-time meeting",
+        "answer_text_vi": "",
         "is_correct": false
       }
-    ]
+    ],
+    "module": "Organizing communication and documentation"
   },
   {
     "question_id": "course2-m5-q6",
-    "module": "Organizing communication and documentation",
-    "question_text": "In your communication plan, how often does your team communicate with Human Resources while developing the training plan?",
     "question_type": "single_answer_question",
+    "question_text_en": "In your communication plan, how often does your team communicate with Human Resources while developing the training plan?",
+    "question_text_vi": "",
     "answers": [
       {
-        "answer_text": "Daily",
+        "answer_text_en": "Daily",
+        "answer_text_vi": "",
         "is_correct": false
       },
       {
-        "answer_text": "Weekly",
+        "answer_text_en": "Weekly",
+        "answer_text_vi": "",
         "is_correct": true
       },
       {
-        "answer_text": "One time",
+        "answer_text_en": "One time",
+        "answer_text_vi": "",
         "is_correct": false
       }
-    ]
+    ],
+    "module": "Organizing communication and documentation"
   },
   {
     "question_id": "course2-m5-q7",
-    "module": "Organizing communication and documentation",
-    "question_text": "In your communication plan, who is the Sender/Owner responsible for communicating the training schedules, locations, and other details to trainees?",
     "question_type": "single_answer_question",
+    "question_text_en": "In your communication plan, who is the Sender/Owner responsible for communicating the training schedules, locations, and other details to trainees?",
+    "question_text_vi": "",
     "answers": [
       {
-        "answer_text": "The HR Specialist",
+        "answer_text_en": "The HR Specialist",
+        "answer_text_vi": "",
         "is_correct": false
       },
       {
-        "answer_text": "You, the Project Manager",
+        "answer_text_en": "You, the Project Manager",
+        "answer_text_vi": "",
         "is_correct": false
       },
       {
-        "answer_text": "The Administrative Coordinator",
+        "answer_text_en": "The Administrative Coordinator",
+        "answer_text_vi": "",
         "is_correct": false
       },
       {
-        "answer_text": "The Training Manager",
+        "answer_text_en": "The Training Manager",
+        "answer_text_vi": "",
         "is_correct": true
       }
-    ]
+    ],
+    "module": "Organizing communication and documentation"
   },
   {
     "question_id": "course2-m5-q8",
-    "module": "Organizing communication and documentation",
-    "question_text": "In your communication plan, who coordinates with the Print Shop about printing the training manuals?",
     "question_type": "single_answer_question",
+    "question_text_en": "In your communication plan, who coordinates with the Print Shop about printing the training manuals?",
+    "question_text_vi": "",
     "answers": [
       {
-        "answer_text": "The Administrative Coordinator",
+        "answer_text_en": "The Administrative Coordinator",
+        "answer_text_vi": "",
         "is_correct": true
       },
       {
-        "answer_text": "You, the Project Manager",
+        "answer_text_en": "You, the Project Manager",
+        "answer_text_vi": "",
         "is_correct": false
       },
       {
-        "answer_text": "The HR Specialist",
+        "answer_text_en": "The HR Specialist",
+        "answer_text_vi": "",
         "is_correct": false
       },
       {
-        "answer_text": "The Training Manager",
+        "answer_text_en": "The Training Manager",
+        "answer_text_vi": "",
         "is_correct": false
       }
-    ]
+    ],
+    "module": "Organizing communication and documentation"
   },
   {
     "question_id": "course2-m5-q9",
-    "module": "Organizing communication and documentation",
-    "question_text": "Which of the following should project managers identify before creating a communication plan? Select all that apply.",
     "question_type": "multiple_answer_question",
+    "question_text_en": "Which of the following should project managers identify before creating a communication plan? Select all that apply.",
+    "question_text_vi": "",
     "answers": [
       {
-        "answer_text": "Project stakeholders",
+        "answer_text_en": "Project stakeholders",
+        "answer_text_vi": "",
         "is_correct": true
       },
       {
-        "answer_text": "Communication methods",
+        "answer_text_en": "Communication methods",
+        "answer_text_vi": "",
         "is_correct": true
       },
       {
-        "answer_text": "Project risks",
+        "answer_text_en": "Project risks",
+        "answer_text_vi": "",
         "is_correct": false
       },
       {
-        "answer_text": "Communication goals",
+        "answer_text_en": "Communication goals",
+        "answer_text_vi": "",
         "is_correct": false
       }
-    ]
+    ],
+    "module": "Organizing communication and documentation"
   },
   {
     "question_id": "course2-m5-q10",
-    "module": "Organizing communication and documentation",
-    "question_text": "What should a project manager assume when writing a new email message for team members about project updates?",
     "question_type": "single_answer_question",
+    "question_text_en": "What should a project manager assume when writing a new email message for team members about project updates?",
+    "question_text_vi": "",
     "answers": [
       {
-        "answer_text": "The message will be delivered to everyone in the company",
+        "answer_text_en": "The message will be delivered to everyone in the company",
+        "answer_text_vi": "",
         "is_correct": false
       },
       {
-        "answer_text": "No one will respond to your message",
+        "answer_text_en": "No one will respond to your message",
+        "answer_text_vi": "",
         "is_correct": false
       },
       {
-        "answer_text": "It’s safe to include sensitive or personal information",
+        "answer_text_en": "It’s safe to include sensitive or personal information",
+        "answer_text_vi": "",
         "is_correct": false
       },
       {
-        "answer_text": "Not all of the recipients will read the message",
+        "answer_text_en": "Not all of the recipients will read the message",
+        "answer_text_vi": "",
         "is_correct": true
       }
-    ]
+    ],
+    "module": "Organizing communication and documentation"
   },
   {
     "question_id": "course2-m5-q11",
-    "module": "Organizing communication and documentation",
-    "question_text": "What details does a communication plan include? Select all that apply.",
     "question_type": "multiple_answer_question",
+    "question_text_en": "What details does a communication plan include? Select all that apply.",
+    "question_text_vi": "",
     "answers": [
       {
-        "answer_text": "Who should communicate",
+        "answer_text_en": "Who should communicate",
+        "answer_text_vi": "",
         "is_correct": true
       },
       {
-        "answer_text": "How communications should sound",
+        "answer_text_en": "How communications should sound",
+        "answer_text_vi": "",
         "is_correct": false
       },
       {
-        "answer_text": "What to communicate",
+        "answer_text_en": "What to communicate",
+        "answer_text_vi": "",
         "is_correct": true
       },
       {
-        "answer_text": "When communication happens",
+        "answer_text_en": "When communication happens",
+        "answer_text_vi": "",
         "is_correct": true
       }
-    ]
+    ],
+    "module": "Organizing communication and documentation"
   },
   {
     "question_id": "course2-m5-q12",
-    "module": "Organizing communication and documentation",
-    "question_text": "As a project manager, you decide to hold video conferences with your core project team and stakeholders as part of your communication plan. What additional details should the communication plan include? Select all that apply.",
     "question_type": "multiple_answer_question",
+    "question_text_en": "As a project manager, you decide to hold video conferences with your core project team and stakeholders as part of your communication plan. What additional details should the communication plan include? Select all that apply.",
+    "question_text_vi": "",
     "answers": [
       {
-        "answer_text": "Resource locations",
+        "answer_text_en": "Resource locations",
+        "answer_text_vi": "",
         "is_correct": false
       },
       {
-        "answer_text": "Duration",
+        "answer_text_en": "Duration",
+        "answer_text_vi": "",
         "is_correct": true
       },
       {
-        "answer_text": "Key dates",
+        "answer_text_en": "Key dates",
+        "answer_text_vi": "",
         "is_correct": true
       },
       {
-        "answer_text": "Location",
+        "answer_text_en": "Location",
+        "answer_text_vi": "",
         "is_correct": true
       }
-    ]
+    ],
+    "module": "Organizing communication and documentation"
   },
   {
     "question_id": "course2-m5-q13",
-    "module": "Organizing communication and documentation",
-    "question_text": "You prepare a template for a weekly email for stakeholders with some key launch dates and announcements for the project. How can you ensure stakeholders can easily notice the information?",
     "question_type": "single_answer_question",
+    "question_text_en": "You prepare a template for a weekly email for stakeholders with some key launch dates and announcements for the project. How can you ensure stakeholders can easily notice the information?",
+    "question_text_vi": "",
     "answers": [
       {
-        "answer_text": "Create a follow-up email to be sent a day later with just the important information.",
+        "answer_text_en": "Create a follow-up email to be sent a day later with just the important information.",
+        "answer_text_vi": "",
         "is_correct": false
       },
       {
-        "answer_text": "Schedule a follow-up meeting with the stakeholders to review the email.",
+        "answer_text_en": "Schedule a follow-up meeting with the stakeholders to review the email.",
+        "answer_text_vi": "",
         "is_correct": false
       },
       {
-        "answer_text": "Keep the key launch dates and announcements together for better clarity.",
+        "answer_text_en": "Keep the key launch dates and announcements together for better clarity.",
+        "answer_text_vi": "",
         "is_correct": false
       },
       {
-        "answer_text": "Highlight and bold the information the stakeholder should focus on.",
+        "answer_text_en": "Highlight and bold the information the stakeholder should focus on.",
+        "answer_text_vi": "",
         "is_correct": true
       }
-    ]
+    ],
+    "module": "Organizing communication and documentation"
   },
   {
     "question_id": "course2-m5-q14",
-    "module": "Organizing communication and documentation",
-    "question_text": "As a project manager, how can you optimize and streamline project communications?",
     "question_type": "single_answer_question",
+    "question_text_en": "As a project manager, how can you optimize and streamline project communications?",
+    "question_text_vi": "",
     "answers": [
       {
-        "answer_text": "Create a static communication plan for the team",
+        "answer_text_en": "Create a static communication plan for the team",
+        "answer_text_vi": "",
         "is_correct": false
       },
       {
-        "answer_text": "Be the only person who communicates with teams about the project",
+        "answer_text_en": "Be the only person who communicates with teams about the project",
+        "answer_text_vi": "",
         "is_correct": false
       },
       {
-        "answer_text": "Only use one communication method with all teams",
+        "answer_text_en": "Only use one communication method with all teams",
+        "answer_text_vi": "",
         "is_correct": false
       },
       {
-        "answer_text": "Send team members a survey asking about improvements to communication",
+        "answer_text_en": "Send team members a survey asking about improvements to communication",
+        "answer_text_vi": "",
         "is_correct": true
       }
-    ]
+    ],
+    "module": "Organizing communication and documentation"
   },
   {
     "question_id": "course2-m5-q15",
-    "module": "Organizing communication and documentation",
-    "question_text": "Which of the following communication methods are most appropriate for core project team members? Select all that apply.",
     "question_type": "multiple_answer_question",
+    "question_text_en": "Which of the following communication methods are most appropriate for core project team members? Select all that apply.",
+    "question_text_vi": "",
     "answers": [
       {
-        "answer_text": "Formal presentations to explain project deliverables",
+        "answer_text_en": "Formal presentations to explain project deliverables",
+        "answer_text_vi": "",
         "is_correct": false
       },
       {
-        "answer_text": "Daily meetings to report on project progress",
+        "answer_text_en": "Daily meetings to report on project progress",
+        "answer_text_vi": "",
         "is_correct": true
       },
       {
-        "answer_text": "Quick virtual check-ins to answer questions",
+        "answer_text_en": "Quick virtual check-ins to answer questions",
+        "answer_text_vi": "",
         "is_correct": true
       },
       {
-        "answer_text": "Department newsletters on current projects",
+        "answer_text_en": "Department newsletters on current projects",
+        "answer_text_vi": "",
         "is_correct": false
       }
-    ]
+    ],
+    "module": "Organizing communication and documentation"
   },
   {
     "question_id": "course2-m5-q16",
-    "module": "Organizing communication and documentation",
-    "question_text": "You create a project communication plan for a busy executive who needs high-level updates on the project. What type of communication would you create for this executive?",
     "question_type": "single_answer_question",
+    "question_text_en": "You create a project communication plan for a busy executive who needs high-level updates on the project. What type of communication would you create for this executive?",
+    "question_text_vi": "",
     "answers": [
       {
-        "answer_text": "A newsletter email outlining key milestones and project progress",
+        "answer_text_en": "A newsletter email outlining key milestones and project progress",
+        "answer_text_vi": "",
         "is_correct": true
       },
       {
-        "answer_text": "A email that outlines the roles of each team member and stakeholder",
+        "answer_text_en": "A email that outlines the roles of each team member and stakeholder",
+        "answer_text_vi": "",
         "is_correct": false
       },
       {
-        "answer_text": "An email that contains a list of all the completed tasks",
+        "answer_text_en": "An email that contains a list of all the completed tasks",
+        "answer_text_vi": "",
         "is_correct": false
       },
       {
-        "answer_text": "Daily meetings that the stakeholder is required to attend",
+        "answer_text_en": "Daily meetings that the stakeholder is required to attend",
+        "answer_text_vi": "",
         "is_correct": false
       }
-    ]
+    ],
+    "module": "Organizing communication and documentation"
   },
   {
     "question_id": "course2-m5-q17",
-    "module": "Organizing communication and documentation",
-    "question_text": "What project management best practice includes documenting plans and making them available to stakeholders?",
     "question_type": "single_answer_question",
+    "question_text_en": "What project management best practice includes documenting plans and making them available to stakeholders?",
+    "question_text_vi": "",
     "answers": [
       {
-        "answer_text": "Dependency management",
+        "answer_text_en": "Dependency management",
+        "answer_text_vi": "",
         "is_correct": false
       },
       {
-        "answer_text": "Milestone management",
+        "answer_text_en": "Milestone management",
+        "answer_text_vi": "",
         "is_correct": false
       },
       {
-        "answer_text": "Knowledge management",
+        "answer_text_en": "Knowledge management",
+        "answer_text_vi": "",
         "is_correct": true
       },
       {
-        "answer_text": "Risk management",
+        "answer_text_en": "Risk management",
+        "answer_text_vi": "",
         "is_correct": false
       }
-    ]
+    ],
+    "module": "Organizing communication and documentation"
   },
   {
     "question_id": "course2-m5-q18",
-    "module": "Organizing communication and documentation",
-    "question_text": "A project manager creates a centralized planning document. They create an overview sheet with the project description and communication expectations. What is another piece of information they can include in the overview sheet?",
     "question_type": "single_answer_question",
+    "question_text_en": "A project manager creates a centralized planning document. They create an overview sheet with the project description and communication expectations. What is another piece of information they can include in the overview sheet?",
+    "question_text_vi": "",
     "answers": [
       {
-        "answer_text": "Instructions for how to use the spreadsheet",
+        "answer_text_en": "Instructions for how to use the spreadsheet",
+        "answer_text_vi": "",
         "is_correct": true
       },
       {
-        "answer_text": "Goals for how many emails to send to stakeholders",
+        "answer_text_en": "Goals for how many emails to send to stakeholders",
+        "answer_text_vi": "",
         "is_correct": false
       },
       {
-        "answer_text": "Goals on how many daily check-ins for project",
+        "answer_text_en": "Goals on how many daily check-ins for project",
+        "answer_text_vi": "",
         "is_correct": false
       },
       {
-        "answer_text": "Instructions for how to use the RACI chart",
+        "answer_text_en": "Instructions for how to use the RACI chart",
+        "answer_text_vi": "",
         "is_correct": false
       }
-    ]
+    ],
+    "module": "Organizing communication and documentation"
   }
 ]

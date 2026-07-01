@@ -1,1799 +1,2192 @@
 [
-	{
-		"question_id": "bm-m8-q1",
-		"question_text": "VPN (Virtual Private Network) là gì?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Mạng riêng ảo, tạo đường hầm mã hóa qua Internet công cộng để truyền dữ liệu an toàn",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Tường lửa lọc gói tin",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Hệ thống phát hiện xâm nhập",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Phần mềm diệt virus",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m8-q2",
-		"question_text": "VPN có những thành phần chính nào?",
-		"question_type": "multiple_answer_question",
-		"answers": [
-			{
-				"answer_text": "Client VPN (thiết bị đầu cuối)",
-				"is_correct": true
-			},
-			{
-				"answer_text": "VPN Gateway/VPN Server",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Đường hầm (VPN Tunnel) mã hóa",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Giao thức VPN (IPSec, L2TP, SSL/TLS, OpenVPN, WireGuard)",
-				"is_correct": true
-			}
-		]
-	},
-	{
-		"question_id": "bm-m8-q3",
-		"question_text": "WireGuard trong VPN có đặc điểm gì?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Giao thức mới, hiệu năng cao, bảo mật tốt",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Giao thức cũ, không mã hóa",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Chỉ dùng cho email",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Phần mềm diệt virus",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m8-q4",
-		"question_text": "Cơ chế xác thực VPN có thể dùng những phương pháp nào?",
-		"question_type": "multiple_answer_question",
-		"answers": [
-			{
-				"answer_text": "Mật khẩu",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Chứng chỉ số (digital certificate)",
-				"is_correct": true
-			},
-			{
-				"answer_text": "MFA (xác thực đa yếu tố)",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Không cần xác thực",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m8-q5",
-		"question_text": "VPN che giấu điều gì của người dùng?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Địa chỉ IP thật và vị trí thực, thay bằng IP của máy chủ VPN",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Hệ điều hành",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Phần cứng máy tính",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Tên người dùng",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m8-q6",
-		"question_text": "VPN giảm nguy cơ tấn công nào khi truyền dữ liệu?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Man-in-the-Middle (MITM) và nghe lén (sniffing)",
-				"is_correct": true
-			},
-			{
-				"answer_text": "SQL Injection",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Phishing email",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Ransomware",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m8-q7",
-		"question_text": "Trong E-commerce, VPN bảo vệ dữ liệu giao dịch như thế nào?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Mã hóa thông tin thanh toán, thẻ tín dụng khi truyền qua Internet, kể cả Wi-Fi/4G công cộng",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Xóa dữ liệu sau giao dịch",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Lưu mật khẩu dạng plain text",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Tăng tốc độ mạng",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m8-q8",
-		"question_text": "VPN hỗ trợ tuân thủ tiêu chuẩn bảo mật nào trong E-commerce?",
-		"question_type": "multiple_answer_question",
-		"answers": [
-			{
-				"answer_text": "PCI DSS",
-				"is_correct": true
-			},
-			{
-				"answer_text": "GDPR",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Yêu cầu mã hóa và bảo vệ dữ liệu",
-				"is_correct": true
-			},
-			{
-				"answer_text": "HTTP không mã hóa",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m8-q9",
-		"question_text": "Firewall có 2 loại chính là gì?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Firewall lọc gói (Packet Filtering) và Firewall tầng ứng dụng (Application Layer)",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Firewall phần cứng và phần mềm",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Firewall nội bộ và ngoài",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Firewall active và passive",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m8-q10",
-		"question_text": "Firewall lọc gói (Packet Filtering) kiểm tra thông tin gì của gói tin?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "IP nguồn, IP đích, port, protocol (không kiểm tra payload)",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Nội dung payload HTTP",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Session và cookie",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Mật khẩu người dùng",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m8-q11",
-		"question_text": "Firewall tầng ứng dụng (Application Layer) khác Packet Filtering ở điểm nào?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Phân tích sâu payload, phát hiện/chặn SQL Injection, XSS ở lớp ứng dụng",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Chỉ kiểm tra IP và port",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Không kiểm tra nội dung",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Chỉ hoạt động ở tầng mạng",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m8-q12",
-		"question_text": "ACL (Access Control List) trong Firewall lọc gói là gì?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Danh sách quy tắc lọc áp dụng cho gói đi vào/ra (bảng luật lọc gói)",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Cơ chế mã hóa AES",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Phần mềm diệt virus",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Giao thức VPN",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m8-q13",
-		"question_text": "Trong Firewall tầng ứng dụng, Policy Engine có vai trò gì?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Là bộ não quyết định, chứa Application Rules/Policies kiểm tra HTTP request, payload, context",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Chỉ nhận gói tin",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Mã hóa dữ liệu",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Ghi log",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m8-q14",
-		"question_text": "Decision Module (Allow/Deny/Modify) trong Firewall tầng ứng dụng làm gì?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Request hợp lệ → cho phép; vi phạm policy → block, log, hoặc sanitize",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Chỉ cho phép tất cả",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Chỉ chặn tất cả",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Mã hóa dữ liệu",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m8-q15",
-		"question_text": "Firewall lọc gói quyết định Allow/Deny theo nguyên tắc nào?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "So khớp gói với rule theo thứ tự từ trên xuống (first-match), quyết định tại Network/Transport Layer",
-				"is_correct": true
-			},
-			{
-				"answer_text": "So khớp payload ứng dụng",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Ngẫu nhiên",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Chỉ dựa vào cookie",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m8-q16",
-		"question_text": "Ví dụ rule nào thuộc Firewall tầng ứng dụng (Application Policies)?",
-		"question_type": "multiple_answer_question",
-		"answers": [
-			{
-				"answer_text": "Chặn POST chứa chuỗi DROP TABLE (SQLi)",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Cấm truy cập /admin từ ngoài mạng",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Cách ly email có file .exe",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Cho phép máy 192.168.1.10 truy cập port 80",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m8-q17",
-		"question_text": "Firewall lọc gói được ví như gì trong E-commerce?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "'Chốt chặn cửa ngoài', bảo vệ tầng mạng",
-				"is_correct": true
-			},
-			{
-				"answer_text": "'Bộ lọc thông minh' bảo vệ ứng dụng",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Kênh truyền bảo mật",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Hệ thống cảnh báo",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m8-q18",
-		"question_text": "Firewall tầng ứng dụng được ví như gì?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "'Bộ lọc thông minh', bảo vệ giao dịch và dữ liệu ứng dụng",
-				"is_correct": true
-			},
-			{
-				"answer_text": "'Chốt chặn cửa ngoài'",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Kênh truyền mã hóa",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Phần mềm diệt virus",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m8-q19",
-		"question_text": "Firewall tầng ứng dụng có nhược điểm gì so với Packet Filtering?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Tốn tài nguyên và phức tạp trong quản lý",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Không phát hiện SQLi",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Quá nhanh nhưng không an toàn",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Không có nhược điểm",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m8-q20",
-		"question_text": "IDS (Intrusion Detection System) là gì?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Hệ thống phát hiện xâm nhập, giám sát lưu lượng/hoạt động để phát hiện hành vi bất thường, dấu hiệu tấn công",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Tường lửa lọc gói tin",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Mạng riêng ảo",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Phần mềm diệt virus",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m8-q21",
-		"question_text": "Signature-based Detection trong IDS hoạt động như thế nào?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "So sánh gói tin/hoạt động với cơ sở dữ liệu mẫu tấn công đã biết",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Học mô hình bình thường, cảnh báo hành vi khác lạ",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Chặn gói tin ngay lập tức",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Mã hóa dữ liệu",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m8-q22",
-		"question_text": "Anomaly-based Detection trong IDS có ưu điểm gì?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Phát hiện tấn công mới, zero-day (chưa có mẫu)",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Phát hiện nhanh tấn công đã biết",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Không bao giờ cảnh báo sai",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Không cần cấu hình",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m8-q23",
-		"question_text": "Nhược điểm của Anomaly-based IDS là gì?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Dễ sinh cảnh báo sai (false positive)",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Không phát hiện tấn công mới",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Chỉ phát hiện tấn công đã biết",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Quá chậm",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m8-q24",
-		"question_text": "Nhược điểm của Signature-based IDS là gì?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Khó phát hiện tấn công mới (zero-day)",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Phát hiện chậm tấn công đã biết",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Nhiều false positive",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Quá phức tạp",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m8-q25",
-		"question_text": "NIDS (Network-based IDS) giám sát ở đâu?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Toàn bộ/segment mạng, thường đặt sau firewall, trước server E-commerce, vùng DMZ",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Trên một máy chủ cụ thể (process, file, log)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Trên thiết bị người dùng",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Trong trình duyệt",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m8-q26",
-		"question_text": "HIDS (Host-based IDS) giám sát gì?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Hoạt động trên một máy chủ cụ thể (process, file, log hệ thống)",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Lưu lượng toàn mạng",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Gói tin qua Internet",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Email gửi đi",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m8-q27",
-		"question_text": "Passive IDS và Active IDS (IPS) khác nhau ở điểm nào?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Passive chỉ phát hiện/cảnh báo; Active (IPS) vừa phát hiện vừa chủ động ngăn chặn (drop packet, block IP)",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Cả hai đều chặn gói tin",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Cả hai chỉ cảnh báo",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Active chỉ cảnh báo, Passive chặn",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m8-q28",
-		"question_text": "IDS có những thành phần chính nào?",
-		"question_type": "multiple_answer_question",
-		"answers": [
-			{
-				"answer_text": "Sensor/Agent thu thập dữ liệu",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Engine phân tích và phát hiện",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Database chữ ký và luật phát hiện",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Hệ thống cảnh báo và giao diện quản lý",
-				"is_correct": true
-			}
-		]
-	},
-	{
-		"question_id": "bm-m8-q29",
-		"question_text": "Chữ ký tấn công SQL Injection trong IDS thường chứa chuỗi nào?",
-		"question_type": "multiple_answer_question",
-		"answers": [
-			{
-				"answer_text": "SELECT * FROM, UNION ALL SELECT",
-				"is_correct": true
-			},
-			{
-				"answer_text": "' OR 1=1--",
-				"is_correct": true
-			},
-			{
-				"answer_text": "<script>",
-				"is_correct": false
-			},
-			{
-				"answer_text": "malware.exe",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m8-q30",
-		"question_text": "Chữ ký tấn công XSS trong IDS chứa chuỗi nào?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "<script>, onerror=, alert(",
-				"is_correct": true
-			},
-			{
-				"answer_text": "DROP TABLE",
-				"is_correct": false
-			},
-			{
-				"answer_text": "malware.exe",
-				"is_correct": false
-			},
-			{
-				"answer_text": "' OR 1=1",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m8-q31",
-		"question_text": "Database chữ ký và Luật phát hiện trong IDS khác nhau ở điểm nào?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Chữ ký = mẫu tấn công đã biết so khớp; Luật = quy tắc admin định nghĩa phân tích hành vi/payload theo ngữ cảnh",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Cả hai giống hệt nhau",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Chữ ký phát hiện tấn công mới, Luật phát hiện tấn công đã biết",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Luật = mẫu đã biết, Chữ ký = quy tắc admin",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m8-q32",
-		"question_text": "Luật phát hiện brute-force login trong IDS thường như thế nào?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Nếu đăng nhập thất bại > N lần trong 1 phút từ cùng 1 IP thì cảnh báo",
-				"is_correct": true
-			},
-			{
-				"answer_text": "So khớp chuỗi SQL Injection",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Kiểm tra kích thước file",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Mã hóa gói tin",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m8-q33",
-		"question_text": "Chức năng chính của IDS là gì?",
-		"question_type": "multiple_answer_question",
-		"answers": [
-			{
-				"answer_text": "Giám sát và phân tích lưu lượng mạng/hoạt động hệ thống",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Phát hiện tấn công (port scanning, brute-force, malware, SQLi, DDoS)",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Ghi log chi tiết phục vụ điều tra",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Cảnh báo kịp thời, tích hợp SIEM",
-				"is_correct": true
-			}
-		]
-	},
-	{
-		"question_id": "bm-m8-q34",
-		"question_text": "Mục đích sử dụng IDS trong mạng E-commerce là gì?",
-		"question_type": "multiple_answer_question",
-		"answers": [
-			{
-				"answer_text": "Bảo vệ giao dịch khỏi tấn công vào web server/database",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Phát hiện sớm tấn công mà Firewall không chặn được (tấn công ứng dụng)",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Ngăn chặn thất thoát dữ liệu khách hàng",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Hỗ trợ tuân thủ PCI DSS",
-				"is_correct": true
-			}
-		]
-	},
-	{
-		"question_id": "bm-m8-q35",
-		"question_text": "Hạ tầng mạng E-commerce có yêu cầu bảo mật nào?",
-		"question_type": "multiple_answer_question",
-		"answers": [
-			{
-				"answer_text": "Bảo mật dữ liệu (mã hóa SSL/TLS, VPN)",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Xác thực & kiểm soát truy cập (MFA, RBAC)",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Tính sẵn sàng & chịu lỗi (redundancy, load balancing, backup)",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Tuân thủ pháp luật (PCI DSS, GDPR, Nghị định 13/2023)",
-				"is_correct": true
-			}
-		]
-	},
-	{
-		"question_id": "bm-m8-q36",
-		"question_text": "Trong E-commerce, server chứa database nên đặt ở đâu?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "DMZ tách biệt, triển khai cả Signature-based và Anomaly-based IDS",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Ngay trên Internet công cộng",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Cùng web server không tách biệt",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Trên máy nhân viên",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m8-q37",
-		"question_text": "Kiến trúc tích hợp VPN-FW-IDS điển hình có những lớp nào?",
-		"question_type": "multiple_answer_question",
-		"answers": [
-			{
-				"answer_text": "Lớp ngoài (Perimeter): Firewall + VPN Gateway ở biên mạng",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Lớp trung gian (DMZ): Web/Mail/App server + IDS giám sát",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Lớp trong (Internal): IDS/IPS + FW nội bộ phân vùng LAN/DB/Payment",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Lớp người dùng không cần bảo mật",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m8-q38",
-		"question_text": "Lợi ích khi tích hợp VPN-FW-IDS là gì?",
-		"question_type": "multiple_answer_question",
-		"answers": [
-			{
-				"answer_text": "Bảo mật toàn diện: VPN mã hóa, FW kiểm soát, IDS phát hiện",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Giảm thiểu DDoS, SQL Injection, Brute Force",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Tối ưu vận hành nhờ phân tầng rõ ràng",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Tăng độ tin cậy, dịch vụ 24/7 an toàn",
-				"is_correct": true
-			}
-		]
-	},
-	{
-		"question_id": "bm-m8-q39",
-		"question_text": "DMZ (Demilitarized Zone) dùng để làm gì?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Đặt Web/Mail/App server phục vụ khách hàng nhưng tách biệt với hệ nội bộ",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Chứa database nhạy cảm",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Lưu mật khẩu người dùng",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Diệt virus",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m8-q40",
-		"question_text": "Nguyên tắc chung của chính sách bảo mật hạ tầng E-commerce là gì?",
-		"question_type": "multiple_answer_question",
-		"answers": [
-			{
-				"answer_text": "Đảm bảo CIA (Confidentiality-Integrity-Availability)",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Phòng ngừa là chính: ngăn chặn - phát hiện - phản ứng",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Defense in Depth: nhiều lớp bảo mật",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Tuân thủ PCI DSS, ISO/IEC 27001, GDPR",
-				"is_correct": true
-			}
-		]
-	},
-	{
-		"question_id": "bm-m8-q41",
-		"question_text": "Phân vùng mạng (Network Segmentation) trong E-commerce như thế nào?",
-		"question_type": "multiple_answer_question",
-		"answers": [
-			{
-				"answer_text": "DMZ cho Web/Mail/App server",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Vùng riêng cho Database và Payment Gateway",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Mạng nội bộ cách ly với dịch vụ công cộng",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Tất cả server cùng một vùng không tách biệt",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m8-q42",
-		"question_text": "Quy trình phản ứng sự cố bảo mật đúng thứ tự là gì?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Xác định sự cố → Cô lập → Xử lý → Phục hồi → Rút kinh nghiệm",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Phục hồi → Rút kinh nghiệm → Xác định → Cô lập → Xử lý",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Xử lý → Xác định → Cô lập → Phục hồi",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Cô lập → Phục hồi → Xác định → Xử lý",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m8-q43",
-		"question_text": "CERT/CSIRT trong E-commerce có vai trò gì?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Đội ngũ/bộ phận an ninh mạng ứng cứu nhanh khi có sự cố",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Phần mềm diệt virus",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Giao thức VPN",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Chuẩn mã hóa",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m8-q44",
-		"question_text": "Kiểm thử thâm nhập (Penetration Test) và đánh giá lỗ hổng có vai trò gì?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Đánh giá định kỳ mức độ an toàn hệ thống, phát hiện điểm yếu trước khi bị tấn công",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Mã hóa dữ liệu",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Sao lưu dữ liệu",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Diệt virus",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m8-q45",
-		"question_text": "Firewall lọc gói có ngăn chặn được SQL Injection không? Vì sao?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Không, vì chỉ kiểm tra IP/port/protocol, không kiểm tra payload; cần Firewall tầng ứng dụng hoặc IDS",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Có, vì kiểm tra payload HTTP",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Có, vì chặn theo IP",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Không liên quan",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m8-q46",
-		"question_text": "Khi website E-commerce bị DDoS trong khuyến mãi, làm sao phân biệt khách thật hay tấn công?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "IDS phát hiện lưu lượng bất thường (SYN flood), FW hỗ trợ chặn; kết hợp hành vi request",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Không thể phân biệt",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Chỉ cần tắt website",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Chỉ dựa vào số lượng truy cập",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m8-q47",
-		"question_text": "Khi nhân viên dùng VPN tải dữ liệu khách hàng gửi qua email cá nhân, phát hiện bằng gì?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "IDS/HIDS phát hiện data exfiltration (outbound traffic lớn), log email, DLP",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Không thể phát hiện",
-				"is_correct": false
-			},
-			{
-				"answer_text": "VPN mã hóa nên an toàn",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Chỉ Firewall mới phát hiện",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m8-q48",
-		"question_text": "Khi VPN bị đánh cắp chứng thực nhân viên, nên tăng cường bảo mật bằng gì?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "MFA (xác thực đa yếu tố) ngoài mật khẩu, giám sát phiên VPN, thu hồi chứng chỉ",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Bỏ xác thực VPN",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Chỉ dùng mật khẩu yếu",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Tắt VPN",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m8-q49",
-		"question_text": "Defense in Depth trong E-commerce áp dụng như thế nào?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Nhiều lớp bảo mật từ biên mạng, máy chủ đến ứng dụng và cơ sở dữ liệu",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Chỉ một lớp Firewall là đủ",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Chỉ IDS là đủ",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Chỉ VPN là đủ",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m8-q50",
-		"question_text": "Chính sách đào tạo nhân viên trong E-commerce nhằm mục đích gì?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Nâng cao nhận thức an toàn thông tin, tránh lừa đảo phishing/social engineering",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Học mã hóa AES",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Lập trình web",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Quản trị database",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m8-q51",
-		"question_text": "Vì sao chỉ dùng một lớp bảo mật (chỉ FW hoặc IDS) là rủi ro?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Mỗi công cụ có điểm mù; kết hợp nhiều lớp mới bảo vệ toàn diện (defense in depth)",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Một lớp là đủ an toàn",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Nhiều lớp làm chậm hệ thống không cần thiết",
-				"is_correct": false
-			},
-			{
-				"answer_text": "IDS thay thế hoàn toàn Firewall",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m8-q52",
-		"question_text": "WAF (Web Application Firewall) giảm thiểu lỗ hổng Web nào trong chính sách bảo mật hệ thống?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "SQL Injection, XSS, CSRF nhắm vào website E-commerce",
-				"is_correct": true
-			},
-			{
-				"answer_text": "DDoS mạng tầng mạng",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Mã hóa ổ cứng",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Quét cổng",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m8-q53",
-		"question_text": "Trong tình huống deface website (giao diện bị thay đổi), lỗi thường ở tầng nào?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Thường ở tầng ứng dụng; cần kết hợp FW-IDS-chính sách quản trị (patch, WAF, giám sát file)",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Chỉ ở tầng mạng",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Chỉ ở phần cứng",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Không thể phòng tránh",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m8-q54",
-		"question_text": "VPN được xem là gì trong bảo vệ hạ tầng E-commerce?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "'Lá chắn' đầu tiên, đảm bảo giao dịch an toàn, bí mật, đáng tin cậy",
-				"is_correct": true
-			},
-			{
-				"answer_text": "'Bộ lọc thông minh'",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Hệ thống cảnh báo",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Phần mềm diệt virus",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m8-q55",
-		"question_text": "Khi chỉ triển khai Firewall lọc gói, hệ thống E-commerce rủi ro gì?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Không phát hiện tấn công ứng dụng (SQLi/XSS) vì không kiểm tra payload",
-				"is_correct": true
-			},
-			{
-				"answer_text": "An toàn hoàn toàn",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Chỉ rủi ro DDoS",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Không có rủi ro",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m8-q56",
-		"question_text": "(PDF) Chữ ký số trong giao dịch điện tử dùng để làm gì?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Xác thực người gửi, đảm bảo toàn vẹn giao dịch và chống chối bỏ",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Mã hóa dữ liệu thanh toán khi truyền qua mạng bằng AES",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Lọc lưu lượng HTTP ở tầng ứng dụng",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Sao lưu dữ liệu khách hàng định kỳ",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m8-q57",
-		"question_text": "(PDF) Tokenization trong thương mại điện tử là gì?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Thay dữ liệu nhạy cảm (số thẻ tín dụng) bằng token đại diện, không lưu số thẻ thật",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Mã hóa toàn bộ cơ sở dữ liệu bằng thuật toán đối xứng",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Xác thực người dùng bằng mã OTP qua SMS",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Lọc gói tin tại tầng mạng bằng ACL",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m8-q58",
-		"question_text": "(PDF) 3D Secure (OTP xác thực) là biện pháp bảo vệ cho quá trình nào?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Thanh toán điện tử",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Sao lưu cơ sở dữ liệu",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Quét lỗ hổng ứng dụng web",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Phân quyền tệp trên hệ điều hành",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m8-q59",
-		"question_text": "(PDF) Phân biệt gian lận thanh toán (payment fraud) và gian lận tài khoản (account fraud) đúng nhất là?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Gian lận thanh toán liên quan đến giao dịch/thẻ; gian lận tài khoản là đánh cắp hoặc chiếm tài khoản người dùng",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Cả hai là cùng một loại gian lận",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Gian lận tài khoản chỉ xảy ra ở cổng thanh toán",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Gian lận thanh toán chỉ dùng bot để spam đánh giá",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m8-q60",
-		"question_text": "(PDF) PCI-DSS là tiêu chuẩn áp dụng cho hệ thống nào?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Hệ thống xử lý thẻ thanh toán",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Hệ điều hành máy chủ cloud",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Mạng nội bộ của doanh nghiệp sản xuất",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Quản lý mã nguồn phần mềm",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m8-q61",
-		"question_text": "(PDF) Theo PCI-DSS, dữ liệu nào KHÔNG được lưu?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "CVV (mã bảo mật thẻ)",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Họ tên khách hàng",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Địa chỉ giao hàng",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Lịch sử đơn hàng",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m8-q62",
-		"question_text": "(PDF) ISO/IEC 27001 là tiêu chuẩn về?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Quản lý an toàn thông tin tổng thể, áp dụng cho doanh nghiệp TMĐT",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Xử lý thanh toán thẻ tín dụng",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Mã hóa giao thức VPN",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Quét lỗ hổng và mã độc",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m8-q63",
-		"question_text": "(PDF) Kiến trúc bảo mật TMĐT tổng thể theo đúng thứ tự luồng là?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "User → Web/App (HTTPS) → WAF/Firewall → API Server → Database → Payment Gateway",
-				"is_correct": true
-			},
-			{
-				"answer_text": "User → Payment Gateway → Database → WAF → API Server",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Database → User → API Server → WAF → Payment Gateway",
-				"is_correct": false
-			},
-			{
-				"answer_text": "WAF → User → Payment Gateway → Database → API Server",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m8-q64",
-		"question_text": "(PDF) Carding trong thương mại điện tử là gì?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Dùng thẻ tín dụng bị đánh cắp để thực hiện giao dịch",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Tạo đơn hàng giả để kiểm thử hệ thống",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Trả hàng để lấy lại tiền một cách gian lận",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Viết đánh giá giả mạo cho sản phẩm",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m8-q65",
-		"question_text": "(PDF) Biện pháp chống DDoS cho hệ thống TMĐT bao gồm những gì?",
-		"question_type": "multiple_answer_question",
-		"answers": [
-			{
-				"answer_text": "CDN phân tán tải",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Load balancer",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Rate limiting",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Anti-DDoS service",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Tắt HTTPS để tăng tốc độ",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Lưu CVV của thẻ để đối soát",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m8-q66",
-		"question_text": "(PDF) Rủi ro của hệ thống thanh toán (Payment Gateway) là gì?",
-		"question_type": "multiple_answer_question",
-		"answers": [
-			{
-				"answer_text": "Gian lận thanh toán",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Giả mạo giao dịch",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Replay attack",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Mã hóa AES dữ liệu",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Hash mật khẩu bằng bcrypt",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m8-q67",
-		"question_text": "(PDF) Bảo mật dữ liệu khách hàng trong TMĐT nên áp dụng biện pháp nào?",
-		"question_type": "multiple_answer_question",
-		"answers": [
-			{
-				"answer_text": "Mã hóa dữ liệu nhạy cảm",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Hash mật khẩu (bcrypt/Argon2)",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Phân quyền truy cập DB",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Data masking",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Lưu mật khẩu dạng plain text",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Mở public bucket storage",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m8-q68",
-		"question_text": "(PDF) Nguyên tắc bảo mật quan trọng trong TMĐT là gì?",
-		"question_type": "multiple_answer_question",
-		"answers": [
-			{
-				"answer_text": "Không tin dữ liệu từ client",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Luôn dùng HTTPS",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Phân quyền chặt chẽ",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Mã hóa dữ liệu nhạy cảm",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Giám sát và log đầy đủ",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Backup định kỳ",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Áp dụng Defense in Depth",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Tắt HTTPS để tăng tốc",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Mở quyền public database",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m8-q69",
-		"question_text": "(PDF) Bảo mật Cloud trong TMĐT cần làm gì?",
-		"question_type": "multiple_answer_question",
-		"answers": [
-			{
-				"answer_text": "Cấu hình IAM đúng",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Không public database",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Bảo mật bucket storage",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Kiểm soát access key",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Public database để dễ truy cập",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Chia sẻ access key công khai",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m8-q70",
-		"question_text": "(PDF) Vai trò của API trong TMĐT là gì?",
-		"question_type": "multiple_answer_question",
-		"answers": [
-			{
-				"answer_text": "Xử lý giỏ hàng",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Thanh toán",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Quản lý đơn hàng",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Kết nối vận chuyển",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Diệt virus trên máy chủ",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Sao lưu ổ cứng",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m8-q71",
-		"question_text": "(PDF) Stateful Firewall khác Packet Filtering Firewall ở điểm nào?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Theo dõi trạng thái kết nối, thông minh hơn packet filtering",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Lọc ở tầng ứng dụng HTTP/HTTPS",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Mã hóa dữ liệu thanh toán",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Chỉ hoạt động trên môi trường cloud",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m8-q72",
-		"question_text": "(PDF) Next-Generation Firewall (NGFW) kết hợp những thành phần nào?",
-		"question_type": "multiple_answer_question",
-		"answers": [
-			{
-				"answer_text": "IDS/IPS",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Lọc ứng dụng",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Phân tích hành vi",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Mã hóa VPN tunnel",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Hash mật khẩu người dùng",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Sao lưu dữ liệu định kỳ",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m8-q73",
-		"question_text": "(PDF) So sánh Firewall, IDS và IPS — phát biểu nào đúng?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Firewall lọc truy cập, IDS phát hiện tấn công và cảnh báo, IPS chủ động chặn tấn công",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Firewall phát hiện tấn công, IDS chặn tấn công, IPS lọc truy cập",
-				"is_correct": false
-			},
-			{
-				"answer_text": "IDS lọc truy cập, Firewall chặn tấn công, IPS cảnh báo",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Cả ba đều thực hiện cùng một chức năng như nhau",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m8-q74",
-		"question_text": "(PDF) Hạn chế của Firewall là gì?",
-		"question_type": "multiple_answer_question",
-		"answers": [
-			{
-				"answer_text": "Không chống được tấn công nội bộ",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Không ngăn được malware đã vào trong",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Không phát hiện tấn công tinh vi nếu thiếu IDS/IPS",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Mã hóa toàn bộ dữ liệu khi truyền",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Thay thế được phần mềm antivirus",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Chống được mọi loại tấn công",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m8-q75",
-		"question_text": "(PDF) IDS khác IPS ở điểm nào?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "IDS chỉ phát hiện và cảnh báo, không tự chặn; IPS chủ động chặn tấn công",
-				"is_correct": true
-			},
-			{
-				"answer_text": "IDS chủ động chặn tấn công, IPS chỉ cảnh báo",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Cả hai giống hệt nhau về chức năng",
-				"is_correct": false
-			},
-			{
-				"answer_text": "IDS dùng cho VPN, IPS dùng cho Firewall",
-				"is_correct": false
-			}
-		]
-	}
+  {
+    "question_id": "bm-m8-q1",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "VPN (Virtual Private Network) là gì?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Mạng riêng ảo, tạo đường hầm mã hóa qua Internet công cộng để truyền dữ liệu an toàn",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Tường lửa lọc gói tin",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Hệ thống phát hiện xâm nhập",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Phần mềm diệt virus",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m8-q2",
+    "question_type": "multiple_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "VPN có những thành phần chính nào?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Client VPN (thiết bị đầu cuối)",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "VPN Gateway/VPN Server",
+        "answer_text_vi": "",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Đường hầm (VPN Tunnel) mã hóa",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Giao thức VPN (IPSec, L2TP, SSL/TLS, OpenVPN, WireGuard)",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m8-q3",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "WireGuard trong VPN có đặc điểm gì?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Giao thức mới, hiệu năng cao, bảo mật tốt",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Giao thức cũ, không mã hóa",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Chỉ dùng cho email",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Phần mềm diệt virus",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m8-q4",
+    "question_type": "multiple_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Cơ chế xác thực VPN có thể dùng những phương pháp nào?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Mật khẩu",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Chứng chỉ số (digital certificate)",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "MFA (xác thực đa yếu tố)",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Không cần xác thực",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m8-q5",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "VPN che giấu điều gì của người dùng?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Địa chỉ IP thật và vị trí thực, thay bằng IP của máy chủ VPN",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Hệ điều hành",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Phần cứng máy tính",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Tên người dùng",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m8-q6",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "VPN giảm nguy cơ tấn công nào khi truyền dữ liệu?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Man-in-the-Middle (MITM) và nghe lén (sniffing)",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "SQL Injection",
+        "answer_text_vi": "",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "Phishing email",
+        "answer_text_vi": "",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "Ransomware",
+        "answer_text_vi": "",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m8-q7",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Trong E-commerce, VPN bảo vệ dữ liệu giao dịch như thế nào?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Mã hóa thông tin thanh toán, thẻ tín dụng khi truyền qua Internet, kể cả Wi-Fi/4G công cộng",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Xóa dữ liệu sau giao dịch",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Lưu mật khẩu dạng plain text",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Tăng tốc độ mạng",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m8-q8",
+    "question_type": "multiple_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "VPN hỗ trợ tuân thủ tiêu chuẩn bảo mật nào trong E-commerce?",
+    "answers": [
+      {
+        "answer_text_en": "PCI DSS",
+        "answer_text_vi": "",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "GDPR",
+        "answer_text_vi": "",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Yêu cầu mã hóa và bảo vệ dữ liệu",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "HTTP không mã hóa",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m8-q9",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Firewall có 2 loại chính là gì?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Firewall lọc gói (Packet Filtering) và Firewall tầng ứng dụng (Application Layer)",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Firewall phần cứng và phần mềm",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Firewall nội bộ và ngoài",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Firewall active và passive",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m8-q10",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Firewall lọc gói (Packet Filtering) kiểm tra thông tin gì của gói tin?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "IP nguồn, IP đích, port, protocol (không kiểm tra payload)",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Nội dung payload HTTP",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Session và cookie",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Mật khẩu người dùng",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m8-q11",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Firewall tầng ứng dụng (Application Layer) khác Packet Filtering ở điểm nào?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Phân tích sâu payload, phát hiện/chặn SQL Injection, XSS ở lớp ứng dụng",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Chỉ kiểm tra IP và port",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Không kiểm tra nội dung",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Chỉ hoạt động ở tầng mạng",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m8-q12",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "ACL (Access Control List) trong Firewall lọc gói là gì?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Danh sách quy tắc lọc áp dụng cho gói đi vào/ra (bảng luật lọc gói)",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Cơ chế mã hóa AES",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Phần mềm diệt virus",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Giao thức VPN",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m8-q13",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Trong Firewall tầng ứng dụng, Policy Engine có vai trò gì?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Là bộ não quyết định, chứa Application Rules/Policies kiểm tra HTTP request, payload, context",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Chỉ nhận gói tin",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Mã hóa dữ liệu",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "Ghi log",
+        "answer_text_vi": "",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m8-q14",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Decision Module (Allow/Deny/Modify) trong Firewall tầng ứng dụng làm gì?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Request hợp lệ → cho phép; vi phạm policy → block, log, hoặc sanitize",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Chỉ cho phép tất cả",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Chỉ chặn tất cả",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Mã hóa dữ liệu",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m8-q15",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Firewall lọc gói quyết định Allow/Deny theo nguyên tắc nào?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "So khớp gói với rule theo thứ tự từ trên xuống (first-match), quyết định tại Network/Transport Layer",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "So khớp payload ứng dụng",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Ngẫu nhiên",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Chỉ dựa vào cookie",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m8-q16",
+    "question_type": "multiple_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Ví dụ rule nào thuộc Firewall tầng ứng dụng (Application Policies)?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Chặn POST chứa chuỗi DROP TABLE (SQLi)",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Cấm truy cập /admin từ ngoài mạng",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Cách ly email có file .exe",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Cho phép máy 192.168.1.10 truy cập port 80",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m8-q17",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Firewall lọc gói được ví như gì trong E-commerce?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "'Chốt chặn cửa ngoài', bảo vệ tầng mạng",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "'Bộ lọc thông minh' bảo vệ ứng dụng",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Kênh truyền bảo mật",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Hệ thống cảnh báo",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m8-q18",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Firewall tầng ứng dụng được ví như gì?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "'Bộ lọc thông minh', bảo vệ giao dịch và dữ liệu ứng dụng",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "'Chốt chặn cửa ngoài'",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Kênh truyền mã hóa",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Phần mềm diệt virus",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m8-q19",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Firewall tầng ứng dụng có nhược điểm gì so với Packet Filtering?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Tốn tài nguyên và phức tạp trong quản lý",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Không phát hiện SQLi",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Quá nhanh nhưng không an toàn",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Không có nhược điểm",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m8-q20",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "IDS (Intrusion Detection System) là gì?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Hệ thống phát hiện xâm nhập, giám sát lưu lượng/hoạt động để phát hiện hành vi bất thường, dấu hiệu tấn công",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Tường lửa lọc gói tin",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Mạng riêng ảo",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Phần mềm diệt virus",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m8-q21",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Signature-based Detection trong IDS hoạt động như thế nào?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "So sánh gói tin/hoạt động với cơ sở dữ liệu mẫu tấn công đã biết",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Học mô hình bình thường, cảnh báo hành vi khác lạ",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Chặn gói tin ngay lập tức",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Mã hóa dữ liệu",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m8-q22",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Anomaly-based Detection trong IDS có ưu điểm gì?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Phát hiện tấn công mới, zero-day (chưa có mẫu)",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Phát hiện nhanh tấn công đã biết",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Không bao giờ cảnh báo sai",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Không cần cấu hình",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m8-q23",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Nhược điểm của Anomaly-based IDS là gì?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Dễ sinh cảnh báo sai (false positive)",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Không phát hiện tấn công mới",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Chỉ phát hiện tấn công đã biết",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Quá chậm",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m8-q24",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Nhược điểm của Signature-based IDS là gì?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Khó phát hiện tấn công mới (zero-day)",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Phát hiện chậm tấn công đã biết",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Nhiều false positive",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Quá phức tạp",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m8-q25",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "NIDS (Network-based IDS) giám sát ở đâu?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Toàn bộ/segment mạng, thường đặt sau firewall, trước server E-commerce, vùng DMZ",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Trên một máy chủ cụ thể (process, file, log)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Trên thiết bị người dùng",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Trong trình duyệt",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m8-q26",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "HIDS (Host-based IDS) giám sát gì?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Hoạt động trên một máy chủ cụ thể (process, file, log hệ thống)",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Lưu lượng toàn mạng",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Gói tin qua Internet",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Email gửi đi",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m8-q27",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Passive IDS và Active IDS (IPS) khác nhau ở điểm nào?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Passive chỉ phát hiện/cảnh báo; Active (IPS) vừa phát hiện vừa chủ động ngăn chặn (drop packet, block IP)",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Cả hai đều chặn gói tin",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Cả hai chỉ cảnh báo",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Active chỉ cảnh báo, Passive chặn",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m8-q28",
+    "question_type": "multiple_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "IDS có những thành phần chính nào?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Sensor/Agent thu thập dữ liệu",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Engine phân tích và phát hiện",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Database chữ ký và luật phát hiện",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Hệ thống cảnh báo và giao diện quản lý",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m8-q29",
+    "question_type": "multiple_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Chữ ký tấn công SQL Injection trong IDS thường chứa chuỗi nào?",
+    "answers": [
+      {
+        "answer_text_en": "SELECT * FROM, UNION ALL SELECT",
+        "answer_text_vi": "",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "' OR 1=1--",
+        "answer_text_vi": "",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "<script>",
+        "answer_text_vi": "",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "malware.exe",
+        "answer_text_vi": "",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m8-q30",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Chữ ký tấn công XSS trong IDS chứa chuỗi nào?",
+    "answers": [
+      {
+        "answer_text_en": "<script>, onerror=, alert(",
+        "answer_text_vi": "",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "DROP TABLE",
+        "answer_text_vi": "",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "malware.exe",
+        "answer_text_vi": "",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "' OR 1=1",
+        "answer_text_vi": "",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m8-q31",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Database chữ ký và Luật phát hiện trong IDS khác nhau ở điểm nào?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Chữ ký = mẫu tấn công đã biết so khớp; Luật = quy tắc admin định nghĩa phân tích hành vi/payload theo ngữ cảnh",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Cả hai giống hệt nhau",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Chữ ký phát hiện tấn công mới, Luật phát hiện tấn công đã biết",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Luật = mẫu đã biết, Chữ ký = quy tắc admin",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m8-q32",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Luật phát hiện brute-force login trong IDS thường như thế nào?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Nếu đăng nhập thất bại > N lần trong 1 phút từ cùng 1 IP thì cảnh báo",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "So khớp chuỗi SQL Injection",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Kiểm tra kích thước file",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Mã hóa gói tin",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m8-q33",
+    "question_type": "multiple_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Chức năng chính của IDS là gì?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Giám sát và phân tích lưu lượng mạng/hoạt động hệ thống",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Phát hiện tấn công (port scanning, brute-force, malware, SQLi, DDoS)",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Ghi log chi tiết phục vụ điều tra",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Cảnh báo kịp thời, tích hợp SIEM",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m8-q34",
+    "question_type": "multiple_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Mục đích sử dụng IDS trong mạng E-commerce là gì?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Bảo vệ giao dịch khỏi tấn công vào web server/database",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Phát hiện sớm tấn công mà Firewall không chặn được (tấn công ứng dụng)",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Ngăn chặn thất thoát dữ liệu khách hàng",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Hỗ trợ tuân thủ PCI DSS",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m8-q35",
+    "question_type": "multiple_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Hạ tầng mạng E-commerce có yêu cầu bảo mật nào?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Bảo mật dữ liệu (mã hóa SSL/TLS, VPN)",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Xác thực & kiểm soát truy cập (MFA, RBAC)",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Tính sẵn sàng & chịu lỗi (redundancy, load balancing, backup)",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Tuân thủ pháp luật (PCI DSS, GDPR, Nghị định 13/2023)",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m8-q36",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Trong E-commerce, server chứa database nên đặt ở đâu?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "DMZ tách biệt, triển khai cả Signature-based và Anomaly-based IDS",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Ngay trên Internet công cộng",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Cùng web server không tách biệt",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Trên máy nhân viên",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m8-q37",
+    "question_type": "multiple_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Kiến trúc tích hợp VPN-FW-IDS điển hình có những lớp nào?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Lớp ngoài (Perimeter): Firewall + VPN Gateway ở biên mạng",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Lớp trung gian (DMZ): Web/Mail/App server + IDS giám sát",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Lớp trong (Internal): IDS/IPS + FW nội bộ phân vùng LAN/DB/Payment",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Lớp người dùng không cần bảo mật",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m8-q38",
+    "question_type": "multiple_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Lợi ích khi tích hợp VPN-FW-IDS là gì?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Bảo mật toàn diện: VPN mã hóa, FW kiểm soát, IDS phát hiện",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Giảm thiểu DDoS, SQL Injection, Brute Force",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Tối ưu vận hành nhờ phân tầng rõ ràng",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Tăng độ tin cậy, dịch vụ 24/7 an toàn",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m8-q39",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "DMZ (Demilitarized Zone) dùng để làm gì?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Đặt Web/Mail/App server phục vụ khách hàng nhưng tách biệt với hệ nội bộ",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Chứa database nhạy cảm",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Lưu mật khẩu người dùng",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Diệt virus",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m8-q40",
+    "question_type": "multiple_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Nguyên tắc chung của chính sách bảo mật hạ tầng E-commerce là gì?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Đảm bảo CIA (Confidentiality-Integrity-Availability)",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Phòng ngừa là chính: ngăn chặn - phát hiện - phản ứng",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Defense in Depth: nhiều lớp bảo mật",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Tuân thủ PCI DSS, ISO/IEC 27001, GDPR",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m8-q41",
+    "question_type": "multiple_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Phân vùng mạng (Network Segmentation) trong E-commerce như thế nào?",
+    "answers": [
+      {
+        "answer_text_en": "DMZ cho Web/Mail/App server",
+        "answer_text_vi": "",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Vùng riêng cho Database và Payment Gateway",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Mạng nội bộ cách ly với dịch vụ công cộng",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Tất cả server cùng một vùng không tách biệt",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m8-q42",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Quy trình phản ứng sự cố bảo mật đúng thứ tự là gì?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Xác định sự cố → Cô lập → Xử lý → Phục hồi → Rút kinh nghiệm",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Phục hồi → Rút kinh nghiệm → Xác định → Cô lập → Xử lý",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Xử lý → Xác định → Cô lập → Phục hồi",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Cô lập → Phục hồi → Xác định → Xử lý",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m8-q43",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "CERT/CSIRT trong E-commerce có vai trò gì?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Đội ngũ/bộ phận an ninh mạng ứng cứu nhanh khi có sự cố",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Phần mềm diệt virus",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Giao thức VPN",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Chuẩn mã hóa",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m8-q44",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Kiểm thử thâm nhập (Penetration Test) và đánh giá lỗ hổng có vai trò gì?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Đánh giá định kỳ mức độ an toàn hệ thống, phát hiện điểm yếu trước khi bị tấn công",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Mã hóa dữ liệu",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Sao lưu dữ liệu",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Diệt virus",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m8-q45",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Firewall lọc gói có ngăn chặn được SQL Injection không? Vì sao?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Không, vì chỉ kiểm tra IP/port/protocol, không kiểm tra payload; cần Firewall tầng ứng dụng hoặc IDS",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Có, vì kiểm tra payload HTTP",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Có, vì chặn theo IP",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Không liên quan",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m8-q46",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Khi website E-commerce bị DDoS trong khuyến mãi, làm sao phân biệt khách thật hay tấn công?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "IDS phát hiện lưu lượng bất thường (SYN flood), FW hỗ trợ chặn; kết hợp hành vi request",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Không thể phân biệt",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Chỉ cần tắt website",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Chỉ dựa vào số lượng truy cập",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m8-q47",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Khi nhân viên dùng VPN tải dữ liệu khách hàng gửi qua email cá nhân, phát hiện bằng gì?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "IDS/HIDS phát hiện data exfiltration (outbound traffic lớn), log email, DLP",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Không thể phát hiện",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "VPN mã hóa nên an toàn",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Chỉ Firewall mới phát hiện",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m8-q48",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Khi VPN bị đánh cắp chứng thực nhân viên, nên tăng cường bảo mật bằng gì?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "MFA (xác thực đa yếu tố) ngoài mật khẩu, giám sát phiên VPN, thu hồi chứng chỉ",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Bỏ xác thực VPN",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Chỉ dùng mật khẩu yếu",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Tắt VPN",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m8-q49",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Defense in Depth trong E-commerce áp dụng như thế nào?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Nhiều lớp bảo mật từ biên mạng, máy chủ đến ứng dụng và cơ sở dữ liệu",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Chỉ một lớp Firewall là đủ",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Chỉ IDS là đủ",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Chỉ VPN là đủ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m8-q50",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Chính sách đào tạo nhân viên trong E-commerce nhằm mục đích gì?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Nâng cao nhận thức an toàn thông tin, tránh lừa đảo phishing/social engineering",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Học mã hóa AES",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Lập trình web",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Quản trị database",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m8-q51",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Vì sao chỉ dùng một lớp bảo mật (chỉ FW hoặc IDS) là rủi ro?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Mỗi công cụ có điểm mù; kết hợp nhiều lớp mới bảo vệ toàn diện (defense in depth)",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Một lớp là đủ an toàn",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Nhiều lớp làm chậm hệ thống không cần thiết",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "IDS thay thế hoàn toàn Firewall",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m8-q52",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "WAF (Web Application Firewall) giảm thiểu lỗ hổng Web nào trong chính sách bảo mật hệ thống?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "SQL Injection, XSS, CSRF nhắm vào website E-commerce",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "DDoS mạng tầng mạng",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Mã hóa ổ cứng",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Quét cổng",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m8-q53",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Trong tình huống deface website (giao diện bị thay đổi), lỗi thường ở tầng nào?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Thường ở tầng ứng dụng; cần kết hợp FW-IDS-chính sách quản trị (patch, WAF, giám sát file)",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Chỉ ở tầng mạng",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Chỉ ở phần cứng",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Không thể phòng tránh",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m8-q54",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "VPN được xem là gì trong bảo vệ hạ tầng E-commerce?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "'Lá chắn' đầu tiên, đảm bảo giao dịch an toàn, bí mật, đáng tin cậy",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "'Bộ lọc thông minh'",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Hệ thống cảnh báo",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Phần mềm diệt virus",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m8-q55",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Khi chỉ triển khai Firewall lọc gói, hệ thống E-commerce rủi ro gì?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Không phát hiện tấn công ứng dụng (SQLi/XSS) vì không kiểm tra payload",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "An toàn hoàn toàn",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Chỉ rủi ro DDoS",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Không có rủi ro",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m8-q56",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "(PDF) Chữ ký số trong giao dịch điện tử dùng để làm gì?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Xác thực người gửi, đảm bảo toàn vẹn giao dịch và chống chối bỏ",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Mã hóa dữ liệu thanh toán khi truyền qua mạng bằng AES",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Lọc lưu lượng HTTP ở tầng ứng dụng",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Sao lưu dữ liệu khách hàng định kỳ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m8-q57",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "(PDF) Tokenization trong thương mại điện tử là gì?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Thay dữ liệu nhạy cảm (số thẻ tín dụng) bằng token đại diện, không lưu số thẻ thật",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Mã hóa toàn bộ cơ sở dữ liệu bằng thuật toán đối xứng",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Xác thực người dùng bằng mã OTP qua SMS",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Lọc gói tin tại tầng mạng bằng ACL",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m8-q58",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "(PDF) 3D Secure (OTP xác thực) là biện pháp bảo vệ cho quá trình nào?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Thanh toán điện tử",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Sao lưu cơ sở dữ liệu",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Quét lỗ hổng ứng dụng web",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Phân quyền tệp trên hệ điều hành",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m8-q59",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "(PDF) Phân biệt gian lận thanh toán (payment fraud) và gian lận tài khoản (account fraud) đúng nhất là?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Gian lận thanh toán liên quan đến giao dịch/thẻ; gian lận tài khoản là đánh cắp hoặc chiếm tài khoản người dùng",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Cả hai là cùng một loại gian lận",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Gian lận tài khoản chỉ xảy ra ở cổng thanh toán",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Gian lận thanh toán chỉ dùng bot để spam đánh giá",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m8-q60",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "(PDF) PCI-DSS là tiêu chuẩn áp dụng cho hệ thống nào?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Hệ thống xử lý thẻ thanh toán",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Hệ điều hành máy chủ cloud",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Mạng nội bộ của doanh nghiệp sản xuất",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Quản lý mã nguồn phần mềm",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m8-q61",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "(PDF) Theo PCI-DSS, dữ liệu nào KHÔNG được lưu?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "CVV (mã bảo mật thẻ)",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Họ tên khách hàng",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Địa chỉ giao hàng",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Lịch sử đơn hàng",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m8-q62",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "(PDF) ISO/IEC 27001 là tiêu chuẩn về?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Quản lý an toàn thông tin tổng thể, áp dụng cho doanh nghiệp TMĐT",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Xử lý thanh toán thẻ tín dụng",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Mã hóa giao thức VPN",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Quét lỗ hổng và mã độc",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m8-q63",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "(PDF) Kiến trúc bảo mật TMĐT tổng thể theo đúng thứ tự luồng là?",
+    "answers": [
+      {
+        "answer_text_en": "User → Web/App (HTTPS) → WAF/Firewall → API Server → Database → Payment Gateway",
+        "answer_text_vi": "",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "User → Payment Gateway → Database → WAF → API Server",
+        "answer_text_vi": "",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "Database → User → API Server → WAF → Payment Gateway",
+        "answer_text_vi": "",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "WAF → User → Payment Gateway → Database → API Server",
+        "answer_text_vi": "",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m8-q64",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "(PDF) Carding trong thương mại điện tử là gì?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Dùng thẻ tín dụng bị đánh cắp để thực hiện giao dịch",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Tạo đơn hàng giả để kiểm thử hệ thống",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Trả hàng để lấy lại tiền một cách gian lận",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Viết đánh giá giả mạo cho sản phẩm",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m8-q65",
+    "question_type": "multiple_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "(PDF) Biện pháp chống DDoS cho hệ thống TMĐT bao gồm những gì?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "CDN phân tán tải",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "Load balancer",
+        "answer_text_vi": "",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "Rate limiting",
+        "answer_text_vi": "",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "Anti-DDoS service",
+        "answer_text_vi": "",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Tắt HTTPS để tăng tốc độ",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Lưu CVV của thẻ để đối soát",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m8-q66",
+    "question_type": "multiple_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "(PDF) Rủi ro của hệ thống thanh toán (Payment Gateway) là gì?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Gian lận thanh toán",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Giả mạo giao dịch",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "Replay attack",
+        "answer_text_vi": "",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Mã hóa AES dữ liệu",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Hash mật khẩu bằng bcrypt",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m8-q67",
+    "question_type": "multiple_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "(PDF) Bảo mật dữ liệu khách hàng trong TMĐT nên áp dụng biện pháp nào?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Mã hóa dữ liệu nhạy cảm",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Hash mật khẩu (bcrypt/Argon2)",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Phân quyền truy cập DB",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "Data masking",
+        "answer_text_vi": "",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Lưu mật khẩu dạng plain text",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Mở public bucket storage",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m8-q68",
+    "question_type": "multiple_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "(PDF) Nguyên tắc bảo mật quan trọng trong TMĐT là gì?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Không tin dữ liệu từ client",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Luôn dùng HTTPS",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Phân quyền chặt chẽ",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Mã hóa dữ liệu nhạy cảm",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Giám sát và log đầy đủ",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Backup định kỳ",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Áp dụng Defense in Depth",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Tắt HTTPS để tăng tốc",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Mở quyền public database",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m8-q69",
+    "question_type": "multiple_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "(PDF) Bảo mật Cloud trong TMĐT cần làm gì?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Cấu hình IAM đúng",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Không public database",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Bảo mật bucket storage",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Kiểm soát access key",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Public database để dễ truy cập",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Chia sẻ access key công khai",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m8-q70",
+    "question_type": "multiple_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "(PDF) Vai trò của API trong TMĐT là gì?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Xử lý giỏ hàng",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Thanh toán",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Quản lý đơn hàng",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Kết nối vận chuyển",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Diệt virus trên máy chủ",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Sao lưu ổ cứng",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m8-q71",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "(PDF) Stateful Firewall khác Packet Filtering Firewall ở điểm nào?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Theo dõi trạng thái kết nối, thông minh hơn packet filtering",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Lọc ở tầng ứng dụng HTTP/HTTPS",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Mã hóa dữ liệu thanh toán",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Chỉ hoạt động trên môi trường cloud",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m8-q72",
+    "question_type": "multiple_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "(PDF) Next-Generation Firewall (NGFW) kết hợp những thành phần nào?",
+    "answers": [
+      {
+        "answer_text_en": "IDS/IPS",
+        "answer_text_vi": "",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Lọc ứng dụng",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Phân tích hành vi",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Mã hóa VPN tunnel",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Hash mật khẩu người dùng",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Sao lưu dữ liệu định kỳ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m8-q73",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "(PDF) So sánh Firewall, IDS và IPS — phát biểu nào đúng?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Firewall lọc truy cập, IDS phát hiện tấn công và cảnh báo, IPS chủ động chặn tấn công",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Firewall phát hiện tấn công, IDS chặn tấn công, IPS lọc truy cập",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "IDS lọc truy cập, Firewall chặn tấn công, IPS cảnh báo",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Cả ba đều thực hiện cùng một chức năng như nhau",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m8-q74",
+    "question_type": "multiple_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "(PDF) Hạn chế của Firewall là gì?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Không chống được tấn công nội bộ",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Không ngăn được malware đã vào trong",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Không phát hiện tấn công tinh vi nếu thiếu IDS/IPS",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Mã hóa toàn bộ dữ liệu khi truyền",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Thay thế được phần mềm antivirus",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Chống được mọi loại tấn công",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m8-q75",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "(PDF) IDS khác IPS ở điểm nào?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "IDS chỉ phát hiện và cảnh báo, không tự chặn; IPS chủ động chặn tấn công",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "IDS chủ động chặn tấn công, IPS chỉ cảnh báo",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Cả hai giống hệt nhau về chức năng",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "IDS dùng cho VPN, IPS dùng cho Firewall",
+        "is_correct": false
+      }
+    ]
+  }
 ]

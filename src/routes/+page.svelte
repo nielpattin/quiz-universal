@@ -150,17 +150,11 @@
 		if (e.key === 'ArrowRight' || e.key === 'd' || e.key === 'D') {
 			if (pageState.current < pageState.quizData.length - 1) {
 				pageState.current += 1;
-				pageState.questionAnswers.clear();
-				pageState.questionLockedStatus.clear();
-				pageState.questionLocked = false;
 				saveQuizProgress();
 			}
 		} else if (e.key === 'ArrowLeft' || e.key === 'a' || e.key === 'A') {
 			if (pageState.current > 0) {
 				pageState.current -= 1;
-				pageState.questionAnswers.clear();
-				pageState.questionLockedStatus.clear();
-				pageState.questionLocked = false;
 				saveQuizProgress();
 			}
 		}
@@ -189,9 +183,6 @@
 			// Scroll down = next question
 			if (pageState.current < pageState.quizData.length - 1) {
 				pageState.current += 1;
-				pageState.questionAnswers.clear();
-				pageState.questionLockedStatus.clear();
-				pageState.questionLocked = false;
 				lastWheelTime = now;
 				saveQuizProgress();
 			}
@@ -199,9 +190,6 @@
 			// Scroll up = previous question
 			if (pageState.current > 0) {
 				pageState.current -= 1;
-				pageState.questionAnswers.clear();
-				pageState.questionLockedStatus.clear();
-				pageState.questionLocked = false;
 				lastWheelTime = now;
 				saveQuizProgress();
 			}
@@ -225,10 +213,14 @@
 		}
 	});
 
-	// Auto-save progress when current question changes
+	// Auto-save progress when current question or answers change
 	$effect(() => {
 		if (pageState.quizData.length > 0 && pageState.moduleId) {
-			// Use a microtask to avoid saving during initial load
+			// Read reactive dependencies so this effect re-runs on any progress change
+			const _current = pageState.current;
+			const _answersSize = pageState.questionAnswers.size;
+			const _lockedSize = pageState.questionLockedStatus.size;
+
 			if (!isInitialLoad) {
 				saveQuizProgress();
 			}

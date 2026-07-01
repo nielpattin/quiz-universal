@@ -1,899 +1,1094 @@
 [
-	{
-		"question_id": "sqa-m6-q1",
-		"question_text": "Thành phần nào sau đây không được coi là một đơn vị",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Hàm",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Lớp",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Module",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Phương thức",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "sqa-m6-q2",
-		"question_text": "Kiểm thử giao diện lập trình ứng dụng - API testing là phương pháp nằm trong chiến lược kiểm thử nào.",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Kiểm thử hộp đen",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Kiểm thử hộp trắng",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Kiểm thử hộp xám",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Kiểm thử hộp xám và hộp đen",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "sqa-m6-q3",
-		"question_text": "Nêu ra các loại kiểm thử trong intergration test.",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Kiểm thử cấu trúc",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Kiểm thử chức năng",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Kiểm thử hiệu năng, kiểm thử cấu trúc",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Kiểm thử cấu trúc, kiểm thử chức năng, kiểm thử hiệu năng, kiểm thử khả năng chịu tải.",
-				"is_correct": true
-			}
-		]
-	},
-	{
-		"question_id": "sqa-m6-q4",
-		"question_text": "Trong đồ thị chương trình, một đường đi từ điểm nguồn đến điểm đích đại diện cho điều gì?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "A. Một lỗi trong chương trình.",
-				"is_correct": false
-			},
-			{
-				"answer_text": "B. Một luồng điều khiển có thể xảy ra.",
-				"is_correct": true
-			},
-			{
-				"answer_text": "C. Một chức năng chính của chương trình.",
-				"is_correct": false
-			},
-			{
-				"answer_text": "D. Một luồng dữ liệu.",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "sqa-m6-q5",
-		"question_text": "Trong kiểm thử đường đi cơ bản (Basic Path Testing), một đường đi độc lập là gì?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Một đường đi bao gồm tất cả các giá trị biên.",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Một đường đi duy nhất từ điểm bắt đầu đến điểm kết thúc mà không lặp lại bất kỳ cạnh nào.",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Một đường đi được thực hiện nhiều lần trong quá trình kiểm thử.",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Một đường đi chứa ít nhất một cạnh hoặc đỉnh mới chưa được đi qua trong bất kỳ đường đi nào trước đó.",
-				"is_correct": true
-			}
-		]
-	},
-	{
-		"question_id": "sqa-m6-q6",
-		"question_text": "Một chương trình có độ phức tạp chu trình bằng 1 có nghĩa là gì?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Chương trình có một chu trình duy nhất.",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Chương trình có cấu trúc tuyến tính mà không có bất kỳ đường đi phân nhánh nào.",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Chương trình có một lỗi logic.",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Chương trình có một điểm vào và một điểm ra duy nhất.",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "sqa-m6-q7",
-		"question_text": "Công thức tính độ phức tạp chu trình (Cyclomatic Complexity) là gì?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "V(G) = E - N + 2P",
-				"is_correct": true
-			},
-			{
-				"answer_text": "V(G) = E + N - 2P",
-				"is_correct": false
-			},
-			{
-				"answer_text": "V(G) = E - N - 2P",
-				"is_correct": false
-			},
-			{
-				"answer_text": "V(G) = E + N + 2P",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "sqa-m6-q8",
-		"question_text": "Kiểm thử luồng dữ liệu giúp phát hiện loại lỗi nào sau đây?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "A. Lỗi do sử dụng biến chưa được khởi tạo.",
-				"is_correct": false
-			},
-			{
-				"answer_text": "B. Lỗi do khai báo biến không cần thiết.",
-				"is_correct": false
-			},
-			{
-				"answer_text": "C. Lỗi do sử dụng biến ngoài phạm vi.",
-				"is_correct": false
-			},
-			{
-				"answer_text": "D. Cả A và C.",
-				"is_correct": true
-			}
-		]
-	},
-	{
-		"question_id": "sqa-m6-q9",
-		"question_text": "Để phát hiện lỗi sử dụng biến chưa được khởi tạo, kiểm thử luồng dữ liệu thường kiểm tra điều gì?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Các giá trị biên của biến.",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Các đường đi từ điểm khai báo đến điểm sử dụng biến.",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Các đường đi từ điểm gán giá trị đến điểm sử dụng biến.",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Các điều kiện trong bảng quyết định.",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "sqa-m6-q10",
-		"question_text": "Một biến chưa được khởi tạo mà đã được sử dụng có thể dẫn đến lỗi nào?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Lỗi biên dịch.",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Lỗi logic.",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Lỗi thời gian chạy.",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Lỗi giao diện người dùng.",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "sqa-m6-q11",
-		"question_text": "Điều nào sau đây đúng?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "1 test cho bao phủ câu lệnh; 3 test cho bao phủ rẽ nhánh",
-				"is_correct": false
-			},
-			{
-				"answer_text": "1 test cho bao phủ câu lệnh; 2 test cho bao phủ rẽ nhánh",
-				"is_correct": false
-			},
-			{
-				"answer_text": "1 test cho bao phủ câu lệnh; 1 test cho bao phủ rẽ nhánh",
-				"is_correct": false
-			},
-			{
-				"answer_text": "2 test cho bao phủ câu lệnh; 3 test cho bao phủ rẽ nhánh",
-				"is_correct": true
-			}
-		]
-	},
-	{
-		"question_id": "sqa-m6-q12",
-		"question_text": "Có bao nhiêu đường đi trong CFG sau:",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "2",
-				"is_correct": false
-			},
-			{
-				"answer_text": "3",
-				"is_correct": false
-			},
-			{
-				"answer_text": "4",
-				"is_correct": false
-			},
-			{
-				"answer_text": "5",
-				"is_correct": true
-			}
-		]
-	},
-	{
-		"question_id": "sqa-m6-q13",
-		"question_text": "Chi phí của việc sửa lỗi:",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Không quan trọng.",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Tăng khi chúng ta đưa sản phẩm vào sử dụng thực tế.",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Giảm khi chúng ta không áp dụng nó vào trong thực tế.",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Cao hơn nếu tìm thấy trong các yêu cầu cao hơn so với thiết kế chức năng",
-				"is_correct": true
-			}
-		]
-	},
-	{
-		"question_id": "sqa-m6-q14",
-		"question_text": "Nếu thời gian thử nghiệm có giới hạn, chúng ta nên ...",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Chỉ kiểm tra các khu vực có nguy cơ cao",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Chỉ kiểm tra các khu vực đơn giản",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Chỉ kiểm tra các khu vực có nguy cơ thấp",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Chỉ kiểm tra các khu vực phức tạp",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "sqa-m6-q15",
-		"question_text": "Kĩ thuật nào là kĩ thuật để biểu diễn các chức năng và luồng dữ liệu bằng các kí hiệu chỉ ra luồng dữ liệu, xử lý (các chức năng), kho dữ liệu và nguồn ngoài (nguồn dữ liệu được sinh ra và gửi đi)? (kĩ thuật này là một trong các phương pháp phân tích có cấu trúc)",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "DFD",
-				"is_correct": true
-			},
-			{
-				"answer_text": "ERD",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Lược đồ NS",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Biểu đồ di chuyển trạng thái",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "sqa-m6-q16",
-		"question_text": "Đâu là mô tả chính xác về dữ liệu kiểm thử để duyệt một chương trình?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Các trường hợp kiểm thử được chuẩn bị trước, và dữ liệu kiểm thử có thể đáp ứng yêu cầu được xác định trong trường hợp kiểm thử được chuẩn bị",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Chỉ có dữ liệu kiểm thử mà đã được xử lý đúng mới được chuẩn bị như các tiến trình kiểm thử",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Bởi vì dữ liệu được sử dụng để kiểm thử, cần chuẩn bị khoảng 20% khối lượng dữ liệu cần xử lý trong quá trình vận hành thực tế",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Không cần cung cấp dữ liệu kiểm thử bị loại bỏ vì lỗi trong giai đoạn đưa vào",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "sqa-m6-q17",
-		"question_text": "Cho hàm sau Hàm trên có bao nhiêu luồng dữ liệu bất thường?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "1",
-				"is_correct": false
-			},
-			{
-				"answer_text": "2 (n được khai báo nhưng ko đc dùng, i chưa khai báo nhưng đc dùng)",
-				"is_correct": true
-			},
-			{
-				"answer_text": "3",
-				"is_correct": false
-			},
-			{
-				"answer_text": "4",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "sqa-m6-q18",
-		"question_text": "Phát biểu nào dưới đây là đúng về kỹ thuật kiểm thử hộp đen và kiểm thử hộp trắng",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Phân hoạch tương đương, Bảng quyết định và Luồng điều khiển nằm trong kỹ thuật kiểm thử hộp trắng",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Phân hoạch tương đương, Phân tích giá trị biên, Luồng dữ liệu nằm trong kỹ thuật kiểm thử hộp đen",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Phân hoạch tương đương, bảng quyết định, kiểm thử ca sử dụng nằm trong kỹ thuật kiểm thử hộp đen",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Phân hoạch tương đương, chuyển trạng thái, kiểm thử ca sử dụng và bảng quyết định nằm trong kỹ thuật kiểm thử hộp trắng",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "sqa-m6-q19",
-		"question_text": "Sắp xếp theo mức độ tăng dần các kỹ thuật phát hiện lỗi về số lượng lỗi và chi phí?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Random testing, Control-flow-testing, Data-flow-testing",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Control-flow-testing, Data-flow-testing, Random testing",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Data-flow-testing, Control-flow-testing, Random testing",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Data-flow-testing, Random testing, Control-flow-testing",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "sqa-m6-q20",
-		"question_text": "Chọn all-defs path với biến tv trong các path sau?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "1-2-3-4-5-6-3-4-5",
-				"is_correct": false
-			},
-			{
-				"answer_text": "1-2-3-4-5-6-3-7-9-10",
-				"is_correct": true
-			},
-			{
-				"answer_text": "1-2-3-7-9-10",
-				"is_correct": false
-			},
-			{
-				"answer_text": "1-2-3-4-6-3-7-9-10",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "sqa-m6-q21",
-		"question_text": "Luồng dữ liệu không bình thường (Data flow anomaly) trong đoạn code sau đây thuộc loại nào:",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "ur",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Không tồn tại luồng dữ liệu không bình thường",
-				"is_correct": false
-			},
-			{
-				"answer_text": "dd",
-				"is_correct": true
-			},
-			{
-				"answer_text": "du",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "sqa-m6-q22",
-		"question_text": "Cho hình vẽ sau, hãy chọn chỉ số của node mà ở node đó có Global c-use của biến tv?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "4",
-				"is_correct": false
-			},
-			{
-				"answer_text": "9",
-				"is_correct": true
-			},
-			{
-				"answer_text": "6",
-				"is_correct": false
-			},
-			{
-				"answer_text": "8",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "sqa-m6-q23",
-		"question_text": "Đặc trưng nào cho thấy cái giá của lỗi trong quy trình sản xuất phần mềm?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Chúng là rẻ nhất khi tìm thấy trong giai đoạn phát triển, nhưng đắt nhất trong giai đoạn kiểm thử cuối cùng.",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Chúng dễ dàng tìm thấy trong quá trình kiểm thử hệ thống nhưng để sửa những lỗi đó thì rất đắt",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Để tìm được những lỗi trong giai đoạn phát triển thì rất rẻ nhưng để sửa những lỗi đó là rất đắt",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Mặc dù rất đắt để tìm ra lỗi trong giai đoạn phát triển nhưng để sửa những lỗi đó lại rất rẻ",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "sqa-m6-q24",
-		"question_text": "Có bao nhiêu phần trăm khiếm khuyết liên quan đến xác định yêu cầu của phần mềm?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "23.9%",
-				"is_correct": true
-			},
-			{
-				"answer_text": "24.3%",
-				"is_correct": false
-			},
-			{
-				"answer_text": "4.3%",
-				"is_correct": false
-			},
-			{
-				"answer_text": "5.2%",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "sqa-m6-q25",
-		"question_text": "Cho hình trên, xét biến tv trong đường đi 1 – 2 – 3 – 7 – 8 – 10 thỏa mãn tiêu chí nào? A. All-c-uses B. All-p-uses C. Cả A và B đều đúng D. Cả A và B đều sai.",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "A",
-				"is_correct": false
-			},
-			{
-				"answer_text": "B",
-				"is_correct": true
-			},
-			{
-				"answer_text": "C",
-				"is_correct": false
-			},
-			{
-				"answer_text": "D",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "sqa-m6-q26",
-		"question_text": "Nêu một tập các giá trị hợp lệ của các lớp tương đương cho bài toán sau: thanh toán bằng thẻ tín dụng có thể được với Visa, Master, Amex?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Visa, Master, Amex;",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Visa, Master, Amex, Diners, Keycards, và một vài lựa chọn khác",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Visa, Master, Amex, một vài thẻ khác, không có thẻ nào",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Không thẻ, một số thẻ, một trong các thẻ Visa, Master, Amex",
-				"is_correct": true
-			}
-		]
-	},
-	{
-		"question_id": "sqa-m6-q27",
-		"question_text": "Trong mô hình lỗi quá trình nào không đúng Với các trạng thái N: New, S: Shelved, A: Assigned, W: Watt",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "N -> P",
-				"is_correct": false
-			},
-			{
-				"answer_text": "N -> S",
-				"is_correct": false
-			},
-			{
-				"answer_text": "N -> A",
-				"is_correct": false
-			},
-			{
-				"answer_text": "N -> W",
-				"is_correct": true
-			}
-		]
-	},
-	{
-		"question_id": "sqa-m6-q28",
-		"question_text": "Trong mô hình lỗi quá trình nào đúng",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "W -> O",
-				"is_correct": false
-			},
-			{
-				"answer_text": "R -> H",
-				"is_correct": false
-			},
-			{
-				"answer_text": "C -> D",
-				"is_correct": false
-			},
-			{
-				"answer_text": "D -> A",
-				"is_correct": true
-			}
-		]
-	},
-	{
-		"question_id": "sqa-m6-q29",
-		"question_text": "Độ ưu tiên (priority) của sai sót được thể hiện ở mấy cấp độ:",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "2",
-				"is_correct": false
-			},
-			{
-				"answer_text": "3",
-				"is_correct": false
-			},
-			{
-				"answer_text": "4",
-				"is_correct": true
-			},
-			{
-				"answer_text": "5",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "sqa-m6-q30",
-		"question_text": "Ghép các cặp giai đoạn của vòng đời phát triển và vòng đời kiểm thử phần mềm sau đây với nhau: i: Thiết kế mức cao; a: Kiểm thử đơn vị ii: Viết mã nguồn; b: Kiểm thử chấp nhận iii: Thiết kế mức thấp; c: Kiểm thử hệ thống iv. Các yêu cầu công việc; d: Kiểm thử tích hợp",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "i-d, ii-a, iii-c, iv-b.",
-				"is_correct": false
-			},
-			{
-				"answer_text": "i-c, ii-d, iii-a, iv-b.",
-				"is_correct": false
-			},
-			{
-				"answer_text": "i-b, ii-a, iii-d, iv-c.",
-				"is_correct": false
-			},
-			{
-				"answer_text": "i-c, ii-a, iii-d, iv-b.",
-				"is_correct": true
-			}
-		]
-	},
-	{
-		"question_id": "sqa-m6-q31",
-		"question_text": "Trong biểu đồ chuyển trạng thái dưới đây, trạng thái chuyển nào không đúng",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "ON to OFF",
-				"is_correct": false
-			},
-			{
-				"answer_text": "OFF to ON",
-				"is_correct": false
-			},
-			{
-				"answer_text": "ON to FAULT",
-				"is_correct": false
-			},
-			{
-				"answer_text": "FAULT to ON",
-				"is_correct": true
-			}
-		]
-	},
-	{
-		"question_id": "sqa-m6-q32",
-		"question_text": "Định nghĩa nào sau đây là đúng cho c-use toàn cục (Global c- use):",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Một c-use của một biến x trong nút i được gọi là c-use toàn cục nếu x được định nghĩa ở một nút đứng trước nút i.",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Một c-use của một biến x trong nút i được gọi là c-use toàn cục nếu x được định nghĩa ở một nút đứng sau nút i.",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Một c-use của một biến x trong nút i được gọi là c-use toàn cục nếu x được định nghĩa ở nút i.",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Một c-use của một biến x trong nút i được gọi là c-use toàn cục nếu tại đó x chưa được định nghĩa.",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "sqa-m6-q33",
-		"question_text": "Cho đồ thị luồng dữ liệu: Xét biến tv trong đường đi 1 – 2 – 3 – 7 – 8 – 10 thỏa mãn tiêu chí nào:",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "All-c-uses.",
-				"is_correct": false
-			},
-			{
-				"answer_text": "All-p-uses.",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Cả a và b đều đúng.",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Cả a và b đều sai.",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "sqa-m6-q34",
-		"question_text": "Cho đồ thị luồng dữ liệu: Xét biến ti trong đường đi 1 – 2 – 3 – 4 – 6 – 3 – 7 – 8 – 10 thỏa mãn tiêu chí nào:",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "All-c-uses.",
-				"is_correct": false
-			},
-			{
-				"answer_text": "All-p-uses.",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Cả a và b đều đúng.",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Cả a và b đều sai.",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "sqa-m6-q35",
-		"question_text": "Cho đồ thị luồng dữ liệu: Xét biến tv trong đường đi 1 – 2 – 3 – 7 – 9 – 10 thỏa mãn tiêu chí nào:",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "All-c-uses.",
-				"is_correct": false
-			},
-			{
-				"answer_text": "All-p-uses.",
-				"is_correct": false
-			},
-			{
-				"answer_text": "All-uses.",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Cả 3 ý trên đều sai.",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "sqa-m6-q36",
-		"question_text": "Một hệ thống tính thuế thu nhập cá nhân: Một nhân viên có lương dưới 4.000$ được miễn thuế. 1500$ tiếp theo bị đánh thuế ở mức 10%. 28000$ tiếp theo sau đó bị đánh thuế ở mức 22%. Mức thu nhập lớn hơn bị đánh thuế ở mức 40%. Nhóm giá trị test nào dưới đây thuộc ba lớp tương đương khác nhau:",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "4000$; 5000$; 5500$",
-				"is_correct": false
-			},
-			{
-				"answer_text": "32001$; 34000$; 36500$",
-				"is_correct": false
-			},
-			{
-				"answer_text": "28000$; 28001$; 32001$",
-				"is_correct": false
-			},
-			{
-				"answer_text": "4000$; 4200$; 5600$",
-				"is_correct": true
-			}
-		]
-	},
-	{
-		"question_id": "sqa-m6-q37",
-		"question_text": "Nêu một tập các giá trị hợp lệ của các lớp tương đương cho vấn đề sau: thanh toán bằng thẻ tín dụng có thể được với Visa, Master, Amex:",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Visa, Master, Amex;",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Visa, Master, Amex, Diners, Keycards, và một vài lựa chọn khác",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Visa, Master, Amex, một vài thẻ khác, không có thẻ nào",
-				"is_correct": false
-			},
-			{
-				"answer_text": "không thẻ, một số thẻ,một trong các thẻ Visa, master, amex.",
-				"is_correct": true
-			}
-		]
-	},
-	{
-		"question_id": "sqa-m6-q38",
-		"question_text": "Những câu nào sau đây miêu tả đặc điểm chi phí của lỗi",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Tốn ít chi phí nhất nếu tìm thấy trong các giai đoạn phát triển ban đầu và mất nhiều chi phí để sửa chữa trong giai đoạn thử nghiệm sau cùng.",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Dễ tìm thấy nhất trong quá trình thử nghiệm hệ thống nhưng mất nhiều chi phí để sửa chữa sau đó.",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Tốn ít chi phí nhất nếu tìm thấy trong các giai đoạn phát triển ban đầu nhưng mất nhiều chi phí để sửa chữa sau đó.",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Tốn nhiều chi phí nếu tìm thấy trong các giai đoạn phát triển ban đầu nhưng lại rẻ nhất để sửa chữa sau đó.",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "sqa-m6-q39",
-		"question_text": "Các bước trong quá trình kiểm thử: I Phân tích và thiết kế, II Kiểm thử các hoạt động, III Đánh giá tiêu chí và báo cáo, IV Kế hoạch và kiểm soát, V Cài đặt và thực hiện. Trình tự thực hiện là thế nào?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "I, II, III, IV, V.",
-				"is_correct": false
-			},
-			{
-				"answer_text": "IV, I, V, III, II.",
-				"is_correct": true
-			},
-			{
-				"answer_text": "IV, I, V, II, III.",
-				"is_correct": false
-			},
-			{
-				"answer_text": "I, IV, V, III, II.",
-				"is_correct": false
-			}
-		]
-	}
+  {
+    "question_id": "sqa-m6-q1",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Thành phần nào sau đây không được coi là một đơn vị",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Hàm",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Lớp",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "Module",
+        "answer_text_vi": "",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Phương thức",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "sqa-m6-q2",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Kiểm thử giao diện lập trình ứng dụng - API testing là phương pháp nằm trong chiến lược kiểm thử nào.",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Kiểm thử hộp đen",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Kiểm thử hộp trắng",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Kiểm thử hộp xám",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Kiểm thử hộp xám và hộp đen",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "sqa-m6-q3",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Nêu ra các loại kiểm thử trong intergration test.",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Kiểm thử cấu trúc",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Kiểm thử chức năng",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Kiểm thử hiệu năng, kiểm thử cấu trúc",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Kiểm thử cấu trúc, kiểm thử chức năng, kiểm thử hiệu năng, kiểm thử khả năng chịu tải.",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "sqa-m6-q4",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Trong đồ thị chương trình, một đường đi từ điểm nguồn đến điểm đích đại diện cho điều gì?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "A. Một lỗi trong chương trình.",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "B. Một luồng điều khiển có thể xảy ra.",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "C. Một chức năng chính của chương trình.",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "D. Một luồng dữ liệu.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "sqa-m6-q5",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Trong kiểm thử đường đi cơ bản (Basic Path Testing), một đường đi độc lập là gì?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Một đường đi bao gồm tất cả các giá trị biên.",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Một đường đi duy nhất từ điểm bắt đầu đến điểm kết thúc mà không lặp lại bất kỳ cạnh nào.",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Một đường đi được thực hiện nhiều lần trong quá trình kiểm thử.",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Một đường đi chứa ít nhất một cạnh hoặc đỉnh mới chưa được đi qua trong bất kỳ đường đi nào trước đó.",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "sqa-m6-q6",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Một chương trình có độ phức tạp chu trình bằng 1 có nghĩa là gì?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Chương trình có một chu trình duy nhất.",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Chương trình có cấu trúc tuyến tính mà không có bất kỳ đường đi phân nhánh nào.",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Chương trình có một lỗi logic.",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Chương trình có một điểm vào và một điểm ra duy nhất.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "sqa-m6-q7",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Công thức tính độ phức tạp chu trình (Cyclomatic Complexity) là gì?",
+    "answers": [
+      {
+        "answer_text_en": "V(G) = E - N + 2P",
+        "answer_text_vi": "",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "V(G) = E + N - 2P",
+        "answer_text_vi": "",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "V(G) = E - N - 2P",
+        "answer_text_vi": "",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "V(G) = E + N + 2P",
+        "answer_text_vi": "",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "sqa-m6-q8",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Kiểm thử luồng dữ liệu giúp phát hiện loại lỗi nào sau đây?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "A. Lỗi do sử dụng biến chưa được khởi tạo.",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "B. Lỗi do khai báo biến không cần thiết.",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "C. Lỗi do sử dụng biến ngoài phạm vi.",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "D. Cả A và C.",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "sqa-m6-q9",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Để phát hiện lỗi sử dụng biến chưa được khởi tạo, kiểm thử luồng dữ liệu thường kiểm tra điều gì?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Các giá trị biên của biến.",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Các đường đi từ điểm khai báo đến điểm sử dụng biến.",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Các đường đi từ điểm gán giá trị đến điểm sử dụng biến.",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Các điều kiện trong bảng quyết định.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "sqa-m6-q10",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Một biến chưa được khởi tạo mà đã được sử dụng có thể dẫn đến lỗi nào?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Lỗi biên dịch.",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Lỗi logic.",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Lỗi thời gian chạy.",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Lỗi giao diện người dùng.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "sqa-m6-q11",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Điều nào sau đây đúng?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "1 test cho bao phủ câu lệnh; 3 test cho bao phủ rẽ nhánh",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "1 test cho bao phủ câu lệnh; 2 test cho bao phủ rẽ nhánh",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "1 test cho bao phủ câu lệnh; 1 test cho bao phủ rẽ nhánh",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "2 test cho bao phủ câu lệnh; 3 test cho bao phủ rẽ nhánh",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "sqa-m6-q12",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Có bao nhiêu đường đi trong CFG sau:",
+    "answers": [
+      {
+        "answer_text_en": "2",
+        "answer_text_vi": "",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "3",
+        "answer_text_vi": "",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "4",
+        "answer_text_vi": "",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "5",
+        "answer_text_vi": "",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "sqa-m6-q13",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Chi phí của việc sửa lỗi:",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Không quan trọng.",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Tăng khi chúng ta đưa sản phẩm vào sử dụng thực tế.",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Giảm khi chúng ta không áp dụng nó vào trong thực tế.",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Cao hơn nếu tìm thấy trong các yêu cầu cao hơn so với thiết kế chức năng",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "sqa-m6-q14",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Nếu thời gian thử nghiệm có giới hạn, chúng ta nên ...",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Chỉ kiểm tra các khu vực có nguy cơ cao",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Chỉ kiểm tra các khu vực đơn giản",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Chỉ kiểm tra các khu vực có nguy cơ thấp",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Chỉ kiểm tra các khu vực phức tạp",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "sqa-m6-q15",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Kĩ thuật nào là kĩ thuật để biểu diễn các chức năng và luồng dữ liệu bằng các kí hiệu chỉ ra luồng dữ liệu, xử lý (các chức năng), kho dữ liệu và nguồn ngoài (nguồn dữ liệu được sinh ra và gửi đi)? (kĩ thuật này là một trong các phương pháp phân tích có cấu trúc)",
+    "answers": [
+      {
+        "answer_text_en": "DFD",
+        "answer_text_vi": "",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "ERD",
+        "answer_text_vi": "",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Lược đồ NS",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Biểu đồ di chuyển trạng thái",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "sqa-m6-q16",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Đâu là mô tả chính xác về dữ liệu kiểm thử để duyệt một chương trình?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Các trường hợp kiểm thử được chuẩn bị trước, và dữ liệu kiểm thử có thể đáp ứng yêu cầu được xác định trong trường hợp kiểm thử được chuẩn bị",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Chỉ có dữ liệu kiểm thử mà đã được xử lý đúng mới được chuẩn bị như các tiến trình kiểm thử",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Bởi vì dữ liệu được sử dụng để kiểm thử, cần chuẩn bị khoảng 20% khối lượng dữ liệu cần xử lý trong quá trình vận hành thực tế",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Không cần cung cấp dữ liệu kiểm thử bị loại bỏ vì lỗi trong giai đoạn đưa vào",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "sqa-m6-q17",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Cho hàm sau Hàm trên có bao nhiêu luồng dữ liệu bất thường?",
+    "answers": [
+      {
+        "answer_text_en": "1",
+        "answer_text_vi": "",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "2 (n được khai báo nhưng ko đc dùng, i chưa khai báo nhưng đc dùng)",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "3",
+        "answer_text_vi": "",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "4",
+        "answer_text_vi": "",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "sqa-m6-q18",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Phát biểu nào dưới đây là đúng về kỹ thuật kiểm thử hộp đen và kiểm thử hộp trắng",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Phân hoạch tương đương, Bảng quyết định và Luồng điều khiển nằm trong kỹ thuật kiểm thử hộp trắng",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Phân hoạch tương đương, Phân tích giá trị biên, Luồng dữ liệu nằm trong kỹ thuật kiểm thử hộp đen",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Phân hoạch tương đương, bảng quyết định, kiểm thử ca sử dụng nằm trong kỹ thuật kiểm thử hộp đen",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Phân hoạch tương đương, chuyển trạng thái, kiểm thử ca sử dụng và bảng quyết định nằm trong kỹ thuật kiểm thử hộp trắng",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "sqa-m6-q19",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Sắp xếp theo mức độ tăng dần các kỹ thuật phát hiện lỗi về số lượng lỗi và chi phí?",
+    "answers": [
+      {
+        "answer_text_en": "Random testing, Control-flow-testing, Data-flow-testing",
+        "answer_text_vi": "",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "Control-flow-testing, Data-flow-testing, Random testing",
+        "answer_text_vi": "",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "Data-flow-testing, Control-flow-testing, Random testing",
+        "answer_text_vi": "",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "Data-flow-testing, Random testing, Control-flow-testing",
+        "answer_text_vi": "",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "sqa-m6-q20",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Chọn all-defs path với biến tv trong các path sau?",
+    "answers": [
+      {
+        "answer_text_en": "1-2-3-4-5-6-3-4-5",
+        "answer_text_vi": "",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "1-2-3-4-5-6-3-7-9-10",
+        "answer_text_vi": "",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "1-2-3-7-9-10",
+        "answer_text_vi": "",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "1-2-3-4-6-3-7-9-10",
+        "answer_text_vi": "",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "sqa-m6-q21",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Luồng dữ liệu không bình thường (Data flow anomaly) trong đoạn code sau đây thuộc loại nào:",
+    "answers": [
+      {
+        "answer_text_en": "ur",
+        "answer_text_vi": "",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Không tồn tại luồng dữ liệu không bình thường",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "dd",
+        "answer_text_vi": "",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "du",
+        "answer_text_vi": "",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "sqa-m6-q22",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Cho hình vẽ sau, hãy chọn chỉ số của node mà ở node đó có Global c-use của biến tv?",
+    "answers": [
+      {
+        "answer_text_en": "4",
+        "answer_text_vi": "",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "9",
+        "answer_text_vi": "",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "6",
+        "answer_text_vi": "",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "8",
+        "answer_text_vi": "",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "sqa-m6-q23",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Đặc trưng nào cho thấy cái giá của lỗi trong quy trình sản xuất phần mềm?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Chúng là rẻ nhất khi tìm thấy trong giai đoạn phát triển, nhưng đắt nhất trong giai đoạn kiểm thử cuối cùng.",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Chúng dễ dàng tìm thấy trong quá trình kiểm thử hệ thống nhưng để sửa những lỗi đó thì rất đắt",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Để tìm được những lỗi trong giai đoạn phát triển thì rất rẻ nhưng để sửa những lỗi đó là rất đắt",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Mặc dù rất đắt để tìm ra lỗi trong giai đoạn phát triển nhưng để sửa những lỗi đó lại rất rẻ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "sqa-m6-q24",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Có bao nhiêu phần trăm khiếm khuyết liên quan đến xác định yêu cầu của phần mềm?",
+    "answers": [
+      {
+        "answer_text_en": "23.9%",
+        "answer_text_vi": "",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "24.3%",
+        "answer_text_vi": "",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "4.3%",
+        "answer_text_vi": "",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "5.2%",
+        "answer_text_vi": "",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "sqa-m6-q25",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Cho hình trên, xét biến tv trong đường đi 1 – 2 – 3 – 7 – 8 – 10 thỏa mãn tiêu chí nào? A. All-c-uses B. All-p-uses C. Cả A và B đều đúng D. Cả A và B đều sai.",
+    "answers": [
+      {
+        "answer_text_en": "A",
+        "answer_text_vi": "",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "B",
+        "answer_text_vi": "",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "C",
+        "answer_text_vi": "",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "D",
+        "answer_text_vi": "",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "sqa-m6-q26",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Nêu một tập các giá trị hợp lệ của các lớp tương đương cho bài toán sau: thanh toán bằng thẻ tín dụng có thể được với Visa, Master, Amex?",
+    "answers": [
+      {
+        "answer_text_en": "Visa, Master, Amex;",
+        "answer_text_vi": "",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Visa, Master, Amex, Diners, Keycards, và một vài lựa chọn khác",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Visa, Master, Amex, một vài thẻ khác, không có thẻ nào",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Không thẻ, một số thẻ, một trong các thẻ Visa, Master, Amex",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "sqa-m6-q27",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Trong mô hình lỗi quá trình nào không đúng Với các trạng thái N: New, S: Shelved, A: Assigned, W: Watt",
+    "answers": [
+      {
+        "answer_text_en": "N -> P",
+        "answer_text_vi": "",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "N -> S",
+        "answer_text_vi": "",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "N -> A",
+        "answer_text_vi": "",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "N -> W",
+        "answer_text_vi": "",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "sqa-m6-q28",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Trong mô hình lỗi quá trình nào đúng",
+    "answers": [
+      {
+        "answer_text_en": "W -> O",
+        "answer_text_vi": "",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "R -> H",
+        "answer_text_vi": "",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "C -> D",
+        "answer_text_vi": "",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "D -> A",
+        "answer_text_vi": "",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "sqa-m6-q29",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Độ ưu tiên (priority) của sai sót được thể hiện ở mấy cấp độ:",
+    "answers": [
+      {
+        "answer_text_en": "2",
+        "answer_text_vi": "",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "3",
+        "answer_text_vi": "",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "4",
+        "answer_text_vi": "",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "5",
+        "answer_text_vi": "",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "sqa-m6-q30",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Ghép các cặp giai đoạn của vòng đời phát triển và vòng đời kiểm thử phần mềm sau đây với nhau: i: Thiết kế mức cao; a: Kiểm thử đơn vị ii: Viết mã nguồn; b: Kiểm thử chấp nhận iii: Thiết kế mức thấp; c: Kiểm thử hệ thống iv. Các yêu cầu công việc; d: Kiểm thử tích hợp",
+    "answers": [
+      {
+        "answer_text_en": "i-d, ii-a, iii-c, iv-b.",
+        "answer_text_vi": "",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "i-c, ii-d, iii-a, iv-b.",
+        "answer_text_vi": "",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "i-b, ii-a, iii-d, iv-c.",
+        "answer_text_vi": "",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "i-c, ii-a, iii-d, iv-b.",
+        "answer_text_vi": "",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "sqa-m6-q31",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Trong biểu đồ chuyển trạng thái dưới đây, trạng thái chuyển nào không đúng",
+    "answers": [
+      {
+        "answer_text_en": "ON to OFF",
+        "answer_text_vi": "",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "OFF to ON",
+        "answer_text_vi": "",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "ON to FAULT",
+        "answer_text_vi": "",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "FAULT to ON",
+        "answer_text_vi": "",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "sqa-m6-q32",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Định nghĩa nào sau đây là đúng cho c-use toàn cục (Global c- use):",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Một c-use của một biến x trong nút i được gọi là c-use toàn cục nếu x được định nghĩa ở một nút đứng trước nút i.",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Một c-use của một biến x trong nút i được gọi là c-use toàn cục nếu x được định nghĩa ở một nút đứng sau nút i.",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Một c-use của một biến x trong nút i được gọi là c-use toàn cục nếu x được định nghĩa ở nút i.",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Một c-use của một biến x trong nút i được gọi là c-use toàn cục nếu tại đó x chưa được định nghĩa.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "sqa-m6-q33",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Cho đồ thị luồng dữ liệu: Xét biến tv trong đường đi 1 – 2 – 3 – 7 – 8 – 10 thỏa mãn tiêu chí nào:",
+    "answers": [
+      {
+        "answer_text_en": "All-c-uses.",
+        "answer_text_vi": "",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "All-p-uses.",
+        "answer_text_vi": "",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Cả a và b đều đúng.",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Cả a và b đều sai.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "sqa-m6-q34",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Cho đồ thị luồng dữ liệu: Xét biến ti trong đường đi 1 – 2 – 3 – 4 – 6 – 3 – 7 – 8 – 10 thỏa mãn tiêu chí nào:",
+    "answers": [
+      {
+        "answer_text_en": "All-c-uses.",
+        "answer_text_vi": "",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "All-p-uses.",
+        "answer_text_vi": "",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Cả a và b đều đúng.",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Cả a và b đều sai.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "sqa-m6-q35",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Cho đồ thị luồng dữ liệu: Xét biến tv trong đường đi 1 – 2 – 3 – 7 – 9 – 10 thỏa mãn tiêu chí nào:",
+    "answers": [
+      {
+        "answer_text_en": "All-c-uses.",
+        "answer_text_vi": "",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "All-p-uses.",
+        "answer_text_vi": "",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "All-uses.",
+        "answer_text_vi": "",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Cả 3 ý trên đều sai.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "sqa-m6-q36",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Một hệ thống tính thuế thu nhập cá nhân: Một nhân viên có lương dưới 4.000$ được miễn thuế. 1500$ tiếp theo bị đánh thuế ở mức 10%. 28000$ tiếp theo sau đó bị đánh thuế ở mức 22%. Mức thu nhập lớn hơn bị đánh thuế ở mức 40%. Nhóm giá trị test nào dưới đây thuộc ba lớp tương đương khác nhau:",
+    "answers": [
+      {
+        "answer_text_en": "4000$; 5000$; 5500$",
+        "answer_text_vi": "",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "32001$; 34000$; 36500$",
+        "answer_text_vi": "",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "28000$; 28001$; 32001$",
+        "answer_text_vi": "",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "4000$; 4200$; 5600$",
+        "answer_text_vi": "",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "sqa-m6-q37",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Nêu một tập các giá trị hợp lệ của các lớp tương đương cho vấn đề sau: thanh toán bằng thẻ tín dụng có thể được với Visa, Master, Amex:",
+    "answers": [
+      {
+        "answer_text_en": "Visa, Master, Amex;",
+        "answer_text_vi": "",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Visa, Master, Amex, Diners, Keycards, và một vài lựa chọn khác",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Visa, Master, Amex, một vài thẻ khác, không có thẻ nào",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "không thẻ, một số thẻ,một trong các thẻ Visa, master, amex.",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "sqa-m6-q38",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Những câu nào sau đây miêu tả đặc điểm chi phí của lỗi",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Tốn ít chi phí nhất nếu tìm thấy trong các giai đoạn phát triển ban đầu và mất nhiều chi phí để sửa chữa trong giai đoạn thử nghiệm sau cùng.",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Dễ tìm thấy nhất trong quá trình thử nghiệm hệ thống nhưng mất nhiều chi phí để sửa chữa sau đó.",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Tốn ít chi phí nhất nếu tìm thấy trong các giai đoạn phát triển ban đầu nhưng mất nhiều chi phí để sửa chữa sau đó.",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Tốn nhiều chi phí nếu tìm thấy trong các giai đoạn phát triển ban đầu nhưng lại rẻ nhất để sửa chữa sau đó.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "sqa-m6-q39",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Các bước trong quá trình kiểm thử: I Phân tích và thiết kế, II Kiểm thử các hoạt động, III Đánh giá tiêu chí và báo cáo, IV Kế hoạch và kiểm soát, V Cài đặt và thực hiện. Trình tự thực hiện là thế nào?",
+    "answers": [
+      {
+        "answer_text_en": "I, II, III, IV, V.",
+        "answer_text_vi": "",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "IV, I, V, III, II.",
+        "answer_text_vi": "",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "IV, I, V, II, III.",
+        "answer_text_vi": "",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "I, IV, V, III, II.",
+        "answer_text_vi": "",
+        "is_correct": false
+      }
+    ]
+  }
 ]

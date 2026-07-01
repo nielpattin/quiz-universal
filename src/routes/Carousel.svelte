@@ -11,66 +11,87 @@
 		clearQuiz,
 		timerEnabled,
 		soundEnabled,
+		hapticEnabled,
 		saveHighScore,
 		trackWrongQuestion,
 		addSessionScore,
 		totalPoints,
 		scoredQuestions,
-		lastPointsBreakdown
+		type Answer,
+		type Quiz
 	} from './global.svelte';
 	import confetti from 'canvas-confetti';
+	import { untrack } from 'svelte';
 	import { fly, scale } from 'svelte/transition';
 	import { playSelect, playCorrect, playWrong, playComplete } from '$lib/sounds';
 
-	interface CurrentQuestion {
-		question_id?: string;
-		question_text?: string;
-		answers?: Array<{ is_correct: boolean }>;
-		question_type: string;
-		image_url?: string | null;
-	}
+	type CurrentQuestion = Quiz;
 
 	function getCurrentQuestionWithType(q: Record<string, unknown>): CurrentQuestion {
 		return {
 			question_id: typeof q.question_id === 'string' ? q.question_id : '',
 			question_text: typeof q.question_text === 'string' ? q.question_text : '',
-			answers: Array.isArray(q.answers) ? (q.answers as Array<{ is_correct: boolean }>) : [],
+			question_text_en: typeof q.question_text_en === 'string' ? q.question_text_en : '',
+			question_text_vi: typeof q.question_text_vi === 'string' ? q.question_text_vi : '',
+			answers: Array.isArray(q.answers) ? (q.answers as Answer[]) : [],
 			question_type: typeof q.question_type === 'string' ? (q.question_type as string) : 'single',
 			image_url: typeof q.image_url === 'string' ? q.image_url : null
 		};
 	}
-	function shuffleArray<T>(array: T[]): T[] {
+	function hashString(str: string): number {
+		let h = 0;
+		for (let i = 0; i < str.length; i++) {
+			h = (h << 5) - h + str.charCodeAt(i);
+			h |= 0;
+		}
+		return Math.abs(h);
+	}
+
+	function seededRandom(seed: number): () => number {
+		let s = seed;
+		return () => {
+			s = (s * 9301 + 49297) % 233280;
+			return s / 233280;
+		};
+	}
+
+	function shuffleArray<T>(array: T[], questionId?: string): T[] {
+		const seed = questionId ? hashString(questionId) : Date.now();
+		const rand = seededRandom(seed);
 		const arr = array.slice();
 		for (let i = arr.length - 1; i > 0; i--) {
-			const j = Math.floor(Math.random() * (i + 1));
+			const j = Math.floor(rand() * (i + 1));
 			[arr[i], arr[j]] = [arr[j], arr[i]];
 		}
 		return arr;
 	}
 
-	/* Store shuffled answers and mapping for each question index */
-	let shuffledAnswers = $state<{ [idx: number]: { answer_text: string }[] }>({});
-	let shuffledIndices = $state<{ [idx: number]: number[] }>({});
+	/* Store shuffled answers and mapping for each question id */
+	let shuffledAnswers = $state<Record<string, Answer[]>>({});
+	let shuffledIndices = $state<Record<string, number[]>>({});
 
-	function getAnswers(idx: number): { answer_text: string }[] {
-		return shuffledAnswers[idx] ?? [];
+	function getAnswers(questionId: string): Answer[] {
+		return shuffledAnswers[questionId] ?? [];
 	}
 
-	function getOriginalIndex(idx: number, shuffledIdx: number): number {
-		return shuffledIndices[idx]?.[shuffledIdx] ?? shuffledIdx;
+	function getOriginalIndex(questionId: string, shuffledIdx: number): number {
+		return shuffledIndices[questionId]?.[shuffledIdx] ?? shuffledIdx;
 	}
 
 	$effect(() => {
 		const idx = pageState.current;
-		const answers = Array.isArray(pageState.quizData[idx]?.answers)
-			? pageState.quizData[idx].answers.map((a: string | { answer_text: string }) =>
-					typeof a === 'object' && a !== null ? a : { answer_text: String(a) }
+		const q = pageState.quizData[idx] as Record<string, unknown> | undefined;
+		const questionId = typeof q?.question_id === 'string' ? q.question_id : '';
+		if (!questionId || untrack(() => shuffledIndices[questionId])) return;
+		const answers = Array.isArray(q?.answers)
+			? (q.answers as Answer[]).map((a) =>
+					typeof a === 'object' && a !== null ? a : { answer_text_vi: String(a), is_correct: false }
 				)
 			: [];
 		const indices = answers.map((_, i) => i);
-		const shuffled = shuffleArray(indices);
-		shuffledAnswers[idx] = shuffled.map((i) => answers[i]);
-		shuffledIndices[idx] = shuffled;
+		const shuffled = shuffleArray(indices, questionId);
+		shuffledAnswers[questionId] = shuffled.map((i) => answers[i]);
+		shuffledIndices[questionId] = shuffled;
 	});
 
 	// ===== Timer =====
@@ -210,14 +231,17 @@
 		// Guard: don't award points twice for the same question
 		if (scoredQuestions.has(currentQuestionId)) {
 			if (soundEnabled.value) playCorrect();
+			showScoreDelta = false;
+			scoreDeltaValue = 0;
 			return;
 		}
+
 
 		// Track correctness
 		const q = pageState.quizData[pageState.current];
 		if (q && Array.isArray(q.answers)) {
 			const selectedShuffled = pageState.questionAnswers.get(currentQuestionId) ?? [];
-			const selectedOrig = selectedShuffled.map((si: number) => getOriginalIndex(pageState.current, si));
+			const selectedOrig = selectedShuffled.map((si: number) => getOriginalIndex(currentQuestionId, si));
 			const correctOrig = (q.answers as Array<{ is_correct?: boolean }>)
 				.map((a, i) => (a.is_correct ? i : -1))
 				.filter((i: number) => i >= 0);
@@ -227,7 +251,14 @@
 
 			trackResult(currentQuestionId, isCorrect);
 			scoredQuestions.add(currentQuestionId);
-
+			// Haptic feedback (must be in user gesture path)
+			if (hapticEnabled.value && typeof navigator !== 'undefined' && navigator.vibrate) {
+				if (isCorrect) {
+					navigator.vibrate(20);
+				} else {
+					navigator.vibrate([30, 50, 30]);
+				}
+			}
 			if (isCorrect && soundEnabled.value) playCorrect();
 			else if (!isCorrect && soundEnabled.value) playWrong();
 			if (!isCorrect) trackWrongQuestion(pageState.moduleId, currentQuestionId);
@@ -308,7 +339,7 @@
 <!-- Carousel Component -->
 {#if pageState.quizData.length > 0}
 	<div class="carousel-vertical flex flex-col w-full h-full relative overflow-hidden">
-		<!-- Progress Bar + Score + Streak -->
+		<!-- Progress Bar -->
 		<div class="flex-shrink-0 w-full px-4 md:px-8 pt-2.5 pb-0 z-20">
 			<div class="flex items-center gap-2.5">
 				<div class="flex-1 h-1.5 bg-[var(--bg-hover)] rounded-full overflow-hidden relative">
@@ -318,31 +349,11 @@
 					></div>
 					<div class="shimmer"></div>
 				</div>
-				<div class="flex items-center gap-2">
-					<span class="text-xs text-[var(--text-secondary)] tabular-nums whitespace-nowrap">
-						{pageState.current + 1} / {pageState.quizData.length}
-					</span>
-					<!-- Streak badge -->
-					{#if quizSession.streak > 1}
-					<div class="streak-badge flex items-center gap-0.5 px-2 py-0.5 rounded-full">
-						<span class="fire-icon">🔥</span>
-						<span class="streak-count">{quizSession.streak}</span>
-						<span class="multiplier-pill">x2</span>
-					</div>
-					{/if}
-					<!-- Score badge -->
-					<div class="score-badge flex items-center gap-1 px-2.5 py-0.5 rounded-full relative">
-						<span class="score-star">★</span>
-						<span class="score-val">{quizSession.score}</span>
-						<span class="score-unit">pts</span>
-						{#if showScoreDelta}
-							<span class="float-popup">+{scoreDeltaValue}</span>
-						{/if}
-					</div>
-				</div>
+				<span class="text-xs text-[var(--text-secondary)] tabular-nums whitespace-nowrap">
+					{pageState.current + 1} / {pageState.quizData.length}
+				</span>
 			</div>
 		</div>
-		
 		<!-- Timer Bar -->
 		{#if timerEnabled.value && pageState.quizData.length > 0}
 			<div class="flex-shrink-0 w-full px-4 md:px-8 pt-2 z-20">
@@ -362,6 +373,7 @@
 		<div class="flex-1 relative overflow-hidden">
 		{#each [pageState.current - 1, pageState.current, pageState.current + 1] as idx (idx)}
 			{#if idx >= 0 && idx < pageState.quizData.length}
+				{@const questionId = pageState.quizData[idx]?.question_id ?? ''}
 				<div
 					class="carousel-card absolute inset-0"
 					class:card-dim={idx !== pageState.current}
@@ -379,31 +391,38 @@
 						{handleAnswerClick}
 						{favorites}
 						toggleFavorite={(idx: number) => handleToggleFavorite(idx)}
-						answers={getAnswers(idx)}
-						originalIndices={shuffledIndices[idx]}
+						answers={getAnswers(questionId)}
+						originalIndices={shuffledIndices[questionId]}
 						{goToPreviousCard}
 						{goToNextCard}
-						lastPointsBreakdown={lastPointsBreakdown}
 					/>
 				</div>
 			{/if}
 		{/each}
 		</div>
-		<!-- Combo bar -->
+		<!-- Combo bar (score + stats) -->
 		<div class="combo-bar flex-shrink-0 flex items-center gap-3 px-4 md:px-8 py-2">
-			<div class="combo-item flex items-center gap-1">
-				<span class="text-[10px] text-[var(--text-secondary)] uppercase tracking-wider">Score</span>
+			<!-- Score badge -->
+			<div class="combo-item flex items-center gap-1 relative">
+				<span class="score-star">★</span>
 				<span class="text-sm font-bold text-[var(--color-accent)] tabular-nums">{quizSession.score}</span>
+				<span class="text-[10px] text-[var(--text-secondary)] uppercase">pts</span>
+				{#if showScoreDelta}
+					<span class="float-popup">+{scoreDeltaValue}</span>
+				{/if}
 			</div>
+			<!-- Streak badge -->
+			{#if quizSession.streak > 1}
+			<div class="combo-item flex items-center gap-0.5">
+				<span class="fire-icon">🔥</span>
+				<span class="streak-count">{quizSession.streak}</span>
+				<span class="multiplier-pill">x2</span>
+			</div>
+			{/if}
 			<div class="combo-divider"></div>
 			<div class="combo-item flex items-center gap-1">
 				<span class="text-[10px] text-[var(--text-secondary)] uppercase tracking-wider">Correct</span>
 				<span class="text-sm font-bold text-[var(--color-success)] tabular-nums">{quizSession.correct}</span>
-			</div>
-			<div class="combo-divider"></div>
-			<div class="combo-item flex items-center gap-1">
-				<span class="text-[10px] text-[var(--text-secondary)] uppercase tracking-wider">Streak</span>
-				<span class="text-sm font-bold text-[var(--color-fire)] tabular-nums">{quizSession.streak}</span>
 			</div>
 			<div class="combo-divider"></div>
 			<div class="combo-item flex items-center gap-1">

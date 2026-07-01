@@ -1,434 +1,524 @@
 [
   {
     "question_id": "course2-m1-q1",
-    "module": "Beginning the planning phase",
-    "question_text": "Which three of the following are benefits of project planning?",
     "question_type": "multiple_answer_question",
+    "question_text_en": "Which three of the following are benefits of project planning?",
+    "question_text_vi": "",
     "answers": [
       {
-        "answer_text": "It gives you time to identify and prepare for risks that could impact your project.",
+        "answer_text_en": "It gives you time to identify and prepare for risks that could impact your project.",
+        "answer_text_vi": "",
         "is_correct": true
       },
       {
-        "answer_text": "It helps individuals assigned to your project become a strong team by working together.",
+        "answer_text_en": "It helps individuals assigned to your project become a strong team by working together.",
+        "answer_text_vi": "",
         "is_correct": true
       },
       {
-        "answer_text": "It helps you map out the full project.",
+        "answer_text_en": "It helps you map out the full project.",
+        "answer_text_vi": "",
         "is_correct": true
       },
       {
-        "answer_text": "It helps you brainstorm preliminary goals for the project.",
+        "answer_text_en": "It helps you brainstorm preliminary goals for the project.",
+        "answer_text_vi": "",
         "is_correct": false
       }
-    ]
+    ],
+    "module": "Beginning the planning phase"
   },
   {
     "question_id": "course2-m1-q2",
-    "module": "Beginning the planning phase",
-    "question_text": "What are three major project components that are worked out during the planning phase?",
     "question_type": "single_answer_question",
+    "question_text_en": "What are three major project components that are worked out during the planning phase?",
+    "question_text_vi": "",
     "answers": [
       {
-        "answer_text": "Success criteria, stakeholders, and resources",
+        "answer_text_en": "Success criteria, stakeholders, and resources",
+        "answer_text_vi": "",
         "is_correct": false
       },
       {
-        "answer_text": "Schedule, budget, and risk management plan",
+        "answer_text_en": "Schedule, budget, and risk management plan",
+        "answer_text_vi": "",
         "is_correct": true
       },
       {
-        "answer_text": "Scope, goals, and deliverables",
+        "answer_text_en": "Scope, goals, and deliverables",
+        "answer_text_vi": "",
         "is_correct": false
       },
       {
-        "answer_text": "Project tracking, quality management, and retrospectives",
+        "answer_text_en": "Project tracking, quality management, and retrospectives",
+        "answer_text_vi": "",
         "is_correct": false
       }
-    ]
+    ],
+    "module": "Beginning the planning phase"
   },
   {
     "question_id": "course2-m1-q3",
-    "module": "Beginning the planning phase",
-    "question_text": "During the kickoff meeting, which agenda item involves discussing how the project came to be and why the project matters?",
     "question_type": "single_answer_question",
+    "question_text_en": "During the kickoff meeting, which agenda item involves discussing how the project came to be and why the project matters?",
+    "question_text_vi": "",
     "answers": [
       {
-        "answer_text": "Goals and scope",
+        "answer_text_en": "Goals and scope",
+        "answer_text_vi": "",
         "is_correct": false
       },
       {
-        "answer_text": "Background",
+        "answer_text_en": "Background",
+        "answer_text_vi": "",
         "is_correct": true
       },
       {
-        "answer_text": "Collaboration",
+        "answer_text_en": "Collaboration",
+        "answer_text_vi": "",
         "is_correct": false
       },
       {
-        "answer_text": "Roles",
+        "answer_text_en": "Roles",
+        "answer_text_vi": "",
         "is_correct": false
       }
-    ]
+    ],
+    "module": "Beginning the planning phase"
   },
   {
     "question_id": "course2-m1-q4",
-    "module": "Beginning the planning phase",
-    "question_text": "Which of the following are best practices when you are leading a kickoff meeting? Select all that apply.",
     "question_type": "multiple_answer_question",
+    "question_text_en": "Which of the following are best practices when you are leading a kickoff meeting? Select all that apply.",
+    "question_text_vi": "",
     "answers": [
       {
-        "answer_text": "Take your own thorough notes.",
+        "answer_text_en": "Take your own thorough notes.",
+        "answer_text_vi": "",
         "is_correct": false
       },
       {
-        "answer_text": "Set the right time.",
+        "answer_text_en": "Set the right time.",
+        "answer_text_vi": "",
         "is_correct": true
       },
       {
-        "answer_text": "Share the agenda.",
+        "answer_text_en": "Share the agenda.",
+        "answer_text_vi": "",
         "is_correct": true
       },
       {
-        "answer_text": "Follow up after the meeting.",
+        "answer_text_en": "Follow up after the meeting.",
+        "answer_text_vi": "",
         "is_correct": true
       }
-    ]
+    ],
+    "module": "Beginning the planning phase"
   },
   {
     "question_id": "course2-m1-q5",
-    "module": "Beginning the planning phase",
-    "question_text": "How do your WBS diagram and spreadsheet help you to develop and launch the Operations and Training program for Plant Pals?",
     "question_type": "single_answer_question",
+    "question_text_en": "How do your WBS diagram and spreadsheet help you to develop and launch the Operations and Training program for Plant Pals?",
+    "question_text_vi": "",
     "answers": [
       {
-        "answer_text": "Clarify the tasks the team needs to accomplish to achieve project milestones",
+        "answer_text_en": "Clarify the tasks the team needs to accomplish to achieve project milestones",
+        "answer_text_vi": "",
         "is_correct": true
       },
       {
-        "answer_text": "Help you recruit team members with the right skills for the project",
+        "answer_text_en": "Help you recruit team members with the right skills for the project",
+        "answer_text_vi": "",
         "is_correct": false
       },
       {
-        "answer_text": "Lay out the project’s costs in detail, so you don’t exceed your budget",
+        "answer_text_en": "Lay out the project’s costs in detail, so you don’t exceed your budget",
+        "answer_text_vi": "",
         "is_correct": false
       },
       {
-        "answer_text": "Let customers know what to expect from the new service",
+        "answer_text_en": "Let customers know what to expect from the new service",
+        "answer_text_vi": "",
         "is_correct": false
       }
-    ]
+    ],
+    "module": "Beginning the planning phase"
   },
   {
     "question_id": "course2-m1-q6",
-    "module": "Beginning the planning phase",
-    "question_text": "Which team member did you assign to own the task, “supervise vendor installation of fulfillment equipment”?",
     "question_type": "single_answer_question",
+    "question_text_en": "Which team member did you assign to own the task, “supervise vendor installation of fulfillment equipment”?",
+    "question_text_vi": "",
     "answers": [
       {
-        "answer_text": "The Financial Analyst",
+        "answer_text_en": "The Financial Analyst",
+        "answer_text_vi": "",
         "is_correct": false
       },
       {
-        "answer_text": "The Training Manager",
+        "answer_text_en": "The Training Manager",
+        "answer_text_vi": "",
         "is_correct": false
       },
       {
-        "answer_text": "The Fulfillment Director",
+        "answer_text_en": "The Fulfillment Director",
+        "answer_text_vi": "",
         "is_correct": true
       },
       {
-        "answer_text": "The HR Specialist",
+        "answer_text_en": "The HR Specialist",
+        "answer_text_vi": "",
         "is_correct": false
       }
-    ]
+    ],
+    "module": "Beginning the planning phase"
   },
   {
     "question_id": "course2-m1-q7",
-    "module": "Beginning the planning phase",
-    "question_text": "Which team member did you assign to own the task, “train employees to use the software and equipment”?",
     "question_type": "single_answer_question",
+    "question_text_en": "Which team member did you assign to own the task, “train employees to use the software and equipment”?",
+    "question_text_vi": "",
     "answers": [
       {
-        "answer_text": "The Training Manager",
+        "answer_text_en": "The Training Manager",
+        "answer_text_vi": "",
         "is_correct": true
       },
       {
-        "answer_text": "The HR Specialist",
+        "answer_text_en": "The HR Specialist",
+        "answer_text_vi": "",
         "is_correct": false
       },
       {
-        "answer_text": "The Fulfillment Director",
+        "answer_text_en": "The Fulfillment Director",
+        "answer_text_vi": "",
         "is_correct": false
       },
       {
-        "answer_text": "The Quality Assurance Tester",
+        "answer_text_en": "The Quality Assurance Tester",
+        "answer_text_vi": "",
         "is_correct": false
       }
-    ]
+    ],
+    "module": "Beginning the planning phase"
   },
   {
     "question_id": "course2-m1-q8",
-    "module": "Beginning the planning phase",
-    "question_text": "Which of the following additional tasks are appropriate for the “establish a plant delivery and logistics plan” milestone? Select all that apply.",
     "question_type": "multiple_answer_question",
+    "question_text_en": "Which of the following additional tasks are appropriate for the “establish a plant delivery and logistics plan” milestone? Select all that apply.",
+    "question_text_vi": "",
     "answers": [
       {
-        "answer_text": "Set customer service protocols",
+        "answer_text_en": "Set customer service protocols",
+        "answer_text_vi": "",
         "is_correct": false
       },
       {
-        "answer_text": "Hire warehouse employees to pack shipments",
+        "answer_text_en": "Hire warehouse employees to pack shipments",
+        "answer_text_vi": "",
         "is_correct": true
       },
       {
-        "answer_text": "Source a vendor for additional types of plants",
+        "answer_text_en": "Source a vendor for additional types of plants",
+        "answer_text_vi": "",
         "is_correct": false
       },
       {
-        "answer_text": "Purchase delivery trucks",
+        "answer_text_en": "Purchase delivery trucks",
+        "answer_text_vi": "",
         "is_correct": true
       }
-    ]
+    ],
+    "module": "Beginning the planning phase"
   },
   {
     "question_id": "course2-m1-q9",
-    "module": "Beginning the planning phase",
-    "question_text": "In the project planning phase, what type of meeting is the first meeting among the project team, stakeholders, and the project sponsor?",
     "question_type": "single_answer_question",
+    "question_text_en": "In the project planning phase, what type of meeting is the first meeting among the project team, stakeholders, and the project sponsor?",
+    "question_text_vi": "",
     "answers": [
       {
-        "answer_text": "A team reflection meeting",
+        "answer_text_en": "A team reflection meeting",
+        "answer_text_vi": "",
         "is_correct": false
       },
       {
-        "answer_text": "A project kick-off meeting",
+        "answer_text_en": "A project kick-off meeting",
+        "answer_text_vi": "",
         "is_correct": true
       },
       {
-        "answer_text": "A milestone planning meeting",
+        "answer_text_en": "A milestone planning meeting",
+        "answer_text_vi": "",
         "is_correct": false
       },
       {
-        "answer_text": "A stakeholder approval meeting",
+        "answer_text_en": "A stakeholder approval meeting",
+        "answer_text_vi": "",
         "is_correct": false
       }
-    ]
+    ],
+    "module": "Beginning the planning phase"
   },
   {
     "question_id": "course2-m1-q10",
-    "module": "Beginning the planning phase",
-    "question_text": "As a project manager in the planning phase, you have created a project schedule and accounted for the total costs. What is the third major planning component you will create?",
     "question_type": "single_answer_question",
+    "question_text_en": "As a project manager in the planning phase, you have created a project schedule and accounted for the total costs. What is the third major planning component you will create?",
+    "question_text_vi": "",
     "answers": [
       {
-        "answer_text": "A feedback form",
+        "answer_text_en": "A feedback form",
+        "answer_text_vi": "",
         "is_correct": false
       },
       {
-        "answer_text": "A team performance chart",
+        "answer_text_en": "A team performance chart",
+        "answer_text_vi": "",
         "is_correct": false
       },
       {
-        "answer_text": "A work breakdown structure",
+        "answer_text_en": "A work breakdown structure",
+        "answer_text_vi": "",
         "is_correct": false
       },
       {
-        "answer_text": "A risk management plan",
+        "answer_text_en": "A risk management plan",
+        "answer_text_vi": "",
         "is_correct": true
       }
-    ]
+    ],
+    "module": "Beginning the planning phase"
   },
   {
     "question_id": "course2-m1-q11",
-    "module": "Beginning the planning phase",
-    "question_text": "Fill in the blank: After the stakeholders assign the project manager, the goals of the project have to be approved, as well as the scope of the project and its _____.",
     "question_type": "single_answer_question",
+    "question_text_en": "Fill in the blank: After the stakeholders assign the project manager, the goals of the project have to be approved, as well as the scope of the project and its _____.",
+    "question_text_vi": "",
     "answers": [
       {
-        "answer_text": "vendors",
+        "answer_text_en": "vendors",
+        "answer_text_vi": "",
         "is_correct": false
       },
       {
-        "answer_text": "deliverables",
+        "answer_text_en": "deliverables",
+        "answer_text_vi": "",
         "is_correct": true
       },
       {
-        "answer_text": "manager",
+        "answer_text_en": "manager",
+        "answer_text_vi": "",
         "is_correct": false
       },
       {
-        "answer_text": "tools",
+        "answer_text_en": "tools",
+        "answer_text_vi": "",
         "is_correct": false
       }
-    ]
+    ],
+    "module": "Beginning the planning phase"
   },
   {
     "question_id": "course2-m1-q12",
-    "module": "Beginning the planning phase",
-    "question_text": "You review the tasks for the project and set dates to begin the project, site launch, and gather user feedback. Which of the following components of the planning phase does this update?",
     "question_type": "single_answer_question",
+    "question_text_en": "You review the tasks for the project and set dates to begin the project, site launch, and gather user feedback. Which of the following components of the planning phase does this update?",
+    "question_text_vi": "",
     "answers": [
       {
-        "answer_text": "Schedule",
+        "answer_text_en": "Schedule",
+        "answer_text_vi": "",
         "is_correct": true
       },
       {
-        "answer_text": "Risk management",
+        "answer_text_en": "Risk management",
+        "answer_text_vi": "",
         "is_correct": false
       },
       {
-        "answer_text": "Task management",
+        "answer_text_en": "Task management",
+        "answer_text_vi": "",
         "is_correct": false
       },
       {
-        "answer_text": "Budget",
+        "answer_text_en": "Budget",
+        "answer_text_vi": "",
         "is_correct": false
       }
-    ]
+    ],
+    "module": "Beginning the planning phase"
   },
   {
     "question_id": "course2-m1-q13",
-    "module": "Beginning the planning phase",
-    "question_text": "As a project manager, you facilitate a kick-off meeting. During the meeting, you introduce what work each person on the team is responsible for. Where on the agenda should this be?",
     "question_type": "single_answer_question",
+    "question_text_en": "As a project manager, you facilitate a kick-off meeting. During the meeting, you introduce what work each person on the team is responsible for. Where on the agenda should this be?",
+    "question_text_vi": "",
     "answers": [
       {
-        "answer_text": "Roles",
+        "answer_text_en": "Roles",
+        "answer_text_vi": "",
         "is_correct": true
       },
       {
-        "answer_text": "Introduction",
+        "answer_text_en": "Introduction",
+        "answer_text_vi": "",
         "is_correct": false
       },
       {
-        "answer_text": "Questions",
+        "answer_text_en": "Questions",
+        "answer_text_vi": "",
         "is_correct": false
       },
       {
-        "answer_text": "Background",
+        "answer_text_en": "Background",
+        "answer_text_vi": "",
         "is_correct": false
       }
-    ]
+    ],
+    "module": "Beginning the planning phase"
   },
   {
     "question_id": "course2-m1-q14",
-    "module": "Beginning the planning phase",
-    "question_text": "Suppose as a project manager, you’re running a kick-off meeting. You accurately define what work is and is not included in the project. What agenda item does this represent?",
     "question_type": "single_answer_question",
+    "question_text_en": "Suppose as a project manager, you’re running a kick-off meeting. You accurately define what work is and is not included in the project. What agenda item does this represent?",
+    "question_text_vi": "",
     "answers": [
       {
-        "answer_text": "Scope",
+        "answer_text_en": "Scope",
+        "answer_text_vi": "",
         "is_correct": true
       },
       {
-        "answer_text": "Roles",
+        "answer_text_en": "Roles",
+        "answer_text_vi": "",
         "is_correct": false
       },
       {
-        "answer_text": "Intended outcome",
+        "answer_text_en": "Intended outcome",
+        "answer_text_vi": "",
         "is_correct": false
       },
       {
-        "answer_text": "Project purpose",
+        "answer_text_en": "Project purpose",
+        "answer_text_vi": "",
         "is_correct": false
       }
-    ]
+    ],
+    "module": "Beginning the planning phase"
   },
   {
     "question_id": "course2-m1-q15",
-    "module": "Beginning the planning phase",
-    "question_text": "Which of the following would you consider a project milestone?",
     "question_type": "single_answer_question",
+    "question_text_en": "Which of the following would you consider a project milestone?",
+    "question_text_vi": "",
     "answers": [
       {
-        "answer_text": "Client approves website design",
+        "answer_text_en": "Client approves website design",
+        "answer_text_vi": "",
         "is_correct": true
       },
       {
-        "answer_text": "Web designer creates a proposal",
+        "answer_text_en": "Web designer creates a proposal",
+        "answer_text_vi": "",
         "is_correct": false
       },
       {
-        "answer_text": "Web designer implements feedback",
+        "answer_text_en": "Web designer implements feedback",
+        "answer_text_vi": "",
         "is_correct": false
       },
       {
-        "answer_text": "Project manager reviews mock-ups",
+        "answer_text_en": "Project manager reviews mock-ups",
+        "answer_text_vi": "",
         "is_correct": false
       }
-    ]
+    ],
+    "module": "Beginning the planning phase"
   },
   {
     "question_id": "course2-m1-q16",
-    "module": "Beginning the planning phase",
-    "question_text": "What are the benefits of setting milestones? Select all that apply.",
     "question_type": "multiple_answer_question",
+    "question_text_en": "What are the benefits of setting milestones? Select all that apply.",
+    "question_text_vi": "",
     "answers": [
       {
-        "answer_text": "Breaking down information into milestones gives you a better idea of the amount of work that needs to be done.",
+        "answer_text_en": "Breaking down information into milestones gives you a better idea of the amount of work that needs to be done.",
+        "answer_text_vi": "",
         "is_correct": true
       },
       {
-        "answer_text": "Setting milestones helps you keep your project on track with clear deadlines for when to complete deliverables.",
+        "answer_text_en": "Setting milestones helps you keep your project on track with clear deadlines for when to complete deliverables.",
+        "answer_text_vi": "",
         "is_correct": true
       },
       {
-        "answer_text": "Setting milestones helps you to figure out if you need to adjust your scope, timelines, or resources to meet your goals.",
+        "answer_text_en": "Setting milestones helps you to figure out if you need to adjust your scope, timelines, or resources to meet your goals.",
+        "answer_text_vi": "",
         "is_correct": true
       },
       {
-        "answer_text": "Setting milestones encourages you to take time away from the project for new ideas.",
+        "answer_text_en": "Setting milestones encourages you to take time away from the project for new ideas.",
+        "answer_text_vi": "",
         "is_correct": false
       }
-    ]
+    ],
+    "module": "Beginning the planning phase"
   },
   {
     "question_id": "course2-m1-q17",
-    "module": "Beginning the planning phase",
-    "question_text": "What steps should you take to set proper deadlines for your milestones?",
     "question_type": "single_answer_question",
+    "question_text_en": "What steps should you take to set proper deadlines for your milestones?",
+    "question_text_vi": "",
     "answers": [
       {
-        "answer_text": "Assign milestones to be completed in week-long increments.",
+        "answer_text_en": "Assign milestones to be completed in week-long increments.",
+        "answer_text_vi": "",
         "is_correct": false
       },
       {
-        "answer_text": "Connect with teammates to discuss the tasks required for the milestone.",
+        "answer_text_en": "Connect with teammates to discuss the tasks required for the milestone.",
+        "answer_text_vi": "",
         "is_correct": true
       },
       {
-        "answer_text": "Schedule deadlines for the milestones to account for the budget.",
+        "answer_text_en": "Schedule deadlines for the milestones to account for the budget.",
+        "answer_text_vi": "",
         "is_correct": false
       },
       {
-        "answer_text": "Assign as many tasks as you can for each milestone to impress stakeholders.",
+        "answer_text_en": "Assign as many tasks as you can for each milestone to impress stakeholders.",
+        "answer_text_vi": "",
         "is_correct": false
       }
-    ]
+    ],
+    "module": "Beginning the planning phase"
   },
   {
     "question_id": "course2-m1-q18",
-    "module": "Beginning the planning phase",
-    "question_text": "What is the outcome of creating a successful work breakdown structure (WBS)?",
     "question_type": "single_answer_question",
+    "question_text_en": "What is the outcome of creating a successful work breakdown structure (WBS)?",
+    "question_text_vi": "",
     "answers": [
       {
-        "answer_text": "A resource for team members to choose which tasks they will work on",
+        "answer_text_en": "A resource for team members to choose which tasks they will work on",
+        "answer_text_vi": "",
         "is_correct": false
       },
       {
-        "answer_text": "A set of project tasks that ladder up to each of your milestones",
+        "answer_text_en": "A set of project tasks that ladder up to each of your milestones",
+        "answer_text_vi": "",
         "is_correct": true
       },
       {
-        "answer_text": "A set of project milestones that ladder up to each of your tasks",
+        "answer_text_en": "A set of project milestones that ladder up to each of your tasks",
+        "answer_text_vi": "",
         "is_correct": false
       },
       {
-        "answer_text": "A resource for stakeholders to choose their favorite milestone",
+        "answer_text_en": "A resource for stakeholders to choose their favorite milestone",
+        "answer_text_vi": "",
         "is_correct": false
       }
-    ]
+    ],
+    "module": "Beginning the planning phase"
   }
 ]

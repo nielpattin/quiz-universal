@@ -1,1152 +1,1402 @@
 [
-	{
-		"question_id": "bm-m3-q1",
-		"question_text": "Bảo mật ứng dụng web là gì?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Tập hợp biện pháp kỹ thuật, quy trình, chính sách đảm bảo ứng dụng web an toàn trước mối đe dọa, tấn công, khai thác lỗ hổng",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Chỉ bảo vệ phần cứng máy chủ",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Chỉ liên quan đến lập trình viên",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Phần mềm diệt virus trên web",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m3-q2",
-		"question_text": "Đặc thù nào khiến ứng dụng web trở thành mục tiêu hấp dẫn của tin tặc?",
-		"question_type": "multiple_answer_question",
-		"answers": [
-			{
-				"answer_text": "Mở công khai trên Internet, gia tăng bề mặt tấn công",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Tích hợp nhiều thành phần (DB, API, framework, plugin) khó kiểm soát",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Chứa dữ liệu nhạy cảm (thông tin cá nhân, thẻ tín dụng)",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Luôn thay đổi mở rộng, dễ phát sinh lỗi mới",
-				"is_correct": true
-			}
-		]
-	},
-	{
-		"question_id": "bm-m3-q3",
-		"question_text": "OWASP Top 10 là gì?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Bộ tiêu chuẩn hàng đầu về bảo mật ứng dụng web, danh sách 10 lỗ hổng phổ biến nhất",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Chuẩn mã hóa dữ liệu AES",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Công cụ quét cổng mạng",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Giao thức truyền tin HTTPS",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m3-q4",
-		"question_text": "Input độc hại admin' OR '1'='1 -- minh họa lỗ hổng nào?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "SQL Injection, bỏ qua kiểm tra mật khẩu",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Cross-Site Scripting (XSS)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "CSRF",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Buffer Overflow",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m3-q5",
-		"question_text": "XSS (Cross-Site Scripting) có mục tiêu gì?",
-		"question_type": "multiple_answer_question",
-		"answers": [
-			{
-				"answer_text": "Đánh cắp cookie, session ID",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Chèn nội dung giả mạo (fake form login, quảng cáo độc hại)",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Thực thi mã JavaScript trên trình duyệt người dùng",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Mã hóa dữ liệu trên ổ cứng",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m3-q6",
-		"question_text": "CSRF lợi dụng gì để thực hiện hành động trái phép?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Lừa người dùng đã đăng nhập gửi yêu cầu giả mạo (ví dụ <img src='bank.com/transfer'>)",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Chèn mã SQL vào form đăng nhập",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Tràn bộ đệm trên server",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Thử mật khẩu hàng loạt",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m3-q7",
-		"question_text": "Nguyên nhân phổ biến của Broken Authentication & Session Management là gì?",
-		"question_type": "multiple_answer_question",
-		"answers": [
-			{
-				"answer_text": "Sử dụng mật khẩu yếu",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Session ID không mã hóa, dễ đoán hoặc lưu trong URL",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Không hết hạn session sau logout",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Dùng Prepared Statement",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m3-q8",
-		"question_text": "Ví dụ nào thuộc Security Misconfiguration?",
-		"question_type": "multiple_answer_question",
-		"answers": [
-			{
-				"answer_text": "Bật chế độ debug trên server sản xuất",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Sử dụng tài khoản mặc định (admin/admin)",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Thư mục nhạy cảm không giới hạn quyền truy cập",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Mã hóa mật khẩu bằng bcrypt",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m3-q9",
-		"question_text": "Nguyên nhân nào dẫn đến Sensitive Data Exposure?",
-		"question_type": "multiple_answer_question",
-		"answers": [
-			{
-				"answer_text": "Không mã hóa dữ liệu khi lưu trữ/truyền tải",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Sử dụng thuật toán mã hóa yếu (MD5, SHA1)",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Lưu mật khẩu dạng clear text trong database",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Dùng HTTPS với SSL/TLS",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m3-q10",
-		"question_text": "Command Injection khác SQL Injection ở điểm nào?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Command Injection chèn lệnh hệ điều hành (vd ; rm -rf /var/www/html/*); SQLi chèn mã SQL vào DB",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Cả hai giống hệt nhau",
-				"is_correct": false
-			},
-			{
-				"answer_text": "SQLi chèn lệnh OS, Command Injection chèn SQL",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Command Injection chỉ đánh cắp cookie",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m3-q11",
-		"question_text": "Session Hijacking có thể thực hiện bằng những phương pháp nào?",
-		"question_type": "multiple_answer_question",
-		"answers": [
-			{
-				"answer_text": "XSS tiêm mã độc lấy cookie chứa session ID",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Sniffing nghe lén gói tin chưa mã hóa",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Session Fixation ép người dùng dùng session ID do hacker tạo",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Mã hóa AES-256",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m3-q12",
-		"question_text": "Credential Stuffing khác Brute Force ở điểm nào?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Credential Stuffing dùng danh sách username/password bị lộ từ vụ rò rỉ khác; Brute Force thử tất cả khả năng mật khẩu",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Brute Force dùng dữ liệu rò rỉ, Credential Stuffing thử ngẫu nhiên",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Cả hai giống hệt nhau",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Credential Stuffing chỉ mã hóa dữ liệu",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m3-q13",
-		"question_text": "Hydra và Burp Suite Intruder là công cụ cho kỹ thuật tấn công nào?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Brute Force / Credential Stuffing",
-				"is_correct": true
-			},
-			{
-				"answer_text": "SQL Injection",
-				"is_correct": false
-			},
-			{
-				"answer_text": "DDoS",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Phishing Web",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m3-q14",
-		"question_text": "MITM (Man-in-the-Middle) trên web gây hậu quả gì?",
-		"question_type": "multiple_answer_question",
-		"answers": [
-			{
-				"answer_text": "Đánh cắp thông tin nhạy cảm (đăng nhập ngân hàng qua Wi-Fi công cộng không HTTPS)",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Sửa đổi nội dung gói tin khi đang truyền",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Chèn nội dung giả mạo, thay đổi giao dịch tài chính",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Mã hóa dữ liệu an toàn hơn",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m3-q15",
-		"question_text": "Trang http://paypai.com/login giả mạo PayPal là ví dụ cho kỹ thuật nào?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Phishing trên nền Web",
-				"is_correct": true
-			},
-			{
-				"answer_text": "SQL Injection",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Session Hijacking",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Brute Force",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m3-q16",
-		"question_text": "Input Validation nên áp dụng nguyên tắc nào?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Whitelist (chỉ cho phép dữ liệu hợp lệ) thay vì Blacklist",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Blacklist (chặn dữ liệu xấu)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Không cần kiểm tra đầu vào",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Chỉ kiểm tra độ dài",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m3-q17",
-		"question_text": "Biện pháp chống SQL Injection là gì?",
-		"question_type": "multiple_answer_question",
-		"answers": [
-			{
-				"answer_text": "Sử dụng Prepared Statement/Stored Procedure thay vì ghép chuỗi SQL",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Ưu tiên dùng ORM",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Lọc dữ liệu đầu vào",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Lưu mật khẩu dạng clear text",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m3-q18",
-		"question_text": "Cách lưu mật khẩu an toàn trong ứng dụng web là gì?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Hash + salt bằng bcrypt, Argon2",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Lưu dạng clear text",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Mã hóa MD5 không salt",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Lưu trong cookie không mã hóa",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m3-q19",
-		"question_text": "Biện pháp chống CSRF là gì?",
-		"question_type": "multiple_answer_question",
-		"answers": [
-			{
-				"answer_text": "Dùng CSRF Token cho mỗi request",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Kiểm tra Referer/Origin Header",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Áp dụng xác thực lại cho thao tác nhạy cảm",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Lưu mật khẩu clear text",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m3-q20",
-		"question_text": "CSP (Content Security Policy) dùng để chống tấn công nào?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "XSS (Cross-Site Scripting)",
-				"is_correct": true
-			},
-			{
-				"answer_text": "SQL Injection",
-				"is_correct": false
-			},
-			{
-				"answer_text": "DDoS",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Brute Force",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m3-q21",
-		"question_text": "Biện pháp chống Brute Force/Credential Stuffing là gì?",
-		"question_type": "multiple_answer_question",
-		"answers": [
-			{
-				"answer_text": "Giới hạn số lần đăng nhập sai",
-				"is_correct": true
-			},
-			{
-				"answer_text": "CAPTCHA / reCAPTCHA",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Cảnh báo qua email khi phát hiện đăng nhập lạ",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Bật debug mode",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m3-q22",
-		"question_text": "DMARC, SPF, DKIM dùng để chống tấn công nào?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Phishing Web (chống email giả mạo)",
-				"is_correct": true
-			},
-			{
-				"answer_text": "SQL Injection",
-				"is_correct": false
-			},
-			{
-				"answer_text": "DDoS",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Buffer Overflow",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m3-q23",
-		"question_text": "WAF (Web Application Firewall) có chức năng gì?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Lá chắn giữa Client và Server, phát hiện & chặn SQLi, XSS, CSRF, RFI/LFI",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Mã hóa dữ liệu trên ổ cứng",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Quét cổng mạng",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Phân giải tên miền",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m3-q24",
-		"question_text": "ModSecurity, Cloudflare, AWS WAF là ví dụ cho cái gì?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "WAF (Web Application Firewall)",
-				"is_correct": true
-			},
-			{
-				"answer_text": "IDS/IPS",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Phần mềm diệt virus",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Công cụ brute force",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m3-q25",
-		"question_text": "DevSecOps tích hợp bảo mật vào SDLC như thế nào?",
-		"question_type": "multiple_answer_question",
-		"answers": [
-			{
-				"answer_text": "Development: đào tạo lập trình viên secure coding",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Security: quét lỗ hổng tự động bằng SAST/DAST",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Operations: triển khai giám sát, phản ứng sự cố",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Bảo mật chỉ ở giai đoạn cuối trước phát hành",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m3-q26",
-		"question_text": "Penetration Testing (pentest) nên thực hiện với tần suất nào?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Ít nhất 1-2 lần/năm hoặc sau mỗi đợt cập nhật lớn",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Chỉ một lần khi mới lập dự án",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Không cần thiết",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Chỉ khi bị tấn công",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m3-q27",
-		"question_text": "PCI DSS là chuẩn gì?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Tiêu chuẩn toàn cầu về bảo mật dữ liệu thẻ thanh toán",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Chuẩn mã hóa AES",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Giao thức truyền tin",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Phần mềm diệt virus",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m3-q28",
-		"question_text": "DDoS attack lên Web Server lợi dụng lỗ hổng gì của TCP?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Lỗ hổng 'Bắt tay 3 bước' (3-way handshake) của TCP",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Lỗ hổng SQL trong database",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Lỗ hổng XSS",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Lỗ hổng CSRF",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m3-q29",
-		"question_text": "Lỗ hổng Apache Struts 2 (CVE-2017-5638) gây hậu quả gì?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Rò rỉ dữ liệu lớn cho Equifax",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Sập Twitter, Netflix qua botnet Mirai",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Làm chậm chương trình hạt nhân Iran",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Đánh cắp vắc-xin COVID-19",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m3-q30",
-		"question_text": "Defacement (thay đổi giao diện website) nhằm mục đích gì?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Truyền tải thông điệp chính trị, quảng bá, hoặc gây mất uy tín doanh nghiệp",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Mã hóa dữ liệu đòi tiền chuộc",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Đánh cắp cookie phiên",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Tăng tốc độ website",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m3-q31",
-		"question_text": "China Chopper, C99, R57 là ví dụ cho cái gì?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Webshell cài trên server sau khi khai thác SQLi/LFI",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Phần mềm diệt virus",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Công cụ quét cổng",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Giao thức mã hóa",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m3-q32",
-		"question_text": "Bảo mật ứng dụng web và bảo mật Web server khác nhau ở đối tượng bảo vệ nào?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Ứng dụng web: mã nguồn, logic, dữ liệu giao dịch; Web server: phần mềm máy chủ (Apache, Nginx, IIS), OS",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Cả hai bảo vệ cùng một đối tượng",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Ứng dụng web bảo vệ OS, Web server bảo vệ mã nguồn",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Không có khác biệt",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m3-q33",
-		"question_text": "Vụ tấn công Dyn DNS (2016) làm sập Twitter, Netflix là ví dụ cho mối đe dọa nào?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "DDoS Attack lên Web Server",
-				"is_correct": true
-			},
-			{
-				"answer_text": "SQL Injection",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Defacement",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Phishing Web",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m3-q34",
-		"question_text": "Yahoo bị rò rỉ hàng triệu tài khoản (2013) là ví dụ cho lỗ hổng nào?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Broken Authentication & Session Management",
-				"is_correct": true
-			},
-			{
-				"answer_text": "DDoS",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Defacement",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Privilege Escalation",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m3-q35",
-		"question_text": "Khi phát hiện website có lỗ hổng SQL Injection, bước xử lý đầu tiên nên là gì?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Ngắt kết nối hoặc tạm ngưng dịch vụ bị ảnh hưởng",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Bỏ qua và đợi",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Xóa toàn bộ database",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Đăng thông báo trên mạng xã hội",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m3-q36",
-		"question_text": "Theo thảo luận, kỹ thuật nào thường nguy hiểm nhất với E-Commerce và vì sao?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Session Hijacking vì chiếm quyền tài khoản khách hàng/admin, thao túng giao dịch, lộ thông tin thanh toán",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Brute Force vì không gây hậu quả gì",
-				"is_correct": false
-			},
-			{
-				"answer_text": "XSS vì mã hóa dữ liệu",
-				"is_correct": false
-			},
-			{
-				"answer_text": "CSRF vì tăng tốc độ website",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m3-q37",
-		"question_text": "Giữa biện pháp kỹ thuật và biện pháp quản trị, kết luận đúng là gì?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Cả hai đều quan trọng, kết hợp theo nguyên tắc defense-in-depth (phòng thủ nhiều lớp)",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Chỉ cần biện pháp kỹ thuật",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Chỉ cần biện pháp quản trị",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Không cần biện pháp nào",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m3-q38",
-		"question_text": "Giải pháp trước mắt khi Web server bị DDoS là gì?",
-		"question_type": "multiple_answer_question",
-		"answers": [
-			{
-				"answer_text": "Dùng CDN, dịch vụ chống DDoS (Cloudflare, Akamai)",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Lọc IP bất thường, rate limiting",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Tắt tường lửa",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Trả tiền chuộc cho hacker",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m3-q39",
-		"question_text": "Vì sao doanh nghiệp nhỏ thường bỏ qua Penetration Testing định kỳ?",
-		"question_type": "multiple_answer_question",
-		"answers": [
-			{
-				"answer_text": "Hạn chế chi phí",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Thiếu nhân sự bảo mật chuyên trách",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Chưa nhận thức đúng mức độ rủi ro",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Pentest không có tác dụng gì",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m3-q40",
-		"question_text": "Privilege Escalation trên Web server bắt đầu từ đâu?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Tài khoản/dịch vụ có quyền thấp, khai thác lỗi nâng lên root/admin",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Tài khoản root từ đầu",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Không cần tài khoản",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Chỉ qua email phishing",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m3-q41",
-		"question_text": "Session ID an toàn nên có đặc điểm gì?",
-		"question_type": "multiple_answer_question",
-		"answers": [
-			{
-				"answer_text": "Ngẫu nhiên",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Lưu trong cookie an toàn (HttpOnly, Secure)",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Có timeout tự động đăng xuất",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Lưu trong URL dễ đoán",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m3-q42",
-		"question_text": "Chống Session Fixation bằng cách nào?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Tạo mới Session ID sau đăng nhập",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Giữ nguyên Session ID cũ",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Lưu Session ID trong URL",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Tắt timeout session",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m3-q43",
-		"question_text": "Patch Management nghiêm ngặt gồm những việc gì?",
-		"question_type": "multiple_answer_question",
-		"answers": [
-			{
-				"answer_text": "Vá lỗi bảo mật cho framework, CMS, plugin, server",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Xóa bỏ module, plugin không dùng để giảm bề mặt tấn công",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Cập nhật định kỳ",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Tắt toàn bộ cập nhật",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m3-q44",
-		"question_text": "Mã hóa dữ liệu quan trọng (số thẻ, thông tin cá nhân) nên dùng thuật toán nào?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "AES hoặc RSA",
-				"is_correct": true
-			},
-			{
-				"answer_text": "MD5",
-				"is_correct": false
-			},
-			{
-				"answer_text": "SHA1",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Base64",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m3-q45",
-		"question_text": "SIEM trong chính sách bảo mật ứng dụng web có vai trò gì?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Phân tích log, cảnh báo real-time khi phát hiện hành vi bất thường",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Mã hóa dữ liệu thẻ tín dụng",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Quét lỗ hổng SQL Injection",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Phân giải tên miền",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m3-q46",
-		"question_text": "Vụ tấn công XSS trên Facebook (2014) gây hậu quả gì?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Đánh cắp session, cookie để chiếm quyền người dùng",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Mã hóa dữ liệu đòi tiền chuộc",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Sập toàn bộ Internet",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Làm chậm chương trình hạt nhân",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m3-q47",
-		"question_text": "Vì sao bảo mật ứng dụng web và bảo mật Web server phải triển khai đồng bộ?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Ứng dụng an toàn nhưng server bị chiếm thì dữ liệu vẫn lộ; server an toàn nhưng ứng dụng dính SQLi thì DB vẫn bị truy xuất",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Chỉ cần bảo mật một trong hai là đủ",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Hai lĩnh vực hoàn toàn độc lập",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Web server không cần bảo mật",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m3-q48",
-		"question_text": "Web Server bị Malware Injection gây hậu quả gì?",
-		"question_type": "multiple_answer_question",
-		"answers": [
-			{
-				"answer_text": "Điều khiển server từ xa",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Tải thêm mã độc khác",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Dùng server làm bàn đạp tấn công hệ thống khác",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Tăng tốc độ phản hồi",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m3-q49",
-		"question_text": "Hardening server bao gồm những biện pháp gì?",
-		"question_type": "multiple_answer_question",
-		"answers": [
-			{
-				"answer_text": "Cập nhật bản vá server, OS",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Cấu hình an toàn, disable dịch vụ không cần",
-				"is_correct": true
-			},
-			{
-				"answer_text": "IDS/IPS, Anti-DDoS",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Bật debug mode trên production",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m3-q50",
-		"question_text": "Trong thương mại điện tử, bảo mật ứng dụng web gắn liền với điều gì?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Bảo mật kinh doanh - một lỗ hổng nhỏ có thể dẫn rò rỉ dữ liệu, thiệt hại tài chính và uy tín",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Chỉ là vấn đề kỹ thuật, không liên quan kinh doanh",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Không cần tuân thủ pháp luật",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Chỉ cần cài antivirus là đủ",
-				"is_correct": false
-			}
-		]
-	}
+  {
+    "question_id": "bm-m3-q1",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Bảo mật ứng dụng web là gì?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Tập hợp biện pháp kỹ thuật, quy trình, chính sách đảm bảo ứng dụng web an toàn trước mối đe dọa, tấn công, khai thác lỗ hổng",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Chỉ bảo vệ phần cứng máy chủ",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Chỉ liên quan đến lập trình viên",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Phần mềm diệt virus trên web",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m3-q2",
+    "question_type": "multiple_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Đặc thù nào khiến ứng dụng web trở thành mục tiêu hấp dẫn của tin tặc?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Mở công khai trên Internet, gia tăng bề mặt tấn công",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Tích hợp nhiều thành phần (DB, API, framework, plugin) khó kiểm soát",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Chứa dữ liệu nhạy cảm (thông tin cá nhân, thẻ tín dụng)",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Luôn thay đổi mở rộng, dễ phát sinh lỗi mới",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m3-q3",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "OWASP Top 10 là gì?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Bộ tiêu chuẩn hàng đầu về bảo mật ứng dụng web, danh sách 10 lỗ hổng phổ biến nhất",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Chuẩn mã hóa dữ liệu AES",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Công cụ quét cổng mạng",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Giao thức truyền tin HTTPS",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m3-q4",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Input độc hại admin' OR '1'='1 -- minh họa lỗ hổng nào?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "SQL Injection, bỏ qua kiểm tra mật khẩu",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "Cross-Site Scripting (XSS)",
+        "answer_text_vi": "",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "CSRF",
+        "answer_text_vi": "",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "Buffer Overflow",
+        "answer_text_vi": "",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m3-q5",
+    "question_type": "multiple_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "XSS (Cross-Site Scripting) có mục tiêu gì?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Đánh cắp cookie, session ID",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Chèn nội dung giả mạo (fake form login, quảng cáo độc hại)",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Thực thi mã JavaScript trên trình duyệt người dùng",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Mã hóa dữ liệu trên ổ cứng",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m3-q6",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "CSRF lợi dụng gì để thực hiện hành động trái phép?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Lừa người dùng đã đăng nhập gửi yêu cầu giả mạo (ví dụ <img src='bank.com/transfer'>)",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Chèn mã SQL vào form đăng nhập",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Tràn bộ đệm trên server",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Thử mật khẩu hàng loạt",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m3-q7",
+    "question_type": "multiple_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Nguyên nhân phổ biến của Broken Authentication & Session Management là gì?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Sử dụng mật khẩu yếu",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Session ID không mã hóa, dễ đoán hoặc lưu trong URL",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Không hết hạn session sau logout",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Dùng Prepared Statement",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m3-q8",
+    "question_type": "multiple_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Ví dụ nào thuộc Security Misconfiguration?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Bật chế độ debug trên server sản xuất",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Sử dụng tài khoản mặc định (admin/admin)",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Thư mục nhạy cảm không giới hạn quyền truy cập",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Mã hóa mật khẩu bằng bcrypt",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m3-q9",
+    "question_type": "multiple_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Nguyên nhân nào dẫn đến Sensitive Data Exposure?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Không mã hóa dữ liệu khi lưu trữ/truyền tải",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Sử dụng thuật toán mã hóa yếu (MD5, SHA1)",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Lưu mật khẩu dạng clear text trong database",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Dùng HTTPS với SSL/TLS",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m3-q10",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Command Injection khác SQL Injection ở điểm nào?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Command Injection chèn lệnh hệ điều hành (vd ; rm -rf /var/www/html/*); SQLi chèn mã SQL vào DB",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Cả hai giống hệt nhau",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "SQLi chèn lệnh OS, Command Injection chèn SQL",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Command Injection chỉ đánh cắp cookie",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m3-q11",
+    "question_type": "multiple_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Session Hijacking có thể thực hiện bằng những phương pháp nào?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "XSS tiêm mã độc lấy cookie chứa session ID",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Sniffing nghe lén gói tin chưa mã hóa",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Session Fixation ép người dùng dùng session ID do hacker tạo",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Mã hóa AES-256",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m3-q12",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Credential Stuffing khác Brute Force ở điểm nào?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Credential Stuffing dùng danh sách username/password bị lộ từ vụ rò rỉ khác; Brute Force thử tất cả khả năng mật khẩu",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Brute Force dùng dữ liệu rò rỉ, Credential Stuffing thử ngẫu nhiên",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Cả hai giống hệt nhau",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Credential Stuffing chỉ mã hóa dữ liệu",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m3-q13",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Hydra và Burp Suite Intruder là công cụ cho kỹ thuật tấn công nào?",
+    "answers": [
+      {
+        "answer_text_en": "Brute Force / Credential Stuffing",
+        "answer_text_vi": "",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "SQL Injection",
+        "answer_text_vi": "",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "DDoS",
+        "answer_text_vi": "",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "Phishing Web",
+        "answer_text_vi": "",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m3-q14",
+    "question_type": "multiple_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "MITM (Man-in-the-Middle) trên web gây hậu quả gì?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Đánh cắp thông tin nhạy cảm (đăng nhập ngân hàng qua Wi-Fi công cộng không HTTPS)",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Sửa đổi nội dung gói tin khi đang truyền",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Chèn nội dung giả mạo, thay đổi giao dịch tài chính",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Mã hóa dữ liệu an toàn hơn",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m3-q15",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Trang http://paypai.com/login giả mạo PayPal là ví dụ cho kỹ thuật nào?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Phishing trên nền Web",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "SQL Injection",
+        "answer_text_vi": "",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "Session Hijacking",
+        "answer_text_vi": "",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "Brute Force",
+        "answer_text_vi": "",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m3-q16",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Input Validation nên áp dụng nguyên tắc nào?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Whitelist (chỉ cho phép dữ liệu hợp lệ) thay vì Blacklist",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Blacklist (chặn dữ liệu xấu)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Không cần kiểm tra đầu vào",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Chỉ kiểm tra độ dài",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m3-q17",
+    "question_type": "multiple_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Biện pháp chống SQL Injection là gì?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Sử dụng Prepared Statement/Stored Procedure thay vì ghép chuỗi SQL",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Ưu tiên dùng ORM",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Lọc dữ liệu đầu vào",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Lưu mật khẩu dạng clear text",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m3-q18",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Cách lưu mật khẩu an toàn trong ứng dụng web là gì?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Hash + salt bằng bcrypt, Argon2",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Lưu dạng clear text",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Mã hóa MD5 không salt",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Lưu trong cookie không mã hóa",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m3-q19",
+    "question_type": "multiple_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Biện pháp chống CSRF là gì?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Dùng CSRF Token cho mỗi request",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Kiểm tra Referer/Origin Header",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Áp dụng xác thực lại cho thao tác nhạy cảm",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Lưu mật khẩu clear text",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m3-q20",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "CSP (Content Security Policy) dùng để chống tấn công nào?",
+    "answers": [
+      {
+        "answer_text_en": "XSS (Cross-Site Scripting)",
+        "answer_text_vi": "",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "SQL Injection",
+        "answer_text_vi": "",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "DDoS",
+        "answer_text_vi": "",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "Brute Force",
+        "answer_text_vi": "",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m3-q21",
+    "question_type": "multiple_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Biện pháp chống Brute Force/Credential Stuffing là gì?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Giới hạn số lần đăng nhập sai",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "CAPTCHA / reCAPTCHA",
+        "answer_text_vi": "",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Cảnh báo qua email khi phát hiện đăng nhập lạ",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Bật debug mode",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m3-q22",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "DMARC, SPF, DKIM dùng để chống tấn công nào?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Phishing Web (chống email giả mạo)",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "SQL Injection",
+        "answer_text_vi": "",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "DDoS",
+        "answer_text_vi": "",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "Buffer Overflow",
+        "answer_text_vi": "",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m3-q23",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "WAF (Web Application Firewall) có chức năng gì?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Lá chắn giữa Client và Server, phát hiện & chặn SQLi, XSS, CSRF, RFI/LFI",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Mã hóa dữ liệu trên ổ cứng",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Quét cổng mạng",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Phân giải tên miền",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m3-q24",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "ModSecurity, Cloudflare, AWS WAF là ví dụ cho cái gì?",
+    "answers": [
+      {
+        "answer_text_en": "WAF (Web Application Firewall)",
+        "answer_text_vi": "",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "IDS/IPS",
+        "answer_text_vi": "",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Phần mềm diệt virus",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Công cụ brute force",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m3-q25",
+    "question_type": "multiple_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "DevSecOps tích hợp bảo mật vào SDLC như thế nào?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Development: đào tạo lập trình viên secure coding",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Security: quét lỗ hổng tự động bằng SAST/DAST",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Operations: triển khai giám sát, phản ứng sự cố",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Bảo mật chỉ ở giai đoạn cuối trước phát hành",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m3-q26",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Penetration Testing (pentest) nên thực hiện với tần suất nào?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Ít nhất 1-2 lần/năm hoặc sau mỗi đợt cập nhật lớn",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Chỉ một lần khi mới lập dự án",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Không cần thiết",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Chỉ khi bị tấn công",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m3-q27",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "PCI DSS là chuẩn gì?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Tiêu chuẩn toàn cầu về bảo mật dữ liệu thẻ thanh toán",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Chuẩn mã hóa AES",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Giao thức truyền tin",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Phần mềm diệt virus",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m3-q28",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "DDoS attack lên Web Server lợi dụng lỗ hổng gì của TCP?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Lỗ hổng 'Bắt tay 3 bước' (3-way handshake) của TCP",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Lỗ hổng SQL trong database",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Lỗ hổng XSS",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Lỗ hổng CSRF",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m3-q29",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Lỗ hổng Apache Struts 2 (CVE-2017-5638) gây hậu quả gì?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Rò rỉ dữ liệu lớn cho Equifax",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Sập Twitter, Netflix qua botnet Mirai",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Làm chậm chương trình hạt nhân Iran",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Đánh cắp vắc-xin COVID-19",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m3-q30",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Defacement (thay đổi giao diện website) nhằm mục đích gì?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Truyền tải thông điệp chính trị, quảng bá, hoặc gây mất uy tín doanh nghiệp",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Mã hóa dữ liệu đòi tiền chuộc",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Đánh cắp cookie phiên",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Tăng tốc độ website",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m3-q31",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "China Chopper, C99, R57 là ví dụ cho cái gì?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Webshell cài trên server sau khi khai thác SQLi/LFI",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Phần mềm diệt virus",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Công cụ quét cổng",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Giao thức mã hóa",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m3-q32",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Bảo mật ứng dụng web và bảo mật Web server khác nhau ở đối tượng bảo vệ nào?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Ứng dụng web: mã nguồn, logic, dữ liệu giao dịch; Web server: phần mềm máy chủ (Apache, Nginx, IIS), OS",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Cả hai bảo vệ cùng một đối tượng",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Ứng dụng web bảo vệ OS, Web server bảo vệ mã nguồn",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Không có khác biệt",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m3-q33",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Vụ tấn công Dyn DNS (2016) làm sập Twitter, Netflix là ví dụ cho mối đe dọa nào?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "DDoS Attack lên Web Server",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "SQL Injection",
+        "answer_text_vi": "",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "Defacement",
+        "answer_text_vi": "",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "Phishing Web",
+        "answer_text_vi": "",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m3-q34",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Yahoo bị rò rỉ hàng triệu tài khoản (2013) là ví dụ cho lỗ hổng nào?",
+    "answers": [
+      {
+        "answer_text_en": "Broken Authentication & Session Management",
+        "answer_text_vi": "",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "DDoS",
+        "answer_text_vi": "",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "Defacement",
+        "answer_text_vi": "",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "Privilege Escalation",
+        "answer_text_vi": "",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m3-q35",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Khi phát hiện website có lỗ hổng SQL Injection, bước xử lý đầu tiên nên là gì?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Ngắt kết nối hoặc tạm ngưng dịch vụ bị ảnh hưởng",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Bỏ qua và đợi",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Xóa toàn bộ database",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Đăng thông báo trên mạng xã hội",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m3-q36",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Theo thảo luận, kỹ thuật nào thường nguy hiểm nhất với E-Commerce và vì sao?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Session Hijacking vì chiếm quyền tài khoản khách hàng/admin, thao túng giao dịch, lộ thông tin thanh toán",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Brute Force vì không gây hậu quả gì",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "XSS vì mã hóa dữ liệu",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "CSRF vì tăng tốc độ website",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m3-q37",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Giữa biện pháp kỹ thuật và biện pháp quản trị, kết luận đúng là gì?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Cả hai đều quan trọng, kết hợp theo nguyên tắc defense-in-depth (phòng thủ nhiều lớp)",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Chỉ cần biện pháp kỹ thuật",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Chỉ cần biện pháp quản trị",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Không cần biện pháp nào",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m3-q38",
+    "question_type": "multiple_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Giải pháp trước mắt khi Web server bị DDoS là gì?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Dùng CDN, dịch vụ chống DDoS (Cloudflare, Akamai)",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Lọc IP bất thường, rate limiting",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Tắt tường lửa",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Trả tiền chuộc cho hacker",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m3-q39",
+    "question_type": "multiple_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Vì sao doanh nghiệp nhỏ thường bỏ qua Penetration Testing định kỳ?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Hạn chế chi phí",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Thiếu nhân sự bảo mật chuyên trách",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Chưa nhận thức đúng mức độ rủi ro",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Pentest không có tác dụng gì",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m3-q40",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Privilege Escalation trên Web server bắt đầu từ đâu?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Tài khoản/dịch vụ có quyền thấp, khai thác lỗi nâng lên root/admin",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Tài khoản root từ đầu",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Không cần tài khoản",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Chỉ qua email phishing",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m3-q41",
+    "question_type": "multiple_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Session ID an toàn nên có đặc điểm gì?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Ngẫu nhiên",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Lưu trong cookie an toàn (HttpOnly, Secure)",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Có timeout tự động đăng xuất",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Lưu trong URL dễ đoán",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m3-q42",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Chống Session Fixation bằng cách nào?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Tạo mới Session ID sau đăng nhập",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Giữ nguyên Session ID cũ",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Lưu Session ID trong URL",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Tắt timeout session",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m3-q43",
+    "question_type": "multiple_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Patch Management nghiêm ngặt gồm những việc gì?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Vá lỗi bảo mật cho framework, CMS, plugin, server",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Xóa bỏ module, plugin không dùng để giảm bề mặt tấn công",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Cập nhật định kỳ",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Tắt toàn bộ cập nhật",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m3-q44",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Mã hóa dữ liệu quan trọng (số thẻ, thông tin cá nhân) nên dùng thuật toán nào?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "AES hoặc RSA",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "MD5",
+        "answer_text_vi": "",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "SHA1",
+        "answer_text_vi": "",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "Base64",
+        "answer_text_vi": "",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m3-q45",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "SIEM trong chính sách bảo mật ứng dụng web có vai trò gì?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Phân tích log, cảnh báo real-time khi phát hiện hành vi bất thường",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Mã hóa dữ liệu thẻ tín dụng",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Quét lỗ hổng SQL Injection",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Phân giải tên miền",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m3-q46",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Vụ tấn công XSS trên Facebook (2014) gây hậu quả gì?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Đánh cắp session, cookie để chiếm quyền người dùng",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Mã hóa dữ liệu đòi tiền chuộc",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Sập toàn bộ Internet",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Làm chậm chương trình hạt nhân",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m3-q47",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Vì sao bảo mật ứng dụng web và bảo mật Web server phải triển khai đồng bộ?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Ứng dụng an toàn nhưng server bị chiếm thì dữ liệu vẫn lộ; server an toàn nhưng ứng dụng dính SQLi thì DB vẫn bị truy xuất",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Chỉ cần bảo mật một trong hai là đủ",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Hai lĩnh vực hoàn toàn độc lập",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Web server không cần bảo mật",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m3-q48",
+    "question_type": "multiple_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Web Server bị Malware Injection gây hậu quả gì?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Điều khiển server từ xa",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Tải thêm mã độc khác",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Dùng server làm bàn đạp tấn công hệ thống khác",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Tăng tốc độ phản hồi",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m3-q49",
+    "question_type": "multiple_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Hardening server bao gồm những biện pháp gì?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Cập nhật bản vá server, OS",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Cấu hình an toàn, disable dịch vụ không cần",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "IDS/IPS, Anti-DDoS",
+        "answer_text_vi": "",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Bật debug mode trên production",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m3-q50",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Trong thương mại điện tử, bảo mật ứng dụng web gắn liền với điều gì?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Bảo mật kinh doanh - một lỗ hổng nhỏ có thể dẫn rò rỉ dữ liệu, thiệt hại tài chính và uy tín",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Chỉ là vấn đề kỹ thuật, không liên quan kinh doanh",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Không cần tuân thủ pháp luật",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Chỉ cần cài antivirus là đủ",
+        "is_correct": false
+      }
+    ]
+  }
 ]

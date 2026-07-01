@@ -1,726 +1,877 @@
 [
   {
     "question_id": "course2-m4-q1",
-    "module": "Managing risks effectively",
-    "question_text": "Define a risk as it relates to project management.",
     "question_type": "single_answer_question",
+    "question_text_en": "Define a risk as it relates to project management.",
+    "question_text_vi": "",
     "answers": [
       {
-        "answer_text": "A risk is a known problem that has already impacted a project.",
+        "answer_text_en": "A risk is a known problem that has already impacted a project.",
+        "answer_text_vi": "",
         "is_correct": false
       },
       {
-        "answer_text": "A risk is a measurement that estimates the potential impact of events that could occur in the future.",
+        "answer_text_en": "A risk is a measurement that estimates the potential impact of events that could occur in the future.",
+        "answer_text_vi": "",
         "is_correct": false
       },
       {
-        "answer_text": "A risk is a measurement that estimates the impact of known problems.",
+        "answer_text_en": "A risk is a measurement that estimates the impact of known problems.",
+        "answer_text_vi": "",
         "is_correct": false
       },
       {
-        "answer_text": "A risk is an event that might occur and could impact a project in the future.",
+        "answer_text_en": "A risk is an event that might occur and could impact a project in the future.",
+        "answer_text_vi": "",
         "is_correct": true
       }
-    ]
+    ],
+    "module": "Managing risks effectively"
   },
   {
     "question_id": "course2-m4-q2",
-    "module": "Managing risks effectively",
-    "question_text": "What is the difference between a risk and an issue in project management?",
     "question_type": "single_answer_question",
+    "question_text_en": "What is the difference between a risk and an issue in project management?",
+    "question_text_vi": "",
     "answers": [
       {
-        "answer_text": "Risks and issues are both known problems, but they affect projects to different degrees.",
+        "answer_text_en": "Risks and issues are both known problems, but they affect projects to different degrees.",
+        "answer_text_vi": "",
         "is_correct": false
       },
       {
-        "answer_text": "A risk is a known problem; an issue is an event that might happen in the future",
+        "answer_text_en": "A risk is a known problem; an issue is an event that might happen in the future",
+        "answer_text_vi": "",
         "is_correct": false
       },
       {
-        "answer_text": "Risks and issues are both events that might happen in the future, but they could affect projects to different degrees.",
+        "answer_text_en": "Risks and issues are both events that might happen in the future, but they could affect projects to different degrees.",
+        "answer_text_vi": "",
         "is_correct": false
       },
       {
-        "answer_text": "An issue is a known problem; a risk is an event that might happen in the future",
+        "answer_text_en": "An issue is a known problem; a risk is an event that might happen in the future",
+        "answer_text_vi": "",
         "is_correct": true
       }
-    ]
+    ],
+    "module": "Managing risks effectively"
   },
   {
     "question_id": "course2-m4-q3",
-    "module": "Managing risks effectively",
-    "question_text": "Fill in the blank: Risk management is the process of _____.",
     "question_type": "single_answer_question",
+    "question_text_en": "Fill in the blank: Risk management is the process of _____.",
+    "question_text_vi": "",
     "answers": [
       {
-        "answer_text": "identifying and evaluating potential risks and issues that could impact a project",
+        "answer_text_en": "identifying and evaluating potential risks and issues that could impact a project",
+        "answer_text_vi": "",
         "is_correct": true
       },
       {
-        "answer_text": "identifying and initiating projects that have a low potential for risk",
+        "answer_text_en": "identifying and initiating projects that have a low potential for risk",
+        "answer_text_vi": "",
         "is_correct": false
       },
       {
-        "answer_text": "identifying and mitigating risks and issues that are already impacting a project",
+        "answer_text_en": "identifying and mitigating risks and issues that are already impacting a project",
+        "answer_text_vi": "",
         "is_correct": false
       },
       {
-        "answer_text": "identifying and avoiding projects that have a high potential for risk",
+        "answer_text_en": "identifying and avoiding projects that have a high potential for risk",
+        "answer_text_vi": "",
         "is_correct": false
       }
-    ]
+    ],
+    "module": "Managing risks effectively"
   },
   {
     "question_id": "course2-m4-q4",
-    "module": "Managing risks effectively",
-    "question_text": "Which of the following are true of risk management? Select all that apply.",
     "question_type": "multiple_answer_question",
+    "question_text_en": "Which of the following are true of risk management? Select all that apply.",
+    "question_text_vi": "",
     "answers": [
       {
-        "answer_text": "It helps determine how to mitigate potential risks.",
+        "answer_text_en": "It helps determine how to mitigate potential risks.",
+        "answer_text_vi": "",
         "is_correct": true
       },
       {
-        "answer_text": "It reveals what could go wrong with a project.",
+        "answer_text_en": "It reveals what could go wrong with a project.",
+        "answer_text_vi": "",
         "is_correct": true
       },
       {
-        "answer_text": "It is a one-time exercise at the start of a project.",
+        "answer_text_en": "It is a one-time exercise at the start of a project.",
+        "answer_text_vi": "",
         "is_correct": false
       },
       {
-        "answer_text": "It helps identify who a project manager should consult about a potential risk.",
+        "answer_text_en": "It helps identify who a project manager should consult about a potential risk.",
+        "answer_text_vi": "",
         "is_correct": true
       }
-    ]
+    ],
+    "module": "Managing risks effectively"
   },
   {
     "question_id": "course2-m4-q5",
-    "module": "Managing risks effectively",
-    "question_text": "Which three of the following scenarios represent possible opportunities that could arise from a risk?",
     "question_type": "multiple_answer_question",
+    "question_text_en": "Which three of the following scenarios represent possible opportunities that could arise from a risk?",
+    "question_text_vi": "",
     "answers": [
       {
-        "answer_text": "Adding two team members from another team to increase productivity and meet the project deadline",
+        "answer_text_en": "Adding two team members from another team to increase productivity and meet the project deadline",
+        "answer_text_vi": "",
         "is_correct": true
       },
       {
-        "answer_text": "Hiring a new supplier of an item required to complete a product shortly before the project closes",
+        "answer_text_en": "Hiring a new supplier of an item required to complete a product shortly before the project closes",
+        "answer_text_vi": "",
         "is_correct": false
       },
       {
-        "answer_text": "Adopting a new spreadsheet software to streamline and simplify tasks in the future",
+        "answer_text_en": "Adopting a new spreadsheet software to streamline and simplify tasks in the future",
+        "answer_text_vi": "",
         "is_correct": true
       },
       {
-        "answer_text": "Completing a milestone ahead of schedule",
+        "answer_text_en": "Completing a milestone ahead of schedule",
+        "answer_text_vi": "",
         "is_correct": true
       }
-    ]
+    ],
+    "module": "Managing risks effectively"
   },
   {
     "question_id": "course2-m4-q6",
-    "module": "Managing risks effectively",
-    "question_text": "Which of the following scenarios is an example of a project issue? Select all that apply.",
     "question_type": "multiple_answer_question",
+    "question_text_en": "Which of the following scenarios is an example of a project issue? Select all that apply.",
+    "question_text_vi": "",
     "answers": [
       {
-        "answer_text": "Clients do not return the necessary paperwork on time",
+        "answer_text_en": "Clients do not return the necessary paperwork on time",
+        "answer_text_vi": "",
         "is_correct": true
       },
       {
-        "answer_text": "Team members complete tasks early",
+        "answer_text_en": "Team members complete tasks early",
+        "answer_text_vi": "",
         "is_correct": false
       },
       {
-        "answer_text": "Workers at a supplier’s production are currently in a labor strike",
+        "answer_text_en": "Workers at a supplier’s production are currently in a labor strike",
+        "answer_text_vi": "",
         "is_correct": true
       },
       {
-        "answer_text": "Materials increase in price",
+        "answer_text_en": "Materials increase in price",
+        "answer_text_vi": "",
         "is_correct": false
       }
-    ]
+    ],
+    "module": "Managing risks effectively"
   },
   {
     "question_id": "course2-m4-q7",
-    "module": "Managing risks effectively",
-    "question_text": "Fill in the blank: The risk management process includes five steps: identify, analyze, evaluate, _____, and monitor and control.",
     "question_type": "single_answer_question",
+    "question_text_en": "Fill in the blank: The risk management process includes five steps: identify, analyze, evaluate, _____, and monitor and control.",
+    "question_text_vi": "",
     "answers": [
       {
-        "answer_text": "accept",
+        "answer_text_en": "accept",
+        "answer_text_vi": "",
         "is_correct": false
       },
       {
-        "answer_text": "classify",
+        "answer_text_en": "classify",
+        "answer_text_vi": "",
         "is_correct": false
       },
       {
-        "answer_text": "treat",
+        "answer_text_en": "treat",
+        "answer_text_vi": "",
         "is_correct": true
       },
       {
-        "answer_text": "mitigate",
+        "answer_text_en": "mitigate",
+        "answer_text_vi": "",
         "is_correct": false
       }
-    ]
+    ],
+    "module": "Managing risks effectively"
   },
   {
     "question_id": "course2-m4-q8",
-    "module": "Managing risks effectively",
-    "question_text": "During which phase of the risk management life cycle do you use the information you have gained about the likelihood and potential impact of risks to prioritize risks?",
     "question_type": "single_answer_question",
+    "question_text_en": "During which phase of the risk management life cycle do you use the information you have gained about the likelihood and potential impact of risks to prioritize risks?",
+    "question_text_vi": "",
     "answers": [
       {
-        "answer_text": "Treat the risk.",
+        "answer_text_en": "Treat the risk.",
+        "answer_text_vi": "",
         "is_correct": false
       },
       {
-        "answer_text": "Identify the risk.",
+        "answer_text_en": "Identify the risk.",
+        "answer_text_vi": "",
         "is_correct": false
       },
       {
-        "answer_text": "Analyze the risk.",
+        "answer_text_en": "Analyze the risk.",
+        "answer_text_vi": "",
         "is_correct": false
       },
       {
-        "answer_text": "Evaluate the risk.",
+        "answer_text_en": "Evaluate the risk.",
+        "answer_text_vi": "",
         "is_correct": true
       },
       {
-        "answer_text": "Monitor and control the risk.",
+        "answer_text_en": "Monitor and control the risk.",
+        "answer_text_vi": "",
         "is_correct": false
       }
-    ]
+    ],
+    "module": "Managing risks effectively"
   },
   {
     "question_id": "course2-m4-q9",
-    "module": "Managing risks effectively",
-    "question_text": "Which type of risk involves the possibility that a project will not produce the results outlined in the project goals?",
     "question_type": "single_answer_question",
+    "question_text_en": "Which type of risk involves the possibility that a project will not produce the results outlined in the project goals?",
+    "question_text_vi": "",
     "answers": [
       {
-        "answer_text": "Scope risk",
+        "answer_text_en": "Scope risk",
+        "answer_text_vi": "",
         "is_correct": true
       },
       {
-        "answer_text": "Time risk",
+        "answer_text_en": "Time risk",
+        "answer_text_vi": "",
         "is_correct": false
       },
       {
-        "answer_text": "Environmental risk",
+        "answer_text_en": "Environmental risk",
+        "answer_text_vi": "",
         "is_correct": false
       },
       {
-        "answer_text": "Budget risk",
+        "answer_text_en": "Budget risk",
+        "answer_text_vi": "",
         "is_correct": false
       }
-    ]
+    ],
+    "module": "Managing risks effectively"
   },
   {
     "question_id": "course2-m4-q10",
-    "module": "Managing risks effectively",
-    "question_text": "Imagine you’re a project manager overseeing the development and launch of a new app. Which of the following problems could be a single point of failure risk in the app’s development?",
     "question_type": "single_answer_question",
+    "question_text_en": "Imagine you’re a project manager overseeing the development and launch of a new app. Which of the following problems could be a single point of failure risk in the app’s development?",
+    "question_text_vi": "",
     "answers": [
       {
-        "answer_text": "Completing a project milestone behind schedule, which may delay the project timeline.",
+        "answer_text_en": "Completing a project milestone behind schedule, which may delay the project timeline.",
+        "answer_text_vi": "",
         "is_correct": false
       },
       {
-        "answer_text": "Receiving negative feedback from user testing, which may lead to more work for the developers.",
+        "answer_text_en": "Receiving negative feedback from user testing, which may lead to more work for the developers.",
+        "answer_text_vi": "",
         "is_correct": false
       },
       {
-        "answer_text": "Lack of communication between the designers and the project lead, which may lead to tension among team members.",
+        "answer_text_en": "Lack of communication between the designers and the project lead, which may lead to tension among team members.",
+        "answer_text_vi": "",
         "is_correct": false
       },
       {
-        "answer_text": "Failing to back up key project documentation, which may result in a complete loss of essential data.",
+        "answer_text_en": "Failing to back up key project documentation, which may result in a complete loss of essential data.",
+        "answer_text_vi": "",
         "is_correct": true
       }
-    ]
+    ],
+    "module": "Managing risks effectively"
   },
   {
     "question_id": "course2-m4-q11",
-    "module": "Managing risks effectively",
-    "question_text": "Continuing with the app-development project scenario from the previous question, which three of the following task relationships demonstrate an internal dependency?",
     "question_type": "multiple_answer_question",
+    "question_text_en": "Continuing with the app-development project scenario from the previous question, which three of the following task relationships demonstrate an internal dependency?",
+    "question_text_vi": "",
     "answers": [
       {
-        "answer_text": "Designers must complete wireframes before they begin prototyping.",
+        "answer_text_en": "Designers must complete wireframes before they begin prototyping.",
+        "answer_text_vi": "",
         "is_correct": true
       },
       {
-        "answer_text": "Researchers must conduct usability tests before the team can improve the design.",
+        "answer_text_en": "Researchers must conduct usability tests before the team can improve the design.",
+        "answer_text_vi": "",
         "is_correct": true
       },
       {
-        "answer_text": "Clients must sign off on the design before the official launch.",
+        "answer_text_en": "Clients must sign off on the design before the official launch.",
+        "answer_text_vi": "",
         "is_correct": false
       },
       {
-        "answer_text": "Partner agencies must deliver image assets before the app is complete.",
+        "answer_text_en": "Partner agencies must deliver image assets before the app is complete.",
+        "answer_text_vi": "",
         "is_correct": false
       },
       {
-        "answer_text": "Developers must fix bugs before the Quality Assurance team begins testing.",
+        "answer_text_en": "Developers must fix bugs before the Quality Assurance team begins testing.",
+        "answer_text_vi": "",
         "is_correct": true
       }
-    ]
+    ],
+    "module": "Managing risks effectively"
   },
   {
     "question_id": "course2-m4-q12",
-    "module": "Managing risks effectively",
-    "question_text": "Continuing with the app-development project scenario from the previous question, you need to secure funding to develop the app. You want to write a grant proposal to an investment firm. Which of the following is an external dependency for this task?",
     "question_type": "single_answer_question",
+    "question_text_en": "Continuing with the app-development project scenario from the previous question, you need to secure funding to develop the app. You want to write a grant proposal to an investment firm. Which of the following is an external dependency for this task?",
+    "question_text_vi": "",
     "answers": [
       {
-        "answer_text": "Identify team members to write the sections of the proposal that align with their expertise.",
+        "answer_text_en": "Identify team members to write the sections of the proposal that align with their expertise.",
+        "answer_text_vi": "",
         "is_correct": false
       },
       {
-        "answer_text": "Get feedback from the investment firm about the types of projects they are interested in funding.",
+        "answer_text_en": "Get feedback from the investment firm about the types of projects they are interested in funding.",
+        "answer_text_vi": "",
         "is_correct": true
       },
       {
-        "answer_text": "Appoint a team member to assemble the proposal.",
+        "answer_text_en": "Appoint a team member to assemble the proposal.",
+        "answer_text_vi": "",
         "is_correct": false
       },
       {
-        "answer_text": "Outline your project milestones in the proposal.",
+        "answer_text_en": "Outline your project milestones in the proposal.",
+        "answer_text_vi": "",
         "is_correct": false
       }
-    ]
+    ],
+    "module": "Managing risks effectively"
   },
   {
     "question_id": "course2-m4-q13",
-    "module": "Managing risks effectively",
-    "question_text": "Imagine that you’re overseeing a project to construct a new office building for your company, and you need to determine your task dependencies. Which of the following tasks should come first?",
     "question_type": "single_answer_question",
+    "question_text_en": "Imagine that you’re overseeing a project to construct a new office building for your company, and you need to determine your task dependencies. Which of the following tasks should come first?",
+    "question_text_vi": "",
     "answers": [
       {
-        "answer_text": "Set the project budget.",
+        "answer_text_en": "Set the project budget.",
+        "answer_text_vi": "",
         "is_correct": false
       },
       {
-        "answer_text": "Get stakeholder input to determine project goals.",
+        "answer_text_en": "Get stakeholder input to determine project goals.",
+        "answer_text_vi": "",
         "is_correct": true
       },
       {
-        "answer_text": "Begin construction on the new building.",
+        "answer_text_en": "Begin construction on the new building.",
+        "answer_text_vi": "",
         "is_correct": false
       },
       {
-        "answer_text": "Identify the construction site.",
+        "answer_text_en": "Identify the construction site.",
+        "answer_text_vi": "",
         "is_correct": false
       }
-    ]
+    ],
+    "module": "Managing risks effectively"
   },
   {
     "question_id": "course2-m4-q14",
-    "module": "Managing risks effectively",
-    "question_text": "Continuing with the construction project scenario from the previous question, which of the following tasks should come last in the project?",
     "question_type": "single_answer_question",
+    "question_text_en": "Continuing with the construction project scenario from the previous question, which of the following tasks should come last in the project?",
+    "question_text_vi": "",
     "answers": [
       {
-        "answer_text": "Hire an architect.",
+        "answer_text_en": "Hire an architect.",
+        "answer_text_vi": "",
         "is_correct": false
       },
       {
-        "answer_text": "Plan for risk.",
+        "answer_text_en": "Plan for risk.",
+        "answer_text_vi": "",
         "is_correct": false
       },
       {
-        "answer_text": "Move equipment to the new office.",
+        "answer_text_en": "Move equipment to the new office.",
+        "answer_text_vi": "",
         "is_correct": true
       },
       {
-        "answer_text": "Order the building materials.",
+        "answer_text_en": "Order the building materials.",
+        "answer_text_vi": "",
         "is_correct": false
       }
-    ]
+    ],
+    "module": "Managing risks effectively"
   },
   {
     "question_id": "course2-m4-q15",
-    "module": "Managing risks effectively",
-    "question_text": "Continuing with the construction project scenario from the previous question, imagine that you underestimated the amount of a particular material needed to complete the new building. You purchase more of the material at full cost, since you no longer qualify for the bulk, discounted rate. What risk does this scenario demonstrate?",
     "question_type": "single_answer_question",
+    "question_text_en": "Continuing with the construction project scenario from the previous question, imagine that you underestimated the amount of a particular material needed to complete the new building. You purchase more of the material at full cost, since you no longer qualify for the bulk, discounted rate. What risk does this scenario demonstrate?",
+    "question_text_vi": "",
     "answers": [
       {
-        "answer_text": "Environmental risk",
+        "answer_text_en": "Environmental risk",
+        "answer_text_vi": "",
         "is_correct": false
       },
       {
-        "answer_text": "Budget risk",
+        "answer_text_en": "Budget risk",
+        "answer_text_vi": "",
         "is_correct": true
       },
       {
-        "answer_text": "Legal risk",
+        "answer_text_en": "Legal risk",
+        "answer_text_vi": "",
         "is_correct": false
       },
       {
-        "answer_text": "Time risk",
+        "answer_text_en": "Time risk",
+        "answer_text_vi": "",
         "is_correct": false
       }
-    ]
+    ],
+    "module": "Managing risks effectively"
   },
   {
     "question_id": "course2-m4-q16",
-    "module": "Managing risks effectively",
-    "question_text": "Continuing with the construction project scenario from the previous question, the project team completes the designs (Task A) and then begins construction (Task B). What type of dependency describes the relationship between Tasks A and B?",
     "question_type": "single_answer_question",
+    "question_text_en": "Continuing with the construction project scenario from the previous question, the project team completes the designs (Task A) and then begins construction (Task B). What type of dependency describes the relationship between Tasks A and B?",
+    "question_text_vi": "",
     "answers": [
       {
-        "answer_text": "Finish-to-Start (FS)",
+        "answer_text_en": "Finish-to-Start (FS)",
+        "answer_text_vi": "",
         "is_correct": true
       },
       {
-        "answer_text": "Finish-to-Finish (FF)",
+        "answer_text_en": "Finish-to-Finish (FF)",
+        "answer_text_vi": "",
         "is_correct": false
       },
       {
-        "answer_text": "Start-to-Finish (SF)",
+        "answer_text_en": "Start-to-Finish (SF)",
+        "answer_text_vi": "",
         "is_correct": false
       },
       {
-        "answer_text": "Start-to-Start (SS)",
+        "answer_text_en": "Start-to-Start (SS)",
+        "answer_text_vi": "",
         "is_correct": false
       }
-    ]
+    ],
+    "module": "Managing risks effectively"
   },
   {
     "question_id": "course2-m4-q17",
-    "module": "Managing risks effectively",
-    "question_text": "Imagine you have learned that a contractor who has done quality work for your organization in the past has received some negative reviews recently. You choose to hire another contractor for the current project. This is an example of mitigating risk by ______.",
     "question_type": "single_answer_question",
+    "question_text_en": "Imagine you have learned that a contractor who has done quality work for your organization in the past has received some negative reviews recently. You choose to hire another contractor for the current project. This is an example of mitigating risk by ______.",
+    "question_text_vi": "",
     "answers": [
       {
-        "answer_text": "avoiding it",
+        "answer_text_en": "avoiding it",
+        "answer_text_vi": "",
         "is_correct": true
       },
       {
-        "answer_text": "transferring it",
+        "answer_text_en": "transferring it",
+        "answer_text_vi": "",
         "is_correct": false
       },
       {
-        "answer_text": "accepting it",
+        "answer_text_en": "accepting it",
+        "answer_text_vi": "",
         "is_correct": false
       },
       {
-        "answer_text": "reducing or controlling it",
+        "answer_text_en": "reducing or controlling it",
+        "answer_text_vi": "",
         "is_correct": false
       }
-    ]
+    ],
+    "module": "Managing risks effectively"
   },
   {
     "question_id": "course2-m4-q18",
-    "module": "Managing risks effectively",
-    "question_text": "Which of the following are basic components of a risk management plan? Select all that apply.",
     "question_type": "multiple_answer_question",
+    "question_text_en": "Which of the following are basic components of a risk management plan? Select all that apply.",
+    "question_text_vi": "",
     "answers": [
       {
-        "answer_text": "A Gantt chart",
+        "answer_text_en": "A Gantt chart",
+        "answer_text_vi": "",
         "is_correct": false
       },
       {
-        "answer_text": "Mitigation plans",
+        "answer_text_en": "Mitigation plans",
+        "answer_text_vi": "",
         "is_correct": true
       },
       {
-        "answer_text": "A probability and impact matrix",
+        "answer_text_en": "A probability and impact matrix",
+        "answer_text_vi": "",
         "is_correct": true
       },
       {
-        "answer_text": "A risk register",
+        "answer_text_en": "A risk register",
+        "answer_text_vi": "",
         "is_correct": true
       }
-    ]
+    ],
+    "module": "Managing risks effectively"
   },
   {
     "question_id": "course2-m4-q19",
-    "module": "Managing risks effectively",
-    "question_text": "Which of the following tools can help project managers visualize how to mitigate a risk in order to reduce or control it?",
     "question_type": "single_answer_question",
+    "question_text_en": "Which of the following tools can help project managers visualize how to mitigate a risk in order to reduce or control it?",
+    "question_text_vi": "",
     "answers": [
       {
-        "answer_text": "A decision tree",
+        "answer_text_en": "A decision tree",
+        "answer_text_vi": "",
         "is_correct": true
       },
       {
-        "answer_text": "A statement of work",
+        "answer_text_en": "A statement of work",
+        "answer_text_vi": "",
         "is_correct": false
       },
       {
-        "answer_text": "A power grid",
+        "answer_text_en": "A power grid",
+        "answer_text_vi": "",
         "is_correct": false
       },
       {
-        "answer_text": "A project charter",
+        "answer_text_en": "A project charter",
+        "answer_text_vi": "",
         "is_correct": false
       }
-    ]
+    ],
+    "module": "Managing risks effectively"
   },
   {
     "question_id": "course2-m4-q20",
-    "module": "Managing risks effectively",
-    "question_text": "What step should you take after you complete your risk management plan?",
     "question_type": "single_answer_question",
+    "question_text_en": "What step should you take after you complete your risk management plan?",
+    "question_text_vi": "",
     "answers": [
       {
-        "answer_text": "Create a power grid to include in the appendix of your plan.",
+        "answer_text_en": "Create a power grid to include in the appendix of your plan.",
+        "answer_text_vi": "",
         "is_correct": false
       },
       {
-        "answer_text": "Share the plan with your team and stakeholders.",
+        "answer_text_en": "Share the plan with your team and stakeholders.",
+        "answer_text_vi": "",
         "is_correct": true
       },
       {
-        "answer_text": "Estimate the likelihood and impact of the project risks you have prioritized.",
+        "answer_text_en": "Estimate the likelihood and impact of the project risks you have prioritized.",
+        "answer_text_vi": "",
         "is_correct": false
       },
       {
-        "answer_text": "Implement the individual mitigation plans for the risks you have identified.",
+        "answer_text_en": "Implement the individual mitigation plans for the risks you have identified.",
+        "answer_text_vi": "",
         "is_correct": false
       }
-    ]
+    ],
+    "module": "Managing risks effectively"
   },
   {
     "question_id": "course2-m4-q21",
-    "module": "Managing risks effectively",
-    "question_text": "A project manager needs to identify and plan for known problems that can affect project completion. What are these known problems called in project management?",
     "question_type": "single_answer_question",
+    "question_text_en": "A project manager needs to identify and plan for known problems that can affect project completion. What are these known problems called in project management?",
+    "question_text_vi": "",
     "answers": [
       {
-        "answer_text": "Risks",
+        "answer_text_en": "Risks",
+        "answer_text_vi": "",
         "is_correct": false
       },
       {
-        "answer_text": "Issues",
+        "answer_text_en": "Issues",
+        "answer_text_vi": "",
         "is_correct": true
       },
       {
-        "answer_text": "Potentials",
+        "answer_text_en": "Potentials",
+        "answer_text_vi": "",
         "is_correct": false
       },
       {
-        "answer_text": "Impactors",
+        "answer_text_en": "Impactors",
+        "answer_text_vi": "",
         "is_correct": false
       }
-    ]
+    ],
+    "module": "Managing risks effectively"
   },
   {
     "question_id": "course2-m4-q22",
-    "module": "Managing risks effectively",
-    "question_text": "The risk management process can provide project managers a better understanding of what information? Select all that apply.",
     "question_type": "multiple_answer_question",
+    "question_text_en": "The risk management process can provide project managers a better understanding of what information? Select all that apply.",
+    "question_text_vi": "",
     "answers": [
       {
-        "answer_text": "When exactly the risk will occur",
+        "answer_text_en": "When exactly the risk will occur",
+        "answer_text_vi": "",
         "is_correct": false
       },
       {
-        "answer_text": "Who the project manager needs to consult about a risk",
+        "answer_text_en": "Who the project manager needs to consult about a risk",
+        "answer_text_vi": "",
         "is_correct": true
       },
       {
-        "answer_text": "What could go wrong with the project",
+        "answer_text_en": "What could go wrong with the project",
+        "answer_text_vi": "",
         "is_correct": true
       },
       {
-        "answer_text": "How could the project manager mitigate the potential risk",
+        "answer_text_en": "How could the project manager mitigate the potential risk",
+        "answer_text_vi": "",
         "is_correct": true
       }
-    ]
+    ],
+    "module": "Managing risks effectively"
   },
   {
     "question_id": "course2-m4-q23",
-    "module": "Managing risks effectively",
-    "question_text": "As a project manager you are practicing risk management. You have already defined potential risks, determined their likelihood and potential impact. Now, you prioritize the risks. This represents which risk management step?",
     "question_type": "single_answer_question",
+    "question_text_en": "As a project manager you are practicing risk management. You have already defined potential risks, determined their likelihood and potential impact. Now, you prioritize the risks. This represents which risk management step?",
+    "question_text_vi": "",
     "answers": [
       {
-        "answer_text": "Monitor and control risks",
+        "answer_text_en": "Monitor and control risks",
+        "answer_text_vi": "",
         "is_correct": false
       },
       {
-        "answer_text": "Evaluate risks",
+        "answer_text_en": "Evaluate risks",
+        "answer_text_vi": "",
         "is_correct": true
       },
       {
-        "answer_text": "Identify risks",
+        "answer_text_en": "Identify risks",
+        "answer_text_vi": "",
         "is_correct": false
       },
       {
-        "answer_text": "Analyze risks",
+        "answer_text_en": "Analyze risks",
+        "answer_text_vi": "",
         "is_correct": false
       }
-    ]
+    ],
+    "module": "Managing risks effectively"
   },
   {
     "question_id": "course2-m4-q24",
-    "module": "Managing risks effectively",
-    "question_text": "Identify the steps involved in creating a fishbone (or cause-and-effect) diagram.",
     "question_type": "single_answer_question",
+    "question_text_en": "Identify the steps involved in creating a fishbone (or cause-and-effect) diagram.",
+    "question_text_vi": "",
     "answers": [
       {
-        "answer_text": "Define the problem, identify categories, brainstorm causes, and analyze the causes",
+        "answer_text_en": "Define the problem, identify categories, brainstorm causes, and analyze the causes",
+        "answer_text_vi": "",
         "is_correct": true
       },
       {
-        "answer_text": "Define the problem, identify risks, brainstorm causes, and monitor feedback",
+        "answer_text_en": "Define the problem, identify risks, brainstorm causes, and monitor feedback",
+        "answer_text_vi": "",
         "is_correct": false
       },
       {
-        "answer_text": "Define the problem, identify categories, mitigate causes, and monitor feedback",
+        "answer_text_en": "Define the problem, identify categories, mitigate causes, and monitor feedback",
+        "answer_text_vi": "",
         "is_correct": false
       },
       {
-        "answer_text": "Define the problem, identify risks, mitigate causes, and analyze the causes",
+        "answer_text_en": "Define the problem, identify risks, mitigate causes, and analyze the causes",
+        "answer_text_vi": "",
         "is_correct": false
       }
-    ]
+    ],
+    "module": "Managing risks effectively"
   },
   {
     "question_id": "course2-m4-q25",
-    "module": "Managing risks effectively",
-    "question_text": "Choose the best definition for inherent risk as it relates to project management.",
     "question_type": "single_answer_question",
+    "question_text_en": "Choose the best definition for inherent risk as it relates to project management.",
+    "question_text_vi": "",
     "answers": [
       {
-        "answer_text": "The measure of a risk, calculated by its difficulty and frequency",
+        "answer_text_en": "The measure of a risk, calculated by its difficulty and frequency",
+        "answer_text_vi": "",
         "is_correct": false
       },
       {
-        "answer_text": "The measure of a risk, calculated by its probability and impact",
+        "answer_text_en": "The measure of a risk, calculated by its probability and impact",
+        "answer_text_vi": "",
         "is_correct": true
       },
       {
-        "answer_text": "The measure of a risk, calculated by its timing and dependencies",
+        "answer_text_en": "The measure of a risk, calculated by its timing and dependencies",
+        "answer_text_vi": "",
         "is_correct": false
       },
       {
-        "answer_text": "The measure of a risk, calculated by its causes and circumstances",
+        "answer_text_en": "The measure of a risk, calculated by its causes and circumstances",
+        "answer_text_vi": "",
         "is_correct": false
       }
-    ]
+    ],
+    "module": "Managing risks effectively"
   },
   {
     "question_id": "course2-m4-q26",
-    "module": "Managing risks effectively",
-    "question_text": "A project manager has just identified a risk that has the potential to be catastrophic and halt work across a project. What is this type of risk known as?",
     "question_type": "single_answer_question",
+    "question_text_en": "A project manager has just identified a risk that has the potential to be catastrophic and halt work across a project. What is this type of risk known as?",
+    "question_text_vi": "",
     "answers": [
       {
-        "answer_text": "Time risk",
+        "answer_text_en": "Time risk",
+        "answer_text_vi": "",
         "is_correct": false
       },
       {
-        "answer_text": "Complete halting point",
+        "answer_text_en": "Complete halting point",
+        "answer_text_vi": "",
         "is_correct": false
       },
       {
-        "answer_text": "External risk",
+        "answer_text_en": "External risk",
+        "answer_text_vi": "",
         "is_correct": false
       },
       {
-        "answer_text": "Single point of failure",
+        "answer_text_en": "Single point of failure",
+        "answer_text_vi": "",
         "is_correct": true
       }
-    ]
+    ],
+    "module": "Managing risks effectively"
   },
   {
     "question_id": "course2-m4-q27",
-    "module": "Managing risks effectively",
-    "question_text": "A project manager is concerned about the workload an internal team is taking on for an upcoming project. The project manager decides to shift this workload to an external supplier. What kind of risk mitigation strategy is this?",
     "question_type": "single_answer_question",
+    "question_text_en": "A project manager is concerned about the workload an internal team is taking on for an upcoming project. The project manager decides to shift this workload to an external supplier. What kind of risk mitigation strategy is this?",
+    "question_text_vi": "",
     "answers": [
       {
-        "answer_text": "Controlling risk",
+        "answer_text_en": "Controlling risk",
+        "answer_text_vi": "",
         "is_correct": false
       },
       {
-        "answer_text": "Avoiding risk",
+        "answer_text_en": "Avoiding risk",
+        "answer_text_vi": "",
         "is_correct": false
       },
       {
-        "answer_text": "Accepting risk",
+        "answer_text_en": "Accepting risk",
+        "answer_text_vi": "",
         "is_correct": false
       },
       {
-        "answer_text": "Transferring risk",
+        "answer_text_en": "Transferring risk",
+        "answer_text_vi": "",
         "is_correct": true
       }
-    ]
+    ],
+    "module": "Managing risks effectively"
   },
   {
     "question_id": "course2-m4-q28",
-    "module": "Managing risks effectively",
-    "question_text": "A project manager communicates a newly discovered risk to stakeholders. The project manager requests an immediate meeting to go over the project plan and share details about mitigation strategies. What level of risk are they likely to cover in the meeting?",
     "question_type": "single_answer_question",
+    "question_text_en": "A project manager communicates a newly discovered risk to stakeholders. The project manager requests an immediate meeting to go over the project plan and share details about mitigation strategies. What level of risk are they likely to cover in the meeting?",
+    "question_text_vi": "",
     "answers": [
       {
-        "answer_text": "Medium-level risk",
+        "answer_text_en": "Medium-level risk",
+        "answer_text_vi": "",
         "is_correct": false
       },
       {
-        "answer_text": "High-level risk",
+        "answer_text_en": "High-level risk",
+        "answer_text_vi": "",
         "is_correct": true
       },
       {
-        "answer_text": "Single point of failure",
+        "answer_text_en": "Single point of failure",
+        "answer_text_vi": "",
         "is_correct": false
       },
       {
-        "answer_text": "Low-level risk",
+        "answer_text_en": "Low-level risk",
+        "answer_text_vi": "",
         "is_correct": false
       }
-    ]
+    ],
+    "module": "Managing risks effectively"
   },
   {
     "question_id": "course2-m4-q29",
-    "module": "Managing risks effectively",
-    "question_text": "A project manager has identified a number of tasks in an upcoming project with dependencies. Most of the dependencies are start to finish. What situation is this dependency describing?",
     "question_type": "single_answer_question",
+    "question_text_en": "A project manager has identified a number of tasks in an upcoming project with dependencies. Most of the dependencies are start to finish. What situation is this dependency describing?",
+    "question_text_vi": "",
     "answers": [
       {
-        "answer_text": "Task 2 cannot start until Task 1 has finished",
+        "answer_text_en": "Task 2 cannot start until Task 1 has finished",
+        "answer_text_vi": "",
         "is_correct": false
       },
       {
-        "answer_text": "Task 2 cannot start until Task 1 has started",
+        "answer_text_en": "Task 2 cannot start until Task 1 has started",
+        "answer_text_vi": "",
         "is_correct": false
       },
       {
-        "answer_text": "Task 2 cannot finish until Task 1 has finished",
+        "answer_text_en": "Task 2 cannot finish until Task 1 has finished",
+        "answer_text_vi": "",
         "is_correct": false
       },
       {
-        "answer_text": "Task 2 cannot finish until Task 1 has started",
+        "answer_text_en": "Task 2 cannot finish until Task 1 has started",
+        "answer_text_vi": "",
         "is_correct": true
       }
-    ]
+    ],
+    "module": "Managing risks effectively"
   },
   {
     "question_id": "course2-m4-q30",
-    "module": "Managing risks effectively",
-    "question_text": "Should a risk management plan be updated regularly?",
     "question_type": "single_answer_question",
+    "question_text_en": "Should a risk management plan be updated regularly?",
+    "question_text_vi": "",
     "answers": [
       {
-        "answer_text": "No; the plan should be determined as early as possible",
+        "answer_text_en": "No; the plan should be determined as early as possible",
+        "answer_text_vi": "",
         "is_correct": false
       },
       {
-        "answer_text": "Yes; the plan is a living document and should include new findings",
+        "answer_text_en": "Yes; the plan is a living document and should include new findings",
+        "answer_text_vi": "",
         "is_correct": true
       },
       {
-        "answer_text": "Maybe; if the stakeholders specifically request the updates",
+        "answer_text_en": "Maybe; if the stakeholders specifically request the updates",
+        "answer_text_vi": "",
         "is_correct": false
       }
-    ]
+    ],
+    "module": "Managing risks effectively"
   }
 ]

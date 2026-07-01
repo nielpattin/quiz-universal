@@ -51,11 +51,11 @@
 				</div>
 			{:else}
 				<div class="text-gray-700 text-left bg-gray-50 rounded p-3 border border-gray-200">
-					<div class="font-semibold mb-1">Thay đổi mới nhất</div>
+					<div class="font-semibold mb-1">Changes in this version</div>
 					<ul class="list-disc list-inside space-y-1 text-sm">
-						<li>Di chuyển nút điều hướng nổi sang cạnh phải (không còn chồng lên câu trả lời)</li>
-						<li>Tăng vùng chạm các nút trên thanh công cụ và danh sách sidebar lên 44px</li>
-						<li>Thu nhỏ badge ID câu hỏi trên mobile, hiển thị ID ở chân trang</li>
+						<li>Bilingual text now stored in separate en/vi fields instead of single-field heuristics</li>
+						<li>Wider database schema for cleaner separation of languages</li>
+						<li>Clear your browser data if you see stale answer states</li>
 					</ul>
 				</div>
 				<div class="flex flex-col gap-3">

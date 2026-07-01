@@ -3,7 +3,9 @@ import { join, basename, extname } from 'path';
 import { createClient } from '@libsql/client';
 import { config } from 'dotenv';
 
+// Load .env first, then .env.local so local overrides base
 config();
+config({ path: '.env.local', override: true });
 
 // --- CLI Argument Parsing ---
 const args = process.argv.slice(2);
@@ -63,7 +65,9 @@ async function ensureTables() {
 		CREATE TABLE IF NOT EXISTS questions (
 			question_id TEXT PRIMARY KEY,
 			collection_id TEXT NOT NULL,
-			question_text TEXT NOT NULL,
+			question_text TEXT,
+			question_text_en TEXT,
+			question_text_vi TEXT,
 			question_type TEXT NOT NULL,
 			answers TEXT NOT NULL,
 			image_url TEXT,
@@ -117,16 +121,41 @@ async function upsertCollection(id, subjectId, name, displayOrder) {
 async function upsertQuestion(q, collectionId) {
 	if (FLAGS.dryRun) return;
 	await db.execute({
-		sql: `INSERT OR REPLACE INTO questions (question_id, collection_id, question_text, question_type, answers, image_url, status) VALUES (?, ?, ?, ?, ?, ?, ?)`,
+		sql: `INSERT OR REPLACE INTO questions (question_id, collection_id, question_text, question_text_en, question_text_vi, question_type, answers, image_url, status) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)`,
 		args: [
 			q.question_id,
 			collectionId,
-			q.question_text,
+			q.question_text || null,
+			q.question_text_en || null,
+			q.question_text_vi || null,
 			q.question_type,
 			JSON.stringify(q.answers),
 			q.image_url || null,
 			'active'
 		]
+	});
+}
+
+async function upsertQuestionsBatch(questions) {
+	if (FLAGS.dryRun) return;
+	if (questions.length === 0) return;
+
+	const placeholders = questions.map(() => '(?, ?, ?, ?, ?, ?, ?, ?, ?)').join(', ');
+	const args = questions.flatMap((q) => [
+		q.question_id,
+		q.collection_id,
+		q.question_text || null,
+		q.question_text_en || null,
+		q.question_text_vi || null,
+		q.question_type,
+		JSON.stringify(q.answers),
+		q.image_url || null,
+		'active'
+	]);
+
+	await db.execute({
+		sql: `INSERT OR REPLACE INTO questions (question_id, collection_id, question_text, question_text_en, question_text_vi, question_type, answers, image_url, status) VALUES ${placeholders}`,
+		args
 	});
 }
 
@@ -238,6 +267,8 @@ function questionChanged(existing, local) {
 	return (
 		existing.collection_id !== local.collection_id ||
 		existing.question_text !== local.question_text ||
+		existing.question_text_en !== local.question_text_en ||
+		existing.question_text_vi !== local.question_text_vi ||
 		existing.question_type !== local.question_type ||
 		existingAnswers !== localAnswers ||
 		(existing.image_url || null) !== (local.image_url || null)
@@ -347,20 +378,31 @@ async function run() {
 		}
 
 		// --- Sync Questions ---
-		for (const [questionId, localQuestion] of local.questions) {
-			processedQuestions.add(questionId);
-			const existing = existingQuestions.get(questionId);
+		if (FLAGS.clean) {
+			const allQuestions = [...local.questions.values()];
+			const BATCH_SIZE = 200;
+			for (let i = 0; i < allQuestions.length; i += BATCH_SIZE) {
+				const batch = allQuestions.slice(i, i + BATCH_SIZE);
+				log(`  [BATCH] Questions ${i + 1}..${Math.min(i + BATCH_SIZE, allQuestions.length)}`, 'verbose');
+				await upsertQuestionsBatch(batch);
+				stats.questions.added += batch.length;
+			}
+		} else {
+			for (const [questionId, localQuestion] of local.questions) {
+				processedQuestions.add(questionId);
+				const existing = existingQuestions.get(questionId);
 
-			if (!existing) {
-				log(`    [ADD] Question: ${questionId}`, 'verbose');
-				await upsertQuestion(localQuestion, localQuestion.collection_id);
-				stats.questions.added++;
-			} else if (questionChanged(existing, localQuestion)) {
-				log(`    [UPDATE] Question: ${questionId}`, 'verbose');
-				await upsertQuestion(localQuestion, localQuestion.collection_id);
-				stats.questions.updated++;
-			} else {
-				log(`    [SKIP] Question: ${questionId} (no changes)`, 'verbose');
+				if (!existing) {
+					log(`    [ADD] Question: ${questionId}`, 'verbose');
+					await upsertQuestion(localQuestion, localQuestion.collection_id);
+					stats.questions.added++;
+				} else if (questionChanged(existing, localQuestion)) {
+					log(`    [UPDATE] Question: ${questionId}`, 'verbose');
+					await upsertQuestion(localQuestion, localQuestion.collection_id);
+					stats.questions.updated++;
+				} else {
+					log(`    [SKIP] Question: ${questionId} (no changes)`, 'verbose');
+				}
 			}
 		}
 

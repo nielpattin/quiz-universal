@@ -27,11 +27,20 @@ import {
 	type FontId
 } from '../lib/theme';
 
+export type Answer = {
+	answer_text?: string; // legacy field
+	answer_text_en?: string;
+	answer_text_vi?: string;
+	is_correct: boolean;
+};
+
 export type Quiz = {
 	question_id: string;
-	question_text: string;
+	question_text?: string; // legacy field
+	question_text_en?: string;
+	question_text_vi?: string;
 	question_type: string;
-	answers: string[];
+	answers: Answer[];
 	image_url?: string | null;
 	[key: string]: unknown;
 };
@@ -81,11 +90,9 @@ export const quizSession = $state<{
 
 export const questionResults = new SvelteMap<string, boolean>();
 
-// Track what the last answer earned (for feedback display)
-export const lastPointsBreakdown = $state({ correct: 0, streak: 0, total: 0 });
-
 // Track which questions have already paid out points (prevents replay farming)
 export const scoredQuestions = new SvelteSet<string>();
+	
 
 export function trackResult(questionId: string, isCorrect: boolean) {
 	questionResults.set(questionId, isCorrect);
@@ -99,9 +106,7 @@ export function trackResult(questionId: string, isCorrect: boolean) {
 		const streakBonus = quizSession.streak > 1 ? quizSession.streak * 5 : 0;
 		const points = 10 + streakBonus;
 		quizSession.score += points;
-		lastPointsBreakdown.correct = 10;
-		lastPointsBreakdown.streak = streakBonus;
-		lastPointsBreakdown.total = points;
+// points awarded inline in trackResult
 	} else {
 		quizSession.wrong++;
 		quizSession.streak = 0;
@@ -174,11 +179,9 @@ export function getCurrentQuestion(): Quiz | undefined {
 	return pageState.quizData[pageState.current];
 }
 
-export function getAnswers(): { answer_text: string }[] {
+export function getAnswers(): Answer[] {
 	const q = getCurrentQuestion();
-	return q && Array.isArray(q.answers)
-		? q.answers.map((a) => (typeof a === 'object' && a !== null ? a : { answer_text: String(a) }))
-		: [];
+	return q && Array.isArray(q.answers) ? q.answers : [];
 }
 
 export async function fetchNavigation() {

@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { DEBUG } from '$lib/config';
 	import BilingualText from '$lib/components/BilingualText.svelte';
-	import { quizSession, hapticEnabled } from './global.svelte';
+	import { quizSession, type Answer, type Quiz } from './global.svelte';
 	let isHeld = $state(false);
 	import Star from '@lucide/svelte/icons/star';
 	import ArrowUp from '@lucide/svelte/icons/arrow-up';
@@ -15,19 +15,9 @@
 	import ChevronLeft from '@lucide/svelte/icons/chevron-left';
 	import ChevronRight from '@lucide/svelte/icons/chevron-right';
 
-	interface Answer {
-		answer_text?: string;
-		[key: string]: unknown;
-	}
-
-	interface CurrentQuestion {
-		question_id?: string;
+	interface CurrentQuestion extends Quiz {
 		module?: string;
-		question_text?: string;
-		question?: string;
-		answers?: Array<{ is_correct: boolean }>;
-		question_type: string;
-		image_url?: string | null;
+		question?: string; // legacy
 	}
 
 	interface QuizQuestion {
@@ -52,7 +42,6 @@
 		originalIndices?: number[];
 		goToPreviousCard: () => void;
 		goToNextCard: () => void;
-		lastPointsBreakdown?: { correct: number; streak: number; total: number };
 	}
 
 	let {
@@ -69,7 +58,6 @@
 		favorites,
 		goToPreviousCard,
 		goToNextCard,
-		lastPointsBreakdown = { correct: 0, streak: 0, total: 0 }
 	}: Props = $props();
 
 	// Use reactive favorite state from props, not store
@@ -197,25 +185,6 @@
 	// Check if current question is multiple choice
 	let isMultipleChoice = $derived(currentQuestion?.question_type === 'multiple_answer_question');
 
-	// Haptic feedback on answer lock
-	let prevLocked = false;
-	$effect(() => {
-		if (questionLocked && !prevLocked && hapticEnabled.value && typeof navigator !== 'undefined' && navigator.vibrate) {
-			// Check if answer was correct
-			const correctIdx = selectedAnswers.find((idx: number) => {
-				const originalIdx = originalIndices?.[idx] ?? idx;
-				return currentQuestion?.answers?.[originalIdx]?.is_correct;
-			});
-			const isCorrect = correctIdx !== undefined;
-			if (isCorrect) {
-				navigator.vibrate(20); // short pulse
-			} else {
-				navigator.vibrate([30, 50, 30]); // double buzz
-			}
-		}
-		prevLocked = questionLocked;
-	});
-
 	// Track which answer buttons should animate
 	let popIndex = $state<number | null>(null);
 	let shakeIndex = $state<number | null>(null);
@@ -244,6 +213,13 @@
 				return () => clearTimeout(timer);
 			}
 		}
+	});
+
+	// Reset local animation state when the question changes
+	$effect(() => {
+		const _ = currentQuestion?.question_id;
+		popIndex = null;
+		shakeIndex = null;
 	});
 
 	// Helper function for answer styling with enhanced feedback
@@ -425,7 +401,8 @@
 		<div class="question-row text-lg mb-4">
 			{#if currentQuestion}
 				<BilingualText
-					text={currentQuestion.question_text || currentQuestion.question || ''}
+					en={currentQuestion.question_text_en || currentQuestion.question_text || currentQuestion.question || ''}
+					vi={currentQuestion.question_text_vi || currentQuestion.question_text || currentQuestion.question || ''}
 					variant="question"
 				/>
 			{:else}
@@ -489,7 +466,7 @@
 
 						<!-- Answer Text -->
 						<span class="flex-1">
-							<BilingualText text={ans.answer_text || String(ans)} variant="answer" />
+							<BilingualText en={ans.answer_text_en || ans.answer_text || ''} vi={ans.answer_text_vi || ans.answer_text || ''} variant="answer" />
 						</span>
 
 						<!-- Result Icon (after checking) -->
@@ -534,20 +511,7 @@
 				</button>
 			</div>
 		{/if}
-			{#if questionLocked && lastPointsBreakdown.total > 0}
-				<div class="mt-3 mb-2 flex items-center gap-2 px-3 py-2 rounded-lg bg-[rgba(16,185,129,0.06)] border border-[rgba(16,185,129,0.15)]">
-					<span class="text-xs text-[var(--text-secondary)]">You earned</span>
-					<span class="text-sm font-bold text-[var(--color-success, #10b981)]">+{lastPointsBreakdown.total}</span>
-					<span class="text-xs text-[var(--text-secondary)]">pts</span>
-					{#if lastPointsBreakdown.streak > 0}
-						<span class="text-[10px] text-[var(--text-secondary)]">
-							({lastPointsBreakdown.correct} correct + {lastPointsBreakdown.streak} streak)
-						</span>
-					{:else}
-						<span class="text-[10px] text-[var(--text-secondary)]">(10 correct)</span>
-					{/if}
-				</div>
-			{/if}
+
 		<!-- Subtle ID footer (mobile only) -->
 		{#if currentQuestion?.question_id}
 			<div

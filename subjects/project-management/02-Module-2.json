@@ -1,255 +1,310 @@
 [
-	{
-		"question_id": "pm-m2-q1",
-		"question_text": "As a project manager, you are careful to recognize team members' particular strengths and match them to tasks they are most capable of completing. What project management value does this represent?\nVN: Là quản lý dự án, bạn cẩn thận nhận ra điểm mạnh riêng của các thành viên nhóm và phân công họ vào các nhiệm vụ mà họ có khả năng hoàn thành tốt nhất. Điều này thể hiện giá trị quản lý dự án nào?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Optimism (Lạc quan)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Prioritization (Ưu tiên hóa)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Effective communication (Giao tiếp hiệu quả)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Delegation (Ủy quyền)",
-				"is_correct": true
-			}
-		]
-	},
-	{
-		"question_id": "pm-m2-q2",
-		"question_text": "As a project manager, you discover your teammates are encountering a barrier that prevents them from completing an essential task. You escalate this issue to a stakeholder and work to secure the resources necessary so your team can move forward. Which project management responsibility does this represent?\nVN: Là quản lý dự án, bạn phát hiện ra các đồng đội đang gặp một rào cản ngăn họ hoàn thành một nhiệm vụ thiết yếu. Bạn đưa vấn đề này lên một bên liên quan và làm việc để đảm bảo các nguồn lực cần thiết để nhóm có thể tiến lên. Điều này thể hiện trách nhiệm quản lý dự án nào?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Utilizing productivity tools (Sử dụng công cụ năng suất)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Developing information sharing processes (Phát triển quy trình chia sẻ thông tin)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Managing the budget (Quản lý ngân sách)",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Assigning tasks (Phân công nhiệm vụ)",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "pm-m2-q3",
-		"question_text": "As a project manager, you choose the best project management methodology for your team and ensure they adhere to it throughout the project. What project management responsibility does this represent?\nVN: Là quản lý dự án, bạn chọn phương pháp quản lý dự án tốt nhất cho nhóm của mình và đảm bảo họ tuân thủ nó trong suốt dự án. Điều này thể hiện trách nhiệm quản lý dự án nào?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Ensure that issues and risks are tracked and visible. (Đảm bảo các vấn đề và rủi ro được theo dõi và hiển thị.)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Hold all team members accountable for their assigned tasks. (Giữ tất cả thành viên nhóm chịu trách nhiệm về các nhiệm vụ được giao.)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Help teammates adopt the right workflows and project management styles. (Giúp đồng đội áp dụng quy trình làm việc và phong cách quản lý dự án phù hợp.)",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Collaborate with other teams at the organization. (Hợp tác với các nhóm khác trong tổ chức.)",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "pm-m2-q4",
-		"question_text": "What is an example of measuring progress for a cross-functional team?\nVN: Đâu là một ví dụ về đo lường tiến độ cho một nhóm đa chức năng (cross-functional team)?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Defining key items and encouraging team members to ask questions (Xác định các mục quan trọng và khuyến khích thành viên nhóm đặt câu hỏi)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Learning what makes team members feel supported and giving positive feedback (Tìm hiểu điều gì làm thành viên nhóm cảm thấy được hỗ trợ và đưa ra phản hồi tích cực)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Recording milestones and documenting when tasks are completed (Ghi lại các mốc quan trọng và tài liệu hóa khi các nhiệm vụ được hoàn thành)",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Setting up effective tools so the team can easily work together (Thiết lập các công cụ hiệu quả để nhóm có thể dễ dàng làm việc cùng nhau)",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "pm-m2-q5",
-		"question_text": "After several years as a project manager, you've learned that project plans often face unexpected changes, even with careful upfront planning. When this happens, you are able to adjust while helping your team stay calm. Which core project manager skill set are you demonstrating with these behaviors?\nVN: Sau nhiều năm làm quản lý dự án, bạn đã học được rằng các kế hoạch dự án thường phải đối mặt với những thay đổi bất ngờ, ngay cả khi đã lập kế hoạch cẩn thận từ trước. Khi điều này xảy ra, bạn có thể điều chỉnh trong khi giúp nhóm của bạn giữ bình tĩnh. Bạn đang thể hiện bộ kỹ năng cốt lõi nào của quản lý dự án với những hành vi này?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Enabling decision-making (Hỗ trợ ra quyết định)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Communicating and escalating (Giao tiếp và báo cáo cấp trên)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Flexibility (Linh hoạt)",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Strong organizational skills (Kỹ năng tổ chức mạnh mẽ)",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "pm-m2-q6",
-		"question_text": "A project manager forgets to assess how national holidays and team member vacations will affect the project's completion date. Now, because of team member time off, the project delivery will be two weeks late. What flexible planning strategy could the project manager have used to avoid the delay?\nVN: Một quản lý dự án quên đánh giá các ngày lễ quốc gia và kỳ nghỉ của thành viên nhóm sẽ ảnh hưởng đến ngày hoàn thành dự án như thế nào. Bây giờ, do thời gian nghỉ của thành viên nhóm, việc bàn giao dự án sẽ bị trễ hai tuần. Quản lý dự án có thể sử dụng chiến lược lập kế hoạch linh hoạt nào để tránh sự chậm trễ?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Assess external constraints (Đánh giá các ràng buộc bên ngoài)",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Use collaboration tools (Sử dụng công cụ cộng tác)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Enable decision-making (Hỗ trợ ra quyết định)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Escalate to stakeholders (Báo cáo lên các bên liên quan)",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "pm-m2-q7",
-		"question_text": "Suppose you have two teammates who disagree on the best way to complete a task. Which interpersonal skill can you use to help them resolve their disagreement?\nVN: Giả sử bạn có hai đồng đội không đồng ý về cách tốt nhất để hoàn thành một nhiệm vụ. Bạn có thể sử dụng kỹ năng giao tiếp nào để giúp họ giải quyết bất đồng?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Conflict mediation (Hòa giải xung đột)",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Understanding motivations (Hiểu động lực)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Positive attitude (Thái độ tích cực)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Negotiation (Đàm phán)",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "pm-m2-q8",
-		"question_text": "As a project manager impacting an organization, you want to build a great team. Which of the following would a project manager do to build a great team? Select all that apply.\nVN: Là quản lý dự án có tác động đến một tổ chức, bạn muốn xây dựng một nhóm tuyệt vời. Quản lý dự án sẽ làm gì sau đây để xây dựng một nhóm tuyệt vời? Chọn tất cả các đáp án đúng.",
-		"question_type": "multiple_answer_question",
-		"answers": [
-			{
-				"answer_text": "Take the time to understand each team member's motivations, strengths, and weaknesses. (Dành thời gian để hiểu động lực, điểm mạnh và điểm yếu của từng thành viên nhóm.)",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Allow the team members to have input and ask questions. (Cho phép các thành viên nhóm đóng góp ý kiến và đặt câu hỏi.)",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Address the team's needs whenever it's most convenient for the project manager's schedule. (Giải quyết nhu cầu của nhóm bất cứ khi nào thuận tiện nhất cho lịch trình của quản lý dự án.)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Understand the customer's requirements to better shape the skills needed for the team. (Hiểu các yêu cầu của khách hàng để định hình tốt hơn các kỹ năng cần thiết cho nhóm.)",
-				"is_correct": true
-			}
-		]
-	},
-	{
-		"question_id": "pm-m2-q9",
-		"question_text": "Fill in the blank: In project management, a _____ is a person or an organization that defines the project requirements. They also may set important guidelines, such as the budget and deadlines.\nVN: Điền vào chỗ trống: Trong quản lý dự án, _____ là một người hoặc một tổ chức xác định các yêu cầu dự án. Họ cũng có thể đặt ra các hướng dẫn quan trọng, chẳng hạn như ngân sách và thời hạn.",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "vendor (nhà cung cấp)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "customer (khách hàng)",
-				"is_correct": true
-			},
-			{
-				"answer_text": "competitor (đối thủ cạnh tranh)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "teammate (đồng đội)",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "pm-m2-q10",
-		"question_text": "As a project manager, you take the time to share the lessons that you, as a project manager, have learned. In doing this, you are utilizing interpersonal skills to fulfill what responsibility?\nVN: Là quản lý dự án, bạn dành thời gian chia sẻ những bài học mà bạn, với tư cách là quản lý dự án, đã học được. Khi làm điều này, bạn đang sử dụng các kỹ năng giao tiếp để thực hiện trách nhiệm nào?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Communicating status and concerns (Truyền đạt tình trạng và mối quan tâm)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Planning and organizing (Lập kế hoạch và tổ chức)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Controlling change (Kiểm soát thay đổi)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Teaching and mentoring (Giảng dạy và cố vấn)",
-				"is_correct": true
-			}
-		]
-	},
-	{
-		"question_id": "pm-m2-q11",
-		"question_text": "Sofia is a project manager for the implementation of a new call center software program. Which of the following is necessary for Sofia to be an effective project manager?\nVN: Sofia là quản lý dự án cho việc triển khai một chương trình phần mềm tổng đài mới. Điều nào sau đây là cần thiết để Sofia trở thành một quản lý dự án hiệu quả?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Sofia must have been recognized by leadership as a top performer. (Sofia phải được lãnh đạo công nhận là người làm việc xuất sắc.)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Sofia must have a college degree in software engineering. (Sofia phải có bằng đại học về kỹ thuật phần mềm.)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Sofia must have worked at a large customer service call center. (Sofia phải đã làm việc tại một tổng đài dịch vụ khách hàng lớn.)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Sofia knows how to create a project plan, manage the various members of her team, and identify risks. (Sofia biết cách tạo kế hoạch dự án, quản lý các thành viên khác nhau trong nhóm và xác định rủi ro.)",
-				"is_correct": true
-			}
-		]
-	}
+  {
+    "question_id": "pm-m2-q1",
+    "question_type": "single_answer_question",
+    "question_text_en": "As a project manager, you are careful to recognize team members' particular strengths and match them to tasks they are most capable of completing. What project management value does this represent?",
+    "question_text_vi": "Là quản lý dự án, bạn cẩn thận nhận ra điểm mạnh riêng của các thành viên nhóm và phân công họ vào các nhiệm vụ mà họ có khả năng hoàn thành tốt nhất. Điều này thể hiện giá trị quản lý dự án nào?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Optimism (Lạc quan)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Prioritization (Ưu tiên hóa)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Effective communication (Giao tiếp hiệu quả)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Delegation (Ủy quyền)",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "pm-m2-q2",
+    "question_type": "single_answer_question",
+    "question_text_en": "As a project manager, you discover your teammates are encountering a barrier that prevents them from completing an essential task. You escalate this issue to a stakeholder and work to secure the resources necessary so your team can move forward. Which project management responsibility does this represent?",
+    "question_text_vi": "Là quản lý dự án, bạn phát hiện ra các đồng đội đang gặp một rào cản ngăn họ hoàn thành một nhiệm vụ thiết yếu. Bạn đưa vấn đề này lên một bên liên quan và làm việc để đảm bảo các nguồn lực cần thiết để nhóm có thể tiến lên. Điều này thể hiện trách nhiệm quản lý dự án nào?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Utilizing productivity tools (Sử dụng công cụ năng suất)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Developing information sharing processes (Phát triển quy trình chia sẻ thông tin)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Managing the budget (Quản lý ngân sách)",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Assigning tasks (Phân công nhiệm vụ)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "pm-m2-q3",
+    "question_type": "single_answer_question",
+    "question_text_en": "As a project manager, you choose the best project management methodology for your team and ensure they adhere to it throughout the project. What project management responsibility does this represent?",
+    "question_text_vi": "Là quản lý dự án, bạn chọn phương pháp quản lý dự án tốt nhất cho nhóm của mình và đảm bảo họ tuân thủ nó trong suốt dự án. Điều này thể hiện trách nhiệm quản lý dự án nào?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Ensure that issues and risks are tracked and visible. (Đảm bảo các vấn đề và rủi ro được theo dõi và hiển thị.)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Hold all team members accountable for their assigned tasks. (Giữ tất cả thành viên nhóm chịu trách nhiệm về các nhiệm vụ được giao.)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Help teammates adopt the right workflows and project management styles. (Giúp đồng đội áp dụng quy trình làm việc và phong cách quản lý dự án phù hợp.)",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Collaborate with other teams at the organization. (Hợp tác với các nhóm khác trong tổ chức.)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "pm-m2-q4",
+    "question_type": "single_answer_question",
+    "question_text_en": "What is an example of measuring progress for a cross-functional team?",
+    "question_text_vi": "Đâu là một ví dụ về đo lường tiến độ cho một nhóm đa chức năng (cross-functional team)?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Defining key items and encouraging team members to ask questions (Xác định các mục quan trọng và khuyến khích thành viên nhóm đặt câu hỏi)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Learning what makes team members feel supported and giving positive feedback (Tìm hiểu điều gì làm thành viên nhóm cảm thấy được hỗ trợ và đưa ra phản hồi tích cực)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Recording milestones and documenting when tasks are completed (Ghi lại các mốc quan trọng và tài liệu hóa khi các nhiệm vụ được hoàn thành)",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Setting up effective tools so the team can easily work together (Thiết lập các công cụ hiệu quả để nhóm có thể dễ dàng làm việc cùng nhau)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "pm-m2-q5",
+    "question_type": "single_answer_question",
+    "question_text_en": "After several years as a project manager, you've learned that project plans often face unexpected changes, even with careful upfront planning. When this happens, you are able to adjust while helping your team stay calm. Which core project manager skill set are you demonstrating with these behaviors?",
+    "question_text_vi": "Sau nhiều năm làm quản lý dự án, bạn đã học được rằng các kế hoạch dự án thường phải đối mặt với những thay đổi bất ngờ, ngay cả khi đã lập kế hoạch cẩn thận từ trước. Khi điều này xảy ra, bạn có thể điều chỉnh trong khi giúp nhóm của bạn giữ bình tĩnh. Bạn đang thể hiện bộ kỹ năng cốt lõi nào của quản lý dự án với những hành vi này?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Enabling decision-making (Hỗ trợ ra quyết định)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Communicating and escalating (Giao tiếp và báo cáo cấp trên)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Flexibility (Linh hoạt)",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Strong organizational skills (Kỹ năng tổ chức mạnh mẽ)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "pm-m2-q6",
+    "question_type": "single_answer_question",
+    "question_text_en": "A project manager forgets to assess how national holidays and team member vacations will affect the project's completion date. Now, because of team member time off, the project delivery will be two weeks late. What flexible planning strategy could the project manager have used to avoid the delay?",
+    "question_text_vi": "Một quản lý dự án quên đánh giá các ngày lễ quốc gia và kỳ nghỉ của thành viên nhóm sẽ ảnh hưởng đến ngày hoàn thành dự án như thế nào. Bây giờ, do thời gian nghỉ của thành viên nhóm, việc bàn giao dự án sẽ bị trễ hai tuần. Quản lý dự án có thể sử dụng chiến lược lập kế hoạch linh hoạt nào để tránh sự chậm trễ?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Assess external constraints (Đánh giá các ràng buộc bên ngoài)",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Use collaboration tools (Sử dụng công cụ cộng tác)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Enable decision-making (Hỗ trợ ra quyết định)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Escalate to stakeholders (Báo cáo lên các bên liên quan)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "pm-m2-q7",
+    "question_type": "single_answer_question",
+    "question_text_en": "Suppose you have two teammates who disagree on the best way to complete a task. Which interpersonal skill can you use to help them resolve their disagreement?",
+    "question_text_vi": "Giả sử bạn có hai đồng đội không đồng ý về cách tốt nhất để hoàn thành một nhiệm vụ. Bạn có thể sử dụng kỹ năng giao tiếp nào để giúp họ giải quyết bất đồng?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Conflict mediation (Hòa giải xung đột)",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Understanding motivations (Hiểu động lực)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Positive attitude (Thái độ tích cực)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Negotiation (Đàm phán)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "pm-m2-q8",
+    "question_type": "multiple_answer_question",
+    "question_text_en": "As a project manager impacting an organization, you want to build a great team. Which of the following would a project manager do to build a great team? Select all that apply.",
+    "question_text_vi": "Là quản lý dự án có tác động đến một tổ chức, bạn muốn xây dựng một nhóm tuyệt vời. Quản lý dự án sẽ làm gì sau đây để xây dựng một nhóm tuyệt vời? Chọn tất cả các đáp án đúng.",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Take the time to understand each team member's motivations, strengths, and weaknesses. (Dành thời gian để hiểu động lực, điểm mạnh và điểm yếu của từng thành viên nhóm.)",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Allow the team members to have input and ask questions. (Cho phép các thành viên nhóm đóng góp ý kiến và đặt câu hỏi.)",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Address the team's needs whenever it's most convenient for the project manager's schedule. (Giải quyết nhu cầu của nhóm bất cứ khi nào thuận tiện nhất cho lịch trình của quản lý dự án.)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Understand the customer's requirements to better shape the skills needed for the team. (Hiểu các yêu cầu của khách hàng để định hình tốt hơn các kỹ năng cần thiết cho nhóm.)",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "pm-m2-q9",
+    "question_type": "single_answer_question",
+    "question_text_en": "Fill in the blank: In project management, a _____ is a person or an organization that defines the project requirements. They also may set important guidelines, such as the budget and deadlines.",
+    "question_text_vi": "Điền vào chỗ trống: Trong quản lý dự án, _____ là một người hoặc một tổ chức xác định các yêu cầu dự án. Họ cũng có thể đặt ra các hướng dẫn quan trọng, chẳng hạn như ngân sách và thời hạn.",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "vendor (nhà cung cấp)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "customer (khách hàng)",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "competitor (đối thủ cạnh tranh)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "teammate (đồng đội)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "pm-m2-q10",
+    "question_type": "single_answer_question",
+    "question_text_en": "As a project manager, you take the time to share the lessons that you, as a project manager, have learned. In doing this, you are utilizing interpersonal skills to fulfill what responsibility?",
+    "question_text_vi": "Là quản lý dự án, bạn dành thời gian chia sẻ những bài học mà bạn, với tư cách là quản lý dự án, đã học được. Khi làm điều này, bạn đang sử dụng các kỹ năng giao tiếp để thực hiện trách nhiệm nào?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Communicating status and concerns (Truyền đạt tình trạng và mối quan tâm)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Planning and organizing (Lập kế hoạch và tổ chức)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Controlling change (Kiểm soát thay đổi)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Teaching and mentoring (Giảng dạy và cố vấn)",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "pm-m2-q11",
+    "question_type": "single_answer_question",
+    "question_text_en": "Sofia is a project manager for the implementation of a new call center software program. Which of the following is necessary for Sofia to be an effective project manager?",
+    "question_text_vi": "Sofia là quản lý dự án cho việc triển khai một chương trình phần mềm tổng đài mới. Điều nào sau đây là cần thiết để Sofia trở thành một quản lý dự án hiệu quả?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Sofia must have been recognized by leadership as a top performer. (Sofia phải được lãnh đạo công nhận là người làm việc xuất sắc.)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Sofia must have a college degree in software engineering. (Sofia phải có bằng đại học về kỹ thuật phần mềm.)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Sofia must have worked at a large customer service call center. (Sofia phải đã làm việc tại một tổng đài dịch vụ khách hàng lớn.)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Sofia knows how to create a project plan, manage the various members of her team, and identify risks. (Sofia biết cách tạo kế hoạch dự án, quản lý các thành viên khác nhau trong nhóm và xác định rủi ro.)",
+        "is_correct": true
+      }
+    ]
+  }
 ]

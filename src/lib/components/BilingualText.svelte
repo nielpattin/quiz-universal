@@ -1,35 +1,37 @@
 <script lang="ts">
-	import { parseQuestionText, parseAnswerText } from '$lib/bilingualText';
 	import { enStyleState } from '../../routes/global.svelte';
 
 	interface Props {
-		text: string;
+		en?: string;
+		vi?: string;
 		variant?: 'question' | 'answer';
 	}
 
-	let { text, variant = 'question' }: Props = $props();
-
-	const parsed = $derived(variant === 'question' ? parseQuestionText(text) : parseAnswerText(text));
+	let { en = '', vi = '', variant = 'question' }: Props = $props();
 </script>
 
 {#if variant === 'question'}
 	<!-- Question: English above, Vietnamese below -->
 	<div class="flex flex-col gap-1">
-		{#if parsed.english}
+		{#if en}
 			<span style="font-size: {enStyleState.size}px; opacity: {enStyleState.opacity}">
-				{parsed.english}
+				{en}
 			</span>
 		{/if}
-		<span>{parsed.vietnamese}</span>
+		{#if vi}
+			<span>{vi}</span>
+		{/if}
 	</div>
 {:else}
 	<!-- Answer: English above, Vietnamese below -->
 	<div class="flex flex-col gap-0.5">
-		{#if parsed.english}
+		{#if en}
 			<span style="font-size: {enStyleState.size}px; opacity: {enStyleState.opacity}">
-				{parsed.english}
+				{en}
 			</span>
 		{/if}
-		<span>{parsed.vietnamese}</span>
+		{#if vi}
+			<span>{vi}</span>
+		{/if}
 	</div>
 {/if}

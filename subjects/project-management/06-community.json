@@ -1,926 +1,1127 @@
 [
-	{
-		"question_id": "pm-comm-q1",
-		"question_text": "What are some of the main responsibilities of a Scrum Master? Select all that apply. / Một số trách nhiệm chính của Scrum Master là gì? Chọn tất cả các đáp án đúng.",
-		"question_type": "multiple_answer_question",
-		"answers": [
-			{
-				"answer_text": "Coaches team members to use Agile and Scrum practices / Huấn luyện các thành viên trong nhóm sử dụng các thực hành Agile và Scrum.",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Minimizes unhelpful interactions or interruptions coming from outside of the team / Giảm thiểu các tương tác hoặc gián đoạn không hữu ích từ bên ngoài nhóm.",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Acts as the voice of the customer / Đại diện cho tiếng nói của khách hàng.",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Facilitates scrum events such as Sprint Retrospectives / Tạo điều kiện cho các sự kiện Scrum như Tổng kết Sprint.",
-				"is_correct": true
-			}
-		]
-	},
-	{
-		"question_id": "pm-comm-q2",
-		"question_text": "What are the key components of a project plan? (Những yếu tố cơ bản nào tạo nên một kế hoạch dự án?)",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Time estimates, effort estimates, contingencies, and subtasks (Ước lượng thời gian, ước lượng công sức, dự phòng, và các nhiệm vụ con)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Tasks, milestones, people, documents, and time (Các nhiệm vụ, cột mốc, con người, tài liệu, và thời gian)",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Initiation, planning, management, and execution (Khởi động, lập kế hoạch, quản lý, và thực thi)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Stakeholder information, project proposals, tools, and resources (Thông tin các bên liên quan, đề xuất dự án, công cụ, và tài nguyên)",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "pm-comm-q3",
-		"question_text": "As the vice-president of your class Philanthropy Club at school, you assembled and led a team of 20 students to plan and execute events like fundraisers, community gatherings, and academic assemblies. What project management skills does your Philanthropy Club experience demonstrate?  (Với tư cách là phó chủ tịch Câu lạc bộ Từ thiện của lớp ở trường, bạn đã tập hợp và lãnh đạo một nhóm gồm 20 học sinh để lập kế hoạch và thực hiện các sự kiện như gây quỹ, tập hợp cộng đồng và hội nghị học thuật. Kinh nghiệm của bạn trong Câu lạc bộ Từ thiện thể hiện những kỹ năng quản lý dự án nào?) ",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Interviewing and hiring (Phỏng vấn và tuyển dụng)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Advanced technology skills (Kỹ năng công nghệ cao cấp)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Budgeting and controlling costs (Lập ngân sách và kiểm soát chi phí)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Planning and organizing (Lập kế hoạch và tổ chức)",
-				"is_correct": true
-			}
-		]
-	},
-	{
-		"question_id": "pm-comm-q4",
-		"question_text": "Which of the following are best practices when leading a project kickoff meeting? Select all that apply. (Thực hành tốt nhất nào sau đây khi bạn lãnh đạo một cuộc họp khởi động? Chọn tất cả những gì áp dụng.) ",
-		"question_type": "multiple_answer_question",
-		"answers": [
-			{
-				"answer_text": "Choose the right timing. (Chọn đúng thời gian.)",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Follow up after the meeting. (Theo dõi sau cuộc họp.)",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Share the agenda. (Chia sẻ chương trình nghị sự.)",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Take detailed notes yourself. (Tự mình ghi chép kỹ lưỡng.)",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "pm-comm-q5",
-		"question_text": "You are a project manager assisting a car company with the launch of a new vehicle. Your project goal is to ensure the delivery of cars to dealerships. To achieve this, you talk to stakeholders and experts to understand the specific details of the project. This information helps you know the steps needed to best achieve the project goal. Which best practice of project planning does this example illustrate? (Bạn là một người quản lý dự án đang giúp một công ty xe hơi với việc ra mắt xe mới. Mục tiêu dự án của bạn là đảm bảo việc giao xe đến các đại lý. Để đạt được điều này, bạn nói chuyện với các bên liên quan và các chuyên gia để hiểu chi tiết cụ thể của dự án. Thông tin này giúp bạn biết các bước cần thực hiện để đạt được mục tiêu dự án tốt nhất. Ví dụ này bao gồm thực tiễn tốt nhất nào của kế hoạch dự án?)",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Understanding the products, milestones, and tasks of the project. (Hiểu rõ các sản phẩm, cột mốc, và nhiệm vụ của dự án.)",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Identifying and planning for the inevitable. (Nhận diện và lập kế hoạch cho những điều không thể tránh khỏi.)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Achieving consensus from team members on your plan. (Đạt được sự đồng thuận từ các thành viên trong nhóm đối với kế hoạch của bạn.)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Taking the time to plan. (Dành thời gian để lập kế hoạch.)",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "pm-comm-q6",
-		"question_text": "Suppose you are a project manager running a kickoff meeting. During the meeting, you present the shared project tools and documents. You also inform the team that they will communicate through a group chat and receive daily updates via email. Which agenda item does this represent? (Giả sử bạn là một người quản lý dự án và đang điều hành một cuộc họp khởi động. Trong cuộc họp, bạn trình bày các công cụ và tài liệu dự án chia sẻ. Bạn cũng thông báo với nhóm rằng họ sẽ giao tiếp qua phòng chat nhóm và nhận cập nhật qua email hàng ngày. Điều này thể hiện mục nào trong chương trình nghị sự?)",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Project purpose (Mục đích dự án)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Scope (Phạm vi)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Expected deliverables (Kết quả mong đợi)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Collaboration (Hợp tác)",
-				"is_correct": true
-			}
-		]
-	},
-	{
-		"question_id": "pm-comm-q7",
-		"question_text": "What are the three benefits of project planning? (Ba lợi ích nào sau đây của việc lập kế hoạch dự án?)",
-		"question_type": "multiple_answer_question",
-		"answers": [
-			{
-				"answer_text": "It helps individuals assigned to your project become a strong team by working together. (Nó giúp các cá nhân được phân công vào dự án của bạn trở thành một đội mạnh bằng cách làm việc cùng nhau.)",
-				"is_correct": true
-			},
-			{
-				"answer_text": "It helps you deduce preliminary goals for the project. (Nó giúp bạn suy luận các mục tiêu sơ bộ cho dự án.)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "It helps you outline the entire project. (Nó giúp bạn phác thảo toàn bộ dự án.)",
-				"is_correct": true
-			},
-			{
-				"answer_text": "It gives you time to identify and prepare for risks that might affect your project. (Nó cho bạn thời gian để xác định và chuẩn bị cho các rủi ro có thể ảnh hưởng đến dự án của bạn.)",
-				"is_correct": true
-			}
-		]
-	},
-	{
-		"question_id": "pm-comm-q8",
-		"question_text": "Fill in the blank: _____ is the application of knowledge, skills, tools, and techniques to meet the project requirements and achieve the desired outcome. (Điền vào chỗ trống: _____ là việc áp dụng kiến thức, kỹ năng, công cụ và kỹ thuật để đáp ứng các yêu cầu của dự án và đạt được kết quả mong muốn.) ",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Project management (Quản lý dự án)",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Communication (Giao tiếp)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Budget management (Quản lý ngân sách)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Organization (Tổ chức)",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "pm-comm-q9",
-		"question_text": "When creating a Work Breakdown Structure (WBS), the project manager should focus on _____ instead of actions. (Khi tạo cấu trúc phân rã công việc (WBS), người quản lý dự án nên tập trung vào _____ thay vì các hành động.)",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Stakeholder needs (Nhu cầu của các bên liên quan)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Time (Thời gian)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Deliverables (Các sản phẩm bàn giao)",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Team member strengths (Thế mạnh của các thành viên trong nhóm)",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "pm-comm-q10",
-		"question_text": "You have started a new job at a company where project managers often have the same level of authority as functional managers. Which of the following best describes the organizational structure at your company? (Bạn đã bắt đầu một công việc mới tại một công ty nơi các quản lý dự án thường có cùng mức độ quyền hạn với các quản lý chức năng. Cấu trúc tổ chức tại công ty bạn được mô tả tốt nhất bằng lựa chọn nào sau đây?)",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Functional structure (Cấu trúc chức năng)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "PMO structure (Cấu trúc PMO - Văn phòng quản lý dự án)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Classic structure (Cấu trúc cổ điển)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Matrix structure (Cấu trúc ma trận)",
-				"is_correct": true
-			}
-		]
-	},
-	{
-		"question_id": "pm-comm-q11",
-		"question_text": "Which components make up a Work Breakdown Structure (WBS)? (Những thành phần nào tạo nên một cấu trúc phân chia công việc (WBS)?)",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "A detailed list of the project with feedback from team members. (Danh sách chi tiết về dự án với phản hồi từ các thành viên trong nhóm.)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "A list of all tasks that need to be completed in the project. (Một danh sách tất cả các nhiệm vụ cần hoàn thành trong dự án.)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "The milestones and tasks of the project organized in a hierarchical manner. (Các cột mốc và nhiệm vụ của dự án được tổ chức theo hệ thống phân cấp.)",
-				"is_correct": true
-			},
-			{
-				"answer_text": "A document of all the work assigned to team members. (Một tài liệu về tất cả các công việc được giao cho các thành viên trong nhóm.)",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "pm-comm-q12",
-		"question_text": "Which project management approach includes the following phases: define, measure, analyze, improve, control. (Phương pháp quản lý dự án nào bao gồm các giai đoạn sau: định nghĩa, đo lường, phân tích, cải tiến, kiểm soát?)",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Waterfall methodology (Phương pháp Waterfall)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Agile methodology (Phương pháp Agile)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Linear methodology (Phương pháp tuyến tính)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Lean Six Sigma methodology (Phương pháp Lean Six Sigma)",
-				"is_correct": true
-			}
-		]
-	},
-	{
-		"question_id": "pm-comm-q13",
-		"question_text": "Which three of the following are examples of direct costs for your project? (Ba mục nào dưới đây là ví dụ về chi phí trực tiếp cho dự án của bạn?)",
-		"question_type": "multiple_answer_question",
-		"answers": [
-			{
-				"answer_text": "Material costs (Chi phí vật liệu)",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Employee and contractor wages (Lương và tiền công của nhân viên và nhà thầu)",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Employee training (Đào tạo nhân viên)",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Utilities (Tiện ích)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "General office equipment (Thiết bị văn phòng chung)",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "pm-comm-q14",
-		"question_text": "Which of the following questions can help project managers learn about a company’s organizational culture? Select all that apply. (Câu hỏi nào sau đây có thể giúp các quản lý dự án tìm hiểu về văn hóa tổ chức của công ty? Chọn tất cả những đáp án đúng.)",
-		"question_type": "multiple_answer_question",
-		"answers": [
-			{
-				"answer_text": "What kinds of rituals are in place when someone new comes to the office? (Những nghi lễ nào được thiết lập khi có người mới đến văn phòng?)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "How are decisions made, majority vote or top down approvals? (Quyết định được đưa ra như thế nào, bằng đa số phiếu hoặc phê duyệt từ trên xuống?)",
-				"is_correct": true
-			},
-			{
-				"answer_text": "What kind of benefits do employees receive? (Nhân viên nhận được những loại phúc lợi nào?)",
-				"is_correct": true
-			},
-			{
-				"answer_text": "What is the benchmark salary for people performing this project role? (Mức lương chuẩn cho những người đảm nhận vai trò dự án này là bao nhiêu?)",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "pm-comm-q15",
-		"question_text": "Which project methodology involves reducing variations by ensuring that quality processes are followed every time? (Phương pháp quản lý dự án nào liên quan đến việc giảm sự biến thiên bằng cách đảm bảo rằng các quy trình chất lượng được tuân thủ mỗi lần?)",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Waterfall (Waterfall) ",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Agile (Agile)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Scrum (Scrum)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Six Sigma (Six Sigma)",
-				"is_correct": true
-			}
-		]
-	},
-	{
-		"question_id": "pm-comm-q16",
-		"question_text": "As a project manager, you identify costs for items like software, tools, labor, and equipment. What budgeting term refers to these types of costs? (Là một người quản lý dự án, bạn xác định chi phí cho các mục như phần mềm, công cụ, lao động, và thiết bị. Thuật ngữ ngân sách nào chỉ những loại chi phí này?)",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Quality cost (Chi phí chất lượng)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Contingency budget (Ngân sách dự phòng)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Reserve analysis (Phân tích dự trữ)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Resource cost rate (Tỷ lệ chi phí tài nguyên)",
-				"is_correct": true
-			}
-		]
-	},
-	{
-		"question_id": "pm-comm-q17",
-		"question_text": "Yui is a project manager working for a clothing company developing a new line of winter sleepwear. Which of the following is necessary for Yui to manage this project effectively? (Yui là một quản lý dự án làm việc cho một công ty quần áo phát triển dòng sản phẩm đồ ngủ mùa đông mới. Điều nào sau đây là cần thiết để Yui quản lý dự án này hiệu quả?)",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Yui must be able to do the things that each of her team members can do. (Yui phải có khả năng làm những việc mà từng thành viên trong nhóm có thể làm.)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Yui must know every single detail about the project at all times. (Yui phải biết mọi chi tiết về dự án mọi lúc.)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Yui must ensure team members understand their objectives and have what they need to be successful in their tasks. (Yui phải đảm bảo các thành viên hiểu mục tiêu và có những gì họ cần để thành công trong nhiệm vụ.) ",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Yui must directly manage her team members while they do their tasks. (Yui phải trực tiếp quản lý các thành viên trong nhóm khi họ thực hiện nhiệm vụ.)",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "pm-comm-q18",
-		"question_text": "When budgeting for a project, you are considering all parts of the project from start to finish — listing every document, resource, and contract labor. What do you call this type of budget? (Khi lập ngân sách cho dự án, bạn đang xem xét tất cả các phần của dự án từ đầu đến cuối — lập danh sách mọi tài liệu, tài nguyên, và nhân công hợp đồng. Bạn gọi loại ngân sách này là gì?)",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Top-down method (Phương pháp từ trên xuống)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Bottom-up method (Phương pháp từ dưới lên)",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Contingency (Dự phòng)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Funds and reserves (Quỹ và dự phòng)",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "pm-comm-q19",
-		"question_text": "After several years as a project manager, you’ve learned that project plans often face unexpected changes, even with careful upfront planning. When this happens, you are able to adjust while helping your team stay calm. Which core project manager skill set are you demonstrating with these behaviors? (Sau nhiều năm làm quản lý dự án, bạn đã học được rằng kế hoạch dự án thường gặp những thay đổi bất ngờ, ngay cả khi đã lập kế hoạch cẩn thận. Khi điều này xảy ra, bạn có thể điều chỉnh trong khi giúp đội ngũ của bạn giữ bình tĩnh. Bộ kỹ năng cốt lõi nào của quản lý dự án mà bạn đang thể hiện qua những hành vi này?)",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Strong organizational skills (Kỹ năng tổ chức tốt)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Enabling decision-making (Cho phép ra quyết định)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Communicating and escalating (Giao tiếp và báo cáo)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Flexibility (Linh hoạt)",
-				"is_correct": true
-			}
-		]
-	},
-	{
-		"question_id": "pm-comm-q20",
-		"question_text": "Imagine you’re a project manager overseeing the development and launch of a new app. Which of the following problems could be a single point of failure risk in the app’s development? (Giả sử bạn là một quản lý dự án giám sát việc phát triển và ra mắt một ứng dụng mới. Trong số các vấn đề sau, vấn đề nào có thể là rủi ro điểm thất bại duy nhất trong quá trình phát triển ứng dụng?)",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Lack of communication between the designers and the project lead, which may lead to tension among team members. (Thiếu sự giao tiếp giữa các nhà thiết kế và người dẫn dắt dự án, điều này có thể dẫn đến căng thẳng giữa các thành viên trong nhóm.)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Completing a project milestone behind schedule, which may delay the project timeline. (Hoàn thành một cột mốc dự án trễ hạn, điều này có thể làm chậm tiến độ dự án.)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Receiving negative feedback from user testing, which may lead to more work for the developers. (Nhận được phản hồi tiêu cực từ việc thử nghiệm người dùng, điều này có thể dẫn đến việc các nhà phát triển phải làm thêm việc.)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Failing to back up key project documentation, which may result in a complete loss of essential data. (Không sao lưu tài liệu dự án quan trọng, điều này có thể dẫn đến mất hoàn toàn dữ liệu cần thiết.)",
-				"is_correct": true
-			}
-		]
-	},
-	{
-		"question_id": "pm-comm-q21",
-		"question_text": "As a project manager, you create a project plan. The plan includes documents that help keep the project organized and on track, especially when risks or changes occur. Where are these documents linked in the project plan? (Là một người quản lý dự án, bạn tạo ra một kế hoạch dự án. Trong kế hoạch có các tài liệu giúp giữ cho dự án được tổ chức và đi đúng hướng, đặc biệt khi có rủi ro hoặc thay đổi xảy ra. Những tài liệu này được liên kết ở phần nào của kế hoạch dự án?)",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Budget (Ngân sách)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Project scope and objectives (Phạm vi và mục tiêu dự án)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Management plan (Kế hoạch quản lý)",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Work Breakdown Structure (WBS) (Cấu trúc phân chia công việc (WBS))",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "pm-comm-q22",
-		"question_text": "Which of the following are ways that organizational structure determines your role as a project manager? Select all that apply. (Những cách nào sau đây mà cấu trúc tổ chức xác định vai trò của bạn như một quản lý dự án? Chọn tất cả những đáp án đúng.)",
-		"question_type": "multiple_answer_question",
-		"answers": [
-			{
-				"answer_text": "Organizational structure determines how frequently to communicate (Cấu trúc tổ chức xác định tần suất giao tiếp)",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Organizational structure determines who you should communicate with (Cấu trúc tổ chức xác định người bạn nên giao tiếp)",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Organizational structure determines where you fit in (Cấu trúc tổ chức xác định vị trí của bạn trong tổ chức)",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Organizational structure determines your career growth (Cấu trúc tổ chức xác định sự phát triển nghề nghiệp của bạn)",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "pm-comm-q23",
-		"question_text": "What are the phases of the project life cycle? (Các giai đoạn của vòng đời dự án là gì?)",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Initiate the project, make a plan, execute and complete tasks, close the project (Khởi động dự án, lập kế hoạch, thực hiện và hoàn thành các nhiệm vụ, kết thúc dự án)",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Initiate the project, make a plan, communicate progress, close the project (Khởi động dự án, lập kế hoạch, giao tiếp tiến độ, kết thúc dự án)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Make a plan, initiate the project, communicate progress, close the project (Lập kế hoạch, khởi động dự án, giao tiếp tiến độ, kết thúc dự án)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Initiate the project, make a plan, measure and analyze tasks, close the project (Khởi động dự án, lập kế hoạch, đo lường và phân tích các nhiệm vụ, kết thúc dự án)",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "pm-comm-q24",
-		"question_text": "What required skills are typically listed in project management job postings? Select all that apply. (Những kỹ năng yêu cầu nào thường được liệt kê trong các tin tuyển dụng quản lý dự án? Chọn tất cả các đáp án đúng.) ",
-		"question_type": "multiple_answer_question",
-		"answers": [
-			{
-				"answer_text": "Social media marketing (Tiếp thị truyền thông xã hội)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Budget preparation and monitoring (Chuẩn bị và giám sát ngân sách)",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Organizational ability (Khả năng tổ chức)",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Communication skills (Kỹ năng giao tiếp)",
-				"is_correct": true
-			}
-		]
-	},
-	{
-		"question_id": "pm-comm-q25",
-		"question_text": "As a project manager, you want to integrate change management into your project. Which of the following activities best demonstrate that you are being proactive in change management? (Là một quản lý dự án, bạn muốn tích hợp quản lý thay đổi vào dự án của mình. Hoạt động nào sau đây thể hiện rõ ràng rằng bạn đang chủ động trong quản lý thay đổi?)",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "You present to stakeholders a detailed explanation of how you produced your deliverable. (Bạn trình bày cho các bên liên quan một giải thích chi tiết về cách bạn đã sản xuất sản phẩm của mình.)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "You present a detailed project plan to your project team members. (Bạn trình bày một kế hoạch dự án chi tiết cho các thành viên trong nhóm dự án của mình.)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Towards the end of your project, you plan demonstrations and question and answer forums that introduce the deliverable to stakeholders. (Vào cuối dự án, bạn lên kế hoạch các buổi trình diễn và diễn đàn hỏi đáp giới thiệu sản phẩm cho các bên liên quan.)",
-				"is_correct": true
-			},
-			{
-				"answer_text": "You formally acknowledge product milestones with your team and stakeholders. (Bạn công nhận chính thức các mốc sản phẩm với nhóm và các bên liên quan.)",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "pm-comm-q26",
-		"question_text": "You’ve been asked to lead a team implementing a new production technique in one of your company’s factories. The implementation process starts next Monday and the company would like you to complete it within two weeks. The two week window in this scenario is an example of what defining characteristic of projects? (Bạn được yêu cầu dẫn dắt một nhóm triển khai một kỹ thuật sản xuất mới trong một trong những nhà máy của công ty. Quá trình triển khai bắt đầu vào thứ Hai tới và công ty muốn bạn hoàn thành nó trong vòng hai tuần. Khoảng thời gian hai tuần trong tình huống này là ví dụ về đặc điểm nào định nghĩa dự án?)",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Representing a project milestone (Đại diện cho một cột mốc dự án)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Having a project plan (Có một kế hoạch dự án)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Representing a unique endeavor (Đại diện cho một nỗ lực độc đáo)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Having a clearly defined beginning and an end (Có một sự khởi đầu và kết thúc được xác định rõ ràng)",
-				"is_correct": true
-			}
-		]
-	},
-	{
-		"question_id": "pm-comm-q27",
-		"question_text": "As a project manager, you create a project plan. The plan includes tasks with clear descriptions, responsible individuals, and deadlines. Where do these tasks belong in the project plan? (Là một người quản lý dự án, bạn tạo ra một kế hoạch dự án. Trong kế hoạch có các nhiệm vụ với mô tả rõ ràng, người phụ trách, và hạn chót. Những nhiệm vụ này nằm trong phần nào của kế hoạch dự án?)",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Work Breakdown Structure (WBS) (Cấu trúc phân chia công việc (WBS))",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Budget (Ngân sách)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Management plan (Kế hoạch quản lý)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Scope and objectives (Phạm vi và mục tiêu)",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "pm-comm-q28",
-		"question_text": "As a project manager, one of your team members suddenly must leave your project to deal with a family emergency. To stay on schedule, you pull another team member off of a task that is not timesensitive and assign him to the urgent task that your departing team member was working on. Which flexible planning strategy did you use to deal with this unexpected circumstance? (Với tư cách là một quản lý dự án, một trong những thành viên trong nhóm của bạn đột ngột phải rời khỏi dự án để giải quyết việc gia đình khẩn cấp. Để giữ đúng tiến độ, bạn rút một thành viên khác khỏi một nhiệm vụ không khẩn cấp và giao họ vào nhiệm vụ quan trọng mà thành viên kia đang làm. Chiến lược lập kế hoạch linh hoạt nào bạn đã sử dụng để đối phó với tình huống bất ngờ này?) ",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Planning for risks and challenges (Lập kế hoạch cho rủi ro và thách thức)",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Enabling decision-making (Cho phép ra quyết định)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Trusting the expertise of your team (Tin tưởng vào chuyên môn của nhóm)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Assessing external constraints (Đánh giá các ràng buộc bên ngoài)",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "pm-comm-q29",
-		"question_text": "Suppose you are a project manager running a kickoff meeting. During the meeting, you spend about ten minutes setting expectations for the team and outlining the next steps they should take. Which agenda item does this represent? (Giả sử bạn là một người quản lý dự án và đang điều hành một cuộc họp khởi động. Trong cuộc họp, bạn dành khoảng mười phút để thiết lập kỳ vọng cho nhóm và các bước tiếp theo mà họ nên thực hiện. Điều này thể hiện mục nào trong chương trình nghị sự?)",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Introduction (Giới thiệu)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "What comes next (Điều gì sẽ đến tiếp theo)",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Roles (Vai trò)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Background (Bối cảnh)",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "pm-comm-q30",
-		"question_text": "As a project manager, you keep track of project activities so that you can demonstrate progress to your stakeholders. Which project management responsibility does this represent? (Với tư cách là một quản lý dự án, bạn theo dõi các hoạt động của dự án để có thể trình bày tiến độ cho các bên liên quan. Trách nhiệm quản lý dự án nào được thể hiện ở đây?) ",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Managing tasks (Quản lý nhiệm vụ)",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Utilizing productivity tools (Sử dụng các công cụ năng suất)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Managing the budget (Quản lý ngân sách)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Removing unforeseen barriers (Loại bỏ các rào cản không lường trước)",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "pm-comm-q31",
-		"question_text": "As a project manager, you believe limited access to the necessary people and equipment could cause the project to go past deadline. Which organizational topic could you discuss with your key stakeholder to get the project back on track?  (Là một quản lý dự án, bạn tin rằng việc truy cập hạn chế đến những người cần thiết và thiết bị có thể khiến dự án vượt quá thời hạn. Chủ đề tổ chức nào bạn có thể thảo luận với các bên liên quan chính để đưa dự án trở lại đúng tiến độ?) ",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Report availability (Sự sẵn có của báo cáo)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Resource availability (Sự sẵn có của nguồn lực)",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Meeting availability (Sự sẵn có của cuộc họp)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Stakeholder availability (Sự sẵn có của các bên liên quan)",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "pm-comm-q32",
-		"question_text": "Which of the following are core concepts and best practices that change management centers around? Select all that apply. (Những khái niệm cốt lõi và thực tiễn tốt nhất nào mà quản lý thay đổi tập trung vào? Chọn tất cả những đáp án đúng.)",
-		"question_type": "multiple_answer_question",
-		"answers": [
-			{
-				"answer_text": "Creating a sense of ownership and urgency around the project (Tạo cảm giác sở hữu và khẩn cấp xung quanh dự án)",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Communicating effectively (Giao tiếp hiệu quả)",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Figuring out the right combination of skills and personalities to work on your team (Xác định sự kết hợp đúng đắn về kỹ năng và tính cách để làm việc trong nhóm của bạn)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Completing the project on time and on budget (Hoàn thành dự án đúng thời hạn và trong ngân sách) ",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "pm-comm-q33",
-		"question_text": "What long-term objective for the Scrum Team is included in the Product Backlog? (Mục tiêu dài hạn nào cho đội Scrum thuộc Product Backlog?)",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Product Owner (Chủ sản phẩm)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Product Goal (Mục tiêu sản phẩm)",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Product requirements document (Tài liệu yêu cầu sản phẩm)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Sprint Goal (Mục tiêu Sprint)",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "pm-comm-q34",
-		"question_text": "What is capacity in project management? (Khả năng (capacity) trong quản lý dự án là gì?)",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Predicting the budget that will be allocated to complete project tasks. (Dự đoán số ngân sách sẽ được phân bổ để hoàn thành các nhiệm vụ dự án.)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "The total number of people involved in the project. (Tổng số người tham gia vào dự án.)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "The amount of work that those assigned to the project can reasonably complete within a given timeframe. (Số lượng công việc mà những người được giao dự án có thể hoàn thành hợp lý trong một khoảng thời gian nhất định.)",
-				"is_correct": true
-			},
-			{
-				"answer_text": "The estimated time for the project team to complete the project's milestones. (Thời gian ước lượng để nhóm dự án hoàn thành các cột mốc của dự án.)",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "pm-comm-q35",
-		"question_text": "Which type of risk involves the possibility that a project will not produce the results outlined in the project goals? (Loại rủi ro nào liên quan đến khả năng một dự án sẽ không đạt được các kết quả được nêu trong mục tiêu dự án?)",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Time risk (Rủi ro về thời gian)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Budget risk (Rủi ro về ngân sách)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Environmental risk (Rủi ro về môi trường)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Scope risk (Rủi ro về phạm vi)",
-				"is_correct": true
-			}
-		]
-	},
-	{
-		"question_id": "pm-comm-q36",
-		"question_text": "What are the benefits of timeboxes? Select all that apply. (Lợi ích của giới hạn thời gian (timeboxes) là gì? Chọn tất cả các đáp án đúng.)",
-		"question_type": "multiple_answer_question",
-		"answers": [
-			{
-				"answer_text": "They provide a window of focus to improve productivity. (Chúng cung cấp một khoảng thời gian tập trung để cải thiện năng suất.)",
-				"is_correct": true
-			},
-			{
-				"answer_text": "They enable the team to visually understand the work. (Chúng giúp nhóm có thể nhìn nhận công việc một cách trực quan.)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "They create a sense of urgency to drive prioritization. (Chúng tạo ra cảm giác khẩn cấp để thúc đẩy việc ưu tiên.)",
-				"is_correct": true
-			},
-			{
-				"answer_text": "They help the team develop a predictable rhythm to their work. (Chúng giúp nhóm phát triển nhịp điệu làm việc có thể dự đoán được.)",
-				"is_correct": true
-			}
-		]
-	},
-	{
-		"question_id": "pm-comm-q37",
-		"question_text": "As a Product Owner, you need to add estimates to your Backlog for a small number of items. You'd like your team to reach a consensus on the number of items, and you would also like to incorporate the Fibonacci sequence. Which effort estimation technique should you use? (Là một Product Owner, bạn cần thêm ước tính vào Backlog cho một số lượng nhỏ các mục. Bạn muốn nhóm của mình đạt được sự đồng thuận về số lượng các mục, và bạn cũng muốn kết hợp dãy số Fibonacci. Bạn nên sử dụng kỹ thuật ước tính công sức nào?)",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Dot Voting (Bỏ phiếu chấm điểm)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "The Bucket System (Hệ thống phân loại)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Affinity Mapping (Bản đồ phân nhóm)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Planning Poker (Lập kế hoạch Poker)",
-				"is_correct": true
-			}
-		]
-	},
-	{
-		"question_id": "pm-comm-q38",
-		"question_text": "Which project management tool uses cards to track and visualize task progress? (Công cụ quản lý dự án nào sử dụng thẻ để theo dõi và trực quan hóa tiến độ nhiệm vụ?)",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Gantt chart (Biểu đồ Gantt)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Spreadsheet (Bảng tính)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Kanban board (Bảng Kanban)",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Smartsheet (Smartsheet)",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "pm-comm-q39",
-		"question_text": "Imagine you are a project manager at a video game company. Your last large-scale software release contained so many technical issues that they upset your customers and overwhelmed your Developers. To ensure that your next rollout is secure and reliable, you recruit new team members with information technology (IT) expertise. Which of the following approaches is best for your new project? (Giả sử bạn là một quản lý dự án tại một công ty trò chơi điện tử. Lần phát hành phần mềm quy mô lớn gần đây của bạn có quá nhiều vấn đề kỹ thuật khiến khách hàng của bạn không hài lòng và làm cho các nhà phát triển của bạn quá tải. Để đảm bảo rằng lần phát hành tiếp theo của bạn an toàn và đáng tin cậy, bạn tuyển dụng các thành viên mới trong nhóm có chuyên môn công nghệ thông tin (IT). Cách tiếp cận nào sau đây là tốt nhất cho dự án mới của bạn?)",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Business Agility (Năng lực kinh doanh)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "DevOps",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Scaled Agile Framework (SAFe)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Large-Scale Scrum (LeSS)",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "pm-comm-q40",
-		"question_text": "Your team has completed the tasks required and delivered the product on time to the client. What is the next phase of the project lifecycle? (Nhóm của bạn đã hoàn thành các nhiệm vụ yêu cầu và giao sản phẩm đúng hạn cho khách hàng. Giai đoạn tiếp theo của vòng đời dự án là gì?)",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Initiate the project (Khởi động dự án) ",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Close the project (Kết thúc dự án)",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Execute the project (Thực hiện dự án)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Plan the project (Lập kế hoạch dự án)",
-				"is_correct": false
-			}
-		]
-	}
+  {
+    "question_id": "pm-comm-q1",
+    "question_type": "multiple_answer_question",
+    "question_text_en": "What are some of the main responsibilities of a Scrum Master? Select all that apply.",
+    "question_text_vi": "Một số trách nhiệm chính của Scrum Master là gì? Chọn tất cả các đáp án đúng.",
+    "answers": [
+      {
+        "answer_text_en": "Coaches team members to use Agile and Scrum practices",
+        "answer_text_vi": "Huấn luyện các thành viên trong nhóm sử dụng các thực hành Agile và Scrum.",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "Minimizes unhelpful interactions or interruptions coming from outside of the team",
+        "answer_text_vi": "Giảm thiểu các tương tác hoặc gián đoạn không hữu ích từ bên ngoài nhóm.",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "Acts as the voice of the customer",
+        "answer_text_vi": "Đại diện cho tiếng nói của khách hàng.",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "Facilitates scrum events such as Sprint Retrospectives",
+        "answer_text_vi": "Tạo điều kiện cho các sự kiện Scrum như Tổng kết Sprint.",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "pm-comm-q2",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "What are the key components of a project plan? (Những yếu tố cơ bản nào tạo nên một kế hoạch dự án?)",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Time estimates, effort estimates, contingencies, and subtasks (Ước lượng thời gian, ước lượng công sức, dự phòng, và các nhiệm vụ con)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Tasks, milestones, people, documents, and time (Các nhiệm vụ, cột mốc, con người, tài liệu, và thời gian)",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Initiation, planning, management, and execution (Khởi động, lập kế hoạch, quản lý, và thực thi)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Stakeholder information, project proposals, tools, and resources (Thông tin các bên liên quan, đề xuất dự án, công cụ, và tài nguyên)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "pm-comm-q3",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "As the vice-president of your class Philanthropy Club at school, you assembled and led a team of 20 students to plan and execute events like fundraisers, community gatherings, and academic assemblies. What project management skills does your Philanthropy Club experience demonstrate?  (Với tư cách là phó chủ tịch Câu lạc bộ Từ thiện của lớp ở trường, bạn đã tập hợp và lãnh đạo một nhóm gồm 20 học sinh để lập kế hoạch và thực hiện các sự kiện như gây quỹ, tập hợp cộng đồng và hội nghị học thuật. Kinh nghiệm của bạn trong Câu lạc bộ Từ thiện thể hiện những kỹ năng quản lý dự án nào?) ",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Interviewing and hiring (Phỏng vấn và tuyển dụng)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Advanced technology skills (Kỹ năng công nghệ cao cấp)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Budgeting and controlling costs (Lập ngân sách và kiểm soát chi phí)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Planning and organizing (Lập kế hoạch và tổ chức)",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "pm-comm-q4",
+    "question_type": "multiple_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Which of the following are best practices when leading a project kickoff meeting? Select all that apply. (Thực hành tốt nhất nào sau đây khi bạn lãnh đạo một cuộc họp khởi động? Chọn tất cả những gì áp dụng.) ",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Choose the right timing. (Chọn đúng thời gian.)",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Follow up after the meeting. (Theo dõi sau cuộc họp.)",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Share the agenda. (Chia sẻ chương trình nghị sự.)",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Take detailed notes yourself. (Tự mình ghi chép kỹ lưỡng.)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "pm-comm-q5",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "You are a project manager assisting a car company with the launch of a new vehicle. Your project goal is to ensure the delivery of cars to dealerships. To achieve this, you talk to stakeholders and experts to understand the specific details of the project. This information helps you know the steps needed to best achieve the project goal. Which best practice of project planning does this example illustrate? (Bạn là một người quản lý dự án đang giúp một công ty xe hơi với việc ra mắt xe mới. Mục tiêu dự án của bạn là đảm bảo việc giao xe đến các đại lý. Để đạt được điều này, bạn nói chuyện với các bên liên quan và các chuyên gia để hiểu chi tiết cụ thể của dự án. Thông tin này giúp bạn biết các bước cần thực hiện để đạt được mục tiêu dự án tốt nhất. Ví dụ này bao gồm thực tiễn tốt nhất nào của kế hoạch dự án?)",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Understanding the products, milestones, and tasks of the project. (Hiểu rõ các sản phẩm, cột mốc, và nhiệm vụ của dự án.)",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Identifying and planning for the inevitable. (Nhận diện và lập kế hoạch cho những điều không thể tránh khỏi.)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Achieving consensus from team members on your plan. (Đạt được sự đồng thuận từ các thành viên trong nhóm đối với kế hoạch của bạn.)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Taking the time to plan. (Dành thời gian để lập kế hoạch.)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "pm-comm-q6",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Suppose you are a project manager running a kickoff meeting. During the meeting, you present the shared project tools and documents. You also inform the team that they will communicate through a group chat and receive daily updates via email. Which agenda item does this represent? (Giả sử bạn là một người quản lý dự án và đang điều hành một cuộc họp khởi động. Trong cuộc họp, bạn trình bày các công cụ và tài liệu dự án chia sẻ. Bạn cũng thông báo với nhóm rằng họ sẽ giao tiếp qua phòng chat nhóm và nhận cập nhật qua email hàng ngày. Điều này thể hiện mục nào trong chương trình nghị sự?)",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Project purpose (Mục đích dự án)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Scope (Phạm vi)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Expected deliverables (Kết quả mong đợi)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Collaboration (Hợp tác)",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "pm-comm-q7",
+    "question_type": "multiple_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "What are the three benefits of project planning? (Ba lợi ích nào sau đây của việc lập kế hoạch dự án?)",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "It helps individuals assigned to your project become a strong team by working together. (Nó giúp các cá nhân được phân công vào dự án của bạn trở thành một đội mạnh bằng cách làm việc cùng nhau.)",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "It helps you deduce preliminary goals for the project. (Nó giúp bạn suy luận các mục tiêu sơ bộ cho dự án.)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "It helps you outline the entire project. (Nó giúp bạn phác thảo toàn bộ dự án.)",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "It gives you time to identify and prepare for risks that might affect your project. (Nó cho bạn thời gian để xác định và chuẩn bị cho các rủi ro có thể ảnh hưởng đến dự án của bạn.)",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "pm-comm-q8",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Fill in the blank: _____ is the application of knowledge, skills, tools, and techniques to meet the project requirements and achieve the desired outcome. (Điền vào chỗ trống: _____ là việc áp dụng kiến thức, kỹ năng, công cụ và kỹ thuật để đáp ứng các yêu cầu của dự án và đạt được kết quả mong muốn.) ",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Project management (Quản lý dự án)",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Communication (Giao tiếp)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Budget management (Quản lý ngân sách)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Organization (Tổ chức)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "pm-comm-q9",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "When creating a Work Breakdown Structure (WBS), the project manager should focus on _____ instead of actions. (Khi tạo cấu trúc phân rã công việc (WBS), người quản lý dự án nên tập trung vào _____ thay vì các hành động.)",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Stakeholder needs (Nhu cầu của các bên liên quan)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Time (Thời gian)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Deliverables (Các sản phẩm bàn giao)",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Team member strengths (Thế mạnh của các thành viên trong nhóm)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "pm-comm-q10",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "You have started a new job at a company where project managers often have the same level of authority as functional managers. Which of the following best describes the organizational structure at your company? (Bạn đã bắt đầu một công việc mới tại một công ty nơi các quản lý dự án thường có cùng mức độ quyền hạn với các quản lý chức năng. Cấu trúc tổ chức tại công ty bạn được mô tả tốt nhất bằng lựa chọn nào sau đây?)",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Functional structure (Cấu trúc chức năng)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "PMO structure (Cấu trúc PMO - Văn phòng quản lý dự án)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Classic structure (Cấu trúc cổ điển)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Matrix structure (Cấu trúc ma trận)",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "pm-comm-q11",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Which components make up a Work Breakdown Structure (WBS)? (Những thành phần nào tạo nên một cấu trúc phân chia công việc (WBS)?)",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "A detailed list of the project with feedback from team members. (Danh sách chi tiết về dự án với phản hồi từ các thành viên trong nhóm.)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "A list of all tasks that need to be completed in the project. (Một danh sách tất cả các nhiệm vụ cần hoàn thành trong dự án.)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "The milestones and tasks of the project organized in a hierarchical manner. (Các cột mốc và nhiệm vụ của dự án được tổ chức theo hệ thống phân cấp.)",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "A document of all the work assigned to team members. (Một tài liệu về tất cả các công việc được giao cho các thành viên trong nhóm.)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "pm-comm-q12",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Which project management approach includes the following phases: define, measure, analyze, improve, control. (Phương pháp quản lý dự án nào bao gồm các giai đoạn sau: định nghĩa, đo lường, phân tích, cải tiến, kiểm soát?)",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Waterfall methodology (Phương pháp Waterfall)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Agile methodology (Phương pháp Agile)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Linear methodology (Phương pháp tuyến tính)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Lean Six Sigma methodology (Phương pháp Lean Six Sigma)",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "pm-comm-q13",
+    "question_type": "multiple_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Which three of the following are examples of direct costs for your project? (Ba mục nào dưới đây là ví dụ về chi phí trực tiếp cho dự án của bạn?)",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Material costs (Chi phí vật liệu)",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Employee and contractor wages (Lương và tiền công của nhân viên và nhà thầu)",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Employee training (Đào tạo nhân viên)",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Utilities (Tiện ích)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "General office equipment (Thiết bị văn phòng chung)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "pm-comm-q14",
+    "question_type": "multiple_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Which of the following questions can help project managers learn about a company’s organizational culture? Select all that apply. (Câu hỏi nào sau đây có thể giúp các quản lý dự án tìm hiểu về văn hóa tổ chức của công ty? Chọn tất cả những đáp án đúng.)",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "What kinds of rituals are in place when someone new comes to the office? (Những nghi lễ nào được thiết lập khi có người mới đến văn phòng?)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "How are decisions made, majority vote or top down approvals? (Quyết định được đưa ra như thế nào, bằng đa số phiếu hoặc phê duyệt từ trên xuống?)",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "What kind of benefits do employees receive? (Nhân viên nhận được những loại phúc lợi nào?)",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "What is the benchmark salary for people performing this project role? (Mức lương chuẩn cho những người đảm nhận vai trò dự án này là bao nhiêu?)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "pm-comm-q15",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Which project methodology involves reducing variations by ensuring that quality processes are followed every time? (Phương pháp quản lý dự án nào liên quan đến việc giảm sự biến thiên bằng cách đảm bảo rằng các quy trình chất lượng được tuân thủ mỗi lần?)",
+    "answers": [
+      {
+        "answer_text_en": "Waterfall (Waterfall) ",
+        "answer_text_vi": "",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "Agile (Agile)",
+        "answer_text_vi": "",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "Scrum (Scrum)",
+        "answer_text_vi": "",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "Six Sigma (Six Sigma)",
+        "answer_text_vi": "",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "pm-comm-q16",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "As a project manager, you identify costs for items like software, tools, labor, and equipment. What budgeting term refers to these types of costs? (Là một người quản lý dự án, bạn xác định chi phí cho các mục như phần mềm, công cụ, lao động, và thiết bị. Thuật ngữ ngân sách nào chỉ những loại chi phí này?)",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Quality cost (Chi phí chất lượng)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Contingency budget (Ngân sách dự phòng)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Reserve analysis (Phân tích dự trữ)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Resource cost rate (Tỷ lệ chi phí tài nguyên)",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "pm-comm-q17",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Yui is a project manager working for a clothing company developing a new line of winter sleepwear. Which of the following is necessary for Yui to manage this project effectively? (Yui là một quản lý dự án làm việc cho một công ty quần áo phát triển dòng sản phẩm đồ ngủ mùa đông mới. Điều nào sau đây là cần thiết để Yui quản lý dự án này hiệu quả?)",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Yui must be able to do the things that each of her team members can do. (Yui phải có khả năng làm những việc mà từng thành viên trong nhóm có thể làm.)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Yui must know every single detail about the project at all times. (Yui phải biết mọi chi tiết về dự án mọi lúc.)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Yui must ensure team members understand their objectives and have what they need to be successful in their tasks. (Yui phải đảm bảo các thành viên hiểu mục tiêu và có những gì họ cần để thành công trong nhiệm vụ.) ",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Yui must directly manage her team members while they do their tasks. (Yui phải trực tiếp quản lý các thành viên trong nhóm khi họ thực hiện nhiệm vụ.)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "pm-comm-q18",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "When budgeting for a project, you are considering all parts of the project from start to finish — listing every document, resource, and contract labor. What do you call this type of budget? (Khi lập ngân sách cho dự án, bạn đang xem xét tất cả các phần của dự án từ đầu đến cuối — lập danh sách mọi tài liệu, tài nguyên, và nhân công hợp đồng. Bạn gọi loại ngân sách này là gì?)",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Top-down method (Phương pháp từ trên xuống)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Bottom-up method (Phương pháp từ dưới lên)",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Contingency (Dự phòng)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Funds and reserves (Quỹ và dự phòng)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "pm-comm-q19",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "After several years as a project manager, you’ve learned that project plans often face unexpected changes, even with careful upfront planning. When this happens, you are able to adjust while helping your team stay calm. Which core project manager skill set are you demonstrating with these behaviors? (Sau nhiều năm làm quản lý dự án, bạn đã học được rằng kế hoạch dự án thường gặp những thay đổi bất ngờ, ngay cả khi đã lập kế hoạch cẩn thận. Khi điều này xảy ra, bạn có thể điều chỉnh trong khi giúp đội ngũ của bạn giữ bình tĩnh. Bộ kỹ năng cốt lõi nào của quản lý dự án mà bạn đang thể hiện qua những hành vi này?)",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Strong organizational skills (Kỹ năng tổ chức tốt)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Enabling decision-making (Cho phép ra quyết định)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Communicating and escalating (Giao tiếp và báo cáo)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Flexibility (Linh hoạt)",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "pm-comm-q20",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Imagine you’re a project manager overseeing the development and launch of a new app. Which of the following problems could be a single point of failure risk in the app’s development? (Giả sử bạn là một quản lý dự án giám sát việc phát triển và ra mắt một ứng dụng mới. Trong số các vấn đề sau, vấn đề nào có thể là rủi ro điểm thất bại duy nhất trong quá trình phát triển ứng dụng?)",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Lack of communication between the designers and the project lead, which may lead to tension among team members. (Thiếu sự giao tiếp giữa các nhà thiết kế và người dẫn dắt dự án, điều này có thể dẫn đến căng thẳng giữa các thành viên trong nhóm.)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Completing a project milestone behind schedule, which may delay the project timeline. (Hoàn thành một cột mốc dự án trễ hạn, điều này có thể làm chậm tiến độ dự án.)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Receiving negative feedback from user testing, which may lead to more work for the developers. (Nhận được phản hồi tiêu cực từ việc thử nghiệm người dùng, điều này có thể dẫn đến việc các nhà phát triển phải làm thêm việc.)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Failing to back up key project documentation, which may result in a complete loss of essential data. (Không sao lưu tài liệu dự án quan trọng, điều này có thể dẫn đến mất hoàn toàn dữ liệu cần thiết.)",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "pm-comm-q21",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "As a project manager, you create a project plan. The plan includes documents that help keep the project organized and on track, especially when risks or changes occur. Where are these documents linked in the project plan? (Là một người quản lý dự án, bạn tạo ra một kế hoạch dự án. Trong kế hoạch có các tài liệu giúp giữ cho dự án được tổ chức và đi đúng hướng, đặc biệt khi có rủi ro hoặc thay đổi xảy ra. Những tài liệu này được liên kết ở phần nào của kế hoạch dự án?)",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Budget (Ngân sách)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Project scope and objectives (Phạm vi và mục tiêu dự án)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Management plan (Kế hoạch quản lý)",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Work Breakdown Structure (WBS) (Cấu trúc phân chia công việc (WBS))",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "pm-comm-q22",
+    "question_type": "multiple_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Which of the following are ways that organizational structure determines your role as a project manager? Select all that apply. (Những cách nào sau đây mà cấu trúc tổ chức xác định vai trò của bạn như một quản lý dự án? Chọn tất cả những đáp án đúng.)",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Organizational structure determines how frequently to communicate (Cấu trúc tổ chức xác định tần suất giao tiếp)",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Organizational structure determines who you should communicate with (Cấu trúc tổ chức xác định người bạn nên giao tiếp)",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Organizational structure determines where you fit in (Cấu trúc tổ chức xác định vị trí của bạn trong tổ chức)",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Organizational structure determines your career growth (Cấu trúc tổ chức xác định sự phát triển nghề nghiệp của bạn)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "pm-comm-q23",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "What are the phases of the project life cycle? (Các giai đoạn của vòng đời dự án là gì?)",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Initiate the project, make a plan, execute and complete tasks, close the project (Khởi động dự án, lập kế hoạch, thực hiện và hoàn thành các nhiệm vụ, kết thúc dự án)",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Initiate the project, make a plan, communicate progress, close the project (Khởi động dự án, lập kế hoạch, giao tiếp tiến độ, kết thúc dự án)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Make a plan, initiate the project, communicate progress, close the project (Lập kế hoạch, khởi động dự án, giao tiếp tiến độ, kết thúc dự án)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Initiate the project, make a plan, measure and analyze tasks, close the project (Khởi động dự án, lập kế hoạch, đo lường và phân tích các nhiệm vụ, kết thúc dự án)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "pm-comm-q24",
+    "question_type": "multiple_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "What required skills are typically listed in project management job postings? Select all that apply. (Những kỹ năng yêu cầu nào thường được liệt kê trong các tin tuyển dụng quản lý dự án? Chọn tất cả các đáp án đúng.) ",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Social media marketing (Tiếp thị truyền thông xã hội)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Budget preparation and monitoring (Chuẩn bị và giám sát ngân sách)",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Organizational ability (Khả năng tổ chức)",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Communication skills (Kỹ năng giao tiếp)",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "pm-comm-q25",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "As a project manager, you want to integrate change management into your project. Which of the following activities best demonstrate that you are being proactive in change management? (Là một quản lý dự án, bạn muốn tích hợp quản lý thay đổi vào dự án của mình. Hoạt động nào sau đây thể hiện rõ ràng rằng bạn đang chủ động trong quản lý thay đổi?)",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "You present to stakeholders a detailed explanation of how you produced your deliverable. (Bạn trình bày cho các bên liên quan một giải thích chi tiết về cách bạn đã sản xuất sản phẩm của mình.)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "You present a detailed project plan to your project team members. (Bạn trình bày một kế hoạch dự án chi tiết cho các thành viên trong nhóm dự án của mình.)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Towards the end of your project, you plan demonstrations and question and answer forums that introduce the deliverable to stakeholders. (Vào cuối dự án, bạn lên kế hoạch các buổi trình diễn và diễn đàn hỏi đáp giới thiệu sản phẩm cho các bên liên quan.)",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "You formally acknowledge product milestones with your team and stakeholders. (Bạn công nhận chính thức các mốc sản phẩm với nhóm và các bên liên quan.)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "pm-comm-q26",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "You’ve been asked to lead a team implementing a new production technique in one of your company’s factories. The implementation process starts next Monday and the company would like you to complete it within two weeks. The two week window in this scenario is an example of what defining characteristic of projects? (Bạn được yêu cầu dẫn dắt một nhóm triển khai một kỹ thuật sản xuất mới trong một trong những nhà máy của công ty. Quá trình triển khai bắt đầu vào thứ Hai tới và công ty muốn bạn hoàn thành nó trong vòng hai tuần. Khoảng thời gian hai tuần trong tình huống này là ví dụ về đặc điểm nào định nghĩa dự án?)",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Representing a project milestone (Đại diện cho một cột mốc dự án)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Having a project plan (Có một kế hoạch dự án)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Representing a unique endeavor (Đại diện cho một nỗ lực độc đáo)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Having a clearly defined beginning and an end (Có một sự khởi đầu và kết thúc được xác định rõ ràng)",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "pm-comm-q27",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "As a project manager, you create a project plan. The plan includes tasks with clear descriptions, responsible individuals, and deadlines. Where do these tasks belong in the project plan? (Là một người quản lý dự án, bạn tạo ra một kế hoạch dự án. Trong kế hoạch có các nhiệm vụ với mô tả rõ ràng, người phụ trách, và hạn chót. Những nhiệm vụ này nằm trong phần nào của kế hoạch dự án?)",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Work Breakdown Structure (WBS) (Cấu trúc phân chia công việc (WBS))",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Budget (Ngân sách)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Management plan (Kế hoạch quản lý)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Scope and objectives (Phạm vi và mục tiêu)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "pm-comm-q28",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "As a project manager, one of your team members suddenly must leave your project to deal with a family emergency. To stay on schedule, you pull another team member off of a task that is not timesensitive and assign him to the urgent task that your departing team member was working on. Which flexible planning strategy did you use to deal with this unexpected circumstance? (Với tư cách là một quản lý dự án, một trong những thành viên trong nhóm của bạn đột ngột phải rời khỏi dự án để giải quyết việc gia đình khẩn cấp. Để giữ đúng tiến độ, bạn rút một thành viên khác khỏi một nhiệm vụ không khẩn cấp và giao họ vào nhiệm vụ quan trọng mà thành viên kia đang làm. Chiến lược lập kế hoạch linh hoạt nào bạn đã sử dụng để đối phó với tình huống bất ngờ này?) ",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Planning for risks and challenges (Lập kế hoạch cho rủi ro và thách thức)",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Enabling decision-making (Cho phép ra quyết định)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Trusting the expertise of your team (Tin tưởng vào chuyên môn của nhóm)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Assessing external constraints (Đánh giá các ràng buộc bên ngoài)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "pm-comm-q29",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Suppose you are a project manager running a kickoff meeting. During the meeting, you spend about ten minutes setting expectations for the team and outlining the next steps they should take. Which agenda item does this represent? (Giả sử bạn là một người quản lý dự án và đang điều hành một cuộc họp khởi động. Trong cuộc họp, bạn dành khoảng mười phút để thiết lập kỳ vọng cho nhóm và các bước tiếp theo mà họ nên thực hiện. Điều này thể hiện mục nào trong chương trình nghị sự?)",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Introduction (Giới thiệu)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "What comes next (Điều gì sẽ đến tiếp theo)",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Roles (Vai trò)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Background (Bối cảnh)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "pm-comm-q30",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "As a project manager, you keep track of project activities so that you can demonstrate progress to your stakeholders. Which project management responsibility does this represent? (Với tư cách là một quản lý dự án, bạn theo dõi các hoạt động của dự án để có thể trình bày tiến độ cho các bên liên quan. Trách nhiệm quản lý dự án nào được thể hiện ở đây?) ",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Managing tasks (Quản lý nhiệm vụ)",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Utilizing productivity tools (Sử dụng các công cụ năng suất)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Managing the budget (Quản lý ngân sách)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Removing unforeseen barriers (Loại bỏ các rào cản không lường trước)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "pm-comm-q31",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "As a project manager, you believe limited access to the necessary people and equipment could cause the project to go past deadline. Which organizational topic could you discuss with your key stakeholder to get the project back on track?  (Là một quản lý dự án, bạn tin rằng việc truy cập hạn chế đến những người cần thiết và thiết bị có thể khiến dự án vượt quá thời hạn. Chủ đề tổ chức nào bạn có thể thảo luận với các bên liên quan chính để đưa dự án trở lại đúng tiến độ?) ",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Report availability (Sự sẵn có của báo cáo)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Resource availability (Sự sẵn có của nguồn lực)",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Meeting availability (Sự sẵn có của cuộc họp)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Stakeholder availability (Sự sẵn có của các bên liên quan)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "pm-comm-q32",
+    "question_type": "multiple_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Which of the following are core concepts and best practices that change management centers around? Select all that apply. (Những khái niệm cốt lõi và thực tiễn tốt nhất nào mà quản lý thay đổi tập trung vào? Chọn tất cả những đáp án đúng.)",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Creating a sense of ownership and urgency around the project (Tạo cảm giác sở hữu và khẩn cấp xung quanh dự án)",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Communicating effectively (Giao tiếp hiệu quả)",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Figuring out the right combination of skills and personalities to work on your team (Xác định sự kết hợp đúng đắn về kỹ năng và tính cách để làm việc trong nhóm của bạn)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Completing the project on time and on budget (Hoàn thành dự án đúng thời hạn và trong ngân sách) ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "pm-comm-q33",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "What long-term objective for the Scrum Team is included in the Product Backlog? (Mục tiêu dài hạn nào cho đội Scrum thuộc Product Backlog?)",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Product Owner (Chủ sản phẩm)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Product Goal (Mục tiêu sản phẩm)",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Product requirements document (Tài liệu yêu cầu sản phẩm)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Sprint Goal (Mục tiêu Sprint)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "pm-comm-q34",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "What is capacity in project management? (Khả năng (capacity) trong quản lý dự án là gì?)",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Predicting the budget that will be allocated to complete project tasks. (Dự đoán số ngân sách sẽ được phân bổ để hoàn thành các nhiệm vụ dự án.)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "The total number of people involved in the project. (Tổng số người tham gia vào dự án.)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "The amount of work that those assigned to the project can reasonably complete within a given timeframe. (Số lượng công việc mà những người được giao dự án có thể hoàn thành hợp lý trong một khoảng thời gian nhất định.)",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "The estimated time for the project team to complete the project's milestones. (Thời gian ước lượng để nhóm dự án hoàn thành các cột mốc của dự án.)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "pm-comm-q35",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Which type of risk involves the possibility that a project will not produce the results outlined in the project goals? (Loại rủi ro nào liên quan đến khả năng một dự án sẽ không đạt được các kết quả được nêu trong mục tiêu dự án?)",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Time risk (Rủi ro về thời gian)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Budget risk (Rủi ro về ngân sách)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Environmental risk (Rủi ro về môi trường)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Scope risk (Rủi ro về phạm vi)",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "pm-comm-q36",
+    "question_type": "multiple_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "What are the benefits of timeboxes? Select all that apply. (Lợi ích của giới hạn thời gian (timeboxes) là gì? Chọn tất cả các đáp án đúng.)",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "They provide a window of focus to improve productivity. (Chúng cung cấp một khoảng thời gian tập trung để cải thiện năng suất.)",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "They enable the team to visually understand the work. (Chúng giúp nhóm có thể nhìn nhận công việc một cách trực quan.)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "They create a sense of urgency to drive prioritization. (Chúng tạo ra cảm giác khẩn cấp để thúc đẩy việc ưu tiên.)",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "They help the team develop a predictable rhythm to their work. (Chúng giúp nhóm phát triển nhịp điệu làm việc có thể dự đoán được.)",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "pm-comm-q37",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "As a Product Owner, you need to add estimates to your Backlog for a small number of items. You'd like your team to reach a consensus on the number of items, and you would also like to incorporate the Fibonacci sequence. Which effort estimation technique should you use? (Là một Product Owner, bạn cần thêm ước tính vào Backlog cho một số lượng nhỏ các mục. Bạn muốn nhóm của mình đạt được sự đồng thuận về số lượng các mục, và bạn cũng muốn kết hợp dãy số Fibonacci. Bạn nên sử dụng kỹ thuật ước tính công sức nào?)",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Dot Voting (Bỏ phiếu chấm điểm)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "The Bucket System (Hệ thống phân loại)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Affinity Mapping (Bản đồ phân nhóm)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Planning Poker (Lập kế hoạch Poker)",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "pm-comm-q38",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Which project management tool uses cards to track and visualize task progress? (Công cụ quản lý dự án nào sử dụng thẻ để theo dõi và trực quan hóa tiến độ nhiệm vụ?)",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Gantt chart (Biểu đồ Gantt)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Spreadsheet (Bảng tính)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Kanban board (Bảng Kanban)",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "Smartsheet (Smartsheet)",
+        "answer_text_vi": "",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "pm-comm-q39",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Imagine you are a project manager at a video game company. Your last large-scale software release contained so many technical issues that they upset your customers and overwhelmed your Developers. To ensure that your next rollout is secure and reliable, you recruit new team members with information technology (IT) expertise. Which of the following approaches is best for your new project? (Giả sử bạn là một quản lý dự án tại một công ty trò chơi điện tử. Lần phát hành phần mềm quy mô lớn gần đây của bạn có quá nhiều vấn đề kỹ thuật khiến khách hàng của bạn không hài lòng và làm cho các nhà phát triển của bạn quá tải. Để đảm bảo rằng lần phát hành tiếp theo của bạn an toàn và đáng tin cậy, bạn tuyển dụng các thành viên mới trong nhóm có chuyên môn công nghệ thông tin (IT). Cách tiếp cận nào sau đây là tốt nhất cho dự án mới của bạn?)",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Business Agility (Năng lực kinh doanh)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "DevOps",
+        "answer_text_vi": "",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "Scaled Agile Framework (SAFe)",
+        "answer_text_vi": "",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "Large-Scale Scrum (LeSS)",
+        "answer_text_vi": "",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "pm-comm-q40",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Your team has completed the tasks required and delivered the product on time to the client. What is the next phase of the project lifecycle? (Nhóm của bạn đã hoàn thành các nhiệm vụ yêu cầu và giao sản phẩm đúng hạn cho khách hàng. Giai đoạn tiếp theo của vòng đời dự án là gì?)",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Initiate the project (Khởi động dự án) ",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Close the project (Kết thúc dự án)",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Execute the project (Thực hiện dự án)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Plan the project (Lập kế hoạch dự án)",
+        "is_correct": false
+      }
+    ]
+  }
 ]

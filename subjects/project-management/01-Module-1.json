@@ -1,458 +1,557 @@
 [
-	{
-		"question_id": "pm-m1-q1",
-		"question_text": "As someone seeking an entry-level project management position, you regularly check a popular job listings website for current openings. Which of the following roles are likely seeking a person with your project management skills? Select all that apply.\nVN: Là một người đang tìm kiếm vị trí quản lý dự án cấp đầu vào, bạn thường xuyên kiểm tra một trang web tuyển dụng phổ biến để tìm các vị trí đang tuyển. Những vai trò nào sau đây có thể đang tìm kiếm một người có kỹ năng quản lý dự án như bạn? Chọn tất cả các đáp án đúng.",
-		"question_type": "multiple_answer_question",
-		"answers": [
-			{
-				"answer_text": "Project/Program Coordinator (Điều phối viên Dự án/Chương trình)",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Procurement Specialist (Chuyên gia Mua sắm)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Project Support Specialist (Chuyên gia Hỗ trợ Dự án)",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Project Administrator (Quản trị viên Dự án)",
-				"is_correct": true
-			}
-		]
-	},
-	{
-		"question_id": "pm-m1-q2",
-		"question_text": "As you search through job boards looking for project management jobs, which of the following job titles could make the most sense for you?\nVN: Khi bạn tìm kiếm công việc quản lý dự án trên các trang tuyển dụng, chức danh công việc nào sau đây có thể phù hợp nhất với bạn?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "IT specialist (Chuyên gia CNTT)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Administrative assistant (Trợ lý hành chính)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Operations assistant (Trợ lý vận hành)",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Software engineer (Kỹ sư phần mềm)",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "pm-m1-q3",
-		"question_text": "Fill in the blank: A/An _____ allows you to work for a company on a project-by-project basis but not as a full-time employee.\nVN: Điền vào chỗ trống: _____ cho phép bạn làm việc cho một công ty theo từng dự án nhưng không phải là nhân viên toàn thời gian.",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "mentor (người cố vấn)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "internship (thực tập)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "contract (hợp đồng)",
-				"is_correct": true
-			},
-			{
-				"answer_text": "salary (lương)",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "pm-m1-q4",
-		"question_text": "As a project manager for a large school district, you are implementing a new telehealth technology that allows students to have virtual health checkups without having to miss school. To start, you organize training sessions for faculty to get them better acquainted with the technology, policies, and procedures for using the new telehealth option. What common project management responsibility is this an example of?\nVN: Là quản lý dự án cho một học khu lớn, bạn đang triển khai một công nghệ y tế từ xa mới cho phép học sinh kiểm tra sức khỏe ảo mà không phải nghỉ học. Để bắt đầu, bạn tổ chức các buổi đào tạo cho giáo viên để họ làm quen hơn với công nghệ, chính sách và quy trình sử dụng tùy chọn y tế từ xa mới. Đây là ví dụ về trách nhiệm quản lý dự án phổ biến nào?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Managing tasks (Quản lý nhiệm vụ)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Managing company operations (Quản lý hoạt động công ty)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Controlling costs (Kiểm soát chi phí)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Planning and organizing (Lập kế hoạch và tổ chức)",
-				"is_correct": true
-			}
-		]
-	},
-	{
-		"question_id": "pm-m1-q5",
-		"question_text": "Fill in the blank: Project management is _____.\nVN: Điền vào chỗ trống: Quản lý dự án là _____.",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "the practice of decision-making that is carefully planned and designed to meet the project requirements (việc thực hành ra quyết định được lập kế hoạch cẩn thận và thiết kế để đáp ứng các yêu cầu dự án)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "the series of tasks that need to be completed to reach a desired outcome (chuỗi các nhiệm vụ cần hoàn thành để đạt được kết quả mong muốn)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "the application of knowledge, skills, tools, and techniques to meet the project requirements and achieve the desired outcome (việc áp dụng kiến thức, kỹ năng, công cụ và kỹ thuật để đáp ứng các yêu cầu dự án và đạt được kết quả mong muốn)",
-				"is_correct": true
-			},
-			{
-				"answer_text": "the use of applications that can help you deliver your project on time, and with a successful outcome (việc sử dụng các ứng dụng có thể giúp bạn giao dự án đúng hạn và với kết quả thành công)",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "pm-m1-q6",
-		"question_text": "As the vice-president of your class Philanthropy Club at school, you assembled and led a team of 20 students to plan and execute events like fundraisers, community gatherings, and academic assemblies. What project management skills does your Philanthropy Club experience demonstrate?\nVN: Với tư cách là phó chủ tịch Câu lạc bộ Từ thiện của lớp bạn ở trường, bạn đã tập hợp và lãnh đạo một nhóm 20 học sinh để lập kế hoạch và thực hiện các sự kiện như gây quỹ, tụ họp cộng đồng và hội nghị học thuật. Kinh nghiệm Câu lạc bộ Từ thiện của bạn thể hiện những kỹ năng quản lý dự án nào?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Interviewing and hiring (Phỏng vấn và tuyển dụng)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Budgeting and controlling costs (Lập ngân sách và kiểm soát chi phí)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Planning and organizing (Lập kế hoạch và tổ chức)",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Advanced technology skills (Kỹ năng công nghệ nâng cao)",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "pm-m1-q7",
-		"question_text": "As a project manager at a small construction firm, your responsibilities include managing tasks on new builds. Which of the following activities does managing tasks involve? Select all that apply.\nVN: Là quản lý dự án tại một công ty xây dựng nhỏ, trách nhiệm của bạn bao gồm quản lý các nhiệm vụ trong các công trình mới. Quản lý nhiệm vụ bao gồm những hoạt động nào sau đây? Chọn tất cả các đáp án đúng.",
-		"question_type": "multiple_answer_question",
-		"answers": [
-			{
-				"answer_text": "Gathering project requirements and creating a project plan (Thu thập yêu cầu dự án và tạo kế hoạch dự án)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Overseeing activities that team members do on a daily or weekly basis (Giám sát các hoạt động mà thành viên nhóm thực hiện hàng ngày hoặc hàng tuần)",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Communicating project milestones (Truyền đạt các mốc quan trọng của dự án)",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Controlling costs (Kiểm soát chi phí)",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "pm-m1-q8",
-		"question_text": "You've been asked to lead a team implementing a new production technique in one of your company's factories. The implementation process starts next Monday and the company would like you to complete it within two weeks. Implementing a new production technique in a factory is an example of what characteristic of projects?\nVN: Bạn được yêu cầu lãnh đạo một nhóm triển khai kỹ thuật sản xuất mới tại một trong các nhà máy của công ty bạn. Quá trình triển khai bắt đầu vào thứ Hai tới và công ty muốn bạn hoàn thành trong vòng hai tuần. Việc triển khai kỹ thuật sản xuất mới trong nhà máy là ví dụ về đặc điểm nào của dự án?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "A clearly defined beginning and an end (Có điểm bắt đầu và kết thúc được xác định rõ ràng)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Communicating project milestones (Truyền đạt các mốc quan trọng của dự án)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "A project plan (Kế hoạch dự án)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "A unique endeavor (Một nỗ lực độc đáo)",
-				"is_correct": true
-			}
-		]
-	},
-	{
-		"question_id": "pm-m1-q9",
-		"question_text": "A construction firm needs to hire a project manager to implement a new customer engagement system. Their most experienced candidate has managed only logistics projects in the shipping industry. Why might the firm favor this candidate?\nVN: Một công ty xây dựng cần thuê một quản lý dự án để triển khai hệ thống tương tác khách hàng mới. Ứng viên có kinh nghiệm nhất của họ chỉ quản lý các dự án logistics trong ngành vận chuyển. Tại sao công ty có thể ưu tiên ứng viên này?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "The candidate can learn skills in one industry and apply them in another. (Ứng viên có thể học kỹ năng trong một ngành và áp dụng chúng vào ngành khác.)",
-				"is_correct": true
-			},
-			{
-				"answer_text": "The candidate is likely to know a lot about a construction firm's customers. (Ứng viên có thể biết nhiều về khách hàng của công ty xây dựng.)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Logistics and customer engagement are the same thing. (Logistics và tương tác khách hàng là cùng một thứ.)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "The candidate is likely to apply consistent processes to prevent change. (Ứng viên có thể áp dụng các quy trình nhất quán để ngăn chặn thay đổi.)",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "pm-m1-q10",
-		"question_text": "As you search for project management roles, you find a job listing for an \"Executive Development Operations Associate'' with a list of job responsibilities. Which of the following responsibilities tell you that this job is a project management opportunity? Select all that apply.\nVN: Khi tìm kiếm các vai trò quản lý dự án, bạn tìm thấy một danh sách công việc cho \"Trợ lý Phát triển Điều hành Cấp cao\" với danh sách các trách nhiệm công việc. Những trách nhiệm nào sau đây cho bạn biết đây là cơ hội quản lý dự án? Chọn tất cả các đáp án đúng.",
-		"question_type": "multiple_answer_question",
-		"answers": [
-			{
-				"answer_text": "Regular office hours at corporate training center (Giờ làm việc thường xuyên tại trung tâm đào tạo doanh nghiệp)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Travel up to twelve weeks a year (Đi công tác lên đến mười hai tuần một năm)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Plan and organize team objectives and priorities (Lập kế hoạch và tổ chức mục tiêu và ưu tiên của nhóm)",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Coordinate executive training plans (Điều phối các kế hoạch đào tạo cấp điều hành)",
-				"is_correct": true
-			}
-		]
-	},
-	{
-		"question_id": "pm-m1-q11",
-		"question_text": "As someone seeking an entry-level project management position, you regularly check a popular job listings website for current openings. Which of the following roles are likely seeking a person with your project management skills? Select all that apply.\nVN: Là một người đang tìm kiếm vị trí quản lý dự án cấp đầu vào, bạn thường xuyên kiểm tra một trang web tuyển dụng phổ biến để tìm các vị trí đang tuyển. Những vai trò nào sau đây có thể đang tìm kiếm một người có kỹ năng quản lý dự án như bạn? Chọn tất cả các đáp án đúng.",
-		"question_type": "multiple_answer_question",
-		"answers": [
-			{
-				"answer_text": "Project/Program Coordinator (Điều phối viên Dự án/Chương trình)",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Procurement Specialist (Chuyên gia Mua sắm)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Project Administrator (Quản trị viên Dự án)",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Project Support Specialist (Chuyên gia Hỗ trợ Dự án)",
-				"is_correct": true
-			}
-		]
-	},
-	{
-		"question_id": "pm-m1-q12",
-		"question_text": "Fill in the blank: According to a 2017 Project Management Institute study, industries like manufacturing, construction, information technology, publishing, finance, and oil and gas are experiencing _____ with project management jobs.\nVN: Điền vào chỗ trống: Theo một nghiên cứu năm 2017 của Viện Quản lý Dự án, các ngành như sản xuất, xây dựng, công nghệ thông tin, xuất bản, tài chính và dầu khí đang trải qua _____ với các công việc quản lý dự án.",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "the same amount of growth compared to other industries (mức tăng trưởng tương tự so với các ngành khác)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "the least amount of growth compared to other industries (mức tăng trưởng thấp nhất so với các ngành khác)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "no growth compared to other industries (không có tăng trưởng so với các ngành khác)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "the most amount of growth compared to other industries (mức tăng trưởng cao nhất so với các ngành khác)",
-				"is_correct": true
-			}
-		]
-	},
-	{
-		"question_id": "pm-m1-q13",
-		"question_text": "Fill in the blank: A/An _____ allows you to work for a company on a project-by-project basis but not as a full-time employee.\nVN: Điền vào chỗ trống: _____ cho phép bạn làm việc cho một công ty theo từng dự án nhưng không phải là nhân viên toàn thời gian.",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "contract (hợp đồng)",
-				"is_correct": true
-			},
-			{
-				"answer_text": "internship (thực tập)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "mentor (người cố vấn)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "salary (lương)",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "pm-m1-q14",
-		"question_text": "Throughout a project, project managers have to keep project expenses within an expected range. What is this project management responsibility called?\nVN: Trong suốt một dự án, các quản lý dự án phải giữ chi phí dự án trong phạm vi dự kiến. Trách nhiệm quản lý dự án này được gọi là gì?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Managing tasks (Quản lý nhiệm vụ)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Planning and organizing (Lập kế hoạch và tổ chức)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Budgeting and controlling costs (Lập ngân sách và kiểm soát chi phí)",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Networking (Xây dựng mạng lưới quan hệ)",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "pm-m1-q15",
-		"question_text": "Fill in the blank: _____ is the application of knowledge, skills, tools, and techniques to meet the project requirements and achieve the desired outcome.\nVN: Điền vào chỗ trống: _____ là việc áp dụng kiến thức, kỹ năng, công cụ và kỹ thuật để đáp ứng các yêu cầu dự án và đạt được kết quả mong muốn.",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Communication (Giao tiếp)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Organization (Tổ chức)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Project management (Quản lý dự án)",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Budget management (Quản lý ngân sách)",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "pm-m1-q16",
-		"question_text": "Project managers need to meet each project's requirements and achieve the desired outcome. To do this, should project managers use the same tools, techniques, and methodologies every day on their projects?\nVN: Các quản lý dự án cần đáp ứng các yêu cầu của từng dự án và đạt được kết quả mong muốn. Để làm điều này, các quản lý dự án có nên sử dụng cùng một công cụ, kỹ thuật và phương pháp mỗi ngày trong các dự án của họ không?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Yes. Project managers should use the same tools, techniques, and methodologies every day—this consistency is key to achieving an optimal outcome. (Có. Các quản lý dự án nên sử dụng cùng một công cụ, kỹ thuật và phương pháp mỗi ngày—sự nhất quán này là chìa khóa để đạt được kết quả tối ưu.)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "No. Project managers should vary tools, techniques, and methodologies throughout a project—this is key to supporting and adapting to a changing project plan. (Không. Các quản lý dự án nên thay đổi công cụ, kỹ thuật và phương pháp trong suốt dự án—đây là chìa khóa để hỗ trợ và thích ứng với kế hoạch dự án thay đổi.)",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Maybe. Project managers should adopt whatever tools, techniques, and methodologies that a specific company prefers—this keeps senior management happy. (Có thể. Các quản lý dự án nên áp dụng bất kỳ công cụ, kỹ thuật và phương pháp nào mà công ty cụ thể ưa thích—điều này làm hài lòng quản lý cấp cao.)",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "pm-m1-q17",
-		"question_text": "As a project manager at a small construction firm, your responsibilities include planning and organizing the start of new builds. Which of the following activities does planning and organizing involve?\nVN: Là quản lý dự án tại một công ty xây dựng nhỏ, trách nhiệm của bạn bao gồm lập kế hoạch và tổ chức khởi đầu các công trình mới. Lập kế hoạch và tổ chức bao gồm những hoạt động nào sau đây?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Communicating project milestones (Truyền đạt các mốc quan trọng của dự án)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Controlling costs (Kiểm soát chi phí)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Overseeing activities that team members do on a daily or weekly basis (Giám sát các hoạt động mà thành viên nhóm thực hiện hàng ngày hoặc hàng tuần)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Gathering project requirements and creating a project plan (Thu thập yêu cầu dự án và tạo kế hoạch dự án)",
-				"is_correct": true
-			}
-		]
-	},
-	{
-		"question_id": "pm-m1-q18",
-		"question_text": "Fill in the blank: Typically, projects have a(n) _____ beginning and end.\nVN: Điền vào chỗ trống: Thông thường, các dự án có điểm bắt đầu và kết thúc _____.",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "broad (rộng)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "defined (được xác định)",
-				"is_correct": true
-			},
-			{
-				"answer_text": "vague (mơ hồ)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "immovable (không thể thay đổi)",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "pm-m1-q19",
-		"question_text": "A construction firm needs to hire a project manager to implement a new customer engagement system. Their most experienced candidate has managed only logistics projects in the shipping industry. Why might the firm favor this candidate?\nVN: Một công ty xây dựng cần thuê một quản lý dự án để triển khai hệ thống tương tác khách hàng mới. Ứng viên có kinh nghiệm nhất của họ chỉ quản lý các dự án logistics trong ngành vận chuyển. Tại sao công ty có thể ưu tiên ứng viên này?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Logistics and customer engagement are the same thing. (Logistics và tương tác khách hàng là cùng một thứ.)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "The candidate is likely to know a lot about a construction firm's customers. (Ứng viên có thể biết nhiều về khách hàng của công ty xây dựng.)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "The candidate can learn skills in one industry and apply them in another. (Ứng viên có thể học kỹ năng trong một ngành và áp dụng chúng vào ngành khác.)",
-				"is_correct": true
-			},
-			{
-				"answer_text": "The candidate is likely to apply consistent processes to prevent change. (Ứng viên có thể áp dụng các quy trình nhất quán để ngăn chặn thay đổi.)",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "pm-m1-q20",
-		"question_text": "As someone moving to a new location, you have several tasks. You have to plan for the various expenses like boxes and movers. You also have to clearly label the boxes, and manage all of the tasks leading up to and during the move. Which project management skills does the move require? Select all that apply.\nVN: Là một người chuyển đến địa điểm mới, bạn có nhiều nhiệm vụ. Bạn phải lập kế hoạch cho các chi phí khác nhau như thùng và người chuyển nhà. Bạn cũng phải dán nhãn rõ ràng các thùng và quản lý tất cả các nhiệm vụ dẫn đến và trong quá trình chuyển nhà. Việc chuyển nhà đòi hỏi những kỹ năng quản lý dự án nào? Chọn tất cả các đáp án đúng.",
-		"question_type": "multiple_answer_question",
-		"answers": [
-			{
-				"answer_text": "Strong coordination and communication skills (Kỹ năng phối hợp và giao tiếp mạnh mẽ)",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Deep technical experience (Kinh nghiệm kỹ thuật sâu)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Organizational ability (Khả năng tổ chức)",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Budget preparation and monitoring (Chuẩn bị và giám sát ngân sách)",
-				"is_correct": true
-			}
-		]
-	}
+  {
+    "question_id": "pm-m1-q1",
+    "question_type": "multiple_answer_question",
+    "question_text_en": "As someone seeking an entry-level project management position, you regularly check a popular job listings website for current openings. Which of the following roles are likely seeking a person with your project management skills? Select all that apply.",
+    "question_text_vi": "Là một người đang tìm kiếm vị trí quản lý dự án cấp đầu vào, bạn thường xuyên kiểm tra một trang web tuyển dụng phổ biến để tìm các vị trí đang tuyển. Những vai trò nào sau đây có thể đang tìm kiếm một người có kỹ năng quản lý dự án như bạn? Chọn tất cả các đáp án đúng.",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Project/Program Coordinator (Điều phối viên Dự án/Chương trình)",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Procurement Specialist (Chuyên gia Mua sắm)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Project Support Specialist (Chuyên gia Hỗ trợ Dự án)",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Project Administrator (Quản trị viên Dự án)",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "pm-m1-q2",
+    "question_type": "single_answer_question",
+    "question_text_en": "As you search through job boards looking for project management jobs, which of the following job titles could make the most sense for you?",
+    "question_text_vi": "Khi bạn tìm kiếm công việc quản lý dự án trên các trang tuyển dụng, chức danh công việc nào sau đây có thể phù hợp nhất với bạn?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "IT specialist (Chuyên gia CNTT)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Administrative assistant (Trợ lý hành chính)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Operations assistant (Trợ lý vận hành)",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Software engineer (Kỹ sư phần mềm)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "pm-m1-q3",
+    "question_type": "single_answer_question",
+    "question_text_en": "Fill in the blank: A/An _____ allows you to work for a company on a project-by-project basis but not as a full-time employee.",
+    "question_text_vi": "Điền vào chỗ trống: _____ cho phép bạn làm việc cho một công ty theo từng dự án nhưng không phải là nhân viên toàn thời gian.",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "mentor (người cố vấn)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "internship (thực tập)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "contract (hợp đồng)",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "salary (lương)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "pm-m1-q4",
+    "question_type": "single_answer_question",
+    "question_text_en": "As a project manager for a large school district, you are implementing a new telehealth technology that allows students to have virtual health checkups without having to miss school. To start, you organize training sessions for faculty to get them better acquainted with the technology, policies, and procedures for using the new telehealth option. What common project management responsibility is this an example of?",
+    "question_text_vi": "Là quản lý dự án cho một học khu lớn, bạn đang triển khai một công nghệ y tế từ xa mới cho phép học sinh kiểm tra sức khỏe ảo mà không phải nghỉ học. Để bắt đầu, bạn tổ chức các buổi đào tạo cho giáo viên để họ làm quen hơn với công nghệ, chính sách và quy trình sử dụng tùy chọn y tế từ xa mới. Đây là ví dụ về trách nhiệm quản lý dự án phổ biến nào?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Managing tasks (Quản lý nhiệm vụ)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Managing company operations (Quản lý hoạt động công ty)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Controlling costs (Kiểm soát chi phí)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Planning and organizing (Lập kế hoạch và tổ chức)",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "pm-m1-q5",
+    "question_type": "single_answer_question",
+    "question_text_en": "Fill in the blank: Project management is _____.",
+    "question_text_vi": "Điền vào chỗ trống: Quản lý dự án là _____.",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "the practice of decision-making that is carefully planned and designed to meet the project requirements (việc thực hành ra quyết định được lập kế hoạch cẩn thận và thiết kế để đáp ứng các yêu cầu dự án)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "the series of tasks that need to be completed to reach a desired outcome (chuỗi các nhiệm vụ cần hoàn thành để đạt được kết quả mong muốn)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "the application of knowledge, skills, tools, and techniques to meet the project requirements and achieve the desired outcome (việc áp dụng kiến thức, kỹ năng, công cụ và kỹ thuật để đáp ứng các yêu cầu dự án và đạt được kết quả mong muốn)",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "the use of applications that can help you deliver your project on time, and with a successful outcome (việc sử dụng các ứng dụng có thể giúp bạn giao dự án đúng hạn và với kết quả thành công)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "pm-m1-q6",
+    "question_type": "single_answer_question",
+    "question_text_en": "As the vice-president of your class Philanthropy Club at school, you assembled and led a team of 20 students to plan and execute events like fundraisers, community gatherings, and academic assemblies. What project management skills does your Philanthropy Club experience demonstrate?",
+    "question_text_vi": "Với tư cách là phó chủ tịch Câu lạc bộ Từ thiện của lớp bạn ở trường, bạn đã tập hợp và lãnh đạo một nhóm 20 học sinh để lập kế hoạch và thực hiện các sự kiện như gây quỹ, tụ họp cộng đồng và hội nghị học thuật. Kinh nghiệm Câu lạc bộ Từ thiện của bạn thể hiện những kỹ năng quản lý dự án nào?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Interviewing and hiring (Phỏng vấn và tuyển dụng)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Budgeting and controlling costs (Lập ngân sách và kiểm soát chi phí)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Planning and organizing (Lập kế hoạch và tổ chức)",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Advanced technology skills (Kỹ năng công nghệ nâng cao)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "pm-m1-q7",
+    "question_type": "multiple_answer_question",
+    "question_text_en": "As a project manager at a small construction firm, your responsibilities include managing tasks on new builds. Which of the following activities does managing tasks involve? Select all that apply.",
+    "question_text_vi": "Là quản lý dự án tại một công ty xây dựng nhỏ, trách nhiệm của bạn bao gồm quản lý các nhiệm vụ trong các công trình mới. Quản lý nhiệm vụ bao gồm những hoạt động nào sau đây? Chọn tất cả các đáp án đúng.",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Gathering project requirements and creating a project plan (Thu thập yêu cầu dự án và tạo kế hoạch dự án)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Overseeing activities that team members do on a daily or weekly basis (Giám sát các hoạt động mà thành viên nhóm thực hiện hàng ngày hoặc hàng tuần)",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Communicating project milestones (Truyền đạt các mốc quan trọng của dự án)",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Controlling costs (Kiểm soát chi phí)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "pm-m1-q8",
+    "question_type": "single_answer_question",
+    "question_text_en": "You've been asked to lead a team implementing a new production technique in one of your company's factories. The implementation process starts next Monday and the company would like you to complete it within two weeks. Implementing a new production technique in a factory is an example of what characteristic of projects?",
+    "question_text_vi": "Bạn được yêu cầu lãnh đạo một nhóm triển khai kỹ thuật sản xuất mới tại một trong các nhà máy của công ty bạn. Quá trình triển khai bắt đầu vào thứ Hai tới và công ty muốn bạn hoàn thành trong vòng hai tuần. Việc triển khai kỹ thuật sản xuất mới trong nhà máy là ví dụ về đặc điểm nào của dự án?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "A clearly defined beginning and an end (Có điểm bắt đầu và kết thúc được xác định rõ ràng)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Communicating project milestones (Truyền đạt các mốc quan trọng của dự án)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "A project plan (Kế hoạch dự án)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "A unique endeavor (Một nỗ lực độc đáo)",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "pm-m1-q9",
+    "question_type": "single_answer_question",
+    "question_text_en": "A construction firm needs to hire a project manager to implement a new customer engagement system. Their most experienced candidate has managed only logistics projects in the shipping industry. Why might the firm favor this candidate?",
+    "question_text_vi": "Một công ty xây dựng cần thuê một quản lý dự án để triển khai hệ thống tương tác khách hàng mới. Ứng viên có kinh nghiệm nhất của họ chỉ quản lý các dự án logistics trong ngành vận chuyển. Tại sao công ty có thể ưu tiên ứng viên này?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "The candidate can learn skills in one industry and apply them in another. (Ứng viên có thể học kỹ năng trong một ngành và áp dụng chúng vào ngành khác.)",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "The candidate is likely to know a lot about a construction firm's customers. (Ứng viên có thể biết nhiều về khách hàng của công ty xây dựng.)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Logistics and customer engagement are the same thing. (Logistics và tương tác khách hàng là cùng một thứ.)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "The candidate is likely to apply consistent processes to prevent change. (Ứng viên có thể áp dụng các quy trình nhất quán để ngăn chặn thay đổi.)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "pm-m1-q10",
+    "question_type": "multiple_answer_question",
+    "question_text_en": "As you search for project management roles, you find a job listing for an \"Executive Development Operations Associate'' with a list of job responsibilities. Which of the following responsibilities tell you that this job is a project management opportunity? Select all that apply.",
+    "question_text_vi": "Khi tìm kiếm các vai trò quản lý dự án, bạn tìm thấy một danh sách công việc cho \"Trợ lý Phát triển Điều hành Cấp cao\" với danh sách các trách nhiệm công việc. Những trách nhiệm nào sau đây cho bạn biết đây là cơ hội quản lý dự án? Chọn tất cả các đáp án đúng.",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Regular office hours at corporate training center (Giờ làm việc thường xuyên tại trung tâm đào tạo doanh nghiệp)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Travel up to twelve weeks a year (Đi công tác lên đến mười hai tuần một năm)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Plan and organize team objectives and priorities (Lập kế hoạch và tổ chức mục tiêu và ưu tiên của nhóm)",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Coordinate executive training plans (Điều phối các kế hoạch đào tạo cấp điều hành)",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "pm-m1-q11",
+    "question_type": "multiple_answer_question",
+    "question_text_en": "As someone seeking an entry-level project management position, you regularly check a popular job listings website for current openings. Which of the following roles are likely seeking a person with your project management skills? Select all that apply.",
+    "question_text_vi": "Là một người đang tìm kiếm vị trí quản lý dự án cấp đầu vào, bạn thường xuyên kiểm tra một trang web tuyển dụng phổ biến để tìm các vị trí đang tuyển. Những vai trò nào sau đây có thể đang tìm kiếm một người có kỹ năng quản lý dự án như bạn? Chọn tất cả các đáp án đúng.",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Project/Program Coordinator (Điều phối viên Dự án/Chương trình)",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Procurement Specialist (Chuyên gia Mua sắm)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Project Administrator (Quản trị viên Dự án)",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Project Support Specialist (Chuyên gia Hỗ trợ Dự án)",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "pm-m1-q12",
+    "question_type": "single_answer_question",
+    "question_text_en": "Fill in the blank: According to a 2017 Project Management Institute study, industries like manufacturing, construction, information technology, publishing, finance, and oil and gas are experiencing _____ with project management jobs.",
+    "question_text_vi": "Điền vào chỗ trống: Theo một nghiên cứu năm 2017 của Viện Quản lý Dự án, các ngành như sản xuất, xây dựng, công nghệ thông tin, xuất bản, tài chính và dầu khí đang trải qua _____ với các công việc quản lý dự án.",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "the same amount of growth compared to other industries (mức tăng trưởng tương tự so với các ngành khác)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "the least amount of growth compared to other industries (mức tăng trưởng thấp nhất so với các ngành khác)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "no growth compared to other industries (không có tăng trưởng so với các ngành khác)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "the most amount of growth compared to other industries (mức tăng trưởng cao nhất so với các ngành khác)",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "pm-m1-q13",
+    "question_type": "single_answer_question",
+    "question_text_en": "Fill in the blank: A/An _____ allows you to work for a company on a project-by-project basis but not as a full-time employee.",
+    "question_text_vi": "Điền vào chỗ trống: _____ cho phép bạn làm việc cho một công ty theo từng dự án nhưng không phải là nhân viên toàn thời gian.",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "contract (hợp đồng)",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "internship (thực tập)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "mentor (người cố vấn)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "salary (lương)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "pm-m1-q14",
+    "question_type": "single_answer_question",
+    "question_text_en": "Throughout a project, project managers have to keep project expenses within an expected range. What is this project management responsibility called?",
+    "question_text_vi": "Trong suốt một dự án, các quản lý dự án phải giữ chi phí dự án trong phạm vi dự kiến. Trách nhiệm quản lý dự án này được gọi là gì?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Managing tasks (Quản lý nhiệm vụ)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Planning and organizing (Lập kế hoạch và tổ chức)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Budgeting and controlling costs (Lập ngân sách và kiểm soát chi phí)",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Networking (Xây dựng mạng lưới quan hệ)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "pm-m1-q15",
+    "question_type": "single_answer_question",
+    "question_text_en": "Fill in the blank: _____ is the application of knowledge, skills, tools, and techniques to meet the project requirements and achieve the desired outcome.",
+    "question_text_vi": "Điền vào chỗ trống: _____ là việc áp dụng kiến thức, kỹ năng, công cụ và kỹ thuật để đáp ứng các yêu cầu dự án và đạt được kết quả mong muốn.",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Communication (Giao tiếp)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Organization (Tổ chức)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Project management (Quản lý dự án)",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Budget management (Quản lý ngân sách)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "pm-m1-q16",
+    "question_type": "single_answer_question",
+    "question_text_en": "Project managers need to meet each project's requirements and achieve the desired outcome. To do this, should project managers use the same tools, techniques, and methodologies every day on their projects?",
+    "question_text_vi": "Các quản lý dự án cần đáp ứng các yêu cầu của từng dự án và đạt được kết quả mong muốn. Để làm điều này, các quản lý dự án có nên sử dụng cùng một công cụ, kỹ thuật và phương pháp mỗi ngày trong các dự án của họ không?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Yes. Project managers should use the same tools, techniques, and methodologies every day—this consistency is key to achieving an optimal outcome. (Có. Các quản lý dự án nên sử dụng cùng một công cụ, kỹ thuật và phương pháp mỗi ngày—sự nhất quán này là chìa khóa để đạt được kết quả tối ưu.)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "No. Project managers should vary tools, techniques, and methodologies throughout a project—this is key to supporting and adapting to a changing project plan. (Không. Các quản lý dự án nên thay đổi công cụ, kỹ thuật và phương pháp trong suốt dự án—đây là chìa khóa để hỗ trợ và thích ứng với kế hoạch dự án thay đổi.)",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Maybe. Project managers should adopt whatever tools, techniques, and methodologies that a specific company prefers—this keeps senior management happy. (Có thể. Các quản lý dự án nên áp dụng bất kỳ công cụ, kỹ thuật và phương pháp nào mà công ty cụ thể ưa thích—điều này làm hài lòng quản lý cấp cao.)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "pm-m1-q17",
+    "question_type": "single_answer_question",
+    "question_text_en": "As a project manager at a small construction firm, your responsibilities include planning and organizing the start of new builds. Which of the following activities does planning and organizing involve?",
+    "question_text_vi": "Là quản lý dự án tại một công ty xây dựng nhỏ, trách nhiệm của bạn bao gồm lập kế hoạch và tổ chức khởi đầu các công trình mới. Lập kế hoạch và tổ chức bao gồm những hoạt động nào sau đây?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Communicating project milestones (Truyền đạt các mốc quan trọng của dự án)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Controlling costs (Kiểm soát chi phí)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Overseeing activities that team members do on a daily or weekly basis (Giám sát các hoạt động mà thành viên nhóm thực hiện hàng ngày hoặc hàng tuần)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Gathering project requirements and creating a project plan (Thu thập yêu cầu dự án và tạo kế hoạch dự án)",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "pm-m1-q18",
+    "question_type": "single_answer_question",
+    "question_text_en": "Fill in the blank: Typically, projects have a(n) _____ beginning and end.",
+    "question_text_vi": "Điền vào chỗ trống: Thông thường, các dự án có điểm bắt đầu và kết thúc _____.",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "broad (rộng)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "defined (được xác định)",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "vague (mơ hồ)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "immovable (không thể thay đổi)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "pm-m1-q19",
+    "question_type": "single_answer_question",
+    "question_text_en": "A construction firm needs to hire a project manager to implement a new customer engagement system. Their most experienced candidate has managed only logistics projects in the shipping industry. Why might the firm favor this candidate?",
+    "question_text_vi": "Một công ty xây dựng cần thuê một quản lý dự án để triển khai hệ thống tương tác khách hàng mới. Ứng viên có kinh nghiệm nhất của họ chỉ quản lý các dự án logistics trong ngành vận chuyển. Tại sao công ty có thể ưu tiên ứng viên này?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Logistics and customer engagement are the same thing. (Logistics và tương tác khách hàng là cùng một thứ.)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "The candidate is likely to know a lot about a construction firm's customers. (Ứng viên có thể biết nhiều về khách hàng của công ty xây dựng.)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "The candidate can learn skills in one industry and apply them in another. (Ứng viên có thể học kỹ năng trong một ngành và áp dụng chúng vào ngành khác.)",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "The candidate is likely to apply consistent processes to prevent change. (Ứng viên có thể áp dụng các quy trình nhất quán để ngăn chặn thay đổi.)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "pm-m1-q20",
+    "question_type": "multiple_answer_question",
+    "question_text_en": "As someone moving to a new location, you have several tasks. You have to plan for the various expenses like boxes and movers. You also have to clearly label the boxes, and manage all of the tasks leading up to and during the move. Which project management skills does the move require? Select all that apply.",
+    "question_text_vi": "Là một người chuyển đến địa điểm mới, bạn có nhiều nhiệm vụ. Bạn phải lập kế hoạch cho các chi phí khác nhau như thùng và người chuyển nhà. Bạn cũng phải dán nhãn rõ ràng các thùng và quản lý tất cả các nhiệm vụ dẫn đến và trong quá trình chuyển nhà. Việc chuyển nhà đòi hỏi những kỹ năng quản lý dự án nào? Chọn tất cả các đáp án đúng.",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Strong coordination and communication skills (Kỹ năng phối hợp và giao tiếp mạnh mẽ)",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Deep technical experience (Kinh nghiệm kỹ thuật sâu)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Organizational ability (Khả năng tổ chức)",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Budget preparation and monitoring (Chuẩn bị và giám sát ngân sách)",
+        "is_correct": true
+      }
+    ]
+  }
 ]

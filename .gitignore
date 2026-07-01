@@ -23,3 +23,4 @@ tmp/
 references/
 *.py
 .playwright-mcp/
+.env.local

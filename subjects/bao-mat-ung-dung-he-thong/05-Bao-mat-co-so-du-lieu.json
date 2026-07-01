@@ -1,1354 +1,1650 @@
 [
-	{
-		"question_id": "bm-m5-q1",
-		"question_text": "Bảo mật cơ sở dữ liệu (CSDL) là gì?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Tập hợp chính sách, công nghệ, biện pháp kỹ thuật bảo vệ dữ liệu khỏi truy cập trái phép, sửa đổi, phá hoại, mất mát, rò rỉ",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Chỉ sao lưu dữ liệu",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Phần mềm diệt virus",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Giao thức truyền tin",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m5-q2",
-		"question_text": "CSDL thường chứa những tài sản giá trị nào?",
-		"question_type": "multiple_answer_question",
-		"answers": [
-			{
-				"answer_text": "Dữ liệu khách hàng (họ tên, CMND/CCCD, địa chỉ, email)",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Dữ liệu tài chính (giao dịch ngân hàng, hóa đơn, thuế)",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Bí mật kinh doanh (chiến lược, hợp đồng, công nghệ độc quyền)",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Hồ sơ nhân sự, R&D",
-				"is_correct": true
-			}
-		]
-	},
-	{
-		"question_id": "bm-m5-q3",
-		"question_text": "Hậu quả pháp lý khi rò rỉ dữ liệu cá nhân bao gồm vi phạm quy định nào?",
-		"question_type": "multiple_answer_question",
-		"answers": [
-			{
-				"answer_text": "GDPR (EU)",
-				"is_correct": true
-			},
-			{
-				"answer_text": "HIPAA (Mỹ)",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Nghị định 13/2023 về bảo vệ dữ liệu cá nhân tại Việt Nam",
-				"is_correct": true
-			},
-			{
-				"answer_text": "HTTP (giao thức web)",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m5-q4",
-		"question_text": "Vụ rò rỉ dữ liệu Facebook (2019) làm lộ thông tin của bao nhiêu người dùng?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Hơn 500 triệu người dùng",
-				"is_correct": true
-			},
-			{
-				"answer_text": "147 triệu cá nhân",
-				"is_correct": false
-			},
-			{
-				"answer_text": "1 tỷ người dùng",
-				"is_correct": false
-			},
-			{
-				"answer_text": "10 triệu người dùng",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m5-q5",
-		"question_text": "Vụ Equifax (2017) gây thiệt hại gì?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Lộ dữ liệu nhạy cảm của 147 triệu cá nhân, thiệt hại hàng tỷ USD",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Làm chậm chương trình hạt nhân Iran",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Sập Twitter, Netflix",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Đánh cắp vắc-xin COVID-19",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m5-q6",
-		"question_text": "SQL Injection vào CSDL gây hậu quả gì?",
-		"question_type": "multiple_answer_question",
-		"answers": [
-			{
-				"answer_text": "Truy xuất hoặc sửa đổi dữ liệu trái phép",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Vô hiệu hóa hoặc xóa toàn bộ bảng dữ liệu",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Bypass cơ chế xác thực",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Mã hóa dữ liệu an toàn hơn",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m5-q7",
-		"question_text": "Insider Threats trong CSDL có đặc điểm gì?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Nhân viên/quản trị viên có quyền hợp pháp lạm dụng để sao chép, bán, tiết lộ dữ liệu, khó phát hiện",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Hacker bên ngoài không có quyền truy cập",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Chỉ do lỗi phần cứng",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Dễ phát hiện ngay lập tức",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m5-q8",
-		"question_text": "Ransomware WannaCry (2017) gây hậu quả gì cho CSDL?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Mã hóa/phá hoại dữ liệu, không truy cập được nếu không trả tiền chuộc, tê liệt hệ thống tại hơn 150 quốc gia",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Tăng tốc độ truy vấn CSDL",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Mã hóa dữ liệu để bảo vệ an toàn",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Sao lưu dữ liệu lên đám mây",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m5-q9",
-		"question_text": "Tấn công vào DBMS (hệ quản trị CSDL) nhắm vào cái gì?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Phần mềm quản trị CSDL (Oracle, MySQL, SQL Server, PostgreSQL) để khai thác lỗ hổng, chiếm quyền điều khiển",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Phần cứng máy chủ",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Trình duyệt người dùng",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Router mạng",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m5-q10",
-		"question_text": "Privilege Escalation trong CSDL là gì?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Khai thác sai sót cấu hình/lỗ hổng để chiếm quyền cao hơn (quản trị viên)",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Mã hóa dữ liệu AES",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Sao lưu dữ liệu",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Giảm quyền tài khoản",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m5-q11",
-		"question_text": "Nguyên tắc Least Privilege cho CSDL quy định gì?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Người dùng/ứng dụng chỉ được cấp quyền tối thiểu cần thiết để thực hiện công việc",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Cấp toàn bộ quyền DBA cho mọi người",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Không cần phân quyền",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Cấp quyền DROP TABLE cho ứng dụng",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m5-q12",
-		"question_text": "Ví dụ nào minh họa Least Privilege trong CSDL?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Nhân viên nhập dữ liệu chỉ có quyền INSERT và SELECT, không có DELETE hay DROP TABLE",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Mọi nhân viên đều có quyền xóa bảng",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Tài khoản ứng dụng có quyền root",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Không cần phân quyền",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m5-q13",
-		"question_text": "Separation of Duties (SoD) trong CSDL tách biệt những vai trò nào?",
-		"question_type": "multiple_answer_question",
-		"answers": [
-			{
-				"answer_text": "DBA (Database Admin) quản lý hạ tầng",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Developer chỉ phát triển/truy vấn",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Auditor giám sát và kiểm tra",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Một người làm luôn cả ba vai trò",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m5-q14",
-		"question_text": "Data Lifecycle Management (DLM) quản lý dữ liệu trong những giai đoạn nào?",
-		"question_type": "multiple_answer_question",
-		"answers": [
-			{
-				"answer_text": "Tạo lập (Creation), Lưu trữ (Storage), Sử dụng (Usage)",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Chia sẻ/Truyền tải (Sharing/Transmission)",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Lưu trữ lâu dài (Archival), Xóa bỏ (Disposal)",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Chỉ giai đoạn xóa bỏ",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m5-q15",
-		"question_text": "Trong giai đoạn Disposal (xóa bỏ) của DLM, cần làm gì?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Hủy dữ liệu bằng phương pháp an toàn (wipe, shred)",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Để dữ liệu trên ổ cứng cũ",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Bán ổ cứng cho người khác",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Chỉ xóa file bình thường",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m5-q16",
-		"question_text": "Trong ví dụ CIA cho bệnh viện, Availability được đảm bảo bằng cách nào?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Sao lưu định kỳ và triển khai hệ thống cluster để bệnh nhân luôn truy cập được hồ sơ y tế",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Mã hóa AES-256",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Chữ ký số hóa đơn",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Xóa dữ liệu hàng tuần",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m5-q17",
-		"question_text": "Ví dụ Separation of Duties chống gian lận là gì?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Một nhân viên nhập hóa đơn, nhân viên khác xác nhận thanh toán; SysAdmin không đồng thời là kiểm toán",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Một người làm từ nhập đến xác nhận thanh toán",
-				"is_correct": false
-			},
-			{
-				"answer_text": "SysAdmin kiêm luôn kiểm toán",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Không cần tách vai trò",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m5-q18",
-		"question_text": "Trong AAA cho CSDL ngân hàng, Authentication thực hiện như thế nào?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Đăng nhập bằng tài khoản cá nhân và xác thực hai yếu tố (2FA) - mật khẩu + OTP",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Chỉ nhập mật khẩu",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Không cần xác thực",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Chỉ dùng OTP",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m5-q19",
-		"question_text": "Trong AAA cho CSDL ngân hàng, DBA có quyền gì nhưng không được làm gì?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Có quyền tạo bảng, quản lý cấu trúc dữ liệu nhưng không được xem thông tin chi tiết khách hàng",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Xem toàn bộ thông tin khách hàng",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Chỉ xem số dư và lịch sử giao dịch",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Không có quyền gì",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m5-q20",
-		"question_text": "Accounting trong CSDL ngân hàng ghi lại những gì?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Mọi hành động (truy vấn, thêm, sửa, xóa) đều được ghi log chi tiết: thời gian, tài khoản, hành động",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Chỉ ghi log khi đăng nhập",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Không ghi log gì",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Ghi log mật khẩu người dùng",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m5-q21",
-		"question_text": "Database Firewall có chức năng gì?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Lọc và kiểm soát truy vấn SQL đến CSDL, ngăn SQL Injection, phát hiện truy cập bất thường",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Mã hóa dữ liệu khi lưu trữ",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Quét cổng mạng",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Gửi email phishing",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m5-q22",
-		"question_text": "Oracle Database Firewall, Imperva SecureSphere là ví dụ cho công cụ nào?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Database Firewall",
-				"is_correct": true
-			},
-			{
-				"answer_text": "KMS (Key Management System)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Data Masking",
-				"is_correct": false
-			},
-			{
-				"answer_text": "SIEM",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m5-q23",
-		"question_text": "KMS (Key Management System) quản lý vòng đời của cái gì?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Khóa mã hóa: tạo, phân phối, lưu trữ, hủy bỏ",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Phiên đăng nhập người dùng",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Cổng mạng và dịch vụ",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Bản vá hệ điều hành",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m5-q24",
-		"question_text": "AWS KMS, HashiCorp Vault, Microsoft Azure Key Vault là ví dụ cho cái gì?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "KMS (Key Management System)",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Database Firewall",
-				"is_correct": false
-			},
-			{
-				"answer_text": "SIEM",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Data Masking",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m5-q25",
-		"question_text": "Data Masking và Tokenization khác nhau ở điểm nào?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Data Masking làm ẩn dữ liệu nhạy cảm khi test/dev; Tokenization thay dữ liệu gốc bằng token, dữ liệu thật lưu trong vault",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Cả hai đều xóa dữ liệu gốc vĩnh viễn",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Data Masking mã hóa AES, Tokenization không",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Hai kỹ thuật giống hệt nhau",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m5-q26",
-		"question_text": "SIEM tích hợp với CSDL có chức năng gì?",
-		"question_type": "multiple_answer_question",
-		"answers": [
-			{
-				"answer_text": "Thu thập log từ CSDL (truy vấn, đăng nhập, thay đổi cấu trúc, xóa)",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Phân tích và cảnh báo khi phát hiện hành vi bất thường",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Hỗ trợ điều tra sự cố và tuân thủ chuẩn (GDPR, HIPAA, PCI DSS)",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Mã hóa dữ liệu thẻ tín dụng",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m5-q27",
-		"question_text": "Splunk, IBM QRadar, ArcSight, ELK Stack là ví dụ cho cái gì?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "SIEM tích hợp với CSDL",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Database Firewall",
-				"is_correct": false
-			},
-			{
-				"answer_text": "KMS",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Data Masking",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m5-q28",
-		"question_text": "Bảo mật CSDL trên đám mây (AWS RDS, Azure SQL, Google Cloud SQL) cần cơ chế nào?",
-		"question_type": "multiple_answer_question",
-		"answers": [
-			{
-				"answer_text": "Mã hóa at-rest và in-transit",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Quản lý truy cập dựa trên danh tính (IAM) thay mật khẩu cứng",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Backup & phục hồi tự động",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Tắt mã hóa để tăng tốc",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m5-q29",
-		"question_text": "Zero Trust cho dữ liệu (Zero Trust Data Security) có nguyên tắc gì?",
-		"question_type": "multiple_answer_question",
-		"answers": [
-			{
-				"answer_text": "Không tin cậy mặc định bất kỳ ai, kể cả người dùng nội bộ",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Áp dụng MFA, micro-segmentation",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Theo dõi liên tục mọi truy vấn và hành vi",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Tin tưởng mọi truy cập nội bộ",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m5-q30",
-		"question_text": "IBM Guardium và Oracle Autonomous Database minh họa xu hướng nào?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "AI/ML phát hiện truy cập bất thường và tự động vá lỗi bảo mật",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Database Firewall truyền thống",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Data Masking",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Backup dữ liệu",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m5-q31",
-		"question_text": "Chuẩn nào bảo mật dữ liệu y tế?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "HIPAA",
-				"is_correct": true
-			},
-			{
-				"answer_text": "GDPR",
-				"is_correct": false
-			},
-			{
-				"answer_text": "PCI DSS",
-				"is_correct": false
-			},
-			{
-				"answer_text": "ISO 27001",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m5-q32",
-		"question_text": "PCI DSS là chuẩn bảo mật gì?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Bảo mật dữ liệu thẻ thanh toán",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Bảo vệ dữ liệu cá nhân EU",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Bảo mật dữ liệu y tế",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Mã hóa AES",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m5-q33",
-		"question_text": "Prepared Statement trong lập trình CSDL chống SQL Injection bằng cách nào?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Câu SQL biên dịch trước với placeholder ?, dữ liệu đầu vào là tham số không phải phần câu lệnh",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Ghép chuỗi SQL trực tiếp từ input",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Mã hóa câu lệnh SQL bằng AES",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Xóa ký tự đặc biệt trong kết quả",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m5-q34",
-		"question_text": "Cách lưu mật khẩu an toàn trong CSDL là gì?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Hash + salt bằng bcrypt, Argon2",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Lưu dạng plain text",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Mã hóa MD5 không salt",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Lưu trong cookie không mã hóa",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m5-q35",
-		"question_text": "Dữ liệu quan trọng (số thẻ tín dụng, CMND) nên mã hóa bằng thuật toán nào?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "AES-256",
-				"is_correct": true
-			},
-			{
-				"answer_text": "MD5",
-				"is_correct": false
-			},
-			{
-				"answer_text": "SHA1",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Base64",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m5-q36",
-		"question_text": "Phân quyền trong lập trình kết nối CSDL nên như thế nào?",
-		"question_type": "multiple_answer_question",
-		"answers": [
-			{
-				"answer_text": "Chỉ cấp SELECT, INSERT, UPDATE cần thiết",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Không cho ứng dụng quyền DBA hoặc DROP TABLE",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Dùng nhiều tài khoản DB cho mục đích khác nhau",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Cấp quyền root cho mọi ứng dụng",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m5-q37",
-		"question_text": "Validation & Sanitization dữ liệu đầu vào nên áp dụng nguyên tắc nào?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Whitelist (chỉ chấp nhận dữ liệu hợp lệ) thay vì Blacklist",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Blacklist (chỉ chặn dữ liệu xấu)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Không cần kiểm tra",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Chỉ kiểm tra độ dài",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m5-q38",
-		"question_text": "Logging & Audit trong ứng dụng CSDL cần lưu ý gì?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Ghi hoạt động quan trọng, KHÔNG ghi log dữ liệu nhạy cảm (mật khẩu, số thẻ)",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Ghi toàn bộ mật khẩu vào log",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Không cần ghi log",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Chỉ ghi log khi hệ thống lỗi",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m5-q39",
-		"question_text": "Bảo vệ API kết nối CSDL cần những biện pháp nào?",
-		"question_type": "multiple_answer_question",
-		"answers": [
-			{
-				"answer_text": "Token-based authentication (JWT, OAuth2)",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Giới hạn rate-limit chống brute-force",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Luôn dùng HTTPS/TLS",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Dùng HTTP không mã hóa",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m5-q40",
-		"question_text": "Đoạn code đăng nhập dùng PreparedStatement nhưng có những 'kẻ hở' nào?",
-		"question_type": "multiple_answer_question",
-		"answers": [
-			{
-				"answer_text": "Lưu/so sánh mật khẩu dạng clear-text thay vì hash + salt",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Dùng SELECT * lấy toàn bộ cột, có thể lộ thông tin nhạy cảm",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Không có kiểm soát số lần đăng nhập sai (chống brute-force)",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Không có Logging/Auditing",
-				"is_correct": true
-			}
-		]
-	},
-	{
-		"question_id": "bm-m5-q41",
-		"question_text": "Vì sao SELECT * trong truy vấn đăng nhập không an toàn?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Lấy tất cả cột, có thể lộ thông tin nhạy cảm (email, role, hash mật khẩu) và tốn tài nguyên",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Chống SQL Injection tốt hơn",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Tăng tốc độ truy vấn",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Không có vấn đề gì",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m5-q42",
-		"question_text": "Giải pháp chống brute-force đăng nhập là gì?",
-		"question_type": "multiple_answer_question",
-		"answers": [
-			{
-				"answer_text": "Giới hạn số lần login sai",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Lock account tạm thời",
-				"is_correct": true
-			},
-			{
-				"answer_text": "CAPTCHA",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Cho phép thử không giới hạn",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m5-q43",
-		"question_text": "Với input username = admin' OR '1'='1--, điều gì xảy ra khi dùng Statement vs PreparedStatement?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Statement: bypass login vì OR '1'='1 thay đổi logic; PreparedStatement: input chỉ là chuỗi literal, không thay đổi logic",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Cả hai đều bypass login",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Statement an toàn hơn PreparedStatement",
-				"is_correct": false
-			},
-			{
-				"answer_text": "PreparedStatement không ảnh hưởng bởi input",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m5-q44",
-		"question_text": "PreparedStatement an toàn với SQL Injection nhờ cơ chế nào?",
-		"question_type": "multiple_answer_question",
-		"answers": [
-			{
-				"answer_text": "Tách biệt câu lệnh SQL và dữ liệu đầu vào",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Biến đầu vào được xử lý như dữ liệu (escape), không phải lệnh",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Câu SQL được biên dịch một lần duy nhất, chỉ thay giá trị không thay logic",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Mã hóa câu lệnh bằng AES",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m5-q45",
-		"question_text": "Data Masking dùng trong mục đích nào?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Ẩn dữ liệu nhạy cảm trong quá trình test/dev (thay số CMND bằng chuỗi giả lập)",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Mã hóa dữ liệu trên đám mây",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Quét lỗ hổng SQL Injection",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Gửi email phishing",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m5-q46",
-		"question_text": "Vì sao Zero Trust Data giảm rủi ro tấn công nội gián (insider threats)?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Không tin cậy mặc định, MFA + micro-segmentation + giám sát liên tục mọi truy vấn",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Tin tưởng mọi nhân viên nội bộ",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Chỉ cần mã hóa là đủ",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Không cần xác thực nội bộ",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m5-q47",
-		"question_text": "Ví dụ CIA: Integrity (Toàn vẹn) trong thương mại điện tử được đảm bảo bằng cách nào?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Sử dụng chữ ký số để đảm bảo dữ liệu hóa đơn không bị chỉnh sửa sau khi phát hành",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Mã hóa AES-256 dữ liệu khách hàng",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Sao lưu định kỳ",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Cluster hệ thống",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m5-q48",
-		"question_text": "AI/ML phát hiện truy cập bất thường vào CSDL dựa trên dấu hiệu nào?",
-		"question_type": "multiple_answer_question",
-		"answers": [
-			{
-				"answer_text": "Nhiều truy vấn nhạy cảm trong thời gian ngắn",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Đăng nhập bất thường từ IP lạ",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Hành vi lệch khỏi pattern bình thường đã học",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Mã hóa AES-256",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m5-q49",
-		"question_text": "Vai trò của lập trình viên & quản trị viên trong bảo mật CSDL là gì?",
-		"question_type": "multiple_answer_question",
-		"answers": [
-			{
-				"answer_text": "Viết code an toàn (Prepared Statement, hash mật khẩu)",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Quản lý mật khẩu đúng chuẩn",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Cập nhật bản vá",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Đào tạo nâng cao nhận thức",
-				"is_correct": true
-			}
-		]
-	},
-	{
-		"question_id": "bm-m5-q50",
-		"question_text": "Đoạn code dùng PreparedStatement có an toàn với SQL Injection không?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Có, an toàn với SQL Injection, nhưng mất an toàn ở bảo mật mật khẩu và logic ứng dụng",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Không an toàn với SQL Injection",
-				"is_correct": false
-			},
-			{
-				"answer_text": "An toàn toàn diện, đủ triển khai thực tế",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Không liên quan đến SQL Injection",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m5-q51",
-		"question_text": "(PDF) So sánh Full Backup, Incremental Backup và Differential Backup — phát biểu nào đúng?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Full: sao lưu toàn bộ, dung lượng lớn, khôi phục nhanh; Incremental: chỉ lưu thay đổi từ lần gần nhất, nhỏ nhất, khôi phục lâu nhất; Differential: lưu thay đổi kể từ lần Full gần nhất, mức trung bình",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Full: nhỏ nhất, khôi phục chậm; Incremental: toàn bộ, nhanh nhất; Differential: không lưu thay đổi",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Cả ba loại đều sao lưu toàn bộ dữ liệu như nhau",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Differential luôn lớn hơn Full Backup",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m5-q52",
-		"question_text": "(PDF) Audit Log trong cơ sở dữ liệu ghi lại những thao tác nào?",
-		"question_type": "multiple_answer_question",
-		"answers": [
-			{
-				"answer_text": "Đăng nhập",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Đăng xuất",
-				"is_correct": true
-			},
-			{
-				"answer_text": "INSERT, UPDATE, DELETE",
-				"is_correct": true
-			},
-			{
-				"answer_text": "CREATE, DROP",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Mã hóa AES dữ liệu",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Hash mật khẩu bằng Argon2",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m5-q53",
-		"question_text": "(PDF) Chính sách mật khẩu mạnh yêu cầu gì?",
-		"question_type": "multiple_answer_question",
-		"answers": [
-			{
-				"answer_text": "Có ít nhất 12 ký tự",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Có chữ hoa, chữ thường, số và ký tự đặc biệt",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Không dùng 123456, password, admin, ngày sinh",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Dùng ngày sinh để dễ nhớ",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Chỉ dài tối đa 6 ký tự",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Chỉ dùng chữ thường",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m5-q54",
-		"question_text": "(PDF) Lỗi cấu hình cơ sở dữ liệu thường gặp là gì?",
-		"question_type": "multiple_answer_question",
-		"answers": [
-			{
-				"answer_text": "Dùng tài khoản Administrator cho ứng dụng",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Không đổi mật khẩu mặc định",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Mở quyền Public",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Không backup",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Cho phép truy cập từ mọi địa chỉ IP",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Không mã hóa dữ liệu",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Dùng Prepared Statement",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Hash mật khẩu bằng bcrypt/Argon2",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Giới hạn IP được phép truy cập",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m5-q55",
-		"question_text": "(PDF) Khôi phục sau thảm họa (Disaster Recovery) cần chuẩn bị những gì?",
-		"question_type": "multiple_answer_question",
-		"answers": [
-			{
-				"answer_text": "Backup",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Máy chủ dự phòng",
-				"is_correct": true
-			},
-			{
-				"answer_text": "UPS",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Trung tâm dữ liệu dự phòng",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Quy trình phục hồi",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Tắt firewall để dễ khôi phục",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Xóa audit log để giải phóng dung lượng",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Mở quyền public cho database",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "bm-m5-q56",
-		"question_text": "(PDF) Tình huống nào cần phục hồi dữ liệu?",
-		"question_type": "multiple_answer_question",
-		"answers": [
-			{
-				"answer_text": "Xóa nhầm",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Virus",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Ransomware",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Hỏng ổ cứng",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Khi bật xác thực đa yếu tố (MFA)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Khi dùng HTTPS/TLS",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Khi cập nhật bản vá DBMS",
-				"is_correct": false
-			}
-		]
-	}
+  {
+    "question_id": "bm-m5-q1",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Bảo mật cơ sở dữ liệu (CSDL) là gì?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Tập hợp chính sách, công nghệ, biện pháp kỹ thuật bảo vệ dữ liệu khỏi truy cập trái phép, sửa đổi, phá hoại, mất mát, rò rỉ",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Chỉ sao lưu dữ liệu",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Phần mềm diệt virus",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Giao thức truyền tin",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m5-q2",
+    "question_type": "multiple_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "CSDL thường chứa những tài sản giá trị nào?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Dữ liệu khách hàng (họ tên, CMND/CCCD, địa chỉ, email)",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Dữ liệu tài chính (giao dịch ngân hàng, hóa đơn, thuế)",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Bí mật kinh doanh (chiến lược, hợp đồng, công nghệ độc quyền)",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Hồ sơ nhân sự, R&D",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m5-q3",
+    "question_type": "multiple_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Hậu quả pháp lý khi rò rỉ dữ liệu cá nhân bao gồm vi phạm quy định nào?",
+    "answers": [
+      {
+        "answer_text_en": "GDPR (EU)",
+        "answer_text_vi": "",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "HIPAA (Mỹ)",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Nghị định 13/2023 về bảo vệ dữ liệu cá nhân tại Việt Nam",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "HTTP (giao thức web)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m5-q4",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Vụ rò rỉ dữ liệu Facebook (2019) làm lộ thông tin của bao nhiêu người dùng?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Hơn 500 triệu người dùng",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "147 triệu cá nhân",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "1 tỷ người dùng",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "10 triệu người dùng",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m5-q5",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Vụ Equifax (2017) gây thiệt hại gì?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Lộ dữ liệu nhạy cảm của 147 triệu cá nhân, thiệt hại hàng tỷ USD",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Làm chậm chương trình hạt nhân Iran",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Sập Twitter, Netflix",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Đánh cắp vắc-xin COVID-19",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m5-q6",
+    "question_type": "multiple_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "SQL Injection vào CSDL gây hậu quả gì?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Truy xuất hoặc sửa đổi dữ liệu trái phép",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Vô hiệu hóa hoặc xóa toàn bộ bảng dữ liệu",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Bypass cơ chế xác thực",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Mã hóa dữ liệu an toàn hơn",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m5-q7",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Insider Threats trong CSDL có đặc điểm gì?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Nhân viên/quản trị viên có quyền hợp pháp lạm dụng để sao chép, bán, tiết lộ dữ liệu, khó phát hiện",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Hacker bên ngoài không có quyền truy cập",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Chỉ do lỗi phần cứng",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Dễ phát hiện ngay lập tức",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m5-q8",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Ransomware WannaCry (2017) gây hậu quả gì cho CSDL?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Mã hóa/phá hoại dữ liệu, không truy cập được nếu không trả tiền chuộc, tê liệt hệ thống tại hơn 150 quốc gia",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Tăng tốc độ truy vấn CSDL",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Mã hóa dữ liệu để bảo vệ an toàn",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Sao lưu dữ liệu lên đám mây",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m5-q9",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Tấn công vào DBMS (hệ quản trị CSDL) nhắm vào cái gì?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Phần mềm quản trị CSDL (Oracle, MySQL, SQL Server, PostgreSQL) để khai thác lỗ hổng, chiếm quyền điều khiển",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Phần cứng máy chủ",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Trình duyệt người dùng",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Router mạng",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m5-q10",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Privilege Escalation trong CSDL là gì?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Khai thác sai sót cấu hình/lỗ hổng để chiếm quyền cao hơn (quản trị viên)",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Mã hóa dữ liệu AES",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Sao lưu dữ liệu",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Giảm quyền tài khoản",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m5-q11",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Nguyên tắc Least Privilege cho CSDL quy định gì?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Người dùng/ứng dụng chỉ được cấp quyền tối thiểu cần thiết để thực hiện công việc",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Cấp toàn bộ quyền DBA cho mọi người",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Không cần phân quyền",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Cấp quyền DROP TABLE cho ứng dụng",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m5-q12",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Ví dụ nào minh họa Least Privilege trong CSDL?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Nhân viên nhập dữ liệu chỉ có quyền INSERT và SELECT, không có DELETE hay DROP TABLE",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Mọi nhân viên đều có quyền xóa bảng",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Tài khoản ứng dụng có quyền root",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Không cần phân quyền",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m5-q13",
+    "question_type": "multiple_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Separation of Duties (SoD) trong CSDL tách biệt những vai trò nào?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "DBA (Database Admin) quản lý hạ tầng",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Developer chỉ phát triển/truy vấn",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Auditor giám sát và kiểm tra",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Một người làm luôn cả ba vai trò",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m5-q14",
+    "question_type": "multiple_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Data Lifecycle Management (DLM) quản lý dữ liệu trong những giai đoạn nào?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Tạo lập (Creation), Lưu trữ (Storage), Sử dụng (Usage)",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Chia sẻ/Truyền tải (Sharing/Transmission)",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Lưu trữ lâu dài (Archival), Xóa bỏ (Disposal)",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Chỉ giai đoạn xóa bỏ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m5-q15",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Trong giai đoạn Disposal (xóa bỏ) của DLM, cần làm gì?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Hủy dữ liệu bằng phương pháp an toàn (wipe, shred)",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Để dữ liệu trên ổ cứng cũ",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Bán ổ cứng cho người khác",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Chỉ xóa file bình thường",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m5-q16",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Trong ví dụ CIA cho bệnh viện, Availability được đảm bảo bằng cách nào?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Sao lưu định kỳ và triển khai hệ thống cluster để bệnh nhân luôn truy cập được hồ sơ y tế",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Mã hóa AES-256",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Chữ ký số hóa đơn",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Xóa dữ liệu hàng tuần",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m5-q17",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Ví dụ Separation of Duties chống gian lận là gì?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Một nhân viên nhập hóa đơn, nhân viên khác xác nhận thanh toán; SysAdmin không đồng thời là kiểm toán",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Một người làm từ nhập đến xác nhận thanh toán",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "SysAdmin kiêm luôn kiểm toán",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Không cần tách vai trò",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m5-q18",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Trong AAA cho CSDL ngân hàng, Authentication thực hiện như thế nào?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Đăng nhập bằng tài khoản cá nhân và xác thực hai yếu tố (2FA) - mật khẩu + OTP",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Chỉ nhập mật khẩu",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Không cần xác thực",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Chỉ dùng OTP",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m5-q19",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Trong AAA cho CSDL ngân hàng, DBA có quyền gì nhưng không được làm gì?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Có quyền tạo bảng, quản lý cấu trúc dữ liệu nhưng không được xem thông tin chi tiết khách hàng",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Xem toàn bộ thông tin khách hàng",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Chỉ xem số dư và lịch sử giao dịch",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Không có quyền gì",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m5-q20",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Accounting trong CSDL ngân hàng ghi lại những gì?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Mọi hành động (truy vấn, thêm, sửa, xóa) đều được ghi log chi tiết: thời gian, tài khoản, hành động",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Chỉ ghi log khi đăng nhập",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Không ghi log gì",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Ghi log mật khẩu người dùng",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m5-q21",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Database Firewall có chức năng gì?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Lọc và kiểm soát truy vấn SQL đến CSDL, ngăn SQL Injection, phát hiện truy cập bất thường",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Mã hóa dữ liệu khi lưu trữ",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Quét cổng mạng",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Gửi email phishing",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m5-q22",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Oracle Database Firewall, Imperva SecureSphere là ví dụ cho công cụ nào?",
+    "answers": [
+      {
+        "answer_text_en": "Database Firewall",
+        "answer_text_vi": "",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "KMS (Key Management System)",
+        "answer_text_vi": "",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "Data Masking",
+        "answer_text_vi": "",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "SIEM",
+        "answer_text_vi": "",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m5-q23",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "KMS (Key Management System) quản lý vòng đời của cái gì?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Khóa mã hóa: tạo, phân phối, lưu trữ, hủy bỏ",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Phiên đăng nhập người dùng",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Cổng mạng và dịch vụ",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Bản vá hệ điều hành",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m5-q24",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "AWS KMS, HashiCorp Vault, Microsoft Azure Key Vault là ví dụ cho cái gì?",
+    "answers": [
+      {
+        "answer_text_en": "KMS (Key Management System)",
+        "answer_text_vi": "",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "Database Firewall",
+        "answer_text_vi": "",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "SIEM",
+        "answer_text_vi": "",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "Data Masking",
+        "answer_text_vi": "",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m5-q25",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Data Masking và Tokenization khác nhau ở điểm nào?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Data Masking làm ẩn dữ liệu nhạy cảm khi test/dev; Tokenization thay dữ liệu gốc bằng token, dữ liệu thật lưu trong vault",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Cả hai đều xóa dữ liệu gốc vĩnh viễn",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Data Masking mã hóa AES, Tokenization không",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Hai kỹ thuật giống hệt nhau",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m5-q26",
+    "question_type": "multiple_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "SIEM tích hợp với CSDL có chức năng gì?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Thu thập log từ CSDL (truy vấn, đăng nhập, thay đổi cấu trúc, xóa)",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Phân tích và cảnh báo khi phát hiện hành vi bất thường",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Hỗ trợ điều tra sự cố và tuân thủ chuẩn (GDPR, HIPAA, PCI DSS)",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Mã hóa dữ liệu thẻ tín dụng",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m5-q27",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Splunk, IBM QRadar, ArcSight, ELK Stack là ví dụ cho cái gì?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "SIEM tích hợp với CSDL",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "Database Firewall",
+        "answer_text_vi": "",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "KMS",
+        "answer_text_vi": "",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "Data Masking",
+        "answer_text_vi": "",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m5-q28",
+    "question_type": "multiple_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Bảo mật CSDL trên đám mây (AWS RDS, Azure SQL, Google Cloud SQL) cần cơ chế nào?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Mã hóa at-rest và in-transit",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Quản lý truy cập dựa trên danh tính (IAM) thay mật khẩu cứng",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Backup & phục hồi tự động",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Tắt mã hóa để tăng tốc",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m5-q29",
+    "question_type": "multiple_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Zero Trust cho dữ liệu (Zero Trust Data Security) có nguyên tắc gì?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Không tin cậy mặc định bất kỳ ai, kể cả người dùng nội bộ",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Áp dụng MFA, micro-segmentation",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Theo dõi liên tục mọi truy vấn và hành vi",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Tin tưởng mọi truy cập nội bộ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m5-q30",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "IBM Guardium và Oracle Autonomous Database minh họa xu hướng nào?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "AI/ML phát hiện truy cập bất thường và tự động vá lỗi bảo mật",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Database Firewall truyền thống",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "Data Masking",
+        "answer_text_vi": "",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Backup dữ liệu",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m5-q31",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Chuẩn nào bảo mật dữ liệu y tế?",
+    "answers": [
+      {
+        "answer_text_en": "HIPAA",
+        "answer_text_vi": "",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "GDPR",
+        "answer_text_vi": "",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "PCI DSS",
+        "answer_text_vi": "",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "ISO 27001",
+        "answer_text_vi": "",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m5-q32",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "PCI DSS là chuẩn bảo mật gì?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Bảo mật dữ liệu thẻ thanh toán",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Bảo vệ dữ liệu cá nhân EU",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Bảo mật dữ liệu y tế",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Mã hóa AES",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m5-q33",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Prepared Statement trong lập trình CSDL chống SQL Injection bằng cách nào?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Câu SQL biên dịch trước với placeholder ?, dữ liệu đầu vào là tham số không phải phần câu lệnh",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Ghép chuỗi SQL trực tiếp từ input",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Mã hóa câu lệnh SQL bằng AES",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Xóa ký tự đặc biệt trong kết quả",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m5-q34",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Cách lưu mật khẩu an toàn trong CSDL là gì?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Hash + salt bằng bcrypt, Argon2",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Lưu dạng plain text",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Mã hóa MD5 không salt",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Lưu trong cookie không mã hóa",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m5-q35",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Dữ liệu quan trọng (số thẻ tín dụng, CMND) nên mã hóa bằng thuật toán nào?",
+    "answers": [
+      {
+        "answer_text_en": "AES-256",
+        "answer_text_vi": "",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "MD5",
+        "answer_text_vi": "",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "SHA1",
+        "answer_text_vi": "",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "Base64",
+        "answer_text_vi": "",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m5-q36",
+    "question_type": "multiple_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Phân quyền trong lập trình kết nối CSDL nên như thế nào?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Chỉ cấp SELECT, INSERT, UPDATE cần thiết",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Không cho ứng dụng quyền DBA hoặc DROP TABLE",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Dùng nhiều tài khoản DB cho mục đích khác nhau",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Cấp quyền root cho mọi ứng dụng",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m5-q37",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Validation & Sanitization dữ liệu đầu vào nên áp dụng nguyên tắc nào?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Whitelist (chỉ chấp nhận dữ liệu hợp lệ) thay vì Blacklist",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Blacklist (chỉ chặn dữ liệu xấu)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Không cần kiểm tra",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Chỉ kiểm tra độ dài",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m5-q38",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Logging & Audit trong ứng dụng CSDL cần lưu ý gì?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Ghi hoạt động quan trọng, KHÔNG ghi log dữ liệu nhạy cảm (mật khẩu, số thẻ)",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Ghi toàn bộ mật khẩu vào log",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Không cần ghi log",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Chỉ ghi log khi hệ thống lỗi",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m5-q39",
+    "question_type": "multiple_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Bảo vệ API kết nối CSDL cần những biện pháp nào?",
+    "answers": [
+      {
+        "answer_text_en": "Token-based authentication (JWT, OAuth2)",
+        "answer_text_vi": "",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Giới hạn rate-limit chống brute-force",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Luôn dùng HTTPS/TLS",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Dùng HTTP không mã hóa",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m5-q40",
+    "question_type": "multiple_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Đoạn code đăng nhập dùng PreparedStatement nhưng có những 'kẻ hở' nào?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Lưu/so sánh mật khẩu dạng clear-text thay vì hash + salt",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Dùng SELECT * lấy toàn bộ cột, có thể lộ thông tin nhạy cảm",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Không có kiểm soát số lần đăng nhập sai (chống brute-force)",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Không có Logging/Auditing",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m5-q41",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Vì sao SELECT * trong truy vấn đăng nhập không an toàn?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Lấy tất cả cột, có thể lộ thông tin nhạy cảm (email, role, hash mật khẩu) và tốn tài nguyên",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Chống SQL Injection tốt hơn",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Tăng tốc độ truy vấn",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Không có vấn đề gì",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m5-q42",
+    "question_type": "multiple_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Giải pháp chống brute-force đăng nhập là gì?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Giới hạn số lần login sai",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Lock account tạm thời",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "CAPTCHA",
+        "answer_text_vi": "",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Cho phép thử không giới hạn",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m5-q43",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Với input username = admin' OR '1'='1--, điều gì xảy ra khi dùng Statement vs PreparedStatement?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Statement: bypass login vì OR '1'='1 thay đổi logic; PreparedStatement: input chỉ là chuỗi literal, không thay đổi logic",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Cả hai đều bypass login",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Statement an toàn hơn PreparedStatement",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "PreparedStatement không ảnh hưởng bởi input",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m5-q44",
+    "question_type": "multiple_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "PreparedStatement an toàn với SQL Injection nhờ cơ chế nào?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Tách biệt câu lệnh SQL và dữ liệu đầu vào",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Biến đầu vào được xử lý như dữ liệu (escape), không phải lệnh",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Câu SQL được biên dịch một lần duy nhất, chỉ thay giá trị không thay logic",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Mã hóa câu lệnh bằng AES",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m5-q45",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Data Masking dùng trong mục đích nào?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Ẩn dữ liệu nhạy cảm trong quá trình test/dev (thay số CMND bằng chuỗi giả lập)",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Mã hóa dữ liệu trên đám mây",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Quét lỗ hổng SQL Injection",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Gửi email phishing",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m5-q46",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Vì sao Zero Trust Data giảm rủi ro tấn công nội gián (insider threats)?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Không tin cậy mặc định, MFA + micro-segmentation + giám sát liên tục mọi truy vấn",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Tin tưởng mọi nhân viên nội bộ",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Chỉ cần mã hóa là đủ",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Không cần xác thực nội bộ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m5-q47",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Ví dụ CIA: Integrity (Toàn vẹn) trong thương mại điện tử được đảm bảo bằng cách nào?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Sử dụng chữ ký số để đảm bảo dữ liệu hóa đơn không bị chỉnh sửa sau khi phát hành",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Mã hóa AES-256 dữ liệu khách hàng",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Sao lưu định kỳ",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Cluster hệ thống",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m5-q48",
+    "question_type": "multiple_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "AI/ML phát hiện truy cập bất thường vào CSDL dựa trên dấu hiệu nào?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Nhiều truy vấn nhạy cảm trong thời gian ngắn",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Đăng nhập bất thường từ IP lạ",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Hành vi lệch khỏi pattern bình thường đã học",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Mã hóa AES-256",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m5-q49",
+    "question_type": "multiple_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Vai trò của lập trình viên & quản trị viên trong bảo mật CSDL là gì?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Viết code an toàn (Prepared Statement, hash mật khẩu)",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Quản lý mật khẩu đúng chuẩn",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Cập nhật bản vá",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Đào tạo nâng cao nhận thức",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m5-q50",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "Đoạn code dùng PreparedStatement có an toàn với SQL Injection không?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Có, an toàn với SQL Injection, nhưng mất an toàn ở bảo mật mật khẩu và logic ứng dụng",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Không an toàn với SQL Injection",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "An toàn toàn diện, đủ triển khai thực tế",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Không liên quan đến SQL Injection",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m5-q51",
+    "question_type": "single_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "(PDF) So sánh Full Backup, Incremental Backup và Differential Backup — phát biểu nào đúng?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Full: sao lưu toàn bộ, dung lượng lớn, khôi phục nhanh; Incremental: chỉ lưu thay đổi từ lần gần nhất, nhỏ nhất, khôi phục lâu nhất; Differential: lưu thay đổi kể từ lần Full gần nhất, mức trung bình",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Full: nhỏ nhất, khôi phục chậm; Incremental: toàn bộ, nhanh nhất; Differential: không lưu thay đổi",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Cả ba loại đều sao lưu toàn bộ dữ liệu như nhau",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Differential luôn lớn hơn Full Backup",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m5-q52",
+    "question_type": "multiple_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "(PDF) Audit Log trong cơ sở dữ liệu ghi lại những thao tác nào?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Đăng nhập",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Đăng xuất",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "INSERT, UPDATE, DELETE",
+        "answer_text_vi": "",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "CREATE, DROP",
+        "answer_text_vi": "",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Mã hóa AES dữ liệu",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Hash mật khẩu bằng Argon2",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m5-q53",
+    "question_type": "multiple_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "(PDF) Chính sách mật khẩu mạnh yêu cầu gì?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Có ít nhất 12 ký tự",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Có chữ hoa, chữ thường, số và ký tự đặc biệt",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Không dùng 123456, password, admin, ngày sinh",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Dùng ngày sinh để dễ nhớ",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Chỉ dài tối đa 6 ký tự",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Chỉ dùng chữ thường",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m5-q54",
+    "question_type": "multiple_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "(PDF) Lỗi cấu hình cơ sở dữ liệu thường gặp là gì?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Dùng tài khoản Administrator cho ứng dụng",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Không đổi mật khẩu mặc định",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Mở quyền Public",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Không backup",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Cho phép truy cập từ mọi địa chỉ IP",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Không mã hóa dữ liệu",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Dùng Prepared Statement",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Hash mật khẩu bằng bcrypt/Argon2",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Giới hạn IP được phép truy cập",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m5-q55",
+    "question_type": "multiple_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "(PDF) Khôi phục sau thảm họa (Disaster Recovery) cần chuẩn bị những gì?",
+    "answers": [
+      {
+        "answer_text_en": "Backup",
+        "answer_text_vi": "",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Máy chủ dự phòng",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "UPS",
+        "answer_text_vi": "",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Trung tâm dữ liệu dự phòng",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Quy trình phục hồi",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Tắt firewall để dễ khôi phục",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Xóa audit log để giải phóng dung lượng",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Mở quyền public cho database",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "bm-m5-q56",
+    "question_type": "multiple_answer_question",
+    "question_text_en": "",
+    "question_text_vi": "(PDF) Tình huống nào cần phục hồi dữ liệu?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Xóa nhầm",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "Virus",
+        "answer_text_vi": "",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "Ransomware",
+        "answer_text_vi": "",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Hỏng ổ cứng",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Khi bật xác thực đa yếu tố (MFA)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Khi dùng HTTPS/TLS",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Khi cập nhật bản vá DBMS",
+        "is_correct": false
+      }
+    ]
+  }
 ]

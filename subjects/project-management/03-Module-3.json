@@ -1,232 +1,282 @@
 [
-	{
-		"question_id": "pm-m3-q1",
-		"question_text": "A project manager creates a timeline and defines all tasks that the team needs to complete. What phase of the project life cycle are they implementing?\nVN: Một quản lý dự án tạo một timeline và xác định tất cả các nhiệm vụ mà nhóm cần hoàn thành. Họ đang thực hiện giai đoạn nào của vòng đời dự án?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Initiate the project (Khởi động dự án)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Making a plan (Lập kế hoạch)",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Close the project (Đóng dự án)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Execute and complete tasks (Thực hiện và hoàn thành nhiệm vụ)",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "pm-m3-q2",
-		"question_text": "Why should project managers always make a plan (phase two) before executing and completing tasks (phase three)?\nVN: Tại sao các quản lý dự án nên luôn lập kế hoạch (giai đoạn hai) trước khi thực hiện và hoàn thành các nhiệm vụ (giai đoạn ba)?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Because creating a budget, setting a schedule, and determining roles and responsibilities is crucial to executing and completing tasks (Vì việc tạo ngân sách, đặt lịch trình và xác định vai trò và trách nhiệm là rất quan trọng để thực hiện và hoàn thành các nhiệm vụ)",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Because creating a budget, setting a schedule, and determining roles and responsibilities is crucial to developing the project charter (Vì việc tạo ngân sách, đặt lịch trình và xác định vai trò và trách nhiệm là rất quan trọng để phát triển điều lệ dự án)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Because executing and completing tasks is crucial to understanding scope, cost, and timeline (Vì việc thực hiện và hoàn thành các nhiệm vụ là rất quan trọng để hiểu phạm vi, chi phí và timeline)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Because executing and completing tasks is crucial to creating a budget, setting a schedule, and determining roles and responsibilities (Vì việc thực hiện và hoàn thành các nhiệm vụ là rất quan trọng để tạo ngân sách, đặt lịch trình và xác định vai trò và trách nhiệm)",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "pm-m3-q3",
-		"question_text": "What project management methodology would work best for building a house?\nVN: Phương pháp quản lý dự án nào sẽ phù hợp nhất để xây dựng một ngôi nhà?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Flexible methodology (Phương pháp linh hoạt)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Linear methodology (Phương pháp tuyến tính)",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Iterative methodology (Phương pháp lặp)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Agile methodology (Phương pháp Agile)",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "pm-m3-q4",
-		"question_text": "As a project manager, you need to plan the catering for the week-long company retreat. The budget is very tight and catering is precise. What is the best project management methodology to use?\nVN: Là quản lý dự án, bạn cần lập kế hoạch dịch vụ ăn uống cho kỳ nghỉ công ty kéo dài một tuần. Ngân sách rất chặt và dịch vụ ăn uống cần chính xác. Phương pháp quản lý dự án tốt nhất để sử dụng là gì?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Agile methodology (Phương pháp Agile)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Lean Six Sigma Methodology (Phương pháp Lean Six Sigma)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Define methodology (Phương pháp Define)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Waterfall methodology (Phương pháp Waterfall)",
-				"is_correct": true
-			}
-		]
-	},
-	{
-		"question_id": "pm-m3-q5",
-		"question_text": "What is the main advantage of the Waterfall methodology over the Agile approach?\nVN: Lợi thế chính của phương pháp Waterfall so với phương pháp Agile là gì?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Waterfall focuses on reducing waste within an operation. (Waterfall tập trung vào việc giảm lãng phí trong hoạt động.)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Waterfall allows for easy reorganization of tasks as the project progresses. (Waterfall cho phép tổ chức lại các nhiệm vụ dễ dàng khi dự án tiến triển.)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Waterfall takes a flexible approach, letting teams make adjustments as they go. (Waterfall áp dụng cách tiếp cận linh hoạt, cho phép các nhóm điều chỉnh khi họ tiến hành.)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Waterfall has clearly defined expectations and helps teams avoid expensive changes to a project once it has started. (Waterfall có các kỳ vọng được xác định rõ ràng và giúp các nhóm tránh các thay đổi tốn kém cho dự án sau khi đã bắt đầu.)",
-				"is_correct": true
-			}
-		]
-	},
-	{
-		"question_id": "pm-m3-q6",
-		"question_text": "The Lean Six Sigma approach includes which of the following phases?\nVN: Phương pháp Lean Six Sigma bao gồm những giai đoạn nào sau đây?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Define, measure, analyze, improve, control (Xác định, đo lường, phân tích, cải tiến, kiểm soát)",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Impact, measure, define, control, analyze (Tác động, đo lường, xác định, kiểm soát, phân tích)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Measure, define, apply, improve, control (Đo lường, xác định, áp dụng, cải tiến, kiểm soát)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Connect, control, impact, apply, analyze (Kết nối, kiểm soát, tác động, áp dụng, phân tích)",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "pm-m3-q7",
-		"question_text": "While planning the project, a project manager considers possible delays, budget changes, and legal issues. What are they trying to reduce by considering these things?\nVN: Trong khi lập kế hoạch dự án, một quản lý dự án xem xét các khả năng chậm trễ, thay đổi ngân sách và các vấn đề pháp lý. Họ đang cố gắng giảm điều gì bằng cách xem xét những điều này?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Risks (Rủi ro)",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Deliverables (Sản phẩm bàn giao)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Plans (Kế hoạch)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Resources (Nguồn lực)",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "pm-m3-q8",
-		"question_text": "A project manager completes a report to communicate final results with the project's stakeholders. At what stage of the project would this event take place?\nVN: Một quản lý dự án hoàn thành một báo cáo để truyền đạt kết quả cuối cùng với các bên liên quan của dự án. Sự kiện này sẽ diễn ra ở giai đoạn nào của dự án?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Planning (Lập kế hoạch)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Closing (Đóng dự án)",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Execution (Thực hiện)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Initiation (Khởi động)",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "pm-m3-q9",
-		"question_text": "In which project phase does it help to ask questions such as: \"Who are the stakeholders?\", \"What skills and resources will the project require?\", and \"What are the client's or customer's goals?\"\nVN: Trong giai đoạn dự án nào thì việc đặt các câu hỏi như: \"Các bên liên quan là ai?\", \"Dự án sẽ cần những kỹ năng và nguồn lực nào?\", và \"Mục tiêu của khách hàng là gì?\" sẽ hữu ích?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Initiate the project (Khởi động dự án)",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Make a plan (Lập kế hoạch)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Close the project (Đóng dự án)",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Execute the project (Thực hiện dự án)",
-				"is_correct": false
-			}
-		]
-	},
-	{
-		"question_id": "pm-m3-q10",
-		"question_text": "Which project management approach uses the 5S quality tool, the DMAIC process, and Kanban boards?\nVN: Phương pháp quản lý dự án nào sử dụng công cụ chất lượng 5S, quy trình DMAIC và bảng Kanban?",
-		"question_type": "single_answer_question",
-		"answers": [
-			{
-				"answer_text": "Agile",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Scrum",
-				"is_correct": false
-			},
-			{
-				"answer_text": "Lean Six Sigma",
-				"is_correct": true
-			},
-			{
-				"answer_text": "Waterfall",
-				"is_correct": false
-			}
-		]
-	}
+  {
+    "question_id": "pm-m3-q1",
+    "question_type": "single_answer_question",
+    "question_text_en": "A project manager creates a timeline and defines all tasks that the team needs to complete. What phase of the project life cycle are they implementing?",
+    "question_text_vi": "Một quản lý dự án tạo một timeline và xác định tất cả các nhiệm vụ mà nhóm cần hoàn thành. Họ đang thực hiện giai đoạn nào của vòng đời dự án?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Initiate the project (Khởi động dự án)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Making a plan (Lập kế hoạch)",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Close the project (Đóng dự án)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Execute and complete tasks (Thực hiện và hoàn thành nhiệm vụ)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "pm-m3-q2",
+    "question_type": "single_answer_question",
+    "question_text_en": "Why should project managers always make a plan (phase two) before executing and completing tasks (phase three)?",
+    "question_text_vi": "Tại sao các quản lý dự án nên luôn lập kế hoạch (giai đoạn hai) trước khi thực hiện và hoàn thành các nhiệm vụ (giai đoạn ba)?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Because creating a budget, setting a schedule, and determining roles and responsibilities is crucial to executing and completing tasks (Vì việc tạo ngân sách, đặt lịch trình và xác định vai trò và trách nhiệm là rất quan trọng để thực hiện và hoàn thành các nhiệm vụ)",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Because creating a budget, setting a schedule, and determining roles and responsibilities is crucial to developing the project charter (Vì việc tạo ngân sách, đặt lịch trình và xác định vai trò và trách nhiệm là rất quan trọng để phát triển điều lệ dự án)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Because executing and completing tasks is crucial to understanding scope, cost, and timeline (Vì việc thực hiện và hoàn thành các nhiệm vụ là rất quan trọng để hiểu phạm vi, chi phí và timeline)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Because executing and completing tasks is crucial to creating a budget, setting a schedule, and determining roles and responsibilities (Vì việc thực hiện và hoàn thành các nhiệm vụ là rất quan trọng để tạo ngân sách, đặt lịch trình và xác định vai trò và trách nhiệm)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "pm-m3-q3",
+    "question_type": "single_answer_question",
+    "question_text_en": "What project management methodology would work best for building a house?",
+    "question_text_vi": "Phương pháp quản lý dự án nào sẽ phù hợp nhất để xây dựng một ngôi nhà?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Flexible methodology (Phương pháp linh hoạt)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Linear methodology (Phương pháp tuyến tính)",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Iterative methodology (Phương pháp lặp)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Agile methodology (Phương pháp Agile)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "pm-m3-q4",
+    "question_type": "single_answer_question",
+    "question_text_en": "As a project manager, you need to plan the catering for the week-long company retreat. The budget is very tight and catering is precise. What is the best project management methodology to use?",
+    "question_text_vi": "Là quản lý dự án, bạn cần lập kế hoạch dịch vụ ăn uống cho kỳ nghỉ công ty kéo dài một tuần. Ngân sách rất chặt và dịch vụ ăn uống cần chính xác. Phương pháp quản lý dự án tốt nhất để sử dụng là gì?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Agile methodology (Phương pháp Agile)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Lean Six Sigma Methodology (Phương pháp Lean Six Sigma)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Define methodology (Phương pháp Define)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Waterfall methodology (Phương pháp Waterfall)",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "pm-m3-q5",
+    "question_type": "single_answer_question",
+    "question_text_en": "What is the main advantage of the Waterfall methodology over the Agile approach?",
+    "question_text_vi": "Lợi thế chính của phương pháp Waterfall so với phương pháp Agile là gì?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Waterfall focuses on reducing waste within an operation. (Waterfall tập trung vào việc giảm lãng phí trong hoạt động.)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Waterfall allows for easy reorganization of tasks as the project progresses. (Waterfall cho phép tổ chức lại các nhiệm vụ dễ dàng khi dự án tiến triển.)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Waterfall takes a flexible approach, letting teams make adjustments as they go. (Waterfall áp dụng cách tiếp cận linh hoạt, cho phép các nhóm điều chỉnh khi họ tiến hành.)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Waterfall has clearly defined expectations and helps teams avoid expensive changes to a project once it has started. (Waterfall có các kỳ vọng được xác định rõ ràng và giúp các nhóm tránh các thay đổi tốn kém cho dự án sau khi đã bắt đầu.)",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "pm-m3-q6",
+    "question_type": "single_answer_question",
+    "question_text_en": "The Lean Six Sigma approach includes which of the following phases?",
+    "question_text_vi": "Phương pháp Lean Six Sigma bao gồm những giai đoạn nào sau đây?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Define, measure, analyze, improve, control (Xác định, đo lường, phân tích, cải tiến, kiểm soát)",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Impact, measure, define, control, analyze (Tác động, đo lường, xác định, kiểm soát, phân tích)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Measure, define, apply, improve, control (Đo lường, xác định, áp dụng, cải tiến, kiểm soát)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Connect, control, impact, apply, analyze (Kết nối, kiểm soát, tác động, áp dụng, phân tích)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "pm-m3-q7",
+    "question_type": "single_answer_question",
+    "question_text_en": "While planning the project, a project manager considers possible delays, budget changes, and legal issues. What are they trying to reduce by considering these things?",
+    "question_text_vi": "Trong khi lập kế hoạch dự án, một quản lý dự án xem xét các khả năng chậm trễ, thay đổi ngân sách và các vấn đề pháp lý. Họ đang cố gắng giảm điều gì bằng cách xem xét những điều này?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Risks (Rủi ro)",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Deliverables (Sản phẩm bàn giao)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Plans (Kế hoạch)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Resources (Nguồn lực)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "pm-m3-q8",
+    "question_type": "single_answer_question",
+    "question_text_en": "A project manager completes a report to communicate final results with the project's stakeholders. At what stage of the project would this event take place?",
+    "question_text_vi": "Một quản lý dự án hoàn thành một báo cáo để truyền đạt kết quả cuối cùng với các bên liên quan của dự án. Sự kiện này sẽ diễn ra ở giai đoạn nào của dự án?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Planning (Lập kế hoạch)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Closing (Đóng dự án)",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Execution (Thực hiện)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Initiation (Khởi động)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "pm-m3-q9",
+    "question_type": "single_answer_question",
+    "question_text_en": "In which project phase does it help to ask questions such as: \"Who are the stakeholders?\", \"What skills and resources will the project require?\", and \"What are the client's or customer's goals?\"",
+    "question_text_vi": "Trong giai đoạn dự án nào thì việc đặt các câu hỏi như: \"Các bên liên quan là ai?\", \"Dự án sẽ cần những kỹ năng và nguồn lực nào?\", và \"Mục tiêu của khách hàng là gì?\" sẽ hữu ích?",
+    "answers": [
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Initiate the project (Khởi động dự án)",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Make a plan (Lập kế hoạch)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Close the project (Đóng dự án)",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "",
+        "answer_text_vi": "Execute the project (Thực hiện dự án)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "pm-m3-q10",
+    "question_type": "single_answer_question",
+    "question_text_en": "Which project management approach uses the 5S quality tool, the DMAIC process, and Kanban boards?",
+    "question_text_vi": "Phương pháp quản lý dự án nào sử dụng công cụ chất lượng 5S, quy trình DMAIC và bảng Kanban?",
+    "answers": [
+      {
+        "answer_text_en": "Agile",
+        "answer_text_vi": "",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "Scrum",
+        "answer_text_vi": "",
+        "is_correct": false
+      },
+      {
+        "answer_text_en": "Lean Six Sigma",
+        "answer_text_vi": "",
+        "is_correct": true
+      },
+      {
+        "answer_text_en": "Waterfall",
+        "answer_text_vi": "",
+        "is_correct": false
+      }
+    ]
+  }
 ]
