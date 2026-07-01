@@ -421,7 +421,7 @@
 		"question_type": "single_answer_question",
 		"answers": [
 			{
-				"answer_text": "7n",
+				"answer_text": "7^n",
 				"is_correct": true
 			},
 			{
@@ -433,7 +433,7 @@
 				"is_correct": false
 			},
 			{
-				"answer_text": "5n",
+				"answer_text": "5^n",
 				"is_correct": false
 			}
 		]
