@@ -146,6 +146,7 @@
 		if (shouldRun && !timerRunning) {
 			timerRunning = true;
 			timerTimeoutId = setTimeout(() => {
+				if (!timerEnabled.value) return;
 				timerRunning = false;
 				timerTimeoutId = null;
 				const qid = pageState.quizData[pageState.current]?.question_id;
