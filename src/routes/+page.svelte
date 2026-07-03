@@ -22,6 +22,7 @@
 		favorites,
 		appState,
 		uiState,
+		redemptionState,
 		setCurrentView,
 		fetchNavigation,
 		loadQuiz,
@@ -142,6 +143,9 @@
 	}
 
 	function handleKeyNavigation(e: KeyboardEvent) {
+		// Skip if redemption overlay is open
+		if (redemptionState.active) return;
+
 		if (
 			document.activeElement &&
 			['INPUT', 'SELECT', 'TEXTAREA'].includes((document.activeElement as HTMLElement).tagName)
@@ -165,6 +169,9 @@
 	const WHEEL_THROTTLE_MS = 250;
 
 	function handleWheelNavigation(e: WheelEvent) {
+		// Skip if redemption overlay is open
+		if (redemptionState.active) return;
+
 		// Skip if user is in an input field
 		if (
 			document.activeElement &&
