@@ -5,18 +5,18 @@ import { config } from 'dotenv';
 
 // Load .env first, then .env.local so local overrides base
 // Pass --prod to skip .env.local and use .env (production) directly
+const syncArgs = process.argv.slice(2);
 config();
-if (!args.includes('--prod')) {
+if (!syncArgs.includes('--prod')) {
 	config({ path: '.env.local', override: true });
 }
 
 // --- CLI Argument Parsing ---
-const args = process.argv.slice(2);
 const FLAGS = {
-	clean: args.includes('--clean'),
-	noDelete: args.includes('--no-delete'),
-	dryRun: args.includes('--dry-run'),
-	verbose: args.includes('--verbose')
+	clean: syncArgs.includes('--clean'),
+	noDelete: syncArgs.includes('--no-delete'),
+	dryRun: syncArgs.includes('--dry-run'),
+	verbose: syncArgs.includes('--verbose')
 };
 
 // --- Database Client ---
