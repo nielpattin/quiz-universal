@@ -1,5 +1,21 @@
 # Changelog
 
+## [2.5.0] - 2026-07-03
+
+### Added
+
+- Redemption bag: wrong answers are added to a bag and auto-reviewed at random intervals during the quiz.
+- Single and multiple choice support in redemption overlay with QuizCard-style feedback per answer.
+- Sound effects for redemption overlay (select, correct, wrong, pop-up).
+- Settings toggle for Redemption Bag (default: on).
+
+### Fixed
+
+- Timer no longer stays enabled when user turns it off in Settings.
+- Pop animation no longer triggers on answer unselect in MCQ.
+-redemption no longer pops up immediately after answering — only shows on forward navigation.
+- Timer freezes while redemption overlay is active.
+
 ## [2.4.0] - 2026-07-03
 
 ### Changed

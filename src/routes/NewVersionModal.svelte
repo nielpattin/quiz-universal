@@ -53,9 +53,11 @@
 				<div class="text-gray-700 text-left bg-gray-50 rounded p-3 border border-gray-200">
 					<div class="font-semibold mb-1">Changes in this version</div>
 					<ul class="list-disc list-inside space-y-1 text-sm">
-						<li>Bilingual text now stored in separate en/vi fields instead of single-field heuristics</li>
-						<li>Wider database schema for cleaner separation of languages</li>
-						<li>Clear your browser data if you see stale answer states</li>
+						<li>Redemption bag: wrong answers auto-reviewed at random intervals</li>
+						<li>Full QuizCard-style answer feedback in redemption overlay (Single + MCQ)</li>
+						<li>Sound effects for redemption overlay</li>
+						<li>Question Timer now correctly disables when turned off</li>
+						<li>Bugfix: pop animation no longer triggers on MCQ unselect</li>
 					</ul>
 				</div>
 				<div class="flex flex-col gap-3">
