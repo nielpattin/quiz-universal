@@ -142,7 +142,8 @@
 	$effect(() => {
 		const q = pageState.quizData[pageState.current];
 		const isAnswered = q ? (pageState.questionLockedStatus.get(q.question_id ?? '') ?? false) : false;
-		const shouldRun = timerEnabled.value && !isAnswered && pageState.quizData.length > 0 && q;
+		const overlayActive = redemptionState.active;
+		const shouldRun = timerEnabled.value && !isAnswered && !overlayActive && pageState.quizData.length > 0 && q;
 		if (shouldRun && !timerRunning) {
 			timerRunning = true;
 			timerTimeoutId = setTimeout(() => {
@@ -282,7 +283,6 @@
 				trackWrongQuestion(pageState.moduleId, currentQuestionId);
 				addToBag(q as Quiz);
 			}
-			incrementRedemptionCounter();
 		}
 	}
 
@@ -309,6 +309,21 @@
 	}
 
 	// ===== Redemption Bag =====
+	let prevCurrent = 0;
+	let prevRedemptionActive = false;
+	$effect(() => {
+		if (pageState.current > prevCurrent) {
+			incrementRedemptionCounter();
+		}
+		prevCurrent = pageState.current;
+	});
+	$effect(() => {
+		if (redemptionState.active && !prevRedemptionActive && soundEnabled.value) {
+			playSelect();
+		}
+		prevRedemptionActive = redemptionState.active;
+	});
+
 	let redeemSelected = $state<number | null>(null);
 	let redeemSelections = $state<number[]>([]);
 	let redeemDone = $state(false);
@@ -336,12 +351,17 @@
 				redeemSelections = redeemSelections.filter(i => i !== shuffledIdx);
 			} else {
 				redeemSelections = [...redeemSelections, shuffledIdx];
+				if (soundEnabled.value) playSelect();
 			}
 		} else {
 			redeemSelected = shuffledIdx;
 			const originalIdx = redemptionShuffle.indices[shuffledIdx];
 			redeemCorrect = redemptionState.current!.answers[originalIdx]?.is_correct ?? false;
 			redeemDone = true;
+			if (soundEnabled.value) {
+				if (redeemCorrect) playCorrect();
+				else playWrong();
+			}
 		}
 	}
 
@@ -355,6 +375,10 @@
 		const allCorrectCovered = correctOriginal.every(i => selectedOriginal.includes(i));
 		redeemCorrect = allCorrectSelected && allCorrectCovered;
 		redeemDone = true;
+		if (soundEnabled.value) {
+			if (redeemCorrect) playCorrect();
+			else playWrong();
+		}
 	}
 
 	function closeRedemption() {
@@ -652,17 +676,21 @@
 					<div class="space-y-2.5">
 						{#each shuffled as ans, i (i)}
 							{@const isSelected = isMC ? redeemSelections.includes(i) : redeemSelected === i}
+							{@const isAnsCorrect = ans.is_correct}
 							{@const bgClass = redeemDone
-								? (isSelected
-									? (redeemCorrect ? 'bg-[var(--color-success)]' : 'bg-[var(--color-error)]')
-									: (redeemCorrect && ans.is_correct ? 'bg-[var(--color-success)]' : 'bg-[var(--bg-hover)]'))
-								: (isSelected ? 'bg-[var(--color-primary)]/10' : 'bg-[var(--bg-hover)]')}
-							{@const borderClass = isSelected && !redeemDone ? 'border-[var(--color-primary)]' : 'border-[var(--border)]'}
+								? (isAnsCorrect && isSelected
+									? 'border-[var(--color-success)] bg-[var(--color-success)]/10'
+									: (isAnsCorrect && !isSelected
+										? 'border-[var(--color-accent)] border-dashed bg-[var(--color-accent)]/5'
+										: (!isAnsCorrect && isSelected
+											? 'border-[var(--color-error)] bg-[var(--color-error)]/10'
+											: 'border-[var(--border)] bg-[var(--bg-hover)]')))
+								: (isSelected ? 'border-[var(--color-primary)] bg-[var(--color-primary)]/10' : 'border-[var(--border)] bg-[var(--bg-hover)]')}
 							<button
 								type="button"
-								class="relative flex items-start gap-3 w-full text-left px-4 py-3 rounded-xl text-base font-medium transition-all duration-200 cursor-pointer border-2 {bgClass} {borderClass}"
+								class="relative flex items-start gap-3 w-full text-left px-4 py-3 rounded-xl text-base font-medium transition-all duration-200 cursor-pointer border-2 {bgClass}"
 								disabled={redeemDone}
-								class:opacity-50={redeemDone && !isSelected && (redeemCorrect ? ans.is_correct : false)}
+								class:opacity-50={redeemDone && !isSelected && !ans.is_correct}
 								onclick={() => handleRedemptionAnswer(i)}
 							>
 								<!-- Indicator icon -->
@@ -685,13 +713,15 @@
 									<BilingualText variant="answer" en={ans.answer_text_en || ans.answer_text || ''} vi={ans.answer_text_vi || ans.answer_text || ''} />
 								</span>
 
-								<!-- Result icon -->
-								{#if redeemDone && isSelected}
+								<!-- Result icon (item-level, like QuizCard) -->
+								{#if redeemDone}
 									<span class="flex-shrink-0 mt-0.5">
-										{#if redeemCorrect}
+										{#if isSelected && ans.is_correct}
 											<Check size={20} class="text-[var(--color-success)]" />
-										{:else}
+										{:else if isSelected && !ans.is_correct}
 											<X size={20} class="text-[var(--color-error)]" />
+										{:else if !isSelected && ans.is_correct}
+											<span class="text-[var(--color-accent)] text-xs font-medium">Missed</span>
 										{/if}
 									</span>
 								{/if}
