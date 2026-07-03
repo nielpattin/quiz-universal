@@ -191,14 +191,16 @@
 
 	// Watch for selectedAnswers changes to trigger pop animation (only on add, never on remove)
 	let prevSelectedLen = 0;
+	let popTimer: ReturnType<typeof setTimeout> | null = null;
 	$effect(() => {
 		const sa = selectedAnswers;
-		if (sa.length > prevSelectedLen && !questionLocked) {
-			popIndex = sa[sa.length - 1];
-			const timer = setTimeout(() => { popIndex = null; }, 300);
-			return () => clearTimeout(timer);
+		const len = sa.length;
+		if (len > prevSelectedLen && !questionLocked) {
+			popIndex = sa[len - 1];
+			if (popTimer) clearTimeout(popTimer);
+			popTimer = setTimeout(() => { popIndex = null; }, 300);
 		}
-		prevSelectedLen = sa.length;
+		prevSelectedLen = len;
 	});
 
 	// Watch for questionLocked to trigger shake on wrong answers
