@@ -4,8 +4,11 @@ import { createClient } from '@libsql/client';
 import { config } from 'dotenv';
 
 // Load .env first, then .env.local so local overrides base
+// Pass --prod to skip .env.local and use .env (production) directly
 config();
-config({ path: '.env.local', override: true });
+if (!args.includes('--prod')) {
+	config({ path: '.env.local', override: true });
+}
 
 // --- CLI Argument Parsing ---
 const args = process.argv.slice(2);
