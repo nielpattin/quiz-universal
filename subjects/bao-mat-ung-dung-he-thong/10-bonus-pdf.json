@@ -1,0 +1,1178 @@
+[
+	{
+		"question_id": "bm-m10-q1",
+		"question_type": "single_answer_question",
+		"question_text_en": "",
+		"question_text_vi": "Vì sao cần ghi nhật ký (log) trong hệ thống?",
+		"answers": [
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Lỗ hổng trong cơ chế xác thực cho phép kẻ tấn công chiếm đoạt tài khoản; khắc phục bằng MFA và quản lý phiên an toàn.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Không. VPN chỉ mã hóa đường truyền; firewall lọc và kiểm soát truy cập mạng.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Phần mềm được tạo ra với mục đích gây hại hoặc thực hiện hành vi trái phép; thường hoạt động bí mật và khai thác lỗ hổng.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Ghi lại các sự kiện (đăng nhập, đăng xuất, thay đổi dữ liệu) để truy vết và phát hiện tấn công.",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "bm-m10-q2",
+		"question_type": "single_answer_question",
+		"question_text_en": "",
+		"question_text_vi": "SQL Injection là gì? Nêu ví dụ và cách phòng chống.",
+		"answers": [
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Tấn công chèn câu lệnh SQL vào đầu vào để thao tác trái phép với cơ sở dữ liệu; phòng chống bằng Prepared Statement.",
+				"is_correct": true
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Tập hợp các quy tắc cho phép các ứng dụng giao tiếp và trao đổi dữ liệu với nhau.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Sử dụng nhiều lớp bảo vệ (firewall, xác thực, mã hóa, giám sát) để giảm rủi ro khi một lớp bị vượt qua.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Chỉ cấp cho người dùng hoặc ứng dụng quyền tối thiểu cần thiết để thực hiện nhiệm vụ.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m10-q3",
+		"question_type": "single_answer_question",
+		"question_text_en": "",
+		"question_text_vi": "Man-in-the-Middle là gì? Cách phòng chống.",
+		"answers": [
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Phần mềm che giấu mã độc và duy trì quyền truy cập bí mật; khó phát hiện vì can thiệp sâu vào hệ điều hành.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Hệ thống phần cứng hoặc phần mềm lọc lưu lượng mạng vào/ra và thực thi chính sách bảo mật.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Ghi lại các sự kiện (đăng nhập, đăng xuất, thay đổi dữ liệu) để truy vết và phát hiện tấn công.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Chèn vào giữa kênh liên lạc để nghe lén hoặc sửa đổi dữ liệu; phòng chống bằng mã hóa và chứng thư số.",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "bm-m10-q4",
+		"question_type": "single_answer_question",
+		"question_text_en": "",
+		"question_text_vi": "Vì sao cần áp dụng Defense in Depth?",
+		"answers": [
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Từ bên ngoài (SQL Injection, hacker, DoS/DDoS), bên trong (lạm quyền, cấu hình sai) và sự cố (mất điện, hỏng ổ).",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Không. VPN chỉ mã hóa đường truyền; firewall lọc và kiểm soát truy cập mạng.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Kết hợp nhiều lớp bảo vệ để giảm rủi ro khi một lớp bị kẻ tấn công vượt qua.",
+				"is_correct": true
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Giới hạn số lượng yêu cầu trong một khoảng thời gian để chống DDoS và lạm dụng API.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m10-q5",
+		"question_type": "single_answer_question",
+		"question_text_en": "",
+		"question_text_vi": "Broken Authentication là gì? Đưa ra biện pháp khắc phục.",
+		"answers": [
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Giới hạn số lượng yêu cầu trong một khoảng thời gian để chống DDoS và lạm dụng API.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Tiêu chuẩn bảo mật dữ liệu thẻ thanh toán do Payment Card Industry ban hành cho các tổ chức xử lý thẻ.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Chèn vào giữa kênh liên lạc để nghe lén hoặc sửa đổi dữ liệu; phòng chống bằng mã hóa và chứng thư số.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Lỗ hổng trong cơ chế xác thực cho phép kẻ tấn công chiếm đoạt tài khoản; khắc phục bằng MFA và quản lý phiên an toàn.",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "bm-m10-q6",
+		"question_type": "single_answer_question",
+		"question_text_en": "",
+		"question_text_vi": "Broken Access Control là gì? Cho ví dụ.",
+		"answers": [
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Tiêu chuẩn bảo mật dữ liệu thẻ thanh toán do Payment Card Industry ban hành cho các tổ chức xử lý thẻ.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Lỗi kiểm tra quyền truy cập cho phép người dùng thực hiện thao tác vượt quá quyền hạn.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Kiểm soát quyền truy cập kém khiến người dùng truy cập tài nguyên không được phép, ví dụ xem dữ liệu người khác.",
+				"is_correct": true
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Khai thác lỗ hổng chưa công bố hoặc chưa có bản vá, khiến hệ thống khó phòng thủ.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m10-q7",
+		"question_type": "single_answer_question",
+		"question_text_en": "",
+		"question_text_vi": "Vì sao cần kiểm tra dữ liệu đầu vào?",
+		"answers": [
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Khai thác lỗ hổng chưa công bố hoặc chưa có bản vá, khiến hệ thống khó phòng thủ.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Website/ứng dụng bán hàng, máy chủ web/API, cơ sở dữ liệu, hệ thống thanh toán, mạng/cloud và quản lý đơn hàng.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Ngăn SQL Injection, XSS và giảm lỗi xử lý do dữ liệu không hợp lệ.",
+				"is_correct": true
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Full Backup sao lưu toàn bộ; Incremental sao lưu thay đổi từ bản sao lưu trước; Differential sao lưu thay đổi từ Full gần nhất.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m10-q8",
+		"question_type": "single_answer_question",
+		"question_text_en": "",
+		"question_text_vi": "Trình bày khái niệm bảo mật cơ sở dữ liệu?",
+		"answers": [
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Lệnh SQL dùng để cấp quyền (GRANT) và thu hồi quyền (REVOKE) của người dùng hoặc đối tượng.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Phần mềm được tạo ra với mục đích gây hại hoặc thực hiện hành vi trái phép; thường hoạt động bí mật và khai thác lỗ hổng.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Tập hợp chính sách, quy trình và kỹ thuật nhằm bảo vệ dữ liệu, DBMS, máy chủ và quyền truy cập.",
+				"is_correct": true
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Full Backup sao lưu toàn bộ; Incremental sao lưu thay đổi từ bản sao lưu trước; Differential sao lưu thay đổi từ Full gần nhất.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m10-q9",
+		"question_type": "single_answer_question",
+		"question_text_en": "",
+		"question_text_vi": "Phân tích các mối đe dọa đối với cơ sở dữ liệu?",
+		"answers": [
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Mã hóa dữ liệu nạn nhân và đòi tiền chuộc; phòng chống bằng sao lưu, cập nhật và giám sát.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Chèn vào giữa kênh liên lạc để nghe lén hoặc sửa đổi dữ liệu; phòng chống bằng mã hóa và chứng thư số.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Khai thác lỗ hổng chưa công bố hoặc chưa có bản vá, khiến hệ thống khó phòng thủ.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Từ bên ngoài (SQL Injection, hacker, DoS/DDoS), bên trong (lạm quyền, cấu hình sai) và sự cố (mất điện, hỏng ổ).",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "bm-m10-q10",
+		"question_type": "single_answer_question",
+		"question_text_en": "",
+		"question_text_vi": "Phân biệt Authentication và Authorization?",
+		"answers": [
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Lệnh SQL dùng để cấp quyền (GRANT) và thu hồi quyền (REVOKE) của người dùng hoặc đối tượng.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Authentication xác minh danh tính người dùng; Authorization quyết định quyền được phép thực hiện.",
+				"is_correct": true
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Tập hợp chính sách, quy trình và kỹ thuật nhằm bảo vệ dữ liệu, DBMS, máy chủ và quyền truy cập.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Mã hóa dữ liệu nạn nhân và đòi tiền chuộc; phòng chống bằng sao lưu, cập nhật và giám sát.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m10-q11",
+		"question_type": "single_answer_question",
+		"question_text_en": "",
+		"question_text_vi": "GRANT và REVOKE là gì?",
+		"answers": [
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Lỗi kiểm tra quyền truy cập cho phép người dùng thực hiện thao tác vượt quá quyền hạn.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Chèn vào giữa kênh liên lạc để nghe lén hoặc sửa đổi dữ liệu; phòng chống bằng mã hóa và chứng thư số.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Giám sát lưu lượng mạng, phát hiện hành vi độc hại và tự động chặn kết nối theo chính sách.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Lệnh SQL dùng để cấp quyền (GRANT) và thu hồi quyền (REVOKE) của người dùng hoặc đối tượng.",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "bm-m10-q12",
+		"question_type": "single_answer_question",
+		"question_text_en": "",
+		"question_text_vi": "Tại sao không được lưu mật khẩu dạng văn bản thuần (Plain Text)?",
+		"answers": [
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Nếu bị lộ, mật khẩu bị đọc ngay; cần lưu dạng hash kèm salt để bảo vệ.",
+				"is_correct": true
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Tập hợp các quy tắc cho phép các ứng dụng giao tiếp và trao đổi dữ liệu với nhau.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Authentication xác minh danh tính người dùng; Authorization quyết định quyền được phép thực hiện.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Không. VPN chỉ mã hóa đường truyền; firewall lọc và kiểm soát truy cập mạng.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m10-q13",
+		"question_type": "single_answer_question",
+		"question_text_en": "",
+		"question_text_vi": "So sánh Full Backup, Incremental Backup và Differential Backup?",
+		"answers": [
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Bảo vệ hệ điều hành, tài khoản người dùng, quyền truy cập và dữ liệu khỏi truy cập trái phép.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Phần mềm che giấu mã độc và duy trì quyền truy cập bí mật; khó phát hiện vì can thiệp sâu vào hệ điều hành.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Vá lỗ hổng bảo mật đã biết, ngăn kẻ tấn công khai thác để xâm nhập hệ thống.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Full Backup sao lưu toàn bộ; Incremental sao lưu thay đổi từ bản sao lưu trước; Differential sao lưu thay đổi từ Full gần nhất.",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "bm-m10-q14",
+		"question_type": "single_answer_question",
+		"question_text_en": "",
+		"question_text_vi": "Audit Log có vai trò gì?",
+		"answers": [
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Ghi nhận các hoạt động trên hệ thống để truy vết, điều tra và phát hiện tấn công.",
+				"is_correct": true
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Khai thác lỗ hổng chưa công bố hoặc chưa có bản vá, khiến hệ thống khó phòng thủ.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Lỗi kiểm tra quyền truy cập cho phép người dùng thực hiện thao tác vượt quá quyền hạn.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Gian lận thanh toán, SQL Injection, DDoS, rò rỉ dữ liệu khách hàng và lừa đảo.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m10-q15",
+		"question_type": "single_answer_question",
+		"question_text_en": "",
+		"question_text_vi": "Trình bày nguyên tắc Least Privilege?",
+		"answers": [
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Chỉ cấp cho người dùng hoặc ứng dụng quyền tối thiểu cần thiết để thực hiện nhiệm vụ.",
+				"is_correct": true
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Tấn công chèn câu lệnh SQL vào đầu vào để thao tác trái phép với cơ sở dữ liệu; phòng chống bằng Prepared Statement.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Thay thế dữ liệu nhạy cảm bằng token vô nghĩa để giảm rủi ro khi bị lộ thông tin thẻ thanh toán.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Sử dụng nhiều lớp bảo vệ (firewall, xác thực, mã hóa, giám sát) để giảm rủi ro khi một lớp bị vượt qua.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m10-q16",
+		"question_type": "single_answer_question",
+		"question_text_en": "",
+		"question_text_vi": "Nêu các biện pháp bảo mật cơ sở dữ liệu?",
+		"answers": [
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Xác thực, phân quyền, mã hóa, hash + salt mật khẩu, backup, audit log, kiểm soát truy cập và chống SQL Injection.",
+				"is_correct": true
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Phần mềm được tạo ra với mục đích gây hại hoặc thực hiện hành vi trái phép; thường hoạt động bí mật và khai thác lỗ hổng.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Khôi phục dữ liệu sau sự cố phần cứng, thiên tai hoặc tấn công mã hóa tống tiền.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Giám sát lưu lượng mạng, phát hiện hành vi độc hại và tự động chặn kết nối theo chính sách.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m10-q17",
+		"question_type": "single_answer_question",
+		"question_text_en": "",
+		"question_text_vi": "API là gì?",
+		"answers": [
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Tiêu chuẩn bảo mật dữ liệu thẻ thanh toán do Payment Card Industry ban hành cho các tổ chức xử lý thẻ.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Ghi nhận các hoạt động trên hệ thống để truy vết, điều tra và phát hiện tấn công.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "SQL Injection, XSS, lỗi xử lý dữ liệu và nhiều khai thác thông qua đầu vào khác.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Tập hợp các quy tắc cho phép các ứng dụng giao tiếp và trao đổi dữ liệu với nhau.",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "bm-m10-q18",
+		"question_type": "single_answer_question",
+		"question_text_en": "",
+		"question_text_vi": "JWT hoạt động như thế nào?",
+		"answers": [
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Token gồm Header, Payload, Signature; máy chủ xác thực chữ ký mà không cần lưu trạng thái phiên.",
+				"is_correct": true
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Không. VPN chỉ mã hóa đường truyền; firewall lọc và kiểm soát truy cập mạng.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Xác thực, phân quyền, mã hóa, hash + salt mật khẩu, backup, audit log, kiểm soát truy cập và chống SQL Injection.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Bảo vệ hệ điều hành, tài khoản người dùng, quyền truy cập và dữ liệu khỏi truy cập trái phép.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m10-q19",
+		"question_type": "single_answer_question",
+		"question_text_en": "",
+		"question_text_vi": "Vì sao API phải dùng HTTPS?",
+		"answers": [
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Tập hợp các quy tắc cho phép các ứng dụng giao tiếp và trao đổi dữ liệu với nhau.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Chỉ cấp cho người dùng hoặc ứng dụng quyền tối thiểu cần thiết để thực hiện nhiệm vụ.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Mã hóa dữ liệu trên đường truyền, ngăn nghe lén và tấn công Man-in-the-Middle.",
+				"is_correct": true
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Chèn vào giữa kênh liên lạc để nghe lén hoặc sửa đổi dữ liệu; phòng chống bằng mã hóa và chứng thư số.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m10-q20",
+		"question_type": "single_answer_question",
+		"question_text_en": "",
+		"question_text_vi": "Rate Limiting có tác dụng gì?",
+		"answers": [
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Ghi lại các sự kiện (đăng nhập, đăng xuất, thay đổi dữ liệu) để truy vết và phát hiện tấn công.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Giới hạn số lượng yêu cầu trong một khoảng thời gian để chống DDoS và lạm dụng API.",
+				"is_correct": true
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Ghi lại sự kiện hệ thống để giám sát, phát hiện bất thường và điều tra sự cố.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Công nghệ tạo kênh kết nối riêng, mã hóa dữ liệu giữa người dùng và mạng nội bộ trên Internet công cộng.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m10-q21",
+		"question_type": "single_answer_question",
+		"question_text_en": "",
+		"question_text_vi": "Broken Authorization là gì?",
+		"answers": [
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Tập hợp các quy tắc cho phép các ứng dụng giao tiếp và trao đổi dữ liệu với nhau.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Sử dụng nhiều lớp bảo vệ (firewall, xác thực, mã hóa, giám sát) để giảm rủi ro khi một lớp bị vượt qua.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Vá lỗ hổng bảo mật đã biết, ngăn kẻ tấn công khai thác để xâm nhập hệ thống.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Lỗi kiểm tra quyền truy cập cho phép người dùng thực hiện thao tác vượt quá quyền hạn.",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "bm-m10-q22",
+		"question_type": "single_answer_question",
+		"question_text_en": "",
+		"question_text_vi": "Input Validation giúp chống những loại tấn công nào?",
+		"answers": [
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "SQL Injection, XSS, lỗi xử lý dữ liệu và nhiều khai thác thông qua đầu vào khác.",
+				"is_correct": true
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Chỉ cấp cho người dùng hoặc ứng dụng quyền tối thiểu cần thiết để thực hiện nhiệm vụ.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Tiêu chuẩn bảo mật dữ liệu thẻ thanh toán do Payment Card Industry ban hành cho các tổ chức xử lý thẻ.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Thay thế dữ liệu nhạy cảm bằng token vô nghĩa để giảm rủi ro khi bị lộ thông tin thẻ thanh toán.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m10-q23",
+		"question_type": "single_answer_question",
+		"question_text_en": "",
+		"question_text_vi": "Bảo mật hệ điều hành là gì?",
+		"answers": [
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Bảo vệ hệ điều hành, tài khoản người dùng, quyền truy cập và dữ liệu khỏi truy cập trái phép.",
+				"is_correct": true
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Authentication xác minh danh tính người dùng; Authorization quyết định quyền được phép thực hiện.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Ngăn SQL Injection, XSS và giảm lỗi xử lý do dữ liệu không hợp lệ.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Xác thực, phân quyền, mã hóa, hash + salt mật khẩu, backup, audit log, kiểm soát truy cập và chống SQL Injection.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m10-q24",
+		"question_type": "single_answer_question",
+		"question_text_en": "",
+		"question_text_vi": "Tại sao phải cập nhật bản vá?",
+		"answers": [
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Giới hạn số lượng yêu cầu trong một khoảng thời gian để chống DDoS và lạm dụng API.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Kiểm soát quyền truy cập kém khiến người dùng truy cập tài nguyên không được phép, ví dụ xem dữ liệu người khác.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Khôi phục dữ liệu sau sự cố phần cứng, thiên tai hoặc tấn công mã hóa tống tiền.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Vá lỗ hổng bảo mật đã biết, ngăn kẻ tấn công khai thác để xâm nhập hệ thống.",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "bm-m10-q25",
+		"question_type": "single_answer_question",
+		"question_text_en": "",
+		"question_text_vi": "Vì sao cần Backup?",
+		"answers": [
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Sử dụng nhiều lớp bảo vệ (firewall, xác thực, mã hóa, giám sát) để giảm rủi ro khi một lớp bị vượt qua.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Khai thác lỗ hổng chưa công bố hoặc chưa có bản vá, khiến hệ thống khó phòng thủ.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Khôi phục dữ liệu sau sự cố phần cứng, thiên tai hoặc tấn công mã hóa tống tiền.",
+				"is_correct": true
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Ghi nhận các hoạt động trên hệ thống để truy vết, điều tra và phát hiện tấn công.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m10-q26",
+		"question_type": "single_answer_question",
+		"question_text_en": "",
+		"question_text_vi": "Nhật ký hệ thống có vai trò gì?",
+		"answers": [
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Xác thực, phân quyền, mã hóa, hash + salt mật khẩu, backup, audit log, kiểm soát truy cập và chống SQL Injection.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Sử dụng nhiều lớp bảo vệ (firewall, xác thực, mã hóa, giám sát) để giảm rủi ro khi một lớp bị vượt qua.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Mã hóa dữ liệu trên đường truyền, ngăn nghe lén và tấn công Man-in-the-Middle.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Ghi lại sự kiện hệ thống để giám sát, phát hiện bất thường và điều tra sự cố.",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "bm-m10-q27",
+		"question_type": "single_answer_question",
+		"question_text_en": "",
+		"question_text_vi": "Mã độc là gì? Nêu các đặc điểm chính.",
+		"answers": [
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Bảo vệ hệ điều hành, tài khoản người dùng, quyền truy cập và dữ liệu khỏi truy cập trái phép.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Nếu bị lộ, mật khẩu bị đọc ngay; cần lưu dạng hash kèm salt để bảo vệ.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Phần mềm được tạo ra với mục đích gây hại hoặc thực hiện hành vi trái phép; thường hoạt động bí mật và khai thác lỗ hổng.",
+				"is_correct": true
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Từ bên ngoài (SQL Injection, hacker, DoS/DDoS), bên trong (lạm quyền, cấu hình sai) và sự cố (mất điện, hỏng ổ).",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m10-q28",
+		"question_type": "single_answer_question",
+		"question_text_en": "",
+		"question_text_vi": "Ransomware hoạt động như thế nào? Cách phòng chống.",
+		"answers": [
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Lệnh SQL dùng để cấp quyền (GRANT) và thu hồi quyền (REVOKE) của người dùng hoặc đối tượng.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "IDS phát hiện tấn công và cảnh báo; IPS phát hiện và tự động ngăn chặn tấn công.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Có thể đọc, sửa, xóa dữ liệu khách hàng, đơn hàng và giao dịch thanh toán.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Mã hóa dữ liệu nạn nhân và đòi tiền chuộc; phòng chống bằng sao lưu, cập nhật và giám sát.",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "bm-m10-q29",
+		"question_type": "single_answer_question",
+		"question_text_en": "",
+		"question_text_vi": "Rootkit là gì? Vì sao khó phát hiện?",
+		"answers": [
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Phần mềm che giấu mã độc và duy trì quyền truy cập bí mật; khó phát hiện vì can thiệp sâu vào hệ điều hành.",
+				"is_correct": true
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Không. VPN chỉ mã hóa đường truyền; firewall lọc và kiểm soát truy cập mạng.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Tập hợp chính sách, quy trình và kỹ thuật nhằm bảo vệ dữ liệu, DBMS, máy chủ và quyền truy cập.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Thay thế dữ liệu nhạy cảm bằng token vô nghĩa để giảm rủi ro khi bị lộ thông tin thẻ thanh toán.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m10-q30",
+		"question_type": "single_answer_question",
+		"question_text_en": "",
+		"question_text_vi": "Exploit là gì? Phân biệt với Malware.",
+		"answers": [
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Ghi nhận các hoạt động trên hệ thống để truy vết, điều tra và phát hiện tấn công.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Exploit là kỹ thuật/khai thác lỗ hổng; Malware là phần mềm gây hại cài vào hệ thống sau khi khai thác.",
+				"is_correct": true
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Ngăn SQL Injection, XSS và giảm lỗi xử lý do dữ liệu không hợp lệ.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Chèn vào giữa kênh liên lạc để nghe lén hoặc sửa đổi dữ liệu; phòng chống bằng mã hóa và chứng thư số.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m10-q31",
+		"question_type": "single_answer_question",
+		"question_text_en": "",
+		"question_text_vi": "Zero-day Exploit là gì?",
+		"answers": [
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Tập hợp các quy tắc cho phép các ứng dụng giao tiếp và trao đổi dữ liệu với nhau.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "IDS phát hiện tấn công và cảnh báo; IPS phát hiện và tự động ngăn chặn tấn công.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Lỗ hổng trong cơ chế xác thực cho phép kẻ tấn công chiếm đoạt tài khoản; khắc phục bằng MFA và quản lý phiên an toàn.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Khai thác lỗ hổng chưa công bố hoặc chưa có bản vá, khiến hệ thống khó phòng thủ.",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "bm-m10-q32",
+		"question_type": "single_answer_question",
+		"question_text_en": "",
+		"question_text_vi": "Firewall là gì? Vai trò của firewall.",
+		"answers": [
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Hệ thống phần cứng hoặc phần mềm lọc lưu lượng mạng vào/ra và thực thi chính sách bảo mật.",
+				"is_correct": true
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Tập hợp chính sách, quy trình và kỹ thuật nhằm bảo vệ dữ liệu, DBMS, máy chủ và quyền truy cập.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Lệnh SQL dùng để cấp quyền (GRANT) và thu hồi quyền (REVOKE) của người dùng hoặc đối tượng.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Công nghệ tạo kênh kết nối riêng, mã hóa dữ liệu giữa người dùng và mạng nội bộ trên Internet công cộng.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m10-q33",
+		"question_type": "single_answer_question",
+		"question_text_en": "",
+		"question_text_vi": "VPN là gì? Cơ chế hoạt động.",
+		"answers": [
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Công nghệ tạo kênh kết nối riêng, mã hóa dữ liệu giữa người dùng và mạng nội bộ trên Internet công cộng.",
+				"is_correct": true
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Tập hợp các quy tắc cho phép các ứng dụng giao tiếp và trao đổi dữ liệu với nhau.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Hệ thống phần cứng hoặc phần mềm lọc lưu lượng mạng vào/ra và thực thi chính sách bảo mật.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Thay thế dữ liệu nhạy cảm bằng token vô nghĩa để giảm rủi ro khi bị lộ thông tin thẻ thanh toán.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m10-q34",
+		"question_type": "single_answer_question",
+		"question_text_en": "",
+		"question_text_vi": "IDS là gì? Phân biệt IDS và IPS.",
+		"answers": [
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "IDS phát hiện tấn công và cảnh báo; IPS phát hiện và tự động ngăn chặn tấn công.",
+				"is_correct": true
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Authentication xác minh danh tính người dùng; Authorization quyết định quyền được phép thực hiện.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Giới hạn số lượng yêu cầu trong một khoảng thời gian để chống DDoS và lạm dụng API.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Hệ thống phần cứng hoặc phần mềm lọc lưu lượng mạng vào/ra và thực thi chính sách bảo mật.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m10-q35",
+		"question_type": "single_answer_question",
+		"question_text_en": "",
+		"question_text_vi": "IPS hoạt động như thế nào?",
+		"answers": [
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Tấn công chèn câu lệnh SQL vào đầu vào để thao tác trái phép với cơ sở dữ liệu; phòng chống bằng Prepared Statement.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Thay thế dữ liệu nhạy cảm bằng token vô nghĩa để giảm rủi ro khi bị lộ thông tin thẻ thanh toán.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Website/ứng dụng bán hàng, máy chủ web/API, cơ sở dữ liệu, hệ thống thanh toán, mạng/cloud và quản lý đơn hàng.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Giám sát lưu lượng mạng, phát hiện hành vi độc hại và tự động chặn kết nối theo chính sách.",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "bm-m10-q36",
+		"question_type": "single_answer_question",
+		"question_text_en": "",
+		"question_text_vi": "Vì sao cần kết hợp nhiều lớp bảo mật?",
+		"answers": [
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Từ bên ngoài (SQL Injection, hacker, DoS/DDoS), bên trong (lạm quyền, cấu hình sai) và sự cố (mất điện, hỏng ổ).",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Ghi lại các sự kiện (đăng nhập, đăng xuất, thay đổi dữ liệu) để truy vết và phát hiện tấn công.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Ghi nhận các hoạt động trên hệ thống để truy vết, điều tra và phát hiện tấn công.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Sử dụng nhiều lớp bảo vệ (firewall, xác thực, mã hóa, giám sát) để giảm rủi ro khi một lớp bị vượt qua.",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "bm-m10-q37",
+		"question_type": "single_answer_question",
+		"question_text_en": "",
+		"question_text_vi": "VPN có thể thay thế firewall không? Vì sao?",
+		"answers": [
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Công nghệ tạo kênh kết nối riêng, mã hóa dữ liệu giữa người dùng và mạng nội bộ trên Internet công cộng.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Phần mềm được tạo ra với mục đích gây hại hoặc thực hiện hành vi trái phép; thường hoạt động bí mật và khai thác lỗ hổng.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Khôi phục dữ liệu sau sự cố phần cứng, thiên tai hoặc tấn công mã hóa tống tiền.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Không. VPN chỉ mã hóa đường truyền; firewall lọc và kiểm soát truy cập mạng.",
+				"is_correct": true
+			}
+		]
+	},
+	{
+		"question_id": "bm-m10-q38",
+		"question_type": "single_answer_question",
+		"question_text_en": "",
+		"question_text_vi": "Hạ tầng thương mại điện tử gồm những thành phần nào?",
+		"answers": [
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Website/ứng dụng bán hàng, máy chủ web/API, cơ sở dữ liệu, hệ thống thanh toán, mạng/cloud và quản lý đơn hàng.",
+				"is_correct": true
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Từ bên ngoài (SQL Injection, hacker, DoS/DDoS), bên trong (lạm quyền, cấu hình sai) và sự cố (mất điện, hỏng ổ).",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Ghi lại các sự kiện (đăng nhập, đăng xuất, thay đổi dữ liệu) để truy vết và phát hiện tấn công.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Khai thác lỗ hổng chưa công bố hoặc chưa có bản vá, khiến hệ thống khó phòng thủ.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m10-q39",
+		"question_type": "single_answer_question",
+		"question_text_en": "",
+		"question_text_vi": "Các mối đe dọa chính trong TMĐT là gì?",
+		"answers": [
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Gian lận thanh toán, SQL Injection, DDoS, rò rỉ dữ liệu khách hàng và lừa đảo.",
+				"is_correct": true
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Công nghệ tạo kênh kết nối riêng, mã hóa dữ liệu giữa người dùng và mạng nội bộ trên Internet công cộng.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Giới hạn số lượng yêu cầu trong một khoảng thời gian để chống DDoS và lạm dụng API.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Tập hợp chính sách, quy trình và kỹ thuật nhằm bảo vệ dữ liệu, DBMS, máy chủ và quyền truy cập.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m10-q40",
+		"question_type": "single_answer_question",
+		"question_text_en": "",
+		"question_text_vi": "SQL Injection ảnh hưởng thế nào đến hệ thống TMĐT?",
+		"answers": [
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Có thể đọc, sửa, xóa dữ liệu khách hàng, đơn hàng và giao dịch thanh toán.",
+				"is_correct": true
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Ghi lại các sự kiện (đăng nhập, đăng xuất, thay đổi dữ liệu) để truy vết và phát hiện tấn công.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Gian lận thanh toán, SQL Injection, DDoS, rò rỉ dữ liệu khách hàng và lừa đảo.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Hệ thống phần cứng hoặc phần mềm lọc lưu lượng mạng vào/ra và thực thi chính sách bảo mật.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m10-q41",
+		"question_type": "single_answer_question",
+		"question_text_en": "",
+		"question_text_vi": "Tokenization là gì? Vì sao cần dùng?",
+		"answers": [
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Mã hóa dữ liệu trên đường truyền, ngăn nghe lén và tấn công Man-in-the-Middle.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Kết hợp nhiều lớp bảo vệ để giảm rủi ro khi một lớp bị kẻ tấn công vượt qua.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Thay thế dữ liệu nhạy cảm bằng token vô nghĩa để giảm rủi ro khi bị lộ thông tin thẻ thanh toán.",
+				"is_correct": true
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Token gồm Header, Payload, Signature; máy chủ xác thực chữ ký mà không cần lưu trạng thái phiên.",
+				"is_correct": false
+			}
+		]
+	},
+	{
+		"question_id": "bm-m10-q42",
+		"question_type": "single_answer_question",
+		"question_text_en": "",
+		"question_text_vi": "PCI-DSS là gì?",
+		"answers": [
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Tấn công chèn câu lệnh SQL vào đầu vào để thao tác trái phép với cơ sở dữ liệu; phòng chống bằng Prepared Statement.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Kiểm soát quyền truy cập kém khiến người dùng truy cập tài nguyên không được phép, ví dụ xem dữ liệu người khác.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Tiêu chuẩn bảo mật dữ liệu thẻ thanh toán do Payment Card Industry ban hành cho các tổ chức xử lý thẻ.",
+				"is_correct": true
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Tập hợp các quy tắc cho phép các ứng dụng giao tiếp và trao đổi dữ liệu với nhau.",
+				"is_correct": false
+			}
+		]
+	}
+]
