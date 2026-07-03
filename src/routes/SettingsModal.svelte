@@ -11,10 +11,12 @@
 		soundEnabled,
 		focusMode,
 		hapticEnabled,
+		redemptionEnabled,
 		setTimerEnabled,
 		setSoundEnabled,
 		setFocusMode,
 		setHapticEnabled,
+		setRedemptionEnabled,
 		highScores,
 		totalPoints
 	} from './global.svelte';
@@ -209,6 +211,26 @@
 						>
 							<span
 								class="absolute top-0.5 left-0.5 w-4 h-4 rounded-full bg-white transition-transform duration-200 {hapticEnabled.value ? 'translate-x-5' : 'translate-x-0'}"
+							></span>
+						</button>
+					</div>
+
+					<!-- Redemption Bag Toggle -->
+					<div class="flex items-center justify-between">
+						<div class="flex items-center gap-2">
+							<span class="text-base">🛍️</span>
+							<span class="text-sm text-[var(--text-primary)]">Redemption Bag</span>
+						</div>
+						<p class="text-xs text-[var(--text-secondary)] mr-2">Auto-review wrong answers</p>
+						<button
+							class="relative w-10 h-5 rounded-full transition-colors duration-200 {redemptionEnabled.value ? 'bg-[var(--color-primary)]' : 'bg-[var(--bg-hover)]'} border border-[var(--border)]"
+							onclick={() => setRedemptionEnabled(!redemptionEnabled.value)}
+							role="switch"
+							aria-checked={redemptionEnabled.value}
+							aria-label="Toggle redemption bag"
+						>
+							<span
+								class="absolute top-0.5 left-0.5 w-4 h-4 rounded-full bg-white transition-transform duration-200 {redemptionEnabled.value ? 'translate-x-5' : 'translate-x-0'}"
 							></span>
 						</button>
 					</div>

@@ -17,13 +17,29 @@
 		addSessionScore,
 		totalPoints,
 		scoredQuestions,
+		enStyleState,
+		redemptionState,
+		addToBag,
+		completeRedemption,
+		incrementRedemptionCounter,
+		focusMode,
+		setFocusMode,
 		type Answer,
 		type Quiz
 	} from './global.svelte';
 	import confetti from 'canvas-confetti';
 	import { untrack } from 'svelte';
 	import { fly, scale } from 'svelte/transition';
+
 	import { playSelect, playCorrect, playWrong, playComplete } from '$lib/sounds';
+	import BilingualText from '$lib/components/BilingualText.svelte';
+	import Circle from '@lucide/svelte/icons/circle';
+	import CircleDot from '@lucide/svelte/icons/circle-dot';
+
+	import Square from '@lucide/svelte/icons/square';
+	import SquareCheck from '@lucide/svelte/icons/square-check';
+	import Check from '@lucide/svelte/icons/check';
+	import X from '@lucide/svelte/icons/x';
 
 	type CurrentQuestion = Quiz;
 
@@ -261,24 +277,22 @@
 			}
 			if (isCorrect && soundEnabled.value) playCorrect();
 			else if (!isCorrect && soundEnabled.value) playWrong();
-			if (!isCorrect) trackWrongQuestion(pageState.moduleId, currentQuestionId);
+			if (!isCorrect) {
+				trackWrongQuestion(pageState.moduleId, currentQuestionId);
+				addToBag(q as Quiz);
+			}
+			incrementRedemptionCounter();
 		}
 	}
 
 	function goToPreviousCard() {
 		if (pageState.current > 0) {
-			// Reset all question states when navigating to a new card
-			pageState.questionAnswers.clear();
-			pageState.questionLockedStatus.clear();
 			pageState.current -= 1;
 		}
 	}
 
 	function goToNextCard() {
 		if (pageState.current < pageState.quizData.length - 1) {
-			// Reset all question states when navigating to a new card
-			pageState.questionAnswers.clear();
-			pageState.questionLockedStatus.clear();
 			pageState.current += 1;
 		}
 	}
@@ -291,6 +305,63 @@
 	let completionDismissed = $state(false);
 	function dismissCompletion() {
 		completionDismissed = true;
+	}
+
+	// ===== Redemption Bag =====
+	let redeemSelected = $state<number | null>(null);
+	let redeemSelections = $state<number[]>([]);
+	let redeemDone = $state(false);
+	let redeemCorrect = $state(false);
+
+	let redemptionIsMC = $derived(redemptionState.current?.question_type === 'multiple_answer_question');
+
+	let redemptionShuffle = $derived.by(() => {
+		if (!redemptionState.current) return null;
+		const answers = redemptionState.current.answers;
+		const seed = hashString('redeem-' + redemptionState.current.question_id);
+		const rand = seededRandom(seed);
+		const indices = answers.map((_, i) => i).slice();
+		for (let i = indices.length - 1; i > 0; i--) {
+			const j = Math.floor(rand() * (i + 1));
+			[indices[i], indices[j]] = [indices[j], indices[i]];
+		}
+		return { shuffled: indices.map(i => answers[i]), indices };
+	});
+
+	function handleRedemptionAnswer(shuffledIdx: number) {
+		if (redeemDone || !redemptionShuffle) return;
+		if (redemptionIsMC) {
+			if (redeemSelections.includes(shuffledIdx)) {
+				redeemSelections = redeemSelections.filter(i => i !== shuffledIdx);
+			} else {
+				redeemSelections = [...redeemSelections, shuffledIdx];
+			}
+		} else {
+			redeemSelected = shuffledIdx;
+			const originalIdx = redemptionShuffle.indices[shuffledIdx];
+			redeemCorrect = redemptionState.current!.answers[originalIdx]?.is_correct ?? false;
+			redeemDone = true;
+		}
+	}
+
+	function checkRedemptionMCQ() {
+		if (redeemDone || !redemptionShuffle || redeemSelections.length === 0) return;
+		const correctOriginal = redemptionState.current!.answers
+			.map((a, i) => a.is_correct ? i : -1)
+			.filter(i => i >= 0);
+		const selectedOriginal = redeemSelections.map(i => redemptionShuffle!.indices[i]);
+		const allCorrectSelected = selectedOriginal.every(i => correctOriginal.includes(i));
+		const allCorrectCovered = correctOriginal.every(i => selectedOriginal.includes(i));
+		redeemCorrect = allCorrectSelected && allCorrectCovered;
+		redeemDone = true;
+	}
+
+	function closeRedemption() {
+		completeRedemption(redeemCorrect);
+		redeemSelected = null;
+		redeemSelections = [];
+		redeemDone = false;
+		redeemCorrect = false;
 	}
 
 	// Derived: quiz is complete when last question is answered
@@ -371,6 +442,24 @@
 		{/if}
 		<!-- Card area -->
 		<div class="flex-1 relative overflow-hidden">
+		<!-- Redemption Bag -->
+		{#if redemptionState.bag.length > 0}
+			<div
+				class="absolute bottom-2 md:bottom-4 left-2 md:left-4 z-20"
+				in:fly={{ y: 10, duration: 300 }}
+			>
+				<div class="bag-icon relative">
+					<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" class="w-5 h-5 md:w-7 md:h-7 text-[var(--color-secondary)]">
+						<path d="M4 4 L8 2 L16 2 L20 4"/>
+						<path d="M4 4 L6 22 L18 22 L20 4"/>
+						<path d="M10 4 Q12 8 14 4"/>
+					</svg>
+					{#key redemptionState.bag.length}
+						<div class="bag-badge">{redemptionState.bag.length}</div>
+					{/key}
+				</div>
+			</div>
+		{/if}
 		{#each [pageState.current - 1, pageState.current, pageState.current + 1] as idx (idx)}
 			{#if idx >= 0 && idx < pageState.quizData.length}
 				{@const questionId = pageState.quizData[idx]?.question_id ?? ''}
@@ -429,6 +518,18 @@
 				<span class="text-[10px] text-[var(--text-secondary)] uppercase tracking-wider">Best</span>
 				<span class="text-sm font-bold text-[var(--text-primary)] tabular-nums">{quizSession.maxStreak}</span>
 			</div>
+			<!-- Focus mode exit -->
+			{#if focusMode.value}
+				<div class="ml-auto">
+					<button
+						type="button"
+						class="combo-item text-[11px] font-semibold uppercase tracking-wider text-[var(--color-secondary)] hover:text-[var(--text-primary)] transition-colors px-2 py-1 rounded-md hover:bg-[var(--bg-hover)]"
+						onclick={() => setFocusMode(false)}
+					>
+						✕ Exit focus
+					</button>
+				</div>
+			{/if}
 		</div>
 		<!-- Completion Overlay -->
 		{#if isComplete && !completionDismissed}
@@ -485,6 +586,156 @@
 							Back to Library
 						</button>
 					</div>
+				</div>
+			</div>
+		{/if}
+
+			<!-- Redemption Overlay -->
+		{#if redemptionState.active && redemptionState.current && redemptionShuffle}
+			{@const isMC = redemptionState.current.question_type === 'multiple_answer_question'}
+			{@const shuffled = redemptionShuffle.shuffled}
+			<div
+				class="fixed inset-0 z-40 flex items-center justify-center bg-black/50 backdrop-blur-sm"
+				in:scale={{ start: 0.92, duration: 250 }}
+			>
+				<div
+					class="bg-[var(--bg-surface)] rounded-2xl p-5 md:p-6 max-w-lg w-[90vw] mx-auto shadow-2xl border border-[var(--border)] max-h-[90vh] overflow-y-auto main-scrollbar"
+					in:fly={{ y: 30, duration: 300, delay: 80 }}
+				>
+					<!-- Header -->
+					<div class="flex items-center justify-between mb-4">
+						<div class="flex items-center gap-2">
+							<span class="text-base text-[var(--color-secondary)]">⚡</span>
+							<span class="text-[10px] font-semibold uppercase tracking-widest text-[var(--color-secondary)]">
+								Redemption
+							</span>
+						</div>
+						<div class="flex items-center gap-2">
+							<!-- Type badge -->
+							{#if isMC}
+								<span
+									class="inline-flex items-center gap-1 px-2 py-0.5 rounded bg-[var(--color-secondary)]/15 text-[var(--color-secondary)] text-xs font-medium border border-[var(--color-secondary)]/40"
+								>
+									<SquareCheck size={12} />
+									Multiple
+								</span>
+							{:else}
+								<span
+									class="inline-flex items-center gap-1 px-2 py-0.5 rounded bg-[var(--text-secondary)]/15 text-[var(--text-secondary)] text-xs font-medium border border-[var(--text-secondary)]/40"
+								>
+									<CircleDot size={12} />
+									Single
+								</span>
+							{/if}
+							<!-- ID badge -->
+							{#if redemptionState.current.question_id}
+								<span
+									class="px-2 py-0.5 rounded bg-[var(--bg-hover)] text-[var(--color-accent)] text-xs font-medium border border-[var(--color-accent)]"
+								>
+									ID: {redemptionState.current.question_id}
+								</span>
+							{/if}
+						</div>
+					</div>
+
+					<!-- Question Text (BilingualText) -->
+					<div class="mb-5">
+						<BilingualText
+							en={redemptionState.current.question_text_en || redemptionState.current.question_text || ''}
+							vi={redemptionState.current.question_text_vi || redemptionState.current.question_text || ''}
+							variant="question"
+						/>
+					</div>
+
+					<!-- Answer buttons (QuizCard style) -->
+					<div class="space-y-2.5">
+						{#each shuffled as ans, i (i)}
+							{@const isSelected = isMC ? redeemSelections.includes(i) : redeemSelected === i}
+							{@const bgClass = redeemDone
+								? (isSelected
+									? (redeemCorrect ? 'bg-[var(--color-success)]' : 'bg-[var(--color-error)]')
+									: (redeemCorrect && ans.is_correct ? 'bg-[var(--color-success)]' : 'bg-[var(--bg-hover)]'))
+								: (isSelected ? 'bg-[var(--color-primary)]/10' : 'bg-[var(--bg-hover)]')}
+							{@const borderClass = isSelected && !redeemDone ? 'border-[var(--color-primary)]' : 'border-[var(--border)]'}
+							<button
+								type="button"
+								class="relative flex items-start gap-3 w-full text-left px-4 py-3 rounded-xl text-base font-medium transition-all duration-200 cursor-pointer border-2 {bgClass} {borderClass}"
+								disabled={redeemDone}
+								class:opacity-50={redeemDone && !isSelected && (redeemCorrect ? ans.is_correct : false)}
+								onclick={() => handleRedemptionAnswer(i)}
+							>
+								<!-- Indicator icon -->
+								<span class="flex-shrink-0 mt-0.5">
+									{#if isMC}
+										{#if isSelected}
+											<SquareCheck size={20} class="text-[var(--color-primary)]" />
+										{:else}
+											<Square size={20} class="text-[var(--text-secondary)]" />
+										{/if}
+									{:else if isSelected}
+										<CircleDot size={20} class="text-[var(--color-primary)]" />
+									{:else}
+										<Circle size={20} class="text-[var(--text-secondary)]" />
+									{/if}
+								</span>
+
+								<!-- Answer text (BilingualText) -->
+								<span class="flex-1">
+									<BilingualText variant="answer" en={ans.answer_text_en || ans.answer_text || ''} vi={ans.answer_text_vi || ans.answer_text || ''} />
+								</span>
+
+								<!-- Result icon -->
+								{#if redeemDone && isSelected}
+									<span class="flex-shrink-0 mt-0.5">
+										{#if redeemCorrect}
+											<Check size={20} class="text-[var(--color-success)]" />
+										{:else}
+											<X size={20} class="text-[var(--color-error)]" />
+										{/if}
+									</span>
+								{/if}
+							</button>
+						{/each}
+					</div>
+
+					<!-- Check button (MCQ only) -->
+					{#if isMC && !redeemDone}
+						<div class="flex flex-col items-center w-full mt-4">
+							{#if redeemSelections.length > 0}
+								<span class="text-sm text-[var(--text-secondary)] mb-2">
+									{redeemSelections.length} answer{redeemSelections.length !== 1 ? 's' : ''} selected
+								</span>
+							{:else}
+								<span class="text-sm text-[var(--text-secondary)] opacity-70 mb-2">
+									Select one or more answers
+								</span>
+							{/if}
+							<button
+								class="px-8 py-3 rounded-lg font-semibold text-base transition-all duration-200 {redeemSelections.length > 0
+									? 'bg-[var(--color-primary)] text-[var(--bg-primary)] shadow-lg shadow-[var(--color-primary)]/25 hover:shadow-[var(--color-primary)]/40 hover:scale-[1.02] active:scale-[0.98]'
+									: 'bg-[var(--bg-hover)] text-[var(--text-secondary)] cursor-not-allowed opacity-50'}"
+								onclick={checkRedemptionMCQ}
+								disabled={redeemSelections.length === 0}
+							>
+								Check Answers
+							</button>
+						</div>
+					{/if}
+
+					<!-- Result message + Next button -->
+					{#if redeemDone}
+						<div class="mt-5 text-center">
+							<p class="text-sm font-semibold {redeemCorrect ? 'text-[var(--color-success)]' : 'text-[var(--color-error)]'}">
+								{redeemCorrect ? '✅ Chính xác!' : '❌ Sai rồi!'}
+							</p>
+							<button
+								class="mt-4 px-8 py-3 rounded-lg font-semibold text-base bg-[var(--color-primary)] text-[var(--bg-primary)] shadow-lg transition-all duration-200 hover:scale-[1.02] active:scale-[0.98] cursor-pointer"
+								onclick={closeRedemption}
+							>
+								Tiếp tục
+							</button>
+						</div>
+					{/if}
 				</div>
 			</div>
 		{/if}
@@ -668,5 +919,73 @@
 		50% { background: var(--color-accent); }
 		85% { background: var(--color-error); }
 		100% { width: 0%; background: var(--color-error); }
+	}
+
+	/* Redemption Bag */
+	.bag-icon {
+		position: relative;
+		width: 24px;
+		height: 24px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		filter: drop-shadow(0 2px 6px rgba(167,139,250,0.3));
+		transition: transform 0.2s cubic-bezier(.34,1.56,.64,1);
+	}
+
+	@media (min-width: 768px) {
+		.bag-icon {
+			width: 32px;
+			height: 32px;
+		}
+	}
+
+	.bag-badge {
+		position: absolute;
+		top: -6px;
+		right: -8px;
+		min-width: 16px;
+		height: 16px;
+		border-radius: 999px;
+		background: var(--color-error);
+		color: white;
+		font-size: 9px;
+		font-weight: 700;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		padding: 0 3px;
+		line-height: 1;
+		animation: bag-badge-pop 0.35s cubic-bezier(.34,1.56,.64,1);
+		box-shadow: 0 2px 6px rgba(239,68,68,0.3);
+	}
+
+	@media (min-width: 768px) {
+		.bag-badge {
+			min-width: 18px;
+			height: 18px;
+			font-size: 10px;
+			padding: 0 4px;
+			top: -5px;
+			right: -7px;
+		}
+	}
+
+	@keyframes bag-badge-pop {
+		0% { transform: scale(0); }
+		60% { transform: scale(1.35); }
+		100% { transform: scale(1); }
+	}
+
+	/* Redemption Overlay */
+	.redeem-answer {
+		border: 1px solid var(--border);
+		transition: all 0.2s ease;
+		color: var(--text-primary);
+	}
+
+	@keyframes fade-in {
+		0% { opacity: 0; transform: translateY(4px); }
+		100% { opacity: 1; transform: translateY(0); }
 	}
 </style>

@@ -13,7 +13,9 @@ import {
 	HIGH_SCORES_KEY,
 	QUIZ_PROGRESS_PREFIX,
 	WRONG_QUESTIONS_PREFIX,
-	TOTAL_POINTS_KEY
+	TOTAL_POINTS_KEY,
+	REDEMPTION_ENABLED_KEY,
+	REDEMPTION_BAG_KEY
 } from '../lib/localKeys';
 import { SvelteSet, SvelteMap } from 'svelte/reactivity';
 import { replaceState } from '$app/navigation';
@@ -212,6 +214,7 @@ export async function loadQuiz(quizId: string, restore = false) {
 			// Restore progress if requested
 			if (restore) {
 				restoreQuizProgress(quizId);
+				restoreRedemptionBag(quizId);
 			}
 			// Open sidebar on desktop when loading a quiz
 			if (typeof window !== 'undefined' && window.innerWidth >= 768) {
@@ -233,6 +236,7 @@ export function clearQuiz() {
 	pageState.questionAnswers.clear();
 	pageState.questionLockedStatus.clear();
 	pageState.questionLocked = false;
+	clearRedemptionBag();
 	uiState.sidebarMode = 'library';
 	uiState.sidebarOpen = false;
 	// Clear URL when returning to library
@@ -480,4 +484,100 @@ export function clearQuizProgress(moduleId: string) {
 	if (typeof window !== 'undefined') {
 		localStorage.removeItem(QUIZ_PROGRESS_PREFIX + moduleId);
 	}
+}
+
+// ===== Redemption Bag =====
+export const redemptionState = $state<{
+	bag: Quiz[];
+	active: boolean;
+	current: Quiz | null;
+	counter: number;
+	threshold: number;
+	redeemed: number;
+}>({
+	bag: [],
+	active: false,
+	current: null,
+	counter: 0,
+	threshold: 5,
+	redeemed: 0
+});
+
+export const redemptionEnabled = $state({value: getInitialToggle(REDEMPTION_ENABLED_KEY, true)});
+
+export function setRedemptionEnabled(v: boolean) {
+	redemptionEnabled.value = v;
+	setToggle(REDEMPTION_ENABLED_KEY, v);
+}
+
+export function addToBag(question: Quiz) {
+	if (redemptionState.bag.some(q => q.question_id === question.question_id)) return;
+	redemptionState.bag.push(question);
+	persistRedemptionBag();
+}
+
+export function pickRedemptionQuestion(): Quiz | null {
+	if (redemptionState.bag.length === 0) return null;
+	const idx = Math.floor(Math.random() * redemptionState.bag.length);
+	return redemptionState.bag[idx];
+}
+
+export function completeRedemption(isCorrect: boolean) {
+	if (!redemptionState.current) return;
+	if (isCorrect) {
+		const idx = redemptionState.bag.findIndex(q => q.question_id === redemptionState.current!.question_id);
+		if (idx >= 0) redemptionState.bag.splice(idx, 1);
+		redemptionState.redeemed++;
+	}
+	redemptionState.active = false;
+	redemptionState.current = null;
+	redemptionState.counter = 0;
+	redemptionState.threshold = 5 + Math.floor(Math.random() * 6);
+	persistRedemptionBag();
+}
+
+export function incrementRedemptionCounter() {
+	if (!redemptionEnabled.value) return;
+	if (redemptionState.bag.length === 0) return;
+	redemptionState.counter++;
+	if (redemptionState.counter >= redemptionState.threshold) {
+		const q = pickRedemptionQuestion();
+		if (q) {
+			redemptionState.current = q;
+			redemptionState.active = true;
+			redemptionState.counter = 0;
+			redemptionState.threshold = 5 + Math.floor(Math.random() * 6);
+		}
+	}
+}
+
+function persistRedemptionBag() {
+	if (typeof window === 'undefined') return;
+	if (!pageState.moduleId) return;
+	try {
+		localStorage.setItem(REDEMPTION_BAG_KEY + pageState.moduleId, JSON.stringify(redemptionState.bag));
+	} catch { /* quota */ }
+}
+
+export function restoreRedemptionBag(moduleId: string) {
+	if (typeof window === 'undefined') return;
+	try {
+		const raw = localStorage.getItem(REDEMPTION_BAG_KEY + moduleId);
+		if (raw) {
+			const bag = JSON.parse(raw);
+			if (Array.isArray(bag) && bag.length > 0) {
+				redemptionState.bag.length = 0;
+				redemptionState.bag.push(...bag);
+			}
+		}
+	} catch { /* ignore */ }
+}
+
+export function clearRedemptionBag() {
+	redemptionState.bag.length = 0;
+	redemptionState.active = false;
+	redemptionState.current = null;
+	redemptionState.counter = 0;
+	redemptionState.threshold = 5;
+	redemptionState.redeemed = 0;
 }

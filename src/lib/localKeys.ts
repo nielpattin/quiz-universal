@@ -16,6 +16,8 @@ export const HIGH_SCORES_KEY = 'quiz_high_scores';
 export const QUIZ_PROGRESS_PREFIX = 'quiz_progress_';
 export const WRONG_QUESTIONS_PREFIX = 'quiz_wrong_';
 export const TOTAL_POINTS_KEY = 'quiz_total_points';
+export const REDEMPTION_ENABLED_KEY = 'quiz_redemption_enabled';
+export const REDEMPTION_BAG_KEY = 'quiz_redemption_bag_';
 
 export interface FavoritesLocalState {
 	module: string;
