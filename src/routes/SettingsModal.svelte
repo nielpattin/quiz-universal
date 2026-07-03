@@ -265,11 +265,11 @@
 						<span style="font-size: {enStyleState.size}px; opacity: {enStyleState.opacity}"
 							>Sample English Text</span
 						>
-						<span class="text-sm">Vn bn Ting Vit mu</span>
+						<span class="text-sm">Văn bản Tiếng Việt mẫu</span>
 					</div>
 				</div>
 
-				<!-- High Scores -->
+
 				{#if scoreEntries.length > 0}
 					<div class="space-y-4">
 						<div class="flex items-center gap-2 mb-1">

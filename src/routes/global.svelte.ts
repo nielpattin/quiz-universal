@@ -337,7 +337,7 @@ function setToggle(key: string, value: boolean) {
 	}
 }
 
-export const timerEnabled = $state({ value: getInitialToggle(TIMER_ENABLED_KEY, false) });
+export const timerEnabled = $state({ value: getInitialToggle(TIMER_ENABLED_KEY, true) });
 export const soundEnabled = $state({ value: getInitialToggle(SOUND_ENABLED_KEY, true) });
 export const focusMode = $state({ value: getInitialToggle(FOCUS_MODE_KEY, false) });
 export const hapticEnabled = $state({ value: getInitialToggle(HAPTIC_ENABLED_KEY, true) });

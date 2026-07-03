@@ -78,6 +78,15 @@ async function ensureTables() {
 			FOREIGN KEY (collection_id) REFERENCES quiz_collections(id)
 		)
 	`);
+
+	// Migrate existing tables: add missing columns silently (turso/libsql ignores IF NOT EXISTS for ALTER)
+	const migrations = [
+		'ALTER TABLE questions ADD COLUMN question_text_en TEXT',
+		'ALTER TABLE questions ADD COLUMN question_text_vi TEXT',
+	];
+	for (const sql of migrations) {
+		try { await db.execute(sql); } catch (e) { /* column already exists */ }
+	}
 }
 
 async function dropAllTables() {
@@ -391,20 +400,28 @@ async function run() {
 				stats.questions.added += batch.length;
 			}
 		} else {
+			const changedQuestions = [];
 			for (const [questionId, localQuestion] of local.questions) {
 				processedQuestions.add(questionId);
 				const existing = existingQuestions.get(questionId);
 
 				if (!existing) {
+					changedQuestions.push(localQuestion);
 					log(`    [ADD] Question: ${questionId}`, 'verbose');
-					await upsertQuestion(localQuestion, localQuestion.collection_id);
-					stats.questions.added++;
 				} else if (questionChanged(existing, localQuestion)) {
+					changedQuestions.push(localQuestion);
 					log(`    [UPDATE] Question: ${questionId}`, 'verbose');
-					await upsertQuestion(localQuestion, localQuestion.collection_id);
-					stats.questions.updated++;
 				} else {
 					log(`    [SKIP] Question: ${questionId} (no changes)`, 'verbose');
+				}
+			}
+			// Batch upsert changed questions
+			if (changedQuestions.length > 0) {
+				const BATCH_SIZE = 200;
+				for (let i = 0; i < changedQuestions.length; i += BATCH_SIZE) {
+					const batch = changedQuestions.slice(i, i + BATCH_SIZE);
+					await upsertQuestionsBatch(batch);
+					stats.questions.added += batch.length;
 				}
 			}
 		}
