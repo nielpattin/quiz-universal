@@ -14,6 +14,7 @@
 	import X from '@lucide/svelte/icons/x';
 	import ChevronLeft from '@lucide/svelte/icons/chevron-left';
 	import ChevronRight from '@lucide/svelte/icons/chevron-right';
+	import Maximize2 from '@lucide/svelte/icons/maximize-2';
 
 	interface CurrentQuestion extends Quiz {
 		module?: string;
@@ -224,6 +225,7 @@
 		const _ = currentQuestion?.question_id;
 		popIndex = null;
 		shakeIndex = null;
+		showImageModal = false;
 	});
 
 	// Helper function for answer styling with enhanced feedback
@@ -274,8 +276,58 @@
 		if (!isCorrect && isSelected) return 'incorrect';
 		return null;
 	}
+	// --- Image modal (click thumbnail to enlarge, click image to fullscreen) ---
+	let showImageModal = $state(false);
+	let modalImageEl = $state<HTMLImageElement | null>(null);
+
+	function openImageModal() {
+		showImageModal = true;
+	}
+
+	function closeImageModal() {
+		showImageModal = false;
+		if (document.fullscreenElement) {
+			document.exitFullscreen().catch(() => {});
+		}
+	}
+
+	function handleImageModalKeydown(e: KeyboardEvent) {
+		if (!showImageModal) return;
+		if (e.key === 'Escape') {
+			if (document.fullscreenElement) return; // let native fullscreen exit first
+			e.preventDefault();
+			closeImageModal();
+		}
+	}
+
+	function handleBackdropClick(e: MouseEvent) {
+		if (e.target === e.currentTarget) {
+			closeImageModal();
+		}
+	}
+
+	function toggleImageFullscreen() {
+		if (!modalImageEl) return;
+		if (document.fullscreenElement) {
+			document.exitFullscreen().catch(() => {});
+		} else {
+			modalImageEl.requestFullscreen?.().catch(() => {});
+		}
+	}
+
+	// Portal the modal to <body> so position:fixed isn't trapped by the
+	// carousel-card's transform (which would clip/offset the overlay).
+	function portalToBody(node: HTMLElement) {
+		document.body.appendChild(node);
+		return {
+			destroy() {
+				node.remove();
+			}
+		};
+	}
 </script>
 
+<svelte:window onkeydown={handleImageModalKeydown} />
 <!-- Quiz Card -->
 <div
 	class="w-full h-full flex flex-col overflow-hidden"
@@ -303,14 +355,14 @@
 		if (DEBUG) {
 			console.log('isHeld set to true (touchstart)');
 		}
-		if (!isScrollable.value) handleTouchStart(e);
+		if (!isScrollable.value && !showImageModal) handleTouchStart(e);
 	}}
 	ontouchend={(e) => {
 		isHeld = false;
 		if (DEBUG) {
 			console.log('isHeld set to false (touchend)');
 		}
-		if (!isScrollable.value) handleTouchEnd(e);
+		if (!isScrollable.value && !showImageModal) handleTouchEnd(e);
 	}}
 	role="button"
 	tabindex="0"
@@ -390,15 +442,30 @@
 				</button>
 			</div>
 		</div>
-		<!-- Question Image -->
+		<!-- Question Image (click to enlarge) -->
 		{#if currentQuestion?.image_url}
-			<div class="question-image mb-4">
-				<img
-					src={currentQuestion.image_url}
-					alt="Question illustration"
-					class="w-full max-h-64 object-contain rounded-lg"
-					loading="lazy"
-				/>
+			<div class="mb-4">
+				<button
+					type="button"
+					aria-label="Enlarge image"
+					class="group relative block w-28 h-28 rounded-lg overflow-hidden border-2 border-[var(--border)] bg-[var(--bg-hover)] cursor-zoom-in transition-all duration-200 hover:border-[var(--color-primary)] hover:shadow-lg"
+					onclick={openImageModal}
+				>
+					<img
+						src={currentQuestion.image_url}
+						alt="Question illustration"
+						class="w-full h-full object-contain"
+						loading="lazy"
+					/>
+					<span
+						class="absolute inset-0 flex items-center justify-center bg-black/0 group-hover:bg-black/30 transition-colors duration-200"
+					>
+						<Maximize2
+							size={20}
+							class="text-white opacity-0 group-hover:opacity-100 transition-opacity duration-200"
+						/>
+					</span>
+				</button>
 			</div>
 		{/if}
 		<!-- Question Text -->
@@ -526,6 +593,42 @@
 		{/if}
 	</div>
 </div>
+
+{#if showImageModal && currentQuestion?.image_url}
+	<div
+		class="fixed inset-0 z-[1002] flex items-center justify-center bg-black/80 backdrop-blur-sm p-4 pt-16"
+		data-image-modal
+		use:portalToBody
+		onclick={handleBackdropClick}
+		onkeydown={handleImageModalKeydown}
+		role="dialog"
+		aria-modal="true"
+		aria-label="Image viewer"
+		tabindex="-1"
+	>
+		<button
+			type="button"
+			aria-label="Close image"
+			class="absolute top-4 right-4 z-10 w-10 h-10 flex items-center justify-center rounded-full bg-black/60 text-white hover:bg-black/80 transition-colors border border-white/20"
+			onclick={closeImageModal}
+		>
+			<X size={24} />
+		</button>
+		<button
+			type="button"
+			aria-label="Toggle fullscreen"
+			class="bg-transparent border-none p-0 cursor-zoom-in"
+			onclick={toggleImageFullscreen}
+		>
+			<img
+				bind:this={modalImageEl}
+				src={currentQuestion.image_url}
+				alt="Question illustration enlarged"
+				class="max-w-[calc(100vw-2rem)] max-h-[calc(100vh-6rem)] object-contain rounded-lg shadow-2xl block"
+			/>
+		</button>
+	</div>
+{/if}
 
 {#if isScrollable.value}
 	<!-- Mobile: right-docked circular nav buttons (no content overlap) -->

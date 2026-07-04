@@ -145,6 +145,8 @@
 	function handleKeyNavigation(e: KeyboardEvent) {
 		// Skip if redemption overlay is open
 		if (redemptionState.active) return;
+		// Skip if image viewer modal is open
+		if (document.querySelector('[data-image-modal]')) return;
 
 		if (
 			document.activeElement &&
@@ -171,6 +173,7 @@
 	function handleWheelNavigation(e: WheelEvent) {
 		// Skip if redemption overlay is open
 		if (redemptionState.active) return;
+		if (document.querySelector('[data-image-modal]')) return;
 
 		// Skip if user is in an input field
 		if (
