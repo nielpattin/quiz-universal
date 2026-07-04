@@ -1,0 +1,961 @@
+[
+	{
+		"question_text_en": "",
+		"question_text_vi": "Hệ Thống Phân Tán có đặc điểm chính nào sau đây?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Sự tự chủ của các nút không quan trọng",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Luôn có nút điều phối trung tâm",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Có thể bao gồm nút điều phối trung tâm nhưng chủ yếu tập trung vào phân bổ trên nhiều nút",
+				"is_correct": true
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Chủ yếu tập trung vào một máy chủ duy nhất",
+				"is_correct": false
+			}
+		],
+		"question_id": "udpt-03-q1"
+	},
+	{
+		"question_text_en": "",
+		"question_text_vi": "Khi một tiến trình chạy một chương trình nó sẽ sinh ra ……. luồng",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Một hoặc nhiều",
+				"is_correct": true
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Hai",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Một",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Nhiều",
+				"is_correct": false
+			}
+		],
+		"question_id": "udpt-03-q2"
+	},
+	{
+		"question_text_en": "",
+		"question_text_vi": "Hệ Thống Ngân Hàng Truyền Thống: Trong những hệ thống này, tất cả giao dịch và quản lý dữ liệu của khách hàng được xử lý và lưu trữ trong một máy chủ trung tâm hoặc trung tâm dữ liệu được kiểm soát bởi ngân hàng. Hệ thống trên là:",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Hệ thống phân tán",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Hệ thống phân tán hoặc phi tập trung",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Hệ thống phi tập trung",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Hệ thống tập trung",
+				"is_correct": true
+			}
+		],
+		"question_id": "udpt-03-q3"
+	},
+	{
+		"question_text_en": "",
+		"question_text_vi": "Nguyễn Thị Anh dự định gọi cho Trần Văn Bình từ một điện thoại công cộng ở Tampa, Florida bằng thẻ tín dụng. Cuộc gọi chỉ thành công nếu (1) thẻ tín dụng của Anh vẫn còn hiệu lực, (2) Anh không có bất kỳ khoản nợ quá hạn nào trong tài khoản của mình, và (3) số điện thoại của Bình được Anh quay đúng. Giả sử rằng một quy trình kiểm tra tính hợp lệ của thẻ gọi, một quy trình thứ hai chịu trách nhiệm thanh toán, và một quy trình thứ ba định tuyến cuộc gọi đến Bình, hãy mô tả chuỗi các hành động trong thời gian thiết lập cuộc gọi.",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Quy trình định tuyến cuộc gọi đến Bình chỉ diễn ra sau khi đã xác nhận thẻ tín dụng của Anh còn hiệu lực và không có nợ quá hạn.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Quy trình kiểm tra thẻ chỉ kiểm tra tính hợp lệ của thẻ tín dụng sau khi cuộc gọi đã được thiết lập.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Quy trình kiểm tra thẻ diễn ra trước, sau đó là quy trình thanh toán, và cuối cùng là quy trình định tuyến cuộc gọi.",
+				"is_correct": true
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Quy trình thanh toán chỉ xử lý việc thanh toán sau khi cuộc gọi kết thúc.",
+				"is_correct": false
+			}
+		],
+		"question_id": "udpt-03-q4"
+	},
+	{
+		"question_text_en": "",
+		"question_text_vi": "KaZaA là một hệ thống cho phép người dùng tải xuống các tệp nhạc một cách minh bạch từ một máy tính khác có thể thuộc về người hàng xóm bên cạnh hoặc ai đó ở nửa vòng trái đất. Hãy điều tra cách thực hiện việc chia sẻ tệp này.",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "KaZaA sử dụng một hệ thống mã hóa để đảm bảo rằng việc tải xuống tệp nhạc là an toàn và minh bạch.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "KaZaA không cho phép người dùng tải xuống tệp nhạc từ máy tính của người khác.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "KaZaA sử dụng mô hình peer-to-peer, trong đó mỗi máy tính cung cấp và tải xuống tệp nhạc.",
+				"is_correct": true
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "KaZaA sử dụng một máy chủ trung tâm để lưu trữ tất cả các tệp nhạc.",
+				"is_correct": false
+			}
+		],
+		"question_id": "udpt-03-q5"
+	},
+	{
+		"question_text_en": "",
+		"question_text_vi": "Hệ phân tán là gì",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Một tập hợp các máy tính thực hiện các tác vụ riêng rẽ trong môi trường mạng máy tính.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Một hệ thống cung cấp dịch vụ một cách thống nhất mà không cần thống nhất về giao diện, cách thức truy cập dịch vụ.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Một tập hợp các máy tính độc lập mà, đối với người dùng, nó như thể một hệ thống đơn gắn kết.",
+				"is_correct": true
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Một hệ thống kết nối lẫn nhau bằng mạng máy tính, trong đó, các phần mềm trên các máy tính khác nhau hoạt động độc lập không cần phối hợp với nhau.",
+				"is_correct": false
+			}
+		],
+		"question_id": "udpt-03-q6"
+	},
+	{
+		"question_text_en": "",
+		"question_text_vi": "Kỹ thuật phân tán hỗ trợ ứng dụng Web",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "SOAP",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "REST",
+				"is_correct": true
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "RPC",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "RMI",
+				"is_correct": false
+			}
+		],
+		"question_id": "udpt-03-q7"
+	},
+	{
+		"question_text_en": "",
+		"question_text_vi": "Trong lĩnh vực Y tế Điện tử: Tất cả thông tin về bệnh nhân, bao gồm bệnh án, kết quả xét nghiệm và toàn bộ hồ sơ y tế, được lưu trữ và quản lý tập trung trong một hệ thống thông tin y tế lớn. Hệ thống thông tin ý tế này được xây dựng trên nhiều cụm máy. Hệ thống này có tính chất là:",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Hệ thống phi tập trung",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Hệ thống phân tán hoặc phi tập trung",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Hệ thống tập trung",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Hệ thống phân tán",
+				"is_correct": true
+			}
+		],
+		"question_id": "udpt-03-q8"
+	},
+	{
+		"question_text_en": "",
+		"question_text_vi": "Các yếu tố cốt lõi của một hệ thống phân tán đó là (chọn các đáp án đúng)",
+		"question_type": "multiple_answer_question",
+		"answers": [
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Mức độ đồng bộ hoá",
+				"is_correct": true
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Cấu trúc mạng lưới",
+				"is_correct": true
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Kiến thức về một quy trình",
+				"is_correct": true
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Cấu hình phần cứng của hệ máy",
+				"is_correct": false
+			}
+		],
+		"question_id": "udpt-03-q9"
+	},
+	{
+		"question_text_en": "",
+		"question_text_vi": "Khi một quy trình trên máy tính A gọi một thủ tục trên máy tính B, quy trình gọi trên A bị tạm ngưng, và thực thi của thủ tục được gọi xảy ra trên B. Thông tin có thể được truyền từ người gọi đến người được gọi trong các tham số và có thể trở lại trong kết quả của thủ tục. Không có thông điệp truyền qua lại nào được nhìn thấy bởi lập trình viên. Phương pháp này được biết đến là cuộc gọi thủ tục từ xa, hoặc thường chỉ là RPC. RPC là gì trong ngữ cảnh của giao tiếp máy tính?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Một phương pháp để chuyển thông tin giữa các quy trình trên cùng một máy tính.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Một phương pháp để chuyển thông điệp giữa các máy tính trong mạng.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Một phương pháp để gọi các thủ tục trên các máy tính khác nhau.",
+				"is_correct": true
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Một phương pháp để tạo ra các kết nối giữa các máy tính.",
+				"is_correct": false
+			}
+		],
+		"question_id": "udpt-03-q10"
+	},
+	{
+		"question_text_en": "",
+		"question_text_vi": "Giao thức khóa phân tán được sử dụng để làm gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Giám sát và kiểm soát việc truy cập vào một tài nguyên duy nhất.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Tạo ra các quy tắc truy cập cho các tài nguyên mạng.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Bảo vệ tài nguyên khỏi truy cập đồng thời bởi một tập hợp các quy trình phân tán trên nhiều máy tính.",
+				"is_correct": true
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Quản lý các quy trình trên một máy tính duy nhất.",
+				"is_correct": false
+			}
+		],
+		"question_id": "udpt-03-q11"
+	},
+	{
+		"question_text_en": "",
+		"question_text_vi": "Một cơ chế truyền tham số khác cũng tồn tại, tuy nhiên nó không được sử dụng trong hầu hết các ngôn ngữ lập trình. Nó được gọi là \"gọi theo sao chép/phục hồi\". Nó bao gồm việc sao chép biến vào ngăn xếp bởi người gọi, như trong gọi theo giá trị, và sau đó sao chép trở lại sau khi gọi, ghi đè giá trị ban đầu của người gọi. Dưới hầu hết các điều kiện, điều này đạt được cùng hiệu quả như gọi theo tham chiếu, nhưng trong một số tình huống, chẳng hạn như cùng một tham số xuất hiện nhiều lần trong danh sách tham số, ngữ nghĩa sẽ khác nhau. Cơ chế truyền tham số nào không phổ biến nhưng vẫn tồn tại trong lập trình?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Gọi theo tham chiếu",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Gọi theo giá trị",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Gọi theo con trỏ",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Gọi theo sao chép/phục hồi",
+				"is_correct": true
+			}
+		],
+		"question_id": "udpt-03-q12"
+	},
+	{
+		"question_text_en": "",
+		"question_text_vi": "Để đảm bảo tính linh hoạt và đáng tin cậy trong truyền thông phân tán, công nghệ nào thường được sử dụng nhiều nhất? Chọn tất cả các đáp án đúng:",
+		"question_type": "multiple_answer_question",
+		"answers": [
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Hệ thống phân tán P2P (Peer-to-Peer)",
+				"is_correct": true
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Blockchain",
+				"is_correct": true
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Cloud computing",
+				"is_correct": true
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Mạng cảm biến không dây (Wireless Sensor Network)",
+				"is_correct": true
+			}
+		],
+		"question_id": "udpt-03-q13"
+	},
+	{
+		"question_text_en": "",
+		"question_text_vi": "Trong hệ thống phân tán, truyền thông chủ yếu được thực hiện qua phương tiện nào?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Radio",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Điện thoại di động",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Truyền hình",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Mạng Internet",
+				"is_correct": true
+			}
+		],
+		"question_id": "udpt-03-q14"
+	},
+	{
+		"question_text_en": "",
+		"question_text_vi": "Trong ngữ cảnh của hệ thống điều hành, khái niệm về một tiến trình đề cập đến:",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Một chương trình trong giai đoạn phát triển.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Một chương trình đã được thực thi.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Một chương trình đang được thực thi trên một trong những bộ xử lý ảo của hệ điều hành.",
+				"is_correct": true
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Một chương trình được lưu trữ đang chờ được thực thi.",
+				"is_correct": false
+			}
+		],
+		"question_id": "udpt-03-q15"
+	},
+	{
+		"question_text_en": "",
+		"question_text_vi": "Một máy ảo cơ bản sẽ phải cung cấp và điều chỉnh quyền truy cập vào các tài nguyên khác nhau, như lưu trữ bên ngoài và mạng lưới. Giống như bất kỳ hệ điều hành nào khác, điều này ngụ ý rằng nó sẽ phải triển quá trình điều khiển thiết bị cho các tài nguyên đó. Thay vì làm tất cả công việc này từ đầu, một máy ảo được lưu trữ sẽ chạy trên một hệ điều hành máy chủ đáng tin cậy. Trong trường hợp này, máy ảo cơ bản có thể sử dụng các tiện ích hiện có được cung cấp bởi hệ điều hành máy chủ đó. Thông thường, nó sẽ phải được cấp các đặc quyền đặc biệt thay vì chạy như một ứng dụng cấp người dùng. Việc sử dụng một máy ảo được lưu trữ là rất phổ biến trong các hệ thống phân phối hiện đại như trung tâm dữ liệu và điện toán đám mây. Mục đích chính của việc chạy một máy ảo trên một hệ điều hành máy chủ đáng tin cậy là:",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Tăng tính linh hoạt của máy ảo trong môi trường đám mây.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Triển khai các trình điều khiển thiết bị từ đầu.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Sử dụng các tiện ích hiện có từ hệ điều hành máy chủ.",
+				"is_correct": true
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Chạy máy ảo như một ứng dụng cấp người dùng.",
+				"is_correct": false
+			}
+		],
+		"question_id": "udpt-03-q16"
+	},
+	{
+		"question_text_en": "",
+		"question_text_vi": "Trình duyệt, giống như nhiều ứng dụng phía khách hàng khác, là tương tác theo bản chất, vì lý do này thời gian nghỉ của bộ xử lý được mong đợi có thể khá cao. Để đo lường mức độ mà một bộ xử lý đa nhân được sử dụng, Blake và đồng nghiệp đã sử dụng một chỉ số được biết đến là mức độ song song của luồng (TLP). Gọi $c_i$ là tỷ lệ thời gian mà chính xác $i$ luồng đang được thực thi đồng thời. Mức độ song song mức độ luồng sau đó được xác định là: $$ \\text{TLP} = \\dfrac{\\sum_{i=1}^N ic_i}{1-c_0} $$ trong đó $N$ là số luồng tối đa có thể thực thi (đượcùng một lúc. Trong nghiên cứu của họ, một trình duyệt Web điển hình vào thời điểm đó có giá trị TLP dao động từ 1.5 đến 2.5, có nghĩa là để khai thác hiệu quả song song, máy khách nên có hai hoặc ba lõi, hoặc tương tự, 2–3 bộ xử lý. Nếu một trình duyệt Web điển hình vào thời điểm đó có giá trị $c_0 = 0.2$ và giá trị TLP là 2, thì giá trị của $\\sum_{i=1}^N ic_i$ là bao nhiêu?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "0.8",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "1.5",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "2.5",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "1.6",
+				"is_correct": true
+			}
+		],
+		"question_id": "udpt-03-q17"
+	},
+	{
+		"question_text_en": "",
+		"question_text_vi": "Multi-threaded server có thể được sử dụng để:",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Xử lý đồng thời nhiều yêu cầu từ các khách hàng khác nhau.",
+				"is_correct": true
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Tăng sức mạnh xử lý bằng cách tăng số lượng luồng xử lý.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Tạo ra nhiều phiên làm việc đồng thời trên máy chủ.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Tăng khả năng chịu tải của máy chủ bằng cách chia sẻ tài nguyên giữa các luồng.",
+				"is_correct": false
+			}
+		],
+		"question_id": "udpt-03-q18"
+	},
+	{
+		"question_text_en": "",
+		"question_text_vi": "Trong việc chuyển đổi CPU giữa hai quá trình, quá trình nào sau đây là một hoạt động có thể gây tốn kém về hiệu suất? (chọn tất cả các đáp án đúng)",
+		"question_type": "multiple_answer_question",
+		"answers": [
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Kiểm tra lại tất cả các tiến trình đang chạy trên hệ thống.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Lưu trữ trạng thái của các tệp tin liên quan đến tiến trình.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Cập nhật các giá trị đăng ký của đơn vị quản lý bộ nhớ (MMU).",
+				"is_correct": true
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Thay đổi các giá trị trong bộ nhớ đệm dịch vụ địa chỉ (TL.",
+				"is_correct": true
+			}
+		],
+		"question_id": "udpt-03-q19"
+	},
+	{
+		"question_text_en": "",
+		"question_text_vi": "Xác thực dựa trên điều gì mà một người dùng biết, chẳng hạn như mật khẩu hoặc số nhận dạng cá nhân?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Xác thực dựa trên thiết bị",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Xác thực dựa trên kiến thức",
+				"is_correct": true
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Xác định vân tay",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Xác thực hai yếu tố",
+				"is_correct": false
+			}
+		],
+		"question_id": "udpt-03-q20"
+	},
+	{
+		"question_text_en": "",
+		"question_text_vi": "Trong hệ thống phân tán, việc quản lý định danh đôi khi gặp phải vấn đề gì? (chọn các đáp án đúng nhất)",
+		"question_type": "multiple_answer_question",
+		"answers": [
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Xung đột giữa các phiên bản dữ liệu",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Không đảm bảo tính nhất quán giữa các máy chủ",
+				"is_correct": true
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Nguy cơ mất dữ liệu do uestion 241 pts",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Quantum key distribution (QKlà một phương pháp sử dụng nguyên lý cơ học lượng tử để tạo và phân phối khóa mã hóa một cách an toàn giữa hai bên mà không thể bị đánh cắp hoặc xâm phạm bởi bất kỳ kẻ tấn công nào. Trong QKD, khóa được tạo ra bằng cách sử dụng tính chất lượng tử của các hạt vật lý (ví dụ như photon) để tạo ra một chuỗi các bit ngẫu nhiên. Các bit này sau đó được chuyển đổi thành một khóa mã hóa bằng cách sử dụng một quy trình gọi là \"đo lường trạng thái lượng tử.\"",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Quan trọng nhất, theo nguyên lý không thể sao chép của trạng thái đã đo của hệ vật lý lượng tử, bất kỳ sự quan sát nào của thông tin trong quá trình truyền qua một kênh lượng tử sẽ gây ra sự thay đổi hoặc phá hủy thông tin đó. Do đó, bất kỳ cuộc tấn công nào cũng sẽ làm thay đổi trạng thái của các hạt lượng tử và gây ra sự hiện diện của lỗi đối với bên nhận, cho biết sự can thiệp của một bên thứ ba. Theo đoạn miêu tả trên: làm thế nào các cuộc tấn công đến các khóa được phân phối bằng Quantum Key Distribution (QKcó thể được phát hiện?",
+				"is_correct": true
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Group of answer choices",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Bằng cách sử dụng thuật toán máy tính mạnh mẽ",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Bằng cách ghi lại mọi thông tin truyền qua mạng",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Bằng cách sử dụng tính chất lượng tử của các hạt vật lý",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Bằng cách gửi lưu lượng phản hồi lớn hơn gửi đến bên nhận",
+				"is_correct": false
+			}
+		],
+		"question_id": "udpt-03-q21"
+	},
+	{
+		"question_text_en": "",
+		"question_text_vi": "Các cuộc tấn công phản chiếu là khi kẻ tấn công sử dụng các hệ thống phản hồi trong mạng để gia tăng sức mạnh của cuộc tấn công. Kẻ tấn công gửi yêu cầu giả mạo từ một máy chủ hoặc thiết bị với địa chỉ nguồn giả mạo để làm cho nạn nhân tin rằng yêu cầu đến từ nguồn đáng tin cậy. Khi máy chủ hoặc thiết bị phản hồi yêu cầu, nó gửi phản hồi đến địa chỉ nguồn giả mạo, nhưng thực ra là nạn nhân của cuộc tấn công. Các cuộc tấn công phản chiếu thường sử dụng giao thức mạng như DNS, NTP hoặc SNMP để tạo ra lưu lượng phản hồi lớn hơn gửi đến nạn nhân, gây ra cuộc tấn công phân tán có thể tắc nghẽn hoặc vô hiệu hóa dịch vụ của nạn nhân. Điều này làm cho cuộc tấn công phản chiếu trở thành một trong những phương thức phổ biến để thực hiện các cuộc tấn công mạng lớn. Để ngăn chặn cuộc tấn công phản chiếu, tổ chức thường triển khai các biện pháp bảo mật như lọc gói tin, giới hạn tần suất yêu cầu từ một địa chỉ IP, hoặc sử dụng các dịch vụ bảo vệ chống tấn công phân tán (DDoS protection services). Các cuộc tấn công phản chiếu thường được ngăn chặn bằng cách nào trong hệ thống phân tán?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Áp dụng các biện pháp bảo mật như lọc gói tin hoặc giới hạn tần suất yêu cầu từ một địa chỉ IP",
+				"is_correct": true
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Sử dụng các dịch vụ bảo vệ chống tấn công phân tán (DDoS protection services",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Sử dụng các giao thức mạng như DNS, NTP, hoặc SNMP",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Tăng cường sức mạnh của mạng để chịu đựng lưu lượng tấn công",
+				"is_correct": false
+			}
+		],
+		"question_id": "udpt-03-q22"
+	},
+	{
+		"question_text_en": "",
+		"question_text_vi": "Phương pháp xác thực nào sử dụng hành vi của người dùng để xác nhận danh tính?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Xác thực dựa trên thiết bị",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Xác định dựa trên kiến thức",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Xác thực dựa trên hành động",
+				"is_correct": true
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Xác thực hai yếu tố",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Khó khăn trong việc đảm bảo tính xác thực của người dùng",
+				"is_correct": false
+			}
+		],
+		"question_id": "udpt-03-q23"
+	},
+	{
+		"question_text_en": "",
+		"question_text_vi": "Chọn đáp án chính xác nhất: Một ứng dụng sử dụng mã PIN và giọng nói để định danh, giao thức đó là:",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Xác thực liên tục",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Xác thực đa yếu tố",
+				"is_correct": true
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Xác thực đơn yếu tố",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Xác thực dựa trên sinh trắc học",
+				"is_correct": false
+			}
+		],
+		"question_id": "udpt-03-q24"
+	},
+	{
+		"question_text_en": "",
+		"question_text_vi": "Cho đoạn miêu tả kỹ thuật sau: “Kerberos là một dịch vụ xác thực quan trọng được sử dụng rộng rãi trong các hệ thống phân tán. Được phát triển tại M.I.T., Kerberos dựa trên giao thức xác thực Needham-Schroeder. Nó giúp khách hàng thiết lập kênh an toàn với các máy chủ trong hệ thống phân tán bằng cách sử dụng khóa bí mật được chia sẻ. Kerberos có hai thành phần chính: Máy chủ xác thực (AS) xử lý yêu cầu đăng nhập từ người dùng và cung cấp khóa để thiết lập kênh an toàn, trong khi dịch vụ cấp phiếu (TGS) cung cấp các phiếu để thuyết phục máy chủ về danh tính của người dùng. Kerberos giúp tăng cường bảo mật trong hệ thống phân tán, giảm thiểu số lượng khóa cần quản lý so với các phương pháp truyền thống.” Nhiệm vụ chính của Dịch vụ Cấp Phiếu (TGS) trong hệ thống Kerberos là gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Thiết lập kênh an toàn với các máy chủ",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Xác thực người dùng và cung cấp một khóa chia sẻ",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Phân phối khóa riêng tư và công khai cho người dùng",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Quản lý phiếu để thuyết phục máy chủ về danh tính của người dùng",
+				"is_correct": true
+			}
+		],
+		"question_id": "udpt-03-q25"
+	},
+	{
+		"question_text_en": "",
+		"question_text_vi": "Vì sao One-Time Passwords được xem là một hình thức xác thực đặc biệt hiệu quả?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Do nó kết hợp nhiều yếu tố khác nhau",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Do nó tạo ra mã xác thực mới mỗi lần sử dụng, làm tăng tính bảo mật",
+				"is_correct": true
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Do nó chỉ sử dụng một yếu tố",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Do nó liên tục theo dõi xác thực",
+				"is_correct": false
+			}
+		],
+		"question_id": "udpt-03-q26"
+	},
+	{
+		"question_text_en": "",
+		"question_text_vi": "Vì sao One-Time Passwords được xem là một hình thức xác thực đặc biệt hiệu quả?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Do nó kết hợp nhiều yếu tố khác nhau",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Do nó tạo ra mã xác thực mới mỗi lần sử dụng, làm tăng tính bảo mật",
+				"is_correct": true
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Do nó chỉ sử dụng một yếu tố",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Do nó liên tục theo dõi xác thực",
+				"is_correct": false
+			}
+		],
+		"question_id": "udpt-03-q27"
+	},
+	{
+		"question_text_en": "",
+		"question_text_vi": "Trong trường hợp xác thực một yếu tố, phương tiện nào được sử dụng? (Chọn tất cả các đáp án đúng)",
+		"question_type": "multiple_answer_question",
+		"answers": [
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Mật khẩu và mã thông báo",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Mật khẩu cá nhân",
+				"is_correct": true
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Định danh bằng vân tay",
+				"is_correct": true
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Mã thông báo phần mềm",
+				"is_correct": false
+			}
+		],
+		"question_id": "udpt-03-q28"
+	},
+	{
+		"question_text_en": "",
+		"question_text_vi": "Một trong những vấn đề khi sử dụng một khóa chia sẻ bí mật cho việc xác thực là tính mở rộng. Nếu một hệ thống phân tán chứa $N$ máy chủ, và mỗi máy chủ phải chia sẻ một khóa bí mật với mỗi máy chủ khác trong số $N – 1$ máy, hệ thống như một tổng thể cần quản lý $N(N − 1)/2$ khóa, và mỗi máy chủ phải quản lý $N – 1$ khóa. Đối với các giá trị lớn của $N$, điều này sẽ dẫn đến các vấn đề. Một phương pháp thay thế là sử dụng một phương pháp trung tâm bằng một trung tâm phân phối khóa (KD. KDC này chia sẻ một khóa bí mật với mỗi máy chủ, nhưng không yêu cầu cặp máy chủ nào cũng phải có một khóa bí mật chung. Nói cách khác, việc sử dụng một KDC yêu cầu chúng ta quản lý $N$ khóa thay vì $N(N − 1)/2$, điều này rõ ràng là một cải tiến. Vấn đề chính của việc sử dụng khóa chia sẻ bí mật cho việc xác thực là gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Tính mở rộng",
+				"is_correct": true
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Quản lý khóa",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Tính linh hoạt",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Bảo mật dữ liệu",
+				"is_correct": false
+			}
+		],
+		"question_id": "udpt-03-q29"
+	},
+	{
+		"question_text_en": "",
+		"question_text_vi": "Trong một hệ thống phân tán, đồng bộ hóa đồng hồ trở nên phức tạp hơn vì:",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Các thiết bị trong hệ thống có thể ở các múi giờ khác nhau.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Các thiết bị trong hệ thống có thể có đồng hồ không chính xác.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Tất cả các lựa chọn trên.",
+				"is_correct": true
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Các thiết bị trong hệ thống có thể mất kết nối mạng.",
+				"is_correct": false
+			}
+		],
+		"question_id": "udpt-03-q30"
+	},
+	{
+		"question_text_en": "",
+		"question_text_vi": "Phối hợp trong một hệ thống phân tán nhấn mạnh vào việc gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Đảm bảo rằng một quy trình chờ đợi quá trình khác hoàn tất hoạt động của nó.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Đảm bảo các tương tác và phụ thuộc giữa các hoạt động được quản lý.",
+				"is_correct": true
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Quản lý tương tác giữa các hoạt động.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Đảm bảo hai tập dữ liệu giống nhau.",
+				"is_correct": false
+			}
+		],
+		"question_id": "udpt-03-q31"
+	},
+	{
+		"question_text_en": "",
+		"question_text_vi": "Trong đồng hồ logic Lamport, điều gì xác định thời điểm mà một sự kiện xảy ra?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Thời gian hiện tại trên máy tính.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Mã xác định của sự kiện đó.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Thứ tự thực hiện của sự kiện đó so với các sự kiện khác.",
+				"is_correct": true
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Thời gian gửi tin nhắn của sự kiện đó.",
+				"is_correct": false
+			}
+		],
+		"question_id": "udpt-03-q32"
+	},
+	{
+		"question_text_en": "",
+		"question_text_vi": "Trong hệ thống tập trung, khi một quy trình yêu cầu biết thời gian, quy trình đó thực hiện thao tác nào?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Gọi hệ điều hành để lấy thời gian.",
+				"is_correct": true
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Gửi một yêu cầu tới tất cả các quy trình khác để nhận được thời gian.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Tính toán thời gian dựa trên thông tin trong bộ nhớ của nó.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Ghi nhận thời gian từ bộ đồng hồ của máy tính.",
+				"is_correct": false
+			}
+		],
+		"question_id": "udpt-03-q33"
+	}
+]

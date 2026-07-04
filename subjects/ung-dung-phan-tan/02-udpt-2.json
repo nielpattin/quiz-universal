@@ -1,0 +1,562 @@
+[
+	{
+		"question_text_en": "",
+		"question_text_vi": "Tiến trình là gì trong hệ điều hành?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Một hệ điều hành đang chạy.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Một đoạn mã được lưu trữ trong RAM.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Một chương trình được load vào RAM và đang được chạy trên bộ xử lý",
+				"is_correct": true
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Một chương trình tĩnh trên đĩa.",
+				"is_correct": false
+			}
+		],
+		"question_id": "udpt-02-q1"
+	},
+	{
+		"question_text_en": "",
+		"question_text_vi": "Điểm khác biệt chính giữa tiến trình và luồng là gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Luồng không thể hoạt động đồng thời với tiến trình.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Tiến trình hoạt động chậm hơn luồng.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Tiến trình cần ít tài nguyên hơn luồng.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Tiến trình không chia sẻ bộ nhớ, trong khi luồng thì có.",
+				"is_correct": true
+			}
+		],
+		"question_id": "udpt-02-q2"
+	},
+	{
+		"question_text_en": "",
+		"question_text_vi": "Ưu điểm của luồng kiểu User Mode là gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Chi phí thấp khi tạo và hủy luồng.",
+				"is_correct": true
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Quản lý hoàn toàn bởi kernel.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Hệ thống xử lý trực tiếp các luồng.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Không có hạn chế với lời gọi hệ thống.",
+				"is_correct": false
+			}
+		],
+		"question_id": "udpt-02-q3"
+	},
+	{
+		"question_text_en": "",
+		"question_text_vi": "Điểm yếu lớn nhất của luồng kiểu Kernel Mode là gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Không thể đồng bộ luồng.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Chi phí hệ thống lớn.",
+				"is_correct": true
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Không hỗ trợ đa tiến trình.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Không chia sẻ tài nguyên.",
+				"is_correct": false
+			}
+		],
+		"question_id": "udpt-02-q4"
+	},
+	{
+		"question_text_en": "",
+		"question_text_vi": "Mô hình tổ chức nào của server đa luồng gắn mỗi luồng với một request?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Thread-per-object",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Thread-per-connection",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Thread-per-request",
+				"is_correct": true
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Thread-per-client",
+				"is_correct": false
+			}
+		],
+		"question_id": "udpt-02-q5"
+	},
+	{
+		"question_text_en": "",
+		"question_text_vi": "Ưu điểm chính của Thread-per-request là gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Không cần hàng đợi để xử lý yêu cầu.",
+				"is_correct": true
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Giảm chi phí hệ thống khi tạo luồng.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Hỗ trợ kết nối lâu dài.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Đồng bộ tốt giữa các tiến trình.",
+				"is_correct": false
+			}
+		],
+		"question_id": "udpt-02-q6"
+	},
+	{
+		"question_text_en": "",
+		"question_text_vi": "Dispatcher trong server đa luồng thực hiện nhiệm vụ gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Tạo luồng xử lý mới cho mỗi request.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Quản lý kết nối mạng.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Thu thập dữ liệu từ client.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Phân tích và phân loại request đến luồng xử lý phù hợp.",
+				"is_correct": true
+			}
+		],
+		"question_id": "udpt-02-q7"
+	},
+	{
+		"question_text_en": "",
+		"question_text_vi": "Nhược điểm của mô hình Thread-per-connection là gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Tốn tài nguyên khi tạo luồng mới cho mỗi kết nối.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Không hỗ trợ việc xử lý đồng thời.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Không cho phép sử dụng Dispatcher.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Các client có thể bị phục vụ với độ trễ cao.",
+				"is_correct": true
+			}
+		],
+		"question_id": "udpt-02-q8"
+	},
+	{
+		"question_text_en": "",
+		"question_text_vi": "Một ứng dụng Client-Server đa luồng thường sử dụng cách tiếp cận nào để che giấu độ trễ?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Gán tất cả luồng cho một tiến trình chính.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Giao diện người dùng và xử lý được tách biệt.",
+				"is_correct": true
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Tăng số lượng request đồng thời.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Dùng luồng duy nhất cho toàn bộ server.",
+				"is_correct": false
+			}
+		],
+		"question_id": "udpt-02-q9"
+	},
+	{
+		"question_text_en": "",
+		"question_text_vi": "Hệ thống nào tận dụng ưu điểm của cả User Mode và Kernel Mode?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Tiến trình nhẹ (Lightweight processes).",
+				"is_correct": true
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Server tuần tự.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Tiến trình đơn.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Server đơn luồng.",
+				"is_correct": false
+			}
+		],
+		"question_id": "udpt-02-q10"
+	},
+	{
+		"question_text_en": "",
+		"question_text_vi": "Hệ phân tán là gì theo định nghĩa của Andrew Tannenbaum?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Một hệ thống tập trung cung cấp dịch vụ cho người dùng.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Một tập hợp các máy tính độc lập nhưng được cảm nhận như một hệ thống đơn gắn kết.",
+				"is_correct": true
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Một hệ thống mạng máy tính không đồng bộ.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Một hệ thống máy tính sử dụng bộ nhớ dùng chung.",
+				"is_correct": false
+			}
+		],
+		"question_id": "udpt-02-q11"
+	},
+	{
+		"question_text_en": "",
+		"question_text_vi": "Đặc điểm nào không phải là đặc trưng của hệ phân tán?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Tính mở (openness).",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Tính trong suốt (transparency).",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Tính co giãn (scalability).",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Sử dụng một bộ xử lý duy nhất.",
+				"is_correct": true
+			}
+		],
+		"question_id": "udpt-02-q12"
+	},
+	{
+		"question_text_en": "",
+		"question_text_vi": "Ưu điểm chính của hệ phân tán trong việc chia sẻ tài nguyên là gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Hạn chế khả năng mở rộng.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Tăng rủi ro về an toàn thông tin.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Giảm chi phí sử dụng tài nguyên.",
+				"is_correct": true
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Tăng độ phức tạp trong quản lý.",
+				"is_correct": false
+			}
+		],
+		"question_id": "udpt-02-q13"
+	},
+	{
+		"question_text_en": "",
+		"question_text_vi": "Tính trong suốt (transparency) trong hệ phân tán có ý nghĩa gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Hệ thống hiển thị toàn bộ cấu trúc cho người dùng.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Che giấu các chi tiết phân tán và cung cấp giao diện thống nhất.",
+				"is_correct": true
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Hệ thống chỉ hỗ trợ giao tiếp đồng bộ.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Tăng chi phí sử dụng tài nguyên.",
+				"is_correct": false
+			}
+		],
+		"question_id": "udpt-02-q14"
+	},
+	{
+		"question_text_en": "",
+		"question_text_vi": "Một trong những nguyên lý quan trọng của hệ phân tán là gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Giảm số lượng tài nguyên chia sẻ.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Chỉ sử dụng mô hình tập trung.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Đồng bộ hóa và chịu lỗi (fault tolerance).",
+				"is_correct": true
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Loại bỏ vấn đề bảo mật.",
+				"is_correct": false
+			}
+		],
+		"question_id": "udpt-02-q15"
+	},
+	{
+		"question_text_en": "",
+		"question_text_vi": "Nếu một hệ thống phân tán sử dụng mô hình kiến trúc n tầng (n-tier), làm thế nào để giảm độ trễ khi giao tiếp giữa các tầng?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Áp dụng các giao thức truyền tin đồng bộ.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Giảm số lượng tầng trong hệ thống.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Tăng số lượng server để phân tán lưu lượng truy cập.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Sử dụng bộ nhớ đệm (caching) và tối ưu hóa giao thức giao tiếp giữa các tầng.",
+				"is_correct": true
+			}
+		],
+		"question_id": "udpt-02-q16"
+	},
+	{
+		"question_text_en": "",
+		"question_text_vi": "Trong kiến trúc đa tầng (multi-tier), nếu một server trung gian (middleware) bị lỗi, hệ thống sẽ xử lý như thế nào để duy trì dịch vụ?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Yêu cầu client gửi lại request khi server hoạt động trở lại.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Toàn bộ hệ thống ngừng hoạt động vì server trung gian là thành phần chính.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Thực hiện lại tất cả các request từ client.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Chuyển hướng request tới một server khác thông qua cơ chế failover.",
+				"is_correct": true
+			}
+		],
+		"question_id": "udpt-02-q17"
+	},
+	{
+		"question_text_en": "",
+		"question_text_vi": "Trong hệ phân tán, điều gì có thể xảy ra nếu hệ thống không cân bằng giữa tính trong suốt (transparency) và hiệu năng?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Hiệu năng hệ thống giảm sút nghiêm trọng do chi phí quản lý tính trong suốt.",
+				"is_correct": true
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Người dùng gặp khó khăn khi sử dụng vì thiếu tính nhất quán.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Các tài nguyên không được chia sẻ đầy đủ giữa các thành phần hệ thống.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Hệ thống trở nên quá đơn giản, giảm tính mở rộng.",
+				"is_correct": false
+			}
+		],
+		"question_id": "udpt-02-q18"
+	},
+	{
+		"question_text_en": "",
+		"question_text_vi": "Khi giao tiếp trong hệ thống phân tán, vấn đề gì có thể phát sinh nếu không có cơ chế đồng bộ hóa phù hợp giữa các thành phần?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Các request có thể bị xử lý không theo thứ tự, dẫn đến lỗi hoặc mất dữ liệu.",
+				"is_correct": true
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Mạng bị quá tải do số lượng kết nối đồng thời tăng cao.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Thời gian xử lý bị kéo dài do các nút chờ lẫn nhau.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Hệ thống sẽ tự động cân bằng các request giữa các nút.",
+				"is_correct": false
+			}
+		],
+		"question_id": "udpt-02-q19"
+	},
+	{
+		"question_text_en": "",
+		"question_text_vi": "Trong mô hình Client-Server đa luồng, việc điều phối các luồng xử lý bằng Dispatcher có tác dụng gì?",
+		"question_type": "single_answer_question",
+		"answers": [
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Giảm chi phí tạo luồng mới cho mỗi request.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Đảm bảo phân phối tải đồng đều giữa các luồng xử lý.",
+				"is_correct": true
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Tăng tốc độ xử lý của từng luồng riêng lẻ.",
+				"is_correct": false
+			},
+			{
+				"answer_text_en": "",
+				"answer_text_vi": "Tăng khả năng bảo mật cho các request.",
+				"is_correct": false
+			}
+		],
+		"question_id": "udpt-02-q20"
+	}
+]
